@@ -1007,6 +1007,7 @@ function useMarketData() {
         name: 'candle',
         data: filtered_data_list
       };
+      console.log('new_series', new_series);
       setData(new_series);
     }).catch(function (e) {
       console.log(e);
@@ -1038,7 +1039,7 @@ function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Sy
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-var api_key = '2cade1dd548d4437a546951f2a6f377f';
+var api_key = '22a7199acd2806efb7a451ad54e05f69';
 
 function useTickerInfo() {
   var ticker = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "SPY";
@@ -1061,7 +1062,7 @@ function useTickerInfo() {
   (0, _react.useEffect)(function () {
     // Fetch data from Benzinga
     setLoading(true);
-    fetch("https://api.benzinga.com/api/v1/quoteDelayed?symbols=".concat(ticker, "&token=").concat(api_key), {
+    fetch("https://financialmodelingprep.com/api/v3/quote/".concat(ticker, "?apikey=").concat(api_key), {
       method: 'GET',
       cache: 'no-cache',
       headers: {
@@ -1071,7 +1072,8 @@ function useTickerInfo() {
       return response.json();
     }).then(function (data) {
       setLoading(false);
-      setData(data.quotes[0]);
+      console.log(data[0]);
+      setData(data[0]);
     }).catch(function (e) {
       console.log(e);
       setLoading(false);
@@ -1094,7 +1096,7 @@ function useTickerInfo() {
     });
   }, [ticker]);
   console.log('loading', loading);
-  return [data.security, data.quote, loading];
+  return [data, loading];
 }
 
 var _default = useTickerInfo;
@@ -1797,12 +1799,11 @@ function App(_ref) {
       marketDataLoading = _useMarketData2[1];
 
   var _useTickerInfo = (0, _useTickerInfo3.default)(ticker),
-      _useTickerInfo2 = _slicedToArray(_useTickerInfo, 3),
-      securityInfo = _useTickerInfo2[0],
-      quoteInfo = _useTickerInfo2[1],
-      infoLoading = _useTickerInfo2[2];
+      _useTickerInfo2 = _slicedToArray(_useTickerInfo, 2),
+      quoteInfo = _useTickerInfo2[0],
+      infoLoading = _useTickerInfo2[1];
 
-  console.log('infoData', quoteInfo); // if (!marketDataLoaded) return null;
+  console.log('marketData', marketData); // if (!marketDataLoaded) return null;
   // on the chart_widget_container we want to add padding all around
 
   return /*#__PURE__*/_react.default.createElement("div", {
@@ -1819,18 +1820,18 @@ function App(_ref) {
     style: {
       marginBottom: '5px'
     }
-  }, " ", !infoLoading && securityInfo && securityInfo.symbol, " "), /*#__PURE__*/_react.default.createElement("p", {
+  }, " ", !infoLoading && quoteInfo && quoteInfo.symbol, " "), /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_header_text"
-  }, " ", !infoLoading && securityInfo && securityInfo.name, " "), /*#__PURE__*/_react.default.createElement(_Col.default, {
+  }, " ", !infoLoading && quoteInfo && quoteInfo.name, " "), /*#__PURE__*/_react.default.createElement(_Col.default, {
     className: "mb-2 chart_widget__price_info",
     style: {
       marginBottom: '10px'
     }
   }, infoLoading && 'Loading...', /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_header_text"
-  }, " Price: ", !infoLoading && quoteInfo.last && quoteInfo.last, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
+  }, " Price: ", !infoLoading && quoteInfo.price && quoteInfo.price, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_header_text"
-  }, "% Change: ", !infoLoading && quoteInfo.changePercent && quoteInfo.changePercent, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
+  }, "% Change: ", !infoLoading && quoteInfo.changesPercentage && quoteInfo.changesPercentage, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_header_text"
   }, " $ Change: ", !infoLoading && quoteInfo.change && quoteInfo.change, " "))), /*#__PURE__*/_react.default.createElement(_Row.default, {
     style: {
@@ -1850,10 +1851,6 @@ function App(_ref) {
   }, /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_header_text"
   }, " Open: ", !infoLoading && quoteInfo.open && quoteInfo.open, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text"
-  }, " 52W High: ", !infoLoading && quoteInfo.fiftyTwoWeekHigh && quoteInfo.fiftyTwoWeekHigh, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text"
-  }, " 52W Low: ", !infoLoading && quoteInfo.fiftyTwoWeekLow && quoteInfo.fiftyTwoWeekLow, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_header_text"
   }, " Previous Close: ", !infoLoading && quoteInfo.previousClose && quoteInfo.previousClose, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_header_text"
