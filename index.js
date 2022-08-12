@@ -927,8 +927,6 @@ if ("production" === 'production') {
 }
 },{"./cjs/react-dom.production.min.js":"i17t"}],"vKFU":[function(require,module,exports) {
 
-},{}],"xLDQ":[function(require,module,exports) {
-module.exports = "/logo.ef351327.svg";
 },{}],"SwK3":[function(require,module,exports) {
 "use strict";
 
@@ -985,7 +983,6 @@ function useMarketData() {
     setLoading(true);
     fetch("https://api.benzinga.com/api/v2/bars?symbols=".concat(ticker, "&from=1y&to=").concat(get_today_date_str(), "&interval=1d&token=").concat(api_key), {
       method: 'GET',
-      mode: 'cors',
       cache: 'no-cache',
       headers: {
         'accept': 'application/json'
@@ -1066,7 +1063,6 @@ function useTickerInfo() {
     setLoading(true);
     fetch("https://api.benzinga.com/api/v1/quoteDelayed?symbols=".concat(ticker, "&token=").concat(api_key), {
       method: 'GET',
-      mode: 'cors',
       cache: 'no-cache',
       headers: {
         'accept': 'application/json'
@@ -1747,8 +1743,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _logo = _interopRequireDefault(require("./logo.svg"));
-
 var _react = _interopRequireWildcard(require("react"));
 
 require("./App.css");
@@ -1765,11 +1759,11 @@ var _Col = _interopRequireDefault(require("react-bootstrap/Col"));
 
 var _Chart = _interopRequireDefault(require("./Chart"));
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
@@ -1876,7 +1870,7 @@ function App(_ref) {
 
 var _default = App;
 exports.default = _default;
-},{"./logo.svg":"xLDQ","react":"n8MK","./App.css":"vKFU","./usePriceHistory":"SwK3","./useTickerInfo":"QUoG","react-bootstrap/Container":"uaDO","react-bootstrap/Row":"l3ek","react-bootstrap/Col":"gzFQ","./Chart":"Zxo0"}],"EdDq":[function(require,module,exports) {
+},{"react":"n8MK","./App.css":"vKFU","./usePriceHistory":"SwK3","./useTickerInfo":"QUoG","react-bootstrap/Container":"uaDO","react-bootstrap/Row":"l3ek","react-bootstrap/Col":"gzFQ","./Chart":"Zxo0"}],"EdDq":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
