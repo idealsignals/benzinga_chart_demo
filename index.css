@@ -37,6 +37,19 @@ code {
   color: white;
 }
 
+.Chart-data-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.data-separator {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 0;
+  border-top: 1px solid #515c69;
+}
+
 .App-link {
   color: #61dafb;
 }

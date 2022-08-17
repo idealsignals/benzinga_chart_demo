@@ -1039,7 +1039,36 @@ function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Sy
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-var api_key = '22a7199acd2806efb7a451ad54e05f69';
+var api_key = '22a7199acd2806efb7a451ad54e05f69'; // Iterate through a dictionary and round all values to two decimal places the data into a dictionary and returns the dictionary.
+
+function convertToInternationalCurrencySystem(labelValue) {
+  // Nine Zeroes for Billions
+  return Math.abs(Number(labelValue)) >= 1.0e+9 ? (Math.abs(Number(labelValue)) / 1.0e+9).toFixed(2) + "B" // Six Zeroes for Millions
+  : Math.abs(Number(labelValue)) >= 1.0e+6 ? (Math.abs(Number(labelValue)) / 1.0e+6).toFixed(2) + "M" // Three Zeroes for Thousands
+  : Math.abs(Number(labelValue)) >= 1.0e+3 ? (Math.abs(Number(labelValue)) / 1.0e+3).toFixed(2) + "K" : Math.abs(Number(labelValue));
+}
+
+function round_dict(data) {
+  for (var _i = 0, _Object$entries = Object.entries(data); _i < _Object$entries.length; _i++) {
+    var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+        key = _Object$entries$_i[0],
+        val = _Object$entries$_i[1];
+
+    console.log(key, val);
+
+    if (typeof val === 'number') {
+      if (parseFloat(val) % 1 !== 0) {
+        data[key] = parseFloat(val).toFixed(2);
+      }
+    }
+
+    if (data[key] > 1000) {
+      data[key] = convertToInternationalCurrencySystem(val);
+    }
+  }
+
+  return data;
+}
 
 function useTickerInfo() {
   var ticker = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "SPY";
@@ -1073,7 +1102,8 @@ function useTickerInfo() {
     }).then(function (data) {
       setLoading(false);
       console.log(data[0]);
-      setData(data[0]);
+      var new_data = round_dict(data[0]);
+      setData(new_data);
     }).catch(function (e) {
       console.log(e);
       setLoading(false);
@@ -1704,8 +1734,9 @@ var ApexChart = /*#__PURE__*/function (_Component) {
         xaxis: {
           type: 'category',
           labels: {
+            show: false,
             formatter: function formatter(val) {
-              return (0, _dayjs.default)(val).format('MMM DD HH:mm');
+              return (0, _dayjs.default)(val).format('MMM DD');
             }
           }
         },
@@ -1814,35 +1845,19 @@ function App(_ref) {
       paddingLeft: '25px',
       paddingTop: '10px'
     }
-  }, /*#__PURE__*/_react.default.createElement(_Row.default, {
-    className: "mb-2"
-  }, /*#__PURE__*/_react.default.createElement("h3", {
-    style: {
-      marginBottom: '5px'
-    }
-  }, " ", !infoLoading && quoteInfo && quoteInfo.symbol, " "), /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text"
-  }, " ", !infoLoading && quoteInfo && quoteInfo.name, " "), /*#__PURE__*/_react.default.createElement(_Col.default, {
-    className: "mb-2 chart_widget__price_info",
-    style: {
-      marginBottom: '10px'
-    }
-  }, infoLoading && 'Loading...', /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text"
-  }, " Price: ", !infoLoading && quoteInfo.price && quoteInfo.price, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text"
-  }, "% Change: ", !infoLoading && quoteInfo.changesPercentage && quoteInfo.changesPercentage, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text"
-  }, " $ Change: ", !infoLoading && quoteInfo.change && quoteInfo.change, " "))), /*#__PURE__*/_react.default.createElement(_Row.default, {
+  }, /*#__PURE__*/_react.default.createElement(_Container.default, {
     style: {
       display: 'flex'
     }
   }, /*#__PURE__*/_react.default.createElement(_Col.default, {
     style: {
-      maxWidth: '90%'
+      maxWidth: '70%'
     }
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "chart_widget__chart"
+    className: "chart_widget__chart",
+    style: {
+      border: '1px solid gray'
+    }
   }, /*#__PURE__*/_react.default.createElement(_Chart.default, {
     series: marketData
   }))), /*#__PURE__*/_react.default.createElement(_Col.default, {
@@ -1852,15 +1867,68 @@ function App(_ref) {
       paddingLeft: '2rem',
       verticalAlign: 'middle'
     }
-  }, /*#__PURE__*/_react.default.createElement("p", {
+  }, /*#__PURE__*/_react.default.createElement(_Container.default, {
+    className: "mb-2",
+    style: {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center'
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://stockmarketlogos.s3.us-west-2.amazonaws.com/ticker-logo/".concat(quoteInfo.symbol, ".png"),
+    style: {
+      height: '80px',
+      width: '80px',
+      borderRadius: '50%'
+    },
+    alt: quoteInfo.name,
+    className: "chart_widget__logo"
+  }), /*#__PURE__*/_react.default.createElement("h3", {
+    style: {
+      marginBottom: '5px'
+    }
+  }, " ", !infoLoading && quoteInfo.symbol, " ")), /*#__PURE__*/_react.default.createElement(_Container.default, null, /*#__PURE__*/_react.default.createElement("p", {
+    className: "chart_header_text",
+    style: {
+      textAlign: 'center'
+    }
+  }, " ", !infoLoading && quoteInfo.name, " "), /*#__PURE__*/_react.default.createElement(_Col.default, {
+    className: "mb-2 chart_widget__price_info",
+    style: {
+      marginBottom: '10px'
+    }
+  }, infoLoading && 'Loading...', /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_header_text"
-  }, " Open: ", !infoLoading && quoteInfo.open && quoteInfo.open, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text"
-  }, " Previous Close: ", !infoLoading && quoteInfo.previousClose && quoteInfo.previousClose, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text"
-  }, " Volume: ", !infoLoading && quoteInfo.volume && quoteInfo.volume, " "), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text"
-  }, " Market Cap: ", !infoLoading && quoteInfo.volume && quoteInfo.volume, " # TODO"), "\xA0")), /*#__PURE__*/_react.default.createElement("p", {
+  }, "Price: "), "\xA0", /*#__PURE__*/_react.default.createElement("span", null, "$", !infoLoading && quoteInfo.price), "\xA0\xA0", /*#__PURE__*/_react.default.createElement("p", {
+    className: "chart_header_text",
+    style: {
+      color: quoteInfo.changesPercentage > 0 ? 'green' : 'red'
+    }
+  }, !infoLoading && quoteInfo.changesPercentage > 0 && '+', !infoLoading && quoteInfo.changesPercentage, "%"), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
+    className: "chart_header_text",
+    style: {
+      color: quoteInfo.change > 0 ? 'green' : 'red'
+    }
+  }, !infoLoading && quoteInfo.change > 0 && '+', !infoLoading && quoteInfo.change))), /*#__PURE__*/_react.default.createElement(_Container.default, null, /*#__PURE__*/_react.default.createElement("hr", {
+    className: "data-separator"
+  }), /*#__PURE__*/_react.default.createElement("p", {
+    className: "Chart-data-text",
+    style: {}
+  }, " Open: ", !infoLoading && quoteInfo.open, " "), /*#__PURE__*/_react.default.createElement("hr", {
+    className: "data-separator"
+  }), /*#__PURE__*/_react.default.createElement("p", {
+    className: "Chart-data-text"
+  }, " Prev. Close: ", !infoLoading && quoteInfo.previousClose, " "), /*#__PURE__*/_react.default.createElement("hr", {
+    className: "data-separator"
+  }), /*#__PURE__*/_react.default.createElement("p", {
+    className: "Chart-data-text"
+  }, " Volume: ", !infoLoading && quoteInfo.volume, " "), /*#__PURE__*/_react.default.createElement("hr", {
+    className: "data-separator"
+  }), /*#__PURE__*/_react.default.createElement("p", {
+    className: "Chart-data-text"
+  }, " Mkt Cap: ", !infoLoading && quoteInfo.volume), /*#__PURE__*/_react.default.createElement("hr", {
+    className: "data-separator"
+  })))), /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_widget__powered_by text-center"
   }, "This widget is powered by", " ", /*#__PURE__*/_react.default.createElement("a", {
     href: "https://benzinga.com",
