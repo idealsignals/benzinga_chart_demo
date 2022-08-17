@@ -1726,7 +1726,7 @@ var ApexChart = /*#__PURE__*/function (_Component) {
         id: "chart"
       }, /*#__PURE__*/_react.default.createElement(_reactApexcharts.default, {
         options: this.state.options,
-        series: this.state.series,
+        series: [this.props.series],
         type: "candlestick",
         height: 350
       }));
@@ -1837,7 +1837,11 @@ function App(_ref) {
     style: {
       display: 'flex'
     }
-  }, /*#__PURE__*/_react.default.createElement(_Col.default, null, /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement(_Col.default, {
+    style: {
+      maxWidth: '90%'
+    }
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "chart_widget__chart"
   }, /*#__PURE__*/_react.default.createElement(_Chart.default, {
     series: marketData
