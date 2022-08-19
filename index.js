@@ -998,13 +998,13 @@ function useMarketData() {
         var candle = data[0]['candles'][i];
         var new_data = {
           x: new Date(parseInt(candle['time'])),
-          y: [candle['open'], candle['high'], candle['low'], candle['close']]
+          y: [candle['close']]
         };
         filtered_data_list.push(new_data);
       }
 
       var new_series = {
-        name: 'candle',
+        name: 'Price',
         data: filtered_data_list
       };
       console.log('new_series', new_series);
@@ -1725,11 +1725,23 @@ var ApexChart = /*#__PURE__*/function (_Component) {
       options: {
         chart: {
           height: 350,
-          type: 'candlestick',
+          type: 'line',
           id: 'ticker_chart'
         },
         tooltip: {
-          enabled: true
+          enabled: true,
+          y: {
+            formatter: undefined,
+            title: {
+              formatter: function formatter(seriesName) {
+                return seriesName;
+              }
+            }
+          },
+          z: {
+            formatter: undefined,
+            title: 'Price: '
+          }
         },
         xaxis: {
           type: 'category',
@@ -1743,7 +1755,16 @@ var ApexChart = /*#__PURE__*/function (_Component) {
         yaxis: {
           tooltip: {
             enabled: true
+          },
+          labels: {
+            show: true,
+            formatter: function formatter(value) {
+              return '$' + value;
+            }
           }
+        },
+        stroke: {
+          show: true
         }
       }
     };
@@ -1758,7 +1779,7 @@ var ApexChart = /*#__PURE__*/function (_Component) {
       }, /*#__PURE__*/_react.default.createElement(_reactApexcharts.default, {
         options: this.state.options,
         series: [this.props.series],
-        type: "candlestick",
+        type: "line",
         height: 350
       }));
     }
@@ -1847,28 +1868,53 @@ function App(_ref) {
     }
   }, /*#__PURE__*/_react.default.createElement(_Container.default, {
     style: {
-      display: 'flex'
+      display: 'flex',
+      justifyContent: 'left',
+      alignItems: 'center',
+      marginBottom: '5px'
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://stockmarketlogos.s3.us-west-2.amazonaws.com/ticker-logo/".concat(quoteInfo.symbol, ".png"),
+    style: {
+      height: '36px',
+      width: '36px'
+    },
+    alt: quoteInfo.name,
+    className: "chart_widget__logo"
+  }), /*#__PURE__*/_react.default.createElement("h3", {
+    style: {
+      marginBottom: '5px',
+      paddingLeft: '5px'
+    }
+  }, " ", !infoLoading && quoteInfo.symbol, " "), /*#__PURE__*/_react.default.createElement("p", {
+    className: "chart_header_text",
+    style: {
+      textAlign: 'center',
+      paddingLeft: '5px'
+    }
+  }, " ", !infoLoading && quoteInfo.name, " ", /*#__PURE__*/_react.default.createElement("span", {
+    className: "text-muted"
+  }, "(", !infoLoading && quoteInfo.exchange, ") "))), /*#__PURE__*/_react.default.createElement(_Container.default, {
+    style: {
+      display: 'flex',
+      border: '3px solid gray'
     }
   }, /*#__PURE__*/_react.default.createElement(_Col.default, {
     style: {
-      maxWidth: '70%'
+      maxWidth: '80%'
     }
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "chart_widget__chart",
-    style: {
-      border: '1px solid gray'
-    }
+    style: {}
   }, /*#__PURE__*/_react.default.createElement(_Chart.default, {
     series: marketData
   }))), /*#__PURE__*/_react.default.createElement(_Col.default, {
     md: "auto",
-    className: "my-auto",
+    className: "mt-1",
     style: {
-      paddingLeft: '2rem',
       verticalAlign: 'middle'
     }
   }, /*#__PURE__*/_react.default.createElement(_Container.default, {
-    className: "mb-2",
     style: {
       display: 'flex',
       justifyContent: 'center',
@@ -1877,23 +1923,30 @@ function App(_ref) {
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: "https://stockmarketlogos.s3.us-west-2.amazonaws.com/ticker-logo/".concat(quoteInfo.symbol, ".png"),
     style: {
-      height: '80px',
-      width: '80px',
-      borderRadius: '50%'
+      height: '36px',
+      width: '36px',
+      marginTop: '1rem'
     },
     alt: quoteInfo.name,
     className: "chart_widget__logo"
-  }), /*#__PURE__*/_react.default.createElement("h3", {
+  })), /*#__PURE__*/_react.default.createElement(_Container.default, {
+    className: "",
     style: {
-      marginBottom: '5px'
+      justifyContent: 'center',
+      alignItems: 'center'
     }
-  }, " ", !infoLoading && quoteInfo.symbol, " ")), /*#__PURE__*/_react.default.createElement(_Container.default, null, /*#__PURE__*/_react.default.createElement("p", {
+  }, /*#__PURE__*/_react.default.createElement("h3", {
+    style: {
+      marginBottom: '0px',
+      textAlign: 'center'
+    }
+  }, " ", !infoLoading && quoteInfo.symbol, " "), /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_header_text",
     style: {
       textAlign: 'center'
     }
-  }, " ", !infoLoading && quoteInfo.name, " "), /*#__PURE__*/_react.default.createElement(_Col.default, {
-    className: "mb-2 chart_widget__price_info",
+  }, " ", !infoLoading && quoteInfo.name, " ")), /*#__PURE__*/_react.default.createElement(_Container.default, null, /*#__PURE__*/_react.default.createElement(_Col.default, {
+    className: "mb-2 mt-2 chart_widget__price_info",
     style: {
       marginBottom: '10px'
     }
@@ -1914,11 +1967,11 @@ function App(_ref) {
   }), /*#__PURE__*/_react.default.createElement("p", {
     className: "Chart-data-text",
     style: {}
-  }, " Open: ", !infoLoading && quoteInfo.open, " "), /*#__PURE__*/_react.default.createElement("hr", {
+  }, " Open: $", !infoLoading && quoteInfo.open, " "), /*#__PURE__*/_react.default.createElement("hr", {
     className: "data-separator"
   }), /*#__PURE__*/_react.default.createElement("p", {
     className: "Chart-data-text"
-  }, " Prev. Close: ", !infoLoading && quoteInfo.previousClose, " "), /*#__PURE__*/_react.default.createElement("hr", {
+  }, " Prev. Close: $", !infoLoading && quoteInfo.previousClose, " "), /*#__PURE__*/_react.default.createElement("hr", {
     className: "data-separator"
   }), /*#__PURE__*/_react.default.createElement("p", {
     className: "Chart-data-text"
@@ -1926,7 +1979,7 @@ function App(_ref) {
     className: "data-separator"
   }), /*#__PURE__*/_react.default.createElement("p", {
     className: "Chart-data-text"
-  }, " Mkt Cap: ", !infoLoading && quoteInfo.volume), /*#__PURE__*/_react.default.createElement("hr", {
+  }, " Mkt Cap: $", !infoLoading && quoteInfo.volume), /*#__PURE__*/_react.default.createElement("hr", {
     className: "data-separator"
   })))), /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_widget__powered_by text-center"
