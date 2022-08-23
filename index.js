@@ -65753,7 +65753,7 @@ function App(_ref) {
     style: {
       textAlign: 'center'
     }
-  }, " ", !infoLoading && quoteInfo.name, " ")), /*#__PURE__*/_react.default.createElement(_Container.default, null, /*#__PURE__*/_react.default.createElement(_Col.default, {
+  }, " ", !infoLoading && quoteInfo.name, " ")), /*#__PURE__*/_react.default.createElement(_Container.default, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "mb-2 mt-2 chart_widget__price_info",
     style: {
       marginBottom: '10px'
@@ -65789,7 +65789,9 @@ function App(_ref) {
     className: "Chart-data-text"
   }, " Mkt Cap: $", !infoLoading && quoteInfo.marketCap), /*#__PURE__*/_react.default.createElement("hr", {
     className: "data-separator"
-  })))), /*#__PURE__*/_react.default.createElement(_Row.default, null, /*#__PURE__*/_react.default.createElement("p", {
+  })))), /*#__PURE__*/_react.default.createElement(_Row.default, {
+    className: "justify-content-center"
+  }, /*#__PURE__*/_react.default.createElement("p", {
     className: "chart_widget__powered_by",
     style: {
       textAlign: 'center'
