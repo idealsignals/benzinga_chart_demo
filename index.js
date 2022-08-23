@@ -65759,18 +65759,18 @@ function App(_ref) {
       marginBottom: '10px'
     }
   }, infoLoading && 'Loading...', /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text"
+    className: "Chart-data-text"
   }, "Price: "), "\xA0", /*#__PURE__*/_react.default.createElement("span", null, "$", !infoLoading && quoteInfo.price), "\xA0\xA0", /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text",
+    className: "Chart-data-text",
     style: {
       color: quoteInfo.changesPercentage > 0 ? 'green' : 'red'
     }
   }, !infoLoading && quoteInfo.changesPercentage > 0 && '+', !infoLoading && quoteInfo.changesPercentage, "%"), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_header_text",
+    className: "Chart-data-text",
     style: {
       color: quoteInfo.change > 0 ? 'green' : 'red'
     }
-  }, !infoLoading && quoteInfo.change > 0 && '+', !infoLoading && quoteInfo.change))), /*#__PURE__*/_react.default.createElement(_Container.default, null, /*#__PURE__*/_react.default.createElement("hr", {
+  }, !infoLoading && quoteInfo.change > 0 && '+', !infoLoading && quoteInfo.change)), /*#__PURE__*/_react.default.createElement("hr", {
     className: "data-separator"
   }), /*#__PURE__*/_react.default.createElement("p", {
     className: "Chart-data-text",
@@ -65790,7 +65790,10 @@ function App(_ref) {
   }, " Mkt Cap: $", !infoLoading && quoteInfo.marketCap), /*#__PURE__*/_react.default.createElement("hr", {
     className: "data-separator"
   })))), /*#__PURE__*/_react.default.createElement(_Row.default, null, /*#__PURE__*/_react.default.createElement("p", {
-    className: "chart_widget__powered_by text-center"
+    className: "chart_widget__powered_by",
+    style: {
+      textAlign: 'center'
+    }
   }, "This widget is powered by", " ", /*#__PURE__*/_react.default.createElement("a", {
     href: "https://benzinga.com",
     rel: "noopener noreferrer",
