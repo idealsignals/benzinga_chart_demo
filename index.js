@@ -1760,7 +1760,7 @@ var ApexChart = /*#__PURE__*/function (_Component) {
         },
         yaxis: {
           tooltip: {
-            enabled: true
+            enabled: false
           },
           labels: {
             show: true,
@@ -65653,7 +65653,8 @@ function App(_ref) {
       quoteInfo = _useTickerInfo2[0],
       infoLoading = _useTickerInfo2[1];
 
-  console.log('marketData', marketData); // if (!marketDataLoaded) return null;
+  console.log('marketData', marketData);
+  console.log('quoteInfo', quoteInfo); // if (!marketDataLoaded) return null;
 
   var handleTimeframeChange = function handleTimeframeChange(timeframe) {
     setTimeframe(timeframe);
@@ -65700,7 +65701,25 @@ function App(_ref) {
     }
   }, " ", !infoLoading && quoteInfo.name, " ", /*#__PURE__*/_react.default.createElement("span", {
     className: "text-muted"
-  }, "(", !infoLoading && quoteInfo.exchange, ") "))), /*#__PURE__*/_react.default.createElement(_Container.default, {
+  }, "(", !infoLoading && quoteInfo.exchange, ") ")), /*#__PURE__*/_react.default.createElement(_Col.default, {
+    className: "mb-2 mt-2 chart_widget__price_info",
+    style: {
+      marginBottom: '10px',
+      marginLeft: '10px'
+    }
+  }, infoLoading && 'Loading...', /*#__PURE__*/_react.default.createElement("p", {
+    className: "Chart-data-text"
+  }, "Price: "), "\xA0", /*#__PURE__*/_react.default.createElement("span", null, "$", !infoLoading && quoteInfo.price), "\xA0\xA0", /*#__PURE__*/_react.default.createElement("p", {
+    className: "Chart-data-text",
+    style: {
+      color: quoteInfo.changesPercentage > 0 ? 'green' : 'red'
+    }
+  }, !infoLoading && quoteInfo.changesPercentage > 0 && '+', !infoLoading && quoteInfo.changesPercentage, "%"), "\xA0", /*#__PURE__*/_react.default.createElement("p", {
+    className: "Chart-data-text",
+    style: {
+      color: quoteInfo.change > 0 ? 'green' : 'red'
+    }
+  }, !infoLoading && quoteInfo.change > 0 && '+', !infoLoading && quoteInfo.change))), /*#__PURE__*/_react.default.createElement(_Container.default, {
     style: {
       border: '3px solid gray'
     }
@@ -65753,7 +65772,7 @@ function App(_ref) {
     style: {
       textAlign: 'center'
     }
-  }, " ", !infoLoading && quoteInfo.name, " ")), /*#__PURE__*/_react.default.createElement(_Container.default, null, /*#__PURE__*/_react.default.createElement("div", {
+  }, " ", !infoLoading && quoteInfo.name, " ")), /*#__PURE__*/_react.default.createElement(_Container.default, null, /*#__PURE__*/_react.default.createElement(_Col.default, {
     className: "mb-2 mt-2 chart_widget__price_info",
     style: {
       marginBottom: '10px'
@@ -65788,6 +65807,14 @@ function App(_ref) {
   }), /*#__PURE__*/_react.default.createElement("p", {
     className: "Chart-data-text"
   }, " Mkt Cap: $", !infoLoading && quoteInfo.marketCap), /*#__PURE__*/_react.default.createElement("hr", {
+    className: "data-separator"
+  }), /*#__PURE__*/_react.default.createElement("p", {
+    className: "Chart-data-text"
+  }, " Shares Outstanding: $", !infoLoading && quoteInfo.sharesOutstanding), /*#__PURE__*/_react.default.createElement("hr", {
+    className: "data-separator"
+  }), /*#__PURE__*/_react.default.createElement("p", {
+    className: "Chart-data-text"
+  }, " P/E Ratio: ", !infoLoading && quoteInfo.pe), /*#__PURE__*/_react.default.createElement("hr", {
     className: "data-separator"
   })))), /*#__PURE__*/_react.default.createElement(_Row.default, {
     className: "justify-content-center"
