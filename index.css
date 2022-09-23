@@ -1,16 +1,14 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
 }
+
 .App {
   text-align: center;
 }
@@ -22,7 +20,8 @@ code {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    -webkit-animation: 20s linear infinite App-logo-spin;
+    animation: 20s linear infinite App-logo-spin;
   }
 }
 
@@ -31,48 +30,63 @@ code {
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  color: #fff;
+  background-color: #282c34;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
 }
 
 .Chart-data-text {
+  text-align: left;
   margin-top: 0;
   margin-bottom: 0;
-  text-align: left;
 }
 
 .data-separator {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
   border: 0;
   border-top: 1px solid #515c69;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
   }
+
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
 .chart_widget__price_info {
   display: flex;
-
 }
 
 .chart_header_text {
   margin-top: 0;
   margin-bottom: 0;
 }
+
