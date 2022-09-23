@@ -8708,7 +8708,6 @@ function $6143c06b3bc23a0f$export$c24e9ec70646f21() {
             return response.json();
         }).then(function(data) {
             setLoading(false);
-            console.log(data);
             var filtered_data_list = [];
             for(var i = 0; i < data[0]["candles"].length; i++){
                 var candle = data[0]["candles"][i];
@@ -8724,7 +8723,6 @@ function $6143c06b3bc23a0f$export$c24e9ec70646f21() {
                 name: "Price",
                 data: filtered_data_list
             };
-            console.log("new_series", new_series);
             setData(new_series);
         }).catch(function(e) {
             console.log(e);
@@ -8757,7 +8755,6 @@ function $0810185952f563ad$var$round_dict(data) {
     try {
         for(var _iterator = Object.entries(data)[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true){
             var _value = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)(_step.value, 2), key = _value[0], val = _value[1];
-            console.log(key, val);
             if (typeof val === "number") {
                 if (parseFloat(val) % 1 !== 0) data[key] = parseFloat(val).toFixed(2);
             }
@@ -8797,7 +8794,6 @@ function $0810185952f563ad$var$useTickerInfo() {
             return response.json();
         }).then(function(data) {
             setLoading(false);
-            console.log(data[0]);
             var new_data = $0810185952f563ad$var$round_dict(data[0]);
             setData(new_data);
         }).catch(function(e) {
@@ -8822,7 +8818,6 @@ function $0810185952f563ad$var$useTickerInfo() {
     }, [
         ticker
     ]);
-    console.log("loading", loading);
     return [
         data,
         loading
@@ -43223,7 +43218,8 @@ function $c19e3effbe6fef15$var$App(param) {
                                     sm: "auto",
                                     className: "my-auto",
                                     style: {
-                                        verticalAlign: "middle"
+                                        verticalAlign: "middle",
+                                        minWidth: "220px"
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $95d5128941fcd3ba$export$2e2bcd8739ae039), {
