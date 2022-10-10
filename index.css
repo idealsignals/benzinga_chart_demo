@@ -90,3 +90,51 @@ code {
   margin-bottom: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans Condensed, Open Sans, Arial, "sans-serif";
+  font-weight: 700;
+}
+
+body {
+  color: #2d2d2d;
+  font-display: swap;
+  text-rendering: optimizelegibility;
+  font-family: Open Sans, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.article-title {
+  color: #2d2d2d;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a {
+  color: #2ca2d1;
+  font-size: 14px;
+}
+
+.article-author {
+  color: #b8c2cc;
+  font-size: 14px;
+}
+
+.price-value {
+  color: #142133;
+  font-weight: 700;
+}
+
+.price-label {
+  color: #17253a;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+

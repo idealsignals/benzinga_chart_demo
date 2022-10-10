@@ -5,9 +5,6 @@ function $parcel$export(e, n, v, s) {
 function $parcel$interopDefault(a) {
   return a && a.__esModule ? a.default : a;
 }
-function $parcel$defineInteropFlag(a) {
-  Object.defineProperty(a, '__esModule', {value: true, configurable: true});
-}
 var $parcel$global =
 typeof globalThis !== 'undefined'
   ? globalThis
@@ -7999,176 +7996,6 @@ module.exports = $be81af0a549d9df7$var$ReactPropTypesSecret;
 });
 
 
-parcelRequire.register("8OF0d", function(module, exports) {
-
-$parcel$export(module.exports, "ContextConsumer", function () { return $66b2cc785e358b60$export$a7c73072b1a182ae; }, function (v) { return $66b2cc785e358b60$export$a7c73072b1a182ae = v; });
-$parcel$export(module.exports, "ContextProvider", function () { return $66b2cc785e358b60$export$9f27bc3417b4524d; }, function (v) { return $66b2cc785e358b60$export$9f27bc3417b4524d = v; });
-$parcel$export(module.exports, "Element", function () { return $66b2cc785e358b60$export$db77ccec0bb4ccac; }, function (v) { return $66b2cc785e358b60$export$db77ccec0bb4ccac = v; });
-$parcel$export(module.exports, "ForwardRef", function () { return $66b2cc785e358b60$export$8392c0c9d3dcbd35; }, function (v) { return $66b2cc785e358b60$export$8392c0c9d3dcbd35 = v; });
-$parcel$export(module.exports, "Fragment", function () { return $66b2cc785e358b60$export$ffb0004e005737fa; }, function (v) { return $66b2cc785e358b60$export$ffb0004e005737fa = v; });
-$parcel$export(module.exports, "Lazy", function () { return $66b2cc785e358b60$export$b624eff549462981; }, function (v) { return $66b2cc785e358b60$export$b624eff549462981 = v; });
-$parcel$export(module.exports, "Memo", function () { return $66b2cc785e358b60$export$7897aa7841a5380c; }, function (v) { return $66b2cc785e358b60$export$7897aa7841a5380c = v; });
-$parcel$export(module.exports, "Portal", function () { return $66b2cc785e358b60$export$602eac185826482c; }, function (v) { return $66b2cc785e358b60$export$602eac185826482c = v; });
-$parcel$export(module.exports, "Profiler", function () { return $66b2cc785e358b60$export$e2c29f18771995cb; }, function (v) { return $66b2cc785e358b60$export$e2c29f18771995cb = v; });
-$parcel$export(module.exports, "StrictMode", function () { return $66b2cc785e358b60$export$5f8d39834fd61797; }, function (v) { return $66b2cc785e358b60$export$5f8d39834fd61797 = v; });
-$parcel$export(module.exports, "Suspense", function () { return $66b2cc785e358b60$export$74bf444e3cd11ea5; }, function (v) { return $66b2cc785e358b60$export$74bf444e3cd11ea5 = v; });
-$parcel$export(module.exports, "isAsyncMode", function () { return $66b2cc785e358b60$export$92387174baf9b227; }, function (v) { return $66b2cc785e358b60$export$92387174baf9b227 = v; });
-$parcel$export(module.exports, "isConcurrentMode", function () { return $66b2cc785e358b60$export$ec112efeb987d9c6; }, function (v) { return $66b2cc785e358b60$export$ec112efeb987d9c6 = v; });
-$parcel$export(module.exports, "isContextConsumer", function () { return $66b2cc785e358b60$export$b706b080d889d2c9; }, function (v) { return $66b2cc785e358b60$export$b706b080d889d2c9 = v; });
-$parcel$export(module.exports, "isContextProvider", function () { return $66b2cc785e358b60$export$5be5a87408f70ddc; }, function (v) { return $66b2cc785e358b60$export$5be5a87408f70ddc = v; });
-$parcel$export(module.exports, "isElement", function () { return $66b2cc785e358b60$export$45a5e7f76e0caa8d; }, function (v) { return $66b2cc785e358b60$export$45a5e7f76e0caa8d = v; });
-$parcel$export(module.exports, "isForwardRef", function () { return $66b2cc785e358b60$export$455c2e768291efa6; }, function (v) { return $66b2cc785e358b60$export$455c2e768291efa6 = v; });
-$parcel$export(module.exports, "isFragment", function () { return $66b2cc785e358b60$export$9522e17588c12572; }, function (v) { return $66b2cc785e358b60$export$9522e17588c12572 = v; });
-$parcel$export(module.exports, "isLazy", function () { return $66b2cc785e358b60$export$2110ac352bb060b9; }, function (v) { return $66b2cc785e358b60$export$2110ac352bb060b9 = v; });
-$parcel$export(module.exports, "isMemo", function () { return $66b2cc785e358b60$export$56885ab8b9c456ab; }, function (v) { return $66b2cc785e358b60$export$56885ab8b9c456ab = v; });
-$parcel$export(module.exports, "isPortal", function () { return $66b2cc785e358b60$export$d927fcb6adf8f9de; }, function (v) { return $66b2cc785e358b60$export$d927fcb6adf8f9de = v; });
-$parcel$export(module.exports, "isProfiler", function () { return $66b2cc785e358b60$export$b82d16f27459e05a; }, function (v) { return $66b2cc785e358b60$export$b82d16f27459e05a = v; });
-$parcel$export(module.exports, "isStrictMode", function () { return $66b2cc785e358b60$export$522c17b4f5e123e8; }, function (v) { return $66b2cc785e358b60$export$522c17b4f5e123e8 = v; });
-$parcel$export(module.exports, "isSuspense", function () { return $66b2cc785e358b60$export$1aabd8a0274ecfd6; }, function (v) { return $66b2cc785e358b60$export$1aabd8a0274ecfd6 = v; });
-$parcel$export(module.exports, "isValidElementType", function () { return $66b2cc785e358b60$export$9b621391a187a31a; }, function (v) { return $66b2cc785e358b60$export$9b621391a187a31a = v; });
-$parcel$export(module.exports, "typeOf", function () { return $66b2cc785e358b60$export$f5bbd400c2f4426f; }, function (v) { return $66b2cc785e358b60$export$f5bbd400c2f4426f = v; });
-var $66b2cc785e358b60$export$a7c73072b1a182ae;
-var $66b2cc785e358b60$export$9f27bc3417b4524d;
-var $66b2cc785e358b60$export$db77ccec0bb4ccac;
-var $66b2cc785e358b60$export$8392c0c9d3dcbd35;
-var $66b2cc785e358b60$export$ffb0004e005737fa;
-var $66b2cc785e358b60$export$b624eff549462981;
-var $66b2cc785e358b60$export$7897aa7841a5380c;
-var $66b2cc785e358b60$export$602eac185826482c;
-var $66b2cc785e358b60$export$e2c29f18771995cb;
-var $66b2cc785e358b60$export$5f8d39834fd61797;
-var $66b2cc785e358b60$export$74bf444e3cd11ea5;
-var $66b2cc785e358b60$export$92387174baf9b227;
-var $66b2cc785e358b60$export$ec112efeb987d9c6;
-var $66b2cc785e358b60$export$b706b080d889d2c9;
-var $66b2cc785e358b60$export$5be5a87408f70ddc;
-var $66b2cc785e358b60$export$45a5e7f76e0caa8d;
-var $66b2cc785e358b60$export$455c2e768291efa6;
-var $66b2cc785e358b60$export$9522e17588c12572;
-var $66b2cc785e358b60$export$2110ac352bb060b9;
-var $66b2cc785e358b60$export$56885ab8b9c456ab;
-var $66b2cc785e358b60$export$d927fcb6adf8f9de;
-var $66b2cc785e358b60$export$b82d16f27459e05a;
-var $66b2cc785e358b60$export$522c17b4f5e123e8;
-var $66b2cc785e358b60$export$1aabd8a0274ecfd6;
-var $66b2cc785e358b60$export$9b621391a187a31a;
-var $66b2cc785e358b60$export$f5bbd400c2f4426f;
-/** @license React v17.0.2
- * react-is.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ "use strict";
-var $66b2cc785e358b60$var$b = 60103, $66b2cc785e358b60$var$c = 60106, $66b2cc785e358b60$var$d = 60107, $66b2cc785e358b60$var$e = 60108, $66b2cc785e358b60$var$f = 60114, $66b2cc785e358b60$var$g = 60109, $66b2cc785e358b60$var$h = 60110, $66b2cc785e358b60$var$k = 60112, $66b2cc785e358b60$var$l = 60113, $66b2cc785e358b60$var$m = 60120, $66b2cc785e358b60$var$n = 60115, $66b2cc785e358b60$var$p = 60116, $66b2cc785e358b60$var$q = 60121, $66b2cc785e358b60$var$r = 60122, $66b2cc785e358b60$var$u = 60117, $66b2cc785e358b60$var$v = 60129, $66b2cc785e358b60$var$w = 60131;
-if ("function" === typeof Symbol && Symbol.for) {
-    var $66b2cc785e358b60$var$x = Symbol.for;
-    $66b2cc785e358b60$var$b = $66b2cc785e358b60$var$x("react.element");
-    $66b2cc785e358b60$var$c = $66b2cc785e358b60$var$x("react.portal");
-    $66b2cc785e358b60$var$d = $66b2cc785e358b60$var$x("react.fragment");
-    $66b2cc785e358b60$var$e = $66b2cc785e358b60$var$x("react.strict_mode");
-    $66b2cc785e358b60$var$f = $66b2cc785e358b60$var$x("react.profiler");
-    $66b2cc785e358b60$var$g = $66b2cc785e358b60$var$x("react.provider");
-    $66b2cc785e358b60$var$h = $66b2cc785e358b60$var$x("react.context");
-    $66b2cc785e358b60$var$k = $66b2cc785e358b60$var$x("react.forward_ref");
-    $66b2cc785e358b60$var$l = $66b2cc785e358b60$var$x("react.suspense");
-    $66b2cc785e358b60$var$m = $66b2cc785e358b60$var$x("react.suspense_list");
-    $66b2cc785e358b60$var$n = $66b2cc785e358b60$var$x("react.memo");
-    $66b2cc785e358b60$var$p = $66b2cc785e358b60$var$x("react.lazy");
-    $66b2cc785e358b60$var$q = $66b2cc785e358b60$var$x("react.block");
-    $66b2cc785e358b60$var$r = $66b2cc785e358b60$var$x("react.server.block");
-    $66b2cc785e358b60$var$u = $66b2cc785e358b60$var$x("react.fundamental");
-    $66b2cc785e358b60$var$v = $66b2cc785e358b60$var$x("react.debug_trace_mode");
-    $66b2cc785e358b60$var$w = $66b2cc785e358b60$var$x("react.legacy_hidden");
-}
-function $66b2cc785e358b60$var$y(a) {
-    if ("object" === typeof a && null !== a) {
-        var t = a.$$typeof;
-        switch(t){
-            case $66b2cc785e358b60$var$b:
-                switch(a = a.type, a){
-                    case $66b2cc785e358b60$var$d:
-                    case $66b2cc785e358b60$var$f:
-                    case $66b2cc785e358b60$var$e:
-                    case $66b2cc785e358b60$var$l:
-                    case $66b2cc785e358b60$var$m:
-                        return a;
-                    default:
-                        switch(a = a && a.$$typeof, a){
-                            case $66b2cc785e358b60$var$h:
-                            case $66b2cc785e358b60$var$k:
-                            case $66b2cc785e358b60$var$p:
-                            case $66b2cc785e358b60$var$n:
-                            case $66b2cc785e358b60$var$g:
-                                return a;
-                            default:
-                                return t;
-                        }
-                }
-            case $66b2cc785e358b60$var$c:
-                return t;
-        }
-    }
-}
-var $66b2cc785e358b60$var$z = $66b2cc785e358b60$var$g, $66b2cc785e358b60$var$A = $66b2cc785e358b60$var$b, $66b2cc785e358b60$var$B = $66b2cc785e358b60$var$k, $66b2cc785e358b60$var$C = $66b2cc785e358b60$var$d, $66b2cc785e358b60$var$D = $66b2cc785e358b60$var$p, $66b2cc785e358b60$var$E = $66b2cc785e358b60$var$n, $66b2cc785e358b60$var$F = $66b2cc785e358b60$var$c, $66b2cc785e358b60$var$G = $66b2cc785e358b60$var$f, $66b2cc785e358b60$var$H = $66b2cc785e358b60$var$e, $66b2cc785e358b60$var$I = $66b2cc785e358b60$var$l;
-$66b2cc785e358b60$export$a7c73072b1a182ae = $66b2cc785e358b60$var$h;
-$66b2cc785e358b60$export$9f27bc3417b4524d = $66b2cc785e358b60$var$z;
-$66b2cc785e358b60$export$db77ccec0bb4ccac = $66b2cc785e358b60$var$A;
-$66b2cc785e358b60$export$8392c0c9d3dcbd35 = $66b2cc785e358b60$var$B;
-$66b2cc785e358b60$export$ffb0004e005737fa = $66b2cc785e358b60$var$C;
-$66b2cc785e358b60$export$b624eff549462981 = $66b2cc785e358b60$var$D;
-$66b2cc785e358b60$export$7897aa7841a5380c = $66b2cc785e358b60$var$E;
-$66b2cc785e358b60$export$602eac185826482c = $66b2cc785e358b60$var$F;
-$66b2cc785e358b60$export$e2c29f18771995cb = $66b2cc785e358b60$var$G;
-$66b2cc785e358b60$export$5f8d39834fd61797 = $66b2cc785e358b60$var$H;
-$66b2cc785e358b60$export$74bf444e3cd11ea5 = $66b2cc785e358b60$var$I;
-$66b2cc785e358b60$export$92387174baf9b227 = function() {
-    return !1;
-};
-$66b2cc785e358b60$export$ec112efeb987d9c6 = function() {
-    return !1;
-};
-$66b2cc785e358b60$export$b706b080d889d2c9 = function(a) {
-    return $66b2cc785e358b60$var$y(a) === $66b2cc785e358b60$var$h;
-};
-$66b2cc785e358b60$export$5be5a87408f70ddc = function(a) {
-    return $66b2cc785e358b60$var$y(a) === $66b2cc785e358b60$var$g;
-};
-$66b2cc785e358b60$export$45a5e7f76e0caa8d = function(a) {
-    return "object" === typeof a && null !== a && a.$$typeof === $66b2cc785e358b60$var$b;
-};
-$66b2cc785e358b60$export$455c2e768291efa6 = function(a) {
-    return $66b2cc785e358b60$var$y(a) === $66b2cc785e358b60$var$k;
-};
-$66b2cc785e358b60$export$9522e17588c12572 = function(a) {
-    return $66b2cc785e358b60$var$y(a) === $66b2cc785e358b60$var$d;
-};
-$66b2cc785e358b60$export$2110ac352bb060b9 = function(a) {
-    return $66b2cc785e358b60$var$y(a) === $66b2cc785e358b60$var$p;
-};
-$66b2cc785e358b60$export$56885ab8b9c456ab = function(a) {
-    return $66b2cc785e358b60$var$y(a) === $66b2cc785e358b60$var$n;
-};
-$66b2cc785e358b60$export$d927fcb6adf8f9de = function(a) {
-    return $66b2cc785e358b60$var$y(a) === $66b2cc785e358b60$var$c;
-};
-$66b2cc785e358b60$export$b82d16f27459e05a = function(a) {
-    return $66b2cc785e358b60$var$y(a) === $66b2cc785e358b60$var$f;
-};
-$66b2cc785e358b60$export$522c17b4f5e123e8 = function(a) {
-    return $66b2cc785e358b60$var$y(a) === $66b2cc785e358b60$var$e;
-};
-$66b2cc785e358b60$export$1aabd8a0274ecfd6 = function(a) {
-    return $66b2cc785e358b60$var$y(a) === $66b2cc785e358b60$var$l;
-};
-$66b2cc785e358b60$export$9b621391a187a31a = function(a) {
-    return "string" === typeof a || "function" === typeof a || a === $66b2cc785e358b60$var$d || a === $66b2cc785e358b60$var$f || a === $66b2cc785e358b60$var$v || a === $66b2cc785e358b60$var$e || a === $66b2cc785e358b60$var$l || a === $66b2cc785e358b60$var$m || a === $66b2cc785e358b60$var$w || "object" === typeof a && null !== a && (a.$$typeof === $66b2cc785e358b60$var$p || a.$$typeof === $66b2cc785e358b60$var$n || a.$$typeof === $66b2cc785e358b60$var$g || a.$$typeof === $66b2cc785e358b60$var$h || a.$$typeof === $66b2cc785e358b60$var$k || a.$$typeof === $66b2cc785e358b60$var$u || a.$$typeof === $66b2cc785e358b60$var$q || a[0] === $66b2cc785e358b60$var$r) ? !0 : !1;
-};
-$66b2cc785e358b60$export$f5bbd400c2f4426f = $66b2cc785e358b60$var$y;
-
-});
-
 parcelRequire.register("f57cO", function(module, exports) {
 
 $parcel$export(module.exports, "AsyncMode", function () { return $aface982e7a873c9$export$2b8d127b894957b9; }, function (v) { return $aface982e7a873c9$export$2b8d127b894957b9 = v; });
@@ -8486,82 +8313,12 @@ $f428bf355ebd571a$export$f5bbd400c2f4426f = $f428bf355ebd571a$var$v;
 
 });
 
-parcelRequire.register("aab8D", function(module, exports) {
+parcelRequire.register("jrioS", function(module, exports) {
 
 
-
-module.exports = (parcelRequire("jxBj1"))((parcelRequire("50Y8h")).getBundleURL("d76qo") + (parcelRequire("8Dgp5")).resolve("9hT04")).then(function() {
-    return parcelRequire("cF0Tz");
-});
+module.exports = (parcelRequire("50Y8h")).getBundleURL("d76qo") + (parcelRequire("8Dgp5")).resolve("eWJO3");
 
 });
-parcelRequire.register("jxBj1", function(module, exports) {
-"use strict";
-
-var $4SQoE = parcelRequire("4SQoE");
-module.exports = $4SQoE(function(bundle) {
-    return new Promise(function(resolve, reject) {
-        // Don't insert the same script twice (e.g. if it was already in the HTML)
-        var existingScripts = document.getElementsByTagName("script");
-        if ([].concat(existingScripts).some(function isCurrentBundle(script) {
-            return script.src === bundle;
-        })) {
-            resolve();
-            return;
-        }
-        var preloadLink = document.createElement("link");
-        preloadLink.href = bundle;
-        preloadLink.rel = "preload";
-        preloadLink.as = "script";
-        document.head.appendChild(preloadLink);
-        var script = document.createElement("script");
-        script.async = true;
-        script.type = "text/javascript";
-        script.src = bundle;
-        script.onerror = function(e) {
-            var error = new TypeError("Failed to fetch dynamically imported module: ".concat(bundle, ". Error: ").concat(e.message));
-            script.onerror = script.onload = null;
-            script.remove();
-            reject(error);
-        };
-        script.onload = function() {
-            script.onerror = script.onload = null;
-            resolve();
-        };
-        document.getElementsByTagName("head")[0].appendChild(script);
-    });
-});
-
-});
-parcelRequire.register("4SQoE", function(module, exports) {
-"use strict";
-var $38e4d973f4d45cb1$var$cachedBundles = {};
-var $38e4d973f4d45cb1$var$cachedPreloads = {};
-var $38e4d973f4d45cb1$var$cachedPrefetches = {};
-function $38e4d973f4d45cb1$var$getCache(type) {
-    switch(type){
-        case "preload":
-            return $38e4d973f4d45cb1$var$cachedPreloads;
-        case "prefetch":
-            return $38e4d973f4d45cb1$var$cachedPrefetches;
-        default:
-            return $38e4d973f4d45cb1$var$cachedBundles;
-    }
-}
-module.exports = function(loader, type) {
-    return function(bundle) {
-        var cache = $38e4d973f4d45cb1$var$getCache(type);
-        if (cache[bundle]) return cache[bundle];
-        return cache[bundle] = loader.apply(null, arguments).catch(function(e) {
-            delete cache[bundle];
-            throw e;
-        });
-    };
-};
-
-});
-
-
 parcelRequire.register("50Y8h", function(module, exports) {
 
 $parcel$export(module.exports, "getBundleURL", function () { return $3a6b98ebee0c5286$export$bdfd709ae4826697; }, function (v) { return $3a6b98ebee0c5286$export$bdfd709ae4826697 = v; });
@@ -8604,9 +8361,9 @@ $3a6b98ebee0c5286$export$5a759dc7a1cfb72a = $3a6b98ebee0c5286$var$getOrigin;
 });
 
 
-var $737de7b7a1d5aa3a$exports = {};
+var $59986d0e4d7e096b$exports = {};
 
-(parcelRequire("8Dgp5")).register(JSON.parse('{"d76qo":"index.js","9hT04":"web-vitals.02c32783.js","hKrxz":"index.css"}'));
+(parcelRequire("8Dgp5")).register(JSON.parse('{"d76qo":"index.js","eWJO3":"benzinga.3c6b697e.png","hKrxz":"index.css"}'));
 
 var $393491384ce93f5d$exports = {};
 "use strict";
@@ -8635,6 +8392,18 @@ $9e93f347a4838f21$var$checkDCE();
 
 $9e93f347a4838f21$exports = (parcelRequire("1QJnT"));
 
+
+
+function $ca2a088f2416c920$export$2e2bcd8739ae039(obj, key, value) {
+    if (key in obj) Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+    });
+    else obj[key] = value;
+    return obj;
+}
 
 
 function $a140e2b3fd5ad305$export$2e2bcd8739ae039(arr) {
@@ -8690,8 +8459,19 @@ var $6143c06b3bc23a0f$var$get_today_date_str = function() {
     var today = todays_date.getFullYear() + "-" + month + "-" + days;
     return today;
 };
+function $6143c06b3bc23a0f$var$getYCoordinateData(candle, chart_type) {
+    if (chart_type === "line") return [
+        candle["close"]
+    ];
+    else if (chart_type === "candlestick") return [
+        candle["open"],
+        candle["high"],
+        candle["low"],
+        candle["close"]
+    ];
+}
 function $6143c06b3bc23a0f$export$c24e9ec70646f21() {
-    var ticker = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "SPY", timeframe = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "6M", interval = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : "1d";
+    var ticker = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "SPY", timeframe = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "6M", interval = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : "1d", chart_type = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : "line";
     var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(), 2), loading = ref[0], setLoading = ref[1];
     var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(""), 2), error = ref1[0], setError = ref1[1];
     var ref2 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)([]), 2), data = ref2[0], setData = ref2[1];
@@ -8711,11 +8491,10 @@ function $6143c06b3bc23a0f$export$c24e9ec70646f21() {
             var filtered_data_list = [];
             for(var i = 0; i < data[0]["candles"].length; i++){
                 var candle = data[0]["candles"][i];
+                var y_coordinate_data = $6143c06b3bc23a0f$var$getYCoordinateData(candle, chart_type);
                 var new_data = {
                     x: new Date(parseInt(candle["time"])),
-                    y: [
-                        candle["close"]
-                    ]
+                    y: y_coordinate_data
                 };
                 filtered_data_list.push(new_data);
             }
@@ -8732,7 +8511,8 @@ function $6143c06b3bc23a0f$export$c24e9ec70646f21() {
     }, [
         ticker,
         timeframe,
-        interval
+        interval,
+        chart_type
     ]);
     return [
         data,
@@ -8748,9 +8528,9 @@ var $0810185952f563ad$var$api_key = "22a7199acd2806efb7a451ad54e05f69";
 // Iterate through a dictionary and round all values to two decimal places the data into a dictionary and returns the dictionary.
 function $0810185952f563ad$var$convertToInternationalCurrencySystem(labelValue) {
     // Nine Zeroes for Billions
-    return Math.abs(Number(labelValue)) >= 1.0e+9 ? (Math.abs(Number(labelValue)) / 1.0e+9).toFixed(2) + "B" : Math.abs(Number(labelValue)) >= 1.0e+6 ? (Math.abs(Number(labelValue)) / 1.0e+6).toFixed(2) + "M" : Math.abs(Number(labelValue)) >= 1.0e+3 ? (Math.abs(Number(labelValue)) / 1.0e+3).toFixed(2) + "K" : Math.abs(Number(labelValue));
+    return Math.abs(Number(labelValue)) >= 1.0e+12 ? (Math.abs(Number(labelValue)) / 1.0e+12).toFixed(2) + "T" : Math.abs(Number(labelValue)) >= 1.0e+9 ? (Math.abs(Number(labelValue)) / 1.0e+9).toFixed(2) + "B" : Math.abs(Number(labelValue)) >= 1.0e+6 ? (Math.abs(Number(labelValue)) / 1.0e+6).toFixed(2) + "M" : Math.abs(Number(labelValue)) >= 1.0e+3 ? (Math.abs(Number(labelValue)) / 1.0e+3).toFixed(2) + "K" : Math.abs(Number(labelValue));
 }
-function $0810185952f563ad$var$round_dict(data) {
+function $0810185952f563ad$export$b03e3f2664d64d84(data) {
     var _iteratorNormalCompletion = true, _didIteratorError = false, _iteratorError = undefined;
     try {
         for(var _iterator = Object.entries(data)[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true){
@@ -8779,8 +8559,7 @@ function $0810185952f563ad$var$round_dict(data) {
 function $0810185952f563ad$var$useTickerInfo() {
     var ticker = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "SPY";
     var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(), 2), loading = ref[0], setLoading = ref[1];
-    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(""), 2), error = ref1[0], setError = ref1[1];
-    var ref2 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)([]), 2), data = ref2[0], setData = ref2[1];
+    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)([]), 2), data = ref1[0], setData = ref1[1];
     (0, $fYIks.useEffect)(function() {
         // Fetch data from Benzinga
         setLoading(true);
@@ -8794,12 +8573,11 @@ function $0810185952f563ad$var$useTickerInfo() {
             return response.json();
         }).then(function(data) {
             setLoading(false);
-            var new_data = $0810185952f563ad$var$round_dict(data[0]);
+            var new_data = $0810185952f563ad$export$b03e3f2664d64d84(data[0]);
             setData(new_data);
         }).catch(function(e) {
             console.log(e);
             setLoading(false);
-            setError("error fetching quotes from Benzinga");
             setData({
                 "security": {
                     "symbol": "",
@@ -8825,17 +8603,6 @@ function $0810185952f563ad$var$useTickerInfo() {
 }
 var $0810185952f563ad$export$2e2bcd8739ae039 = $0810185952f563ad$var$useTickerInfo;
 
-
-function $ca2a088f2416c920$export$2e2bcd8739ae039(obj, key, value) {
-    if (key in obj) Object.defineProperty(obj, key, {
-        value: value,
-        enumerable: true,
-        configurable: true,
-        writable: true
-    });
-    else obj[key] = value;
-    return obj;
-}
 
 
 function $4d0fe5a92ffadf42$export$2e2bcd8739ae039(target) {
@@ -21219,7 +20986,7 @@ var $7e518af099e8edb2$var$C = {
                         j: P,
                         realIndex: _$i
                     });
-                    g = g1, s = s1, S = S1, n = n1, w = w1, k = k1, h = h1, A = A1, o = o1, _$r = _$r1, c = c1, void 0;
+                    _$r = _$r1, S = S1, c = c1, s = s1, g = g1, h = h1, w = w1, o = o1, k = k1, A = A1, n = n1, void 0;
                 };
                 for(var e = t.series, _$i = t.realIndex, a = t.i, s = t.x, _$r = t.y, o = t.pX, n = t.pY, l = t.pathsFrom, h = t.linePaths, c = t.areaPaths, d = t.seriesIndex, g = t.lineYPosition, u = t.xArrj, f = t.yArrj, p = this.w, b = new $7e518af099e8edb2$var$m(this.ctx), v = this.yRatio, y = l.prevY, w = l.linePath, k = l.areaPath, A = l.pathFromLine, S = l.pathFromArea, C = $7e518af099e8edb2$var$x.isNumber(p.globals.minYArr[_$i]) ? p.globals.minYArr[_$i] : p.globals.minY, L = p.globals.dataPoints > 1 ? p.globals.dataPoints - 1 : p.globals.dataPoints, P = 0; P < L; P++)_loop(e, _$i, a, s, _$r, o, n, l, h, c, d, g, u, f, p, b, v, y, w, k, A, S, C, L, P);
                 return {
@@ -26112,7 +25879,7 @@ var $6cec8bc9726f205c$export$2e2bcd8739ae039 = /*#__PURE__*/ function(Component)
             options: {
                 chart: {
                     height: 350,
-                    type: "line",
+                    type: _this.props.chartType,
                     id: "ticker_chart",
                     toolbar: {
                         show: false
@@ -26156,7 +25923,10 @@ var $6cec8bc9726f205c$export$2e2bcd8739ae039 = /*#__PURE__*/ function(Component)
                 },
                 stroke: {
                     show: true
-                }
+                },
+                colors: [
+                    _this.props.lineColor
+                ]
             }
         };
         return _this;
@@ -26172,7 +25942,7 @@ var $6cec8bc9726f205c$export$2e2bcd8739ae039 = /*#__PURE__*/ function(Component)
                         series: [
                             this.props.series
                         ],
-                        type: "line",
+                        type: this.props.chartType,
                         height: 350
                     })
                 });
@@ -26181,5587 +25951,6 @@ var $6cec8bc9726f205c$export$2e2bcd8739ae039 = /*#__PURE__*/ function(Component)
     ]);
     return ApexChart;
 }((0, $fYIks.Component));
-
-
-function $265d9f6e9d3c4d8e$export$2e2bcd8739ae039(strings, raw) {
-    if (!raw) raw = strings.slice(0);
-    return Object.freeze(Object.defineProperties(strings, {
-        raw: {
-            value: Object.freeze(raw)
-        }
-    }));
-}
-
-
-
-
-
-
-
-
-var $fYIks = parcelRequire("fYIks");
-
-
-var $fYIks = parcelRequire("fYIks");
-
-var $a486b938fd9cd723$var$_excluded = [
-    "as",
-    "disabled"
-];
-function $a486b938fd9cd723$var$_objectWithoutPropertiesLoose(source, excluded) {
-    if (source == null) return {};
-    var target = {};
-    var sourceKeys = Object.keys(source);
-    var key, i;
-    for(i = 0; i < sourceKeys.length; i++){
-        key = sourceKeys[i];
-        if (excluded.indexOf(key) >= 0) continue;
-        target[key] = source[key];
-    }
-    return target;
-}
-function $a486b938fd9cd723$export$72369ab2cc99204b(href) {
-    return !href || href.trim() === "#";
-}
-function $a486b938fd9cd723$export$a0ee72f2c720a5c3(param) {
-    var tagName = param.tagName, disabled = param.disabled, href = param.href, target = param.target, rel = param.rel, role = param.role, onClick = param.onClick, _tabIndex = param.tabIndex, tabIndex = _tabIndex === void 0 ? 0 : _tabIndex, type = param.type;
-    if (!tagName) {
-        if (href != null || target != null || rel != null) tagName = "a";
-        else tagName = "button";
-    }
-    var meta = {
-        tagName: tagName
-    };
-    if (tagName === "button") return [
-        {
-            type: type || "button",
-            disabled: disabled
-        },
-        meta
-    ];
-    var handleClick = function(event) {
-        if (disabled || tagName === "a" && $a486b938fd9cd723$export$72369ab2cc99204b(href)) event.preventDefault();
-        if (disabled) {
-            event.stopPropagation();
-            return;
-        }
-        onClick == null || onClick(event);
-    };
-    var handleKeyDown = function(event) {
-        if (event.key === " ") {
-            event.preventDefault();
-            handleClick(event);
-        }
-    };
-    if (tagName === "a") {
-        // Ensure there's a href so Enter can trigger anchor button.
-        href || (href = "#");
-        if (disabled) href = undefined;
-    }
-    return [
-        {
-            role: role != null ? role : "button",
-            // explicitly undefined so that it overrides the props disabled in a spread
-            // e.g. <Tag {...props} {...hookProps} />
-            disabled: undefined,
-            tabIndex: disabled ? undefined : tabIndex,
-            href: href,
-            target: tagName === "a" ? target : undefined,
-            "aria-disabled": !disabled ? undefined : disabled,
-            rel: tagName === "a" ? rel : undefined,
-            onClick: handleClick,
-            onKeyDown: handleKeyDown
-        },
-        meta
-    ];
-}
-var $a486b938fd9cd723$var$Button = /*#__PURE__*/ $fYIks.forwardRef(function(_ref, ref) {
-    var asProp = _ref.as, disabled = _ref.disabled, props = $a486b938fd9cd723$var$_objectWithoutPropertiesLoose(_ref, $a486b938fd9cd723$var$_excluded);
-    var _$ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)($a486b938fd9cd723$export$a0ee72f2c720a5c3(Object.assign({
-        tagName: asProp,
-        disabled: disabled
-    }, props)), 2), buttonProps = _$ref[0], _$ref1 = _$ref[1], Component = _$ref1.tagName;
-    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Component, Object.assign({}, props, buttonProps, {
-        ref: ref
-    }));
-});
-$a486b938fd9cd723$var$Button.displayName = "Button";
-var $a486b938fd9cd723$export$2e2bcd8739ae039 = $a486b938fd9cd723$var$Button;
-
-
-
-
-var $b97e9e88a5827791$var$defaultProps = {
-    variant: "primary",
-    active: false,
-    disabled: false
-};
-var $b97e9e88a5827791$var$Button = /*#__PURE__*/ $fYIks.forwardRef(function(_param, ref) {
-    var as = _param.as, bsPrefix = _param.bsPrefix, variant = _param.variant, size = _param.size, active = _param.active, className = _param.className, props = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_param, [
-        "as",
-        "bsPrefix",
-        "variant",
-        "size",
-        "active",
-        "className"
-    ]);
-    var prefix = (0, $b20ac7adf161be24$export$7f387860ebffb32c)(bsPrefix, "btn");
-    var _$ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $a486b938fd9cd723$export$a0ee72f2c720a5c3)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({
-        tagName: as
-    }, props)), 2), buttonProps = _$ref[0], tagName = _$ref[1].tagName;
-    var Component = tagName;
-    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Component, (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, buttonProps, props), {
-        ref: ref,
-        className: (0, (/*@__PURE__*/$parcel$interopDefault($30ffc53e550e9c72$exports)))(className, prefix, active && "active", variant && "".concat(prefix, "-").concat(variant), size && "".concat(prefix, "-").concat(size), props.href && props.disabled && "disabled")
-    }));
-});
-$b97e9e88a5827791$var$Button.displayName = "Button";
-$b97e9e88a5827791$var$Button.defaultProps = $b97e9e88a5827791$var$defaultProps;
-var $b97e9e88a5827791$export$2e2bcd8739ae039 = $b97e9e88a5827791$var$Button;
-
-
-
-
-
-
-var $fYIks = parcelRequire("fYIks");
-
-
-var $8ace536129fd678b$var$defaultProps = {
-    vertical: false,
-    role: "group"
-};
-var $8ace536129fd678b$var$ButtonGroup = /*#__PURE__*/ $fYIks.forwardRef(function(_param, ref) {
-    var bsPrefix = _param.bsPrefix, size = _param.size, vertical = _param.vertical, className = _param.className, tmp = _param.// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-    as, Component = tmp === void 0 ? "div" : tmp, rest = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_param, [
-        "bsPrefix",
-        "size",
-        "vertical",
-        "className",
-        "as"
-    ]);
-    var prefix = (0, $b20ac7adf161be24$export$7f387860ebffb32c)(bsPrefix, "btn-group");
-    var baseClass = prefix;
-    if (vertical) baseClass = "".concat(prefix, "-vertical");
-    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Component, (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, rest), {
-        ref: ref,
-        className: (0, (/*@__PURE__*/$parcel$interopDefault($30ffc53e550e9c72$exports)))(className, baseClass, size && "".concat(prefix, "-").concat(size))
-    }));
-});
-$8ace536129fd678b$var$ButtonGroup.displayName = "ButtonGroup";
-$8ace536129fd678b$var$ButtonGroup.defaultProps = $8ace536129fd678b$var$defaultProps;
-var $8ace536129fd678b$export$2e2bcd8739ae039 = $8ace536129fd678b$var$ButtonGroup;
-
-
-
-
-
-
-var $fYIks = parcelRequire("fYIks");
-
-
-var $28cbe4aaf39d5407$var$defaultProps = {
-    role: "toolbar"
-};
-var $28cbe4aaf39d5407$var$ButtonToolbar = /*#__PURE__*/ $fYIks.forwardRef(function(_param, ref) {
-    var bsPrefix = _param.bsPrefix, className = _param.className, props = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_param, [
-        "bsPrefix",
-        "className"
-    ]);
-    var prefix = (0, $b20ac7adf161be24$export$7f387860ebffb32c)(bsPrefix, "btn-toolbar");
-    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("div", (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, props), {
-        ref: ref,
-        className: (0, (/*@__PURE__*/$parcel$interopDefault($30ffc53e550e9c72$exports)))(className, prefix)
-    }));
-});
-$28cbe4aaf39d5407$var$ButtonToolbar.displayName = "ButtonToolbar";
-$28cbe4aaf39d5407$var$ButtonToolbar.defaultProps = $28cbe4aaf39d5407$var$defaultProps;
-var $28cbe4aaf39d5407$export$2e2bcd8739ae039 = $28cbe4aaf39d5407$var$ButtonToolbar;
-
-
-
-
-var $5YZ7h = parcelRequire("5YZ7h");
-var $32f7698be24af902$exports = {};
-"use strict";
-
-$32f7698be24af902$exports = (parcelRequire("8OF0d"));
-
-
-
-var $fYIks = parcelRequire("fYIks");
-var $243a08d0e236ca0c$exports = {};
-//
-$243a08d0e236ca0c$exports = function shallowEqual(objA, objB, compare, compareContext) {
-    var ret = compare ? compare.call(compareContext, objA, objB) : void 0;
-    if (ret !== void 0) return !!ret;
-    if (objA === objB) return true;
-    if (typeof objA !== "object" || !objA || typeof objB !== "object" || !objB) return false;
-    var keysA = Object.keys(objA);
-    var keysB = Object.keys(objB);
-    if (keysA.length !== keysB.length) return false;
-    var bHasOwnProperty = Object.prototype.hasOwnProperty.bind(objB);
-    // Test for A's keys different from B.
-    for(var idx = 0; idx < keysA.length; idx++){
-        var key = keysA[idx];
-        if (!bHasOwnProperty(key)) return false;
-        var valueA = objA[key];
-        var valueB = objB[key];
-        ret = compare ? compare.call(compareContext, valueA, valueB, key) : void 0;
-        if (ret === false || ret === void 0 && valueA !== valueB) return false;
-    }
-    return true;
-};
-
-
-function $440138e69d760bb3$var$stylis_min(W) {
-    var X = function X(d, c, e) {
-        var h = c.trim().split(ia);
-        c = h;
-        var a = h.length, m = d.length;
-        switch(m){
-            case 0:
-            case 1:
-                var b = 0;
-                for(d = 0 === m ? "" : d[0] + " "; b < a; ++b)c[b] = Z(d, c[b], e).trim();
-                break;
-            default:
-                var v = b = 0;
-                for(c = []; b < a; ++b)for(var n = 0; n < m; ++n)c[v++] = Z(d[n] + " ", h[b], e).trim();
-        }
-        return c;
-    };
-    var Z = function Z(d, c, e) {
-        var h = c.charCodeAt(0);
-        33 > h && (h = (c = c.trim()).charCodeAt(0));
-        switch(h){
-            case 38:
-                return c.replace(F, "$1" + d.trim());
-            case 58:
-                return d.trim() + c.replace(F, "$1" + d.trim());
-            default:
-                if (0 < 1 * e && 0 < c.indexOf("\f")) return c.replace(F, (58 === d.charCodeAt(0) ? "" : "$1") + d.trim());
-        }
-        return d + c;
-    };
-    var L = function L(d, c) {
-        var e = d.indexOf(1 === c ? ":" : "{"), h = d.substring(0, 3 !== c ? e : 10);
-        e = d.substring(e + 1, d.length - 1);
-        return R(2 !== c ? h : h.replace(na, "$1"), e, c);
-    };
-    var ea = function ea(d, c) {
-        var e = P(c, c.charCodeAt(0), c.charCodeAt(1), c.charCodeAt(2));
-        return e !== c + ";" ? e.replace(oa, " or ($1)").substring(4) : "(" + c + ")";
-    };
-    var H = function H(d, c, e, h, a, m, b, v, n, q) {
-        for(var g = 0, x = c, w; g < A; ++g)switch(w = S[g].call(B, d, x, e, h, a, m, b, v, n, q)){
-            case void 0:
-            case !1:
-            case !0:
-            case null:
-                break;
-            default:
-                x = w;
-        }
-        if (x !== c) return x;
-    };
-    var B = function B(d, c) {
-        var e = d;
-        33 > e.charCodeAt(0) && (e = e.trim());
-        V = e;
-        e = [
-            V
-        ];
-        if (0 < A) {
-            var h = H(-1, c, e, e, D, z, 0, 0, 0, 0);
-            void 0 !== h && "string" === typeof h && (c = h);
-        }
-        var a = M(O, e, c, 0, 0);
-        0 < A && (h = H(-2, a, e, e, D, z, a.length, 0, 0, 0), void 0 !== h && (a = h));
-        V = "";
-        E = 0;
-        z = D = 1;
-        return a;
-    };
-    function M(d, c, e, h, a) {
-        for(var m = 0, b = 0, v = 0, n = 0, q, g, x = 0, K = 0, k, u = k = q = 0, l = 0, r = 0, I = 0, t = 0, B = e.length, J = B - 1, y, f = "", p = "", F = "", G = "", C; l < B;){
-            g = e.charCodeAt(l);
-            l === J && 0 !== b + n + v + m && (0 !== b && (g = 47 === b ? 10 : 47), n = v = m = 0, B++, J++);
-            if (0 === b + n + v + m) {
-                if (l === J && (0 < r && (f = f.replace(N, "")), 0 < f.trim().length)) {
-                    switch(g){
-                        case 32:
-                        case 9:
-                        case 59:
-                        case 13:
-                        case 10:
-                            break;
-                        default:
-                            f += e.charAt(l);
-                    }
-                    g = 59;
-                }
-                switch(g){
-                    case 123:
-                        f = f.trim();
-                        q = f.charCodeAt(0);
-                        k = 1;
-                        for(t = ++l; l < B;){
-                            switch(g = e.charCodeAt(l)){
-                                case 123:
-                                    k++;
-                                    break;
-                                case 125:
-                                    k--;
-                                    break;
-                                case 47:
-                                    switch(g = e.charCodeAt(l + 1)){
-                                        case 42:
-                                        case 47:
-                                            a: {
-                                                for(u = l + 1; u < J; ++u)switch(e.charCodeAt(u)){
-                                                    case 47:
-                                                        if (42 === g && 42 === e.charCodeAt(u - 1) && l + 2 !== u) {
-                                                            l = u + 1;
-                                                            break a;
-                                                        }
-                                                        break;
-                                                    case 10:
-                                                        if (47 === g) {
-                                                            l = u + 1;
-                                                            break a;
-                                                        }
-                                                }
-                                                l = u;
-                                            }
-                                    }
-                                    break;
-                                case 91:
-                                    g++;
-                                case 40:
-                                    g++;
-                                case 34:
-                                case 39:
-                                    for(; (l++) < J && e.charCodeAt(l) !== g;);
-                            }
-                            if (0 === k) break;
-                            l++;
-                        }
-                        k = e.substring(t, l);
-                        0 === q && (q = (f = f.replace(ca, "").trim()).charCodeAt(0));
-                        switch(q){
-                            case 64:
-                                0 < r && (f = f.replace(N, ""));
-                                g = f.charCodeAt(1);
-                                switch(g){
-                                    case 100:
-                                    case 109:
-                                    case 115:
-                                    case 45:
-                                        r = c;
-                                        break;
-                                    default:
-                                        r = O;
-                                }
-                                k = M(c, r, k, g, a + 1);
-                                t = k.length;
-                                0 < A && (r = X(O, f, I), C = H(3, k, r, c, D, z, t, g, a, h), f = r.join(""), void 0 !== C && 0 === (t = (k = C.trim()).length) && (g = 0, k = ""));
-                                if (0 < t) switch(g){
-                                    case 115:
-                                        f = f.replace(da, ea);
-                                    case 100:
-                                    case 109:
-                                    case 45:
-                                        k = f + "{" + k + "}";
-                                        break;
-                                    case 107:
-                                        f = f.replace(fa, "$1 $2");
-                                        k = f + "{" + k + "}";
-                                        k = 1 === w || 2 === w && L("@" + k, 3) ? "@-webkit-" + k + "@" + k : "@" + k;
-                                        break;
-                                    default:
-                                        k = f + k, 112 === h && (k = (p += k, ""));
-                                }
-                                else k = "";
-                                break;
-                            default:
-                                k = M(c, X(c, f, I), k, h, a + 1);
-                        }
-                        F += k;
-                        k = I = r = u = q = 0;
-                        f = "";
-                        g = e.charCodeAt(++l);
-                        break;
-                    case 125:
-                    case 59:
-                        f = (0 < r ? f.replace(N, "") : f).trim();
-                        if (1 < (t = f.length)) switch(0 === u && (q = f.charCodeAt(0), 45 === q || 96 < q && 123 > q) && (t = (f = f.replace(" ", ":")).length), 0 < A && void 0 !== (C = H(1, f, c, d, D, z, p.length, h, a, h)) && 0 === (t = (f = C.trim()).length) && (f = "\0\0"), q = f.charCodeAt(0), g = f.charCodeAt(1), q){
-                            case 0:
-                                break;
-                            case 64:
-                                if (105 === g || 99 === g) {
-                                    G += f + e.charAt(l);
-                                    break;
-                                }
-                            default:
-                                58 !== f.charCodeAt(t - 1) && (p += P(f, q, g, f.charCodeAt(2)));
-                        }
-                        I = r = u = q = 0;
-                        f = "";
-                        g = e.charCodeAt(++l);
-                }
-            }
-            switch(g){
-                case 13:
-                case 10:
-                    47 === b ? b = 0 : 0 === 1 + q && 107 !== h && 0 < f.length && (r = 1, f += "\0");
-                    0 < A * Y && H(0, f, c, d, D, z, p.length, h, a, h);
-                    z = 1;
-                    D++;
-                    break;
-                case 59:
-                case 125:
-                    if (0 === b + n + v + m) {
-                        z++;
-                        break;
-                    }
-                default:
-                    z++;
-                    y = e.charAt(l);
-                    switch(g){
-                        case 9:
-                        case 32:
-                            if (0 === n + m + b) switch(x){
-                                case 44:
-                                case 58:
-                                case 9:
-                                case 32:
-                                    y = "";
-                                    break;
-                                default:
-                                    32 !== g && (y = " ");
-                            }
-                            break;
-                        case 0:
-                            y = "\\0";
-                            break;
-                        case 12:
-                            y = "\\f";
-                            break;
-                        case 11:
-                            y = "\\v";
-                            break;
-                        case 38:
-                            0 === n + b + m && (r = I = 1, y = "\f" + y);
-                            break;
-                        case 108:
-                            if (0 === n + b + m + E && 0 < u) switch(l - u){
-                                case 2:
-                                    112 === x && 58 === e.charCodeAt(l - 3) && (E = x);
-                                case 8:
-                                    111 === K && (E = K);
-                            }
-                            break;
-                        case 58:
-                            0 === n + b + m && (u = l);
-                            break;
-                        case 44:
-                            0 === b + v + n + m && (r = 1, y += "\r");
-                            break;
-                        case 34:
-                        case 39:
-                            0 === b && (n = n === g ? 0 : 0 === n ? g : n);
-                            break;
-                        case 91:
-                            0 === n + b + v && m++;
-                            break;
-                        case 93:
-                            0 === n + b + v && m--;
-                            break;
-                        case 41:
-                            0 === n + b + m && v--;
-                            break;
-                        case 40:
-                            if (0 === n + b + m) {
-                                if (0 === q) switch(2 * x + 3 * K){
-                                    case 533:
-                                        break;
-                                    default:
-                                        q = 1;
-                                }
-                                v++;
-                            }
-                            break;
-                        case 64:
-                            0 === b + v + n + m + u + k && (k = 1);
-                            break;
-                        case 42:
-                        case 47:
-                            if (!(0 < n + m + v)) switch(b){
-                                case 0:
-                                    switch(2 * g + 3 * e.charCodeAt(l + 1)){
-                                        case 235:
-                                            b = 47;
-                                            break;
-                                        case 220:
-                                            t = l, b = 42;
-                                    }
-                                    break;
-                                case 42:
-                                    47 === g && 42 === x && t + 2 !== l && (33 === e.charCodeAt(t + 2) && (p += e.substring(t, l + 1)), y = "", b = 0);
-                            }
-                    }
-                    0 === b && (f += y);
-            }
-            K = x;
-            x = g;
-            l++;
-        }
-        t = p.length;
-        if (0 < t) {
-            r = c;
-            if (0 < A && (C = H(2, p, r, d, D, z, t, h, a, h), void 0 !== C && 0 === (p = C).length)) return G + p + F;
-            p = r.join(",") + "{" + p + "}";
-            if (0 !== w * E) {
-                2 !== w || L(p, 2) || (E = 0);
-                switch(E){
-                    case 111:
-                        p = p.replace(ha, ":-moz-$1") + p;
-                        break;
-                    case 112:
-                        p = p.replace(Q, "::-webkit-input-$1") + p.replace(Q, "::-moz-$1") + p.replace(Q, ":-ms-input-$1") + p;
-                }
-                E = 0;
-            }
-        }
-        return G + p + F;
-    }
-    function P(d, c, e, h) {
-        var a = d + ";", m = 2 * c + 3 * e + 4 * h;
-        if (944 === m) {
-            d = a.indexOf(":", 9) + 1;
-            var b = a.substring(d, a.length - 1).trim();
-            b = a.substring(0, d).trim() + b + ";";
-            return 1 === w || 2 === w && L(b, 1) ? "-webkit-" + b + b : b;
-        }
-        if (0 === w || 2 === w && !L(a, 1)) return a;
-        switch(m){
-            case 1015:
-                return 97 === a.charCodeAt(10) ? "-webkit-" + a + a : a;
-            case 951:
-                return 116 === a.charCodeAt(3) ? "-webkit-" + a + a : a;
-            case 963:
-                return 110 === a.charCodeAt(5) ? "-webkit-" + a + a : a;
-            case 1009:
-                if (100 !== a.charCodeAt(4)) break;
-            case 969:
-            case 942:
-                return "-webkit-" + a + a;
-            case 978:
-                return "-webkit-" + a + "-moz-" + a + a;
-            case 1019:
-            case 983:
-                return "-webkit-" + a + "-moz-" + a + "-ms-" + a + a;
-            case 883:
-                if (45 === a.charCodeAt(8)) return "-webkit-" + a + a;
-                if (0 < a.indexOf("image-set(", 11)) return a.replace(ja, "$1-webkit-$2") + a;
-                break;
-            case 932:
-                if (45 === a.charCodeAt(4)) switch(a.charCodeAt(5)){
-                    case 103:
-                        return "-webkit-box-" + a.replace("-grow", "") + "-webkit-" + a + "-ms-" + a.replace("grow", "positive") + a;
-                    case 115:
-                        return "-webkit-" + a + "-ms-" + a.replace("shrink", "negative") + a;
-                    case 98:
-                        return "-webkit-" + a + "-ms-" + a.replace("basis", "preferred-size") + a;
-                }
-                return "-webkit-" + a + "-ms-" + a + a;
-            case 964:
-                return "-webkit-" + a + "-ms-flex-" + a + a;
-            case 1023:
-                if (99 !== a.charCodeAt(8)) break;
-                b = a.substring(a.indexOf(":", 15)).replace("flex-", "").replace("space-between", "justify");
-                return "-webkit-box-pack" + b + "-webkit-" + a + "-ms-flex-pack" + b + a;
-            case 1005:
-                return ka.test(a) ? a.replace(aa, ":-webkit-") + a.replace(aa, ":-moz-") + a : a;
-            case 1e3:
-                b = a.substring(13).trim();
-                c = b.indexOf("-") + 1;
-                switch(b.charCodeAt(0) + b.charCodeAt(c)){
-                    case 226:
-                        b = a.replace(G, "tb");
-                        break;
-                    case 232:
-                        b = a.replace(G, "tb-rl");
-                        break;
-                    case 220:
-                        b = a.replace(G, "lr");
-                        break;
-                    default:
-                        return a;
-                }
-                return "-webkit-" + a + "-ms-" + b + a;
-            case 1017:
-                if (-1 === a.indexOf("sticky", 9)) break;
-            case 975:
-                c = (a = d).length - 10;
-                b = (33 === a.charCodeAt(c) ? a.substring(0, c) : a).substring(d.indexOf(":", 7) + 1).trim();
-                switch(m = b.charCodeAt(0) + (b.charCodeAt(7) | 0)){
-                    case 203:
-                        if (111 > b.charCodeAt(8)) break;
-                    case 115:
-                        a = a.replace(b, "-webkit-" + b) + ";" + a;
-                        break;
-                    case 207:
-                    case 102:
-                        a = a.replace(b, "-webkit-" + (102 < m ? "inline-" : "") + "box") + ";" + a.replace(b, "-webkit-" + b) + ";" + a.replace(b, "-ms-" + b + "box") + ";" + a;
-                }
-                return a + ";";
-            case 938:
-                if (45 === a.charCodeAt(5)) switch(a.charCodeAt(6)){
-                    case 105:
-                        return b = a.replace("-items", ""), "-webkit-" + a + "-webkit-box-" + b + "-ms-flex-" + b + a;
-                    case 115:
-                        return "-webkit-" + a + "-ms-flex-item-" + a.replace(ba, "") + a;
-                    default:
-                        return "-webkit-" + a + "-ms-flex-line-pack" + a.replace("align-content", "").replace(ba, "") + a;
-                }
-                break;
-            case 973:
-            case 989:
-                if (45 !== a.charCodeAt(3) || 122 === a.charCodeAt(4)) break;
-            case 931:
-            case 953:
-                if (!0 === la.test(d)) return 115 === (b = d.substring(d.indexOf(":") + 1)).charCodeAt(0) ? P(d.replace("stretch", "fill-available"), c, e, h).replace(":fill-available", ":stretch") : a.replace(b, "-webkit-" + b) + a.replace(b, "-moz-" + b.replace("fill-", "")) + a;
-                break;
-            case 962:
-                if (a = "-webkit-" + a + (102 === a.charCodeAt(5) ? "-ms-" + a : "") + a, 211 === e + h && 105 === a.charCodeAt(13) && 0 < a.indexOf("transform", 10)) return a.substring(0, a.indexOf(";", 27) + 1).replace(ma, "$1-webkit-$2") + a;
-        }
-        return a;
-    }
-    function T(d) {
-        switch(d){
-            case void 0:
-            case null:
-                A = S.length = 0;
-                break;
-            default:
-                if ("function" === typeof d) S[A++] = d;
-                else if ("object" === typeof d) for(var c = 0, e = d.length; c < e; ++c)T(d[c]);
-                else Y = !!d | 0;
-        }
-        return T;
-    }
-    function U(d) {
-        d = d.prefix;
-        void 0 !== d && (R = null, d ? "function" !== typeof d ? w = 1 : (w = 2, R = d) : w = 0);
-        return U;
-    }
-    var ca = /^\0+/g, N = /[\0\r\f]/g, aa = /: */g, ka = /zoo|gra/, ma = /([,: ])(transform)/g, ia = /,\r+?/g, F = /([\t\r\n ])*\f?&/g, fa = /@(k\w+)\s*(\S*)\s*/, Q = /::(place)/g, ha = /:(read-only)/g, G = /[svh]\w+-[tblr]{2}/, da = /\(\s*(.*)\s*\)/g, oa = /([\s\S]*?);/g, ba = /-self|flex-/g, na = /[^]*?(:[rp][el]a[\w-]+)[^]*/, la = /stretch|:\s*\w+\-(?:conte|avail)/, ja = /([^-])(image-set\()/, z = 1, D = 1, E = 0, w = 1, O = [], S = [], A = 0, R = null, Y = 0, V = "";
-    B.use = T;
-    B.set = U;
-    void 0 !== W && U(W);
-    return B;
-}
-var $440138e69d760bb3$export$2e2bcd8739ae039 = $440138e69d760bb3$var$stylis_min;
-
-
-var $d77b6cee63c9033d$var$unitlessKeys = {
-    animationIterationCount: 1,
-    borderImageOutset: 1,
-    borderImageSlice: 1,
-    borderImageWidth: 1,
-    boxFlex: 1,
-    boxFlexGroup: 1,
-    boxOrdinalGroup: 1,
-    columnCount: 1,
-    columns: 1,
-    flex: 1,
-    flexGrow: 1,
-    flexPositive: 1,
-    flexShrink: 1,
-    flexNegative: 1,
-    flexOrder: 1,
-    gridRow: 1,
-    gridRowEnd: 1,
-    gridRowSpan: 1,
-    gridRowStart: 1,
-    gridColumn: 1,
-    gridColumnEnd: 1,
-    gridColumnSpan: 1,
-    gridColumnStart: 1,
-    msGridRow: 1,
-    msGridRowSpan: 1,
-    msGridColumn: 1,
-    msGridColumnSpan: 1,
-    fontWeight: 1,
-    lineHeight: 1,
-    opacity: 1,
-    order: 1,
-    orphans: 1,
-    tabSize: 1,
-    widows: 1,
-    zIndex: 1,
-    zoom: 1,
-    WebkitLineClamp: 1,
-    // SVG-related properties
-    fillOpacity: 1,
-    floodOpacity: 1,
-    stopOpacity: 1,
-    strokeDasharray: 1,
-    strokeDashoffset: 1,
-    strokeMiterlimit: 1,
-    strokeOpacity: 1,
-    strokeWidth: 1
-};
-var $d77b6cee63c9033d$export$2e2bcd8739ae039 = $d77b6cee63c9033d$var$unitlessKeys;
-
-
-function $42f42a37204fd64c$var$memoize(fn) {
-    var cache = Object.create(null);
-    return function(arg) {
-        if (cache[arg] === undefined) cache[arg] = fn(arg);
-        return cache[arg];
-    };
-}
-var $42f42a37204fd64c$export$2e2bcd8739ae039 = $42f42a37204fd64c$var$memoize;
-
-
-var $e709b607ee8f3e74$var$reactPropsRegex = /^((children|dangerouslySetInnerHTML|key|ref|autoFocus|defaultValue|defaultChecked|innerHTML|suppressContentEditableWarning|suppressHydrationWarning|valueLink|abbr|accept|acceptCharset|accessKey|action|allow|allowUserMedia|allowPaymentRequest|allowFullScreen|allowTransparency|alt|async|autoComplete|autoPlay|capture|cellPadding|cellSpacing|challenge|charSet|checked|cite|classID|className|cols|colSpan|content|contentEditable|contextMenu|controls|controlsList|coords|crossOrigin|data|dateTime|decoding|default|defer|dir|disabled|disablePictureInPicture|download|draggable|encType|enterKeyHint|form|formAction|formEncType|formMethod|formNoValidate|formTarget|frameBorder|headers|height|hidden|high|href|hrefLang|htmlFor|httpEquiv|id|inputMode|integrity|is|keyParams|keyType|kind|label|lang|list|loading|loop|low|marginHeight|marginWidth|max|maxLength|media|mediaGroup|method|min|minLength|multiple|muted|name|nonce|noValidate|open|optimum|pattern|placeholder|playsInline|poster|preload|profile|radioGroup|readOnly|referrerPolicy|rel|required|reversed|role|rows|rowSpan|sandbox|scope|scoped|scrolling|seamless|selected|shape|size|sizes|slot|span|spellCheck|src|srcDoc|srcLang|srcSet|start|step|style|summary|tabIndex|target|title|translate|type|useMap|value|width|wmode|wrap|about|datatype|inlist|prefix|property|resource|typeof|vocab|autoCapitalize|autoCorrect|autoSave|color|incremental|fallback|inert|itemProp|itemScope|itemType|itemID|itemRef|on|option|results|security|unselectable|accentHeight|accumulate|additive|alignmentBaseline|allowReorder|alphabetic|amplitude|arabicForm|ascent|attributeName|attributeType|autoReverse|azimuth|baseFrequency|baselineShift|baseProfile|bbox|begin|bias|by|calcMode|capHeight|clip|clipPathUnits|clipPath|clipRule|colorInterpolation|colorInterpolationFilters|colorProfile|colorRendering|contentScriptType|contentStyleType|cursor|cx|cy|d|decelerate|descent|diffuseConstant|direction|display|divisor|dominantBaseline|dur|dx|dy|edgeMode|elevation|enableBackground|end|exponent|externalResourcesRequired|fill|fillOpacity|fillRule|filter|filterRes|filterUnits|floodColor|floodOpacity|focusable|fontFamily|fontSize|fontSizeAdjust|fontStretch|fontStyle|fontVariant|fontWeight|format|from|fr|fx|fy|g1|g2|glyphName|glyphOrientationHorizontal|glyphOrientationVertical|glyphRef|gradientTransform|gradientUnits|hanging|horizAdvX|horizOriginX|ideographic|imageRendering|in|in2|intercept|k|k1|k2|k3|k4|kernelMatrix|kernelUnitLength|kerning|keyPoints|keySplines|keyTimes|lengthAdjust|letterSpacing|lightingColor|limitingConeAngle|local|markerEnd|markerMid|markerStart|markerHeight|markerUnits|markerWidth|mask|maskContentUnits|maskUnits|mathematical|mode|numOctaves|offset|opacity|operator|order|orient|orientation|origin|overflow|overlinePosition|overlineThickness|panose1|paintOrder|pathLength|patternContentUnits|patternTransform|patternUnits|pointerEvents|points|pointsAtX|pointsAtY|pointsAtZ|preserveAlpha|preserveAspectRatio|primitiveUnits|r|radius|refX|refY|renderingIntent|repeatCount|repeatDur|requiredExtensions|requiredFeatures|restart|result|rotate|rx|ry|scale|seed|shapeRendering|slope|spacing|specularConstant|specularExponent|speed|spreadMethod|startOffset|stdDeviation|stemh|stemv|stitchTiles|stopColor|stopOpacity|strikethroughPosition|strikethroughThickness|string|stroke|strokeDasharray|strokeDashoffset|strokeLinecap|strokeLinejoin|strokeMiterlimit|strokeOpacity|strokeWidth|surfaceScale|systemLanguage|tableValues|targetX|targetY|textAnchor|textDecoration|textRendering|textLength|to|transform|u1|u2|underlinePosition|underlineThickness|unicode|unicodeBidi|unicodeRange|unitsPerEm|vAlphabetic|vHanging|vIdeographic|vMathematical|values|vectorEffect|version|vertAdvY|vertOriginX|vertOriginY|viewBox|viewTarget|visibility|widths|wordSpacing|writingMode|x|xHeight|x1|x2|xChannelSelector|xlinkActuate|xlinkArcrole|xlinkHref|xlinkRole|xlinkShow|xlinkTitle|xlinkType|xmlBase|xmlns|xmlnsXlink|xmlLang|xmlSpace|y|y1|y2|yChannelSelector|z|zoomAndPan|for|class|autofocus)|(([Dd][Aa][Tt][Aa]|[Aa][Rr][Ii][Aa]|x)-.*))$/; // https://esbench.com/bench/5bfee68a4cd7e6009ef61d23
-var $e709b607ee8f3e74$var$isPropValid = /* #__PURE__ */ (0, $42f42a37204fd64c$export$2e2bcd8739ae039)(function(prop) {
-    return $e709b607ee8f3e74$var$reactPropsRegex.test(prop) || prop.charCodeAt(0) === 111 && prop.charCodeAt(1) === 110 && prop.charCodeAt(2) < 91;
-});
-var $e709b607ee8f3e74$export$2e2bcd8739ae039 = $e709b607ee8f3e74$var$isPropValid;
-
-
-var $654330c990f2d2e0$exports = {};
-"use strict";
-var $5f497af12c7f6cb5$exports = {};
-"use strict";
-
-$5f497af12c7f6cb5$exports = (parcelRequire("f57cO"));
-
-
-/**
- * Copyright 2015, Yahoo! Inc.
- * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
- */ var $654330c990f2d2e0$var$REACT_STATICS = {
-    childContextTypes: true,
-    contextType: true,
-    contextTypes: true,
-    defaultProps: true,
-    displayName: true,
-    getDefaultProps: true,
-    getDerivedStateFromError: true,
-    getDerivedStateFromProps: true,
-    mixins: true,
-    propTypes: true,
-    type: true
-};
-var $654330c990f2d2e0$var$KNOWN_STATICS = {
-    name: true,
-    length: true,
-    prototype: true,
-    caller: true,
-    callee: true,
-    arguments: true,
-    arity: true
-};
-var $654330c990f2d2e0$var$FORWARD_REF_STATICS = {
-    "$$typeof": true,
-    render: true,
-    defaultProps: true,
-    displayName: true,
-    propTypes: true
-};
-var $654330c990f2d2e0$var$MEMO_STATICS = {
-    "$$typeof": true,
-    compare: true,
-    defaultProps: true,
-    displayName: true,
-    propTypes: true,
-    type: true
-};
-var $654330c990f2d2e0$var$TYPE_STATICS = {};
-$654330c990f2d2e0$var$TYPE_STATICS[$5f497af12c7f6cb5$exports.ForwardRef] = $654330c990f2d2e0$var$FORWARD_REF_STATICS;
-$654330c990f2d2e0$var$TYPE_STATICS[$5f497af12c7f6cb5$exports.Memo] = $654330c990f2d2e0$var$MEMO_STATICS;
-function $654330c990f2d2e0$var$getStatics(component) {
-    // React v16.11 and below
-    if ($5f497af12c7f6cb5$exports.isMemo(component)) return $654330c990f2d2e0$var$MEMO_STATICS;
-     // React v16.12 and above
-    return $654330c990f2d2e0$var$TYPE_STATICS[component["$$typeof"]] || $654330c990f2d2e0$var$REACT_STATICS;
-}
-var $654330c990f2d2e0$var$defineProperty = Object.defineProperty;
-var $654330c990f2d2e0$var$getOwnPropertyNames = Object.getOwnPropertyNames;
-var $654330c990f2d2e0$var$getOwnPropertySymbols = Object.getOwnPropertySymbols;
-var $654330c990f2d2e0$var$getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
-var $654330c990f2d2e0$var$getPrototypeOf = Object.getPrototypeOf;
-var $654330c990f2d2e0$var$objectPrototype = Object.prototype;
-function $654330c990f2d2e0$var$hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
-    if (typeof sourceComponent !== "string") {
-        // don't hoist over string (html) components
-        if ($654330c990f2d2e0$var$objectPrototype) {
-            var inheritedComponent = $654330c990f2d2e0$var$getPrototypeOf(sourceComponent);
-            if (inheritedComponent && inheritedComponent !== $654330c990f2d2e0$var$objectPrototype) $654330c990f2d2e0$var$hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
-        }
-        var keys = $654330c990f2d2e0$var$getOwnPropertyNames(sourceComponent);
-        if ($654330c990f2d2e0$var$getOwnPropertySymbols) keys = keys.concat($654330c990f2d2e0$var$getOwnPropertySymbols(sourceComponent));
-        var targetStatics = $654330c990f2d2e0$var$getStatics(targetComponent);
-        var sourceStatics = $654330c990f2d2e0$var$getStatics(sourceComponent);
-        for(var i = 0; i < keys.length; ++i){
-            var key = keys[i];
-            if (!$654330c990f2d2e0$var$KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
-                var descriptor = $654330c990f2d2e0$var$getOwnPropertyDescriptor(sourceComponent, key);
-                try {
-                    // Avoid failures from read-only properties
-                    $654330c990f2d2e0$var$defineProperty(targetComponent, key, descriptor);
-                } catch (e) {}
-            }
-        }
-    }
-    return targetComponent;
-}
-$654330c990f2d2e0$exports = $654330c990f2d2e0$var$hoistNonReactStatics;
-
-
-var $077836902f81f851$exports = {};
-// shim for using process in browser
-var $077836902f81f851$var$process = $077836902f81f851$exports = {};
-// cached from whatever global is present so that test runners that stub it
-// don't break things.  But we need to wrap it in a try catch in case it is
-// wrapped in strict mode code which doesn't define any globals.  It's inside a
-// function because try/catches deoptimize in certain engines.
-var $077836902f81f851$var$cachedSetTimeout;
-var $077836902f81f851$var$cachedClearTimeout;
-function $077836902f81f851$var$defaultSetTimout() {
-    throw new Error("setTimeout has not been defined");
-}
-function $077836902f81f851$var$defaultClearTimeout() {
-    throw new Error("clearTimeout has not been defined");
-}
-(function() {
-    try {
-        if (typeof setTimeout === "function") $077836902f81f851$var$cachedSetTimeout = setTimeout;
-        else $077836902f81f851$var$cachedSetTimeout = $077836902f81f851$var$defaultSetTimout;
-    } catch (e) {
-        $077836902f81f851$var$cachedSetTimeout = $077836902f81f851$var$defaultSetTimout;
-    }
-    try {
-        if (typeof clearTimeout === "function") $077836902f81f851$var$cachedClearTimeout = clearTimeout;
-        else $077836902f81f851$var$cachedClearTimeout = $077836902f81f851$var$defaultClearTimeout;
-    } catch (e1) {
-        $077836902f81f851$var$cachedClearTimeout = $077836902f81f851$var$defaultClearTimeout;
-    }
-})();
-function $077836902f81f851$var$runTimeout(fun) {
-    if ($077836902f81f851$var$cachedSetTimeout === setTimeout) //normal enviroments in sane situations
-    return setTimeout(fun, 0);
-    // if setTimeout wasn't available but was latter defined
-    if (($077836902f81f851$var$cachedSetTimeout === $077836902f81f851$var$defaultSetTimout || !$077836902f81f851$var$cachedSetTimeout) && setTimeout) {
-        $077836902f81f851$var$cachedSetTimeout = setTimeout;
-        return setTimeout(fun, 0);
-    }
-    try {
-        // when when somebody has screwed with setTimeout but no I.E. maddness
-        return $077836902f81f851$var$cachedSetTimeout(fun, 0);
-    } catch (e) {
-        try {
-            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
-            return $077836902f81f851$var$cachedSetTimeout.call(null, fun, 0);
-        } catch (e1) {
-            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
-            return $077836902f81f851$var$cachedSetTimeout.call(this, fun, 0);
-        }
-    }
-}
-function $077836902f81f851$var$runClearTimeout(marker) {
-    if ($077836902f81f851$var$cachedClearTimeout === clearTimeout) //normal enviroments in sane situations
-    return clearTimeout(marker);
-    // if clearTimeout wasn't available but was latter defined
-    if (($077836902f81f851$var$cachedClearTimeout === $077836902f81f851$var$defaultClearTimeout || !$077836902f81f851$var$cachedClearTimeout) && clearTimeout) {
-        $077836902f81f851$var$cachedClearTimeout = clearTimeout;
-        return clearTimeout(marker);
-    }
-    try {
-        // when when somebody has screwed with setTimeout but no I.E. maddness
-        return $077836902f81f851$var$cachedClearTimeout(marker);
-    } catch (e) {
-        try {
-            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
-            return $077836902f81f851$var$cachedClearTimeout.call(null, marker);
-        } catch (e1) {
-            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
-            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
-            return $077836902f81f851$var$cachedClearTimeout.call(this, marker);
-        }
-    }
-}
-var $077836902f81f851$var$queue = [];
-var $077836902f81f851$var$draining = false;
-var $077836902f81f851$var$currentQueue;
-var $077836902f81f851$var$queueIndex = -1;
-function $077836902f81f851$var$cleanUpNextTick() {
-    if (!$077836902f81f851$var$draining || !$077836902f81f851$var$currentQueue) return;
-    $077836902f81f851$var$draining = false;
-    if ($077836902f81f851$var$currentQueue.length) $077836902f81f851$var$queue = $077836902f81f851$var$currentQueue.concat($077836902f81f851$var$queue);
-    else $077836902f81f851$var$queueIndex = -1;
-    if ($077836902f81f851$var$queue.length) $077836902f81f851$var$drainQueue();
-}
-function $077836902f81f851$var$drainQueue() {
-    if ($077836902f81f851$var$draining) return;
-    var timeout = $077836902f81f851$var$runTimeout($077836902f81f851$var$cleanUpNextTick);
-    $077836902f81f851$var$draining = true;
-    var len = $077836902f81f851$var$queue.length;
-    while(len){
-        $077836902f81f851$var$currentQueue = $077836902f81f851$var$queue;
-        $077836902f81f851$var$queue = [];
-        while(++$077836902f81f851$var$queueIndex < len)if ($077836902f81f851$var$currentQueue) $077836902f81f851$var$currentQueue[$077836902f81f851$var$queueIndex].run();
-        $077836902f81f851$var$queueIndex = -1;
-        len = $077836902f81f851$var$queue.length;
-    }
-    $077836902f81f851$var$currentQueue = null;
-    $077836902f81f851$var$draining = false;
-    $077836902f81f851$var$runClearTimeout(timeout);
-}
-$077836902f81f851$var$process.nextTick = function(fun) {
-    var args = new Array(arguments.length - 1);
-    if (arguments.length > 1) for(var i = 1; i < arguments.length; i++)args[i - 1] = arguments[i];
-    $077836902f81f851$var$queue.push(new $077836902f81f851$var$Item(fun, args));
-    if ($077836902f81f851$var$queue.length === 1 && !$077836902f81f851$var$draining) $077836902f81f851$var$runTimeout($077836902f81f851$var$drainQueue);
-};
-// v8 likes predictible objects
-function $077836902f81f851$var$Item(fun, array) {
-    this.fun = fun;
-    this.array = array;
-}
-$077836902f81f851$var$Item.prototype.run = function() {
-    this.fun.apply(null, this.array);
-};
-$077836902f81f851$var$process.title = "browser";
-$077836902f81f851$var$process.browser = true;
-$077836902f81f851$var$process.env = {};
-$077836902f81f851$var$process.argv = [];
-$077836902f81f851$var$process.version = ""; // empty string to avoid regexp issues
-$077836902f81f851$var$process.versions = {};
-function $077836902f81f851$var$noop() {}
-$077836902f81f851$var$process.on = $077836902f81f851$var$noop;
-$077836902f81f851$var$process.addListener = $077836902f81f851$var$noop;
-$077836902f81f851$var$process.once = $077836902f81f851$var$noop;
-$077836902f81f851$var$process.off = $077836902f81f851$var$noop;
-$077836902f81f851$var$process.removeListener = $077836902f81f851$var$noop;
-$077836902f81f851$var$process.removeAllListeners = $077836902f81f851$var$noop;
-$077836902f81f851$var$process.emit = $077836902f81f851$var$noop;
-$077836902f81f851$var$process.prependListener = $077836902f81f851$var$noop;
-$077836902f81f851$var$process.prependOnceListener = $077836902f81f851$var$noop;
-$077836902f81f851$var$process.listeners = function(name) {
-    return [];
-};
-$077836902f81f851$var$process.binding = function(name) {
-    throw new Error("process.binding is not supported");
-};
-$077836902f81f851$var$process.cwd = function() {
-    return "/";
-};
-$077836902f81f851$var$process.chdir = function(dir) {
-    throw new Error("process.chdir is not supported");
-};
-$077836902f81f851$var$process.umask = function() {
-    return 0;
-};
-
-
-function $8e5123d50489ab4c$var$v() {
-    return ($8e5123d50489ab4c$var$v = Object.assign || function(e) {
-        for(var t = 1; t < arguments.length; t++){
-            var n = arguments[t];
-            for(var _$r in n)Object.prototype.hasOwnProperty.call(n, _$r) && (e[_$r] = n[_$r]);
-        }
-        return e;
-    }).apply(this, arguments);
-}
-var $8e5123d50489ab4c$var$g = function g(e, t) {
-    for(var n = [
-        e[0]
-    ], _$r = 0, o = t.length; _$r < o; _$r += 1)n.push(t[_$r], e[_$r + 1]);
-    return n;
-}, $8e5123d50489ab4c$var$S = function S(t) {
-    return null !== t && "object" == typeof t && "[object Object]" === (t.toString ? t.toString() : Object.prototype.toString.call(t)) && !(0, $32f7698be24af902$exports.typeOf)(t);
-}, $8e5123d50489ab4c$var$w = Object.freeze([]), $8e5123d50489ab4c$var$E = Object.freeze({});
-function $8e5123d50489ab4c$var$b(e) {
-    return "function" == typeof e;
-}
-function $8e5123d50489ab4c$var$_(e) {
-    return e.displayName || e.name || "Component";
-}
-function $8e5123d50489ab4c$export$7ba318d8d2f06c76(e) {
-    return e && "string" == typeof e.styledComponentId;
-}
-var $8e5123d50489ab4c$var$A = ("undefined" != typeof $077836902f81f851$exports && undefined, "data-styled"), $8e5123d50489ab4c$export$83d89fbfd8236492 = "5.3.5", $8e5123d50489ab4c$var$I = "undefined" != typeof window && "HTMLElement" in window, $8e5123d50489ab4c$var$P = Boolean("boolean" == typeof SC_DISABLE_SPEEDY ? SC_DISABLE_SPEEDY : (typeof $077836902f81f851$exports === "undefined" ? "undefined" : (0, $5YZ7h.default)($077836902f81f851$exports), typeof $077836902f81f851$exports === "undefined" ? "undefined" : (0, $5YZ7h.default)($077836902f81f851$exports), false)), $8e5123d50489ab4c$var$O = {}, $8e5123d50489ab4c$var$R = {};
-function $8e5123d50489ab4c$var$D() {
-    for(var e = arguments.length <= 0 ? void 0 : arguments[0], t = [], n = 1, _$r = arguments.length; n < _$r; n += 1)t.push(n < 0 || arguments.length <= n ? void 0 : arguments[n]);
-    return t.forEach(function(t) {
-        e = e.replace(/%[a-z]/, t);
-    }), e;
-}
-function $8e5123d50489ab4c$var$j(e) {
-    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), _$r = 1; _$r < t; _$r++)n[_$r - 1] = arguments[_$r];
-    throw new Error("An error occurred. See https://git.io/JUIaE#" + e + " for more information." + (n.length > 0 ? " Args: " + n.join(", ") : ""));
-}
-var $8e5123d50489ab4c$var$T = function() {
-    var e = function e(e1) {
-        this.groupSizes = new Uint32Array(512), this.length = 512, this.tag = e1;
-    };
-    var t = e.prototype;
-    return t.indexOfGroup = function(e) {
-        for(var t = 0, n = 0; n < e; n++)t += this.groupSizes[n];
-        return t;
-    }, t.insertRules = function(e, t) {
-        if (e >= this.groupSizes.length) {
-            for(var n = this.groupSizes, _$r = n.length, o = _$r; e >= o;)(o <<= 1) < 0 && $8e5123d50489ab4c$var$j(16, "" + e);
-            this.groupSizes = new Uint32Array(o), this.groupSizes.set(n), this.length = o;
-            for(var s = _$r; s < o; s++)this.groupSizes[s] = 0;
-        }
-        for(var i = this.indexOfGroup(e + 1), a = 0, c = t.length; a < c; a++)this.tag.insertRule(i, t[a]) && (this.groupSizes[e]++, i++);
-    }, t.clearGroup = function(e) {
-        if (e < this.length) {
-            var t = this.groupSizes[e], n = this.indexOfGroup(e), _$r = n + t;
-            this.groupSizes[e] = 0;
-            for(var o = n; o < _$r; o++)this.tag.deleteRule(n);
-        }
-    }, t.getGroup = function(e) {
-        var t = "";
-        if (e >= this.length || 0 === this.groupSizes[e]) return t;
-        for(var n = this.groupSizes[e], _$r = this.indexOfGroup(e), o = _$r + n, s = _$r; s < o; s++)t += this.tag.getRule(s) + "/*!sc*/\n";
-        return t;
-    }, e;
-}(), $8e5123d50489ab4c$var$x = new Map, $8e5123d50489ab4c$var$k = new Map, $8e5123d50489ab4c$var$V = 1, $8e5123d50489ab4c$var$B = function B(e) {
-    if ($8e5123d50489ab4c$var$x.has(e)) return $8e5123d50489ab4c$var$x.get(e);
-    for(; $8e5123d50489ab4c$var$k.has($8e5123d50489ab4c$var$V);)$8e5123d50489ab4c$var$V++;
-    var t = $8e5123d50489ab4c$var$V++;
-    return $8e5123d50489ab4c$var$x.set(e, t), $8e5123d50489ab4c$var$k.set(t, e), t;
-}, $8e5123d50489ab4c$var$z = function z(e) {
-    return $8e5123d50489ab4c$var$k.get(e);
-}, $8e5123d50489ab4c$var$M = function M(e, t) {
-    t >= $8e5123d50489ab4c$var$V && ($8e5123d50489ab4c$var$V = t + 1), $8e5123d50489ab4c$var$x.set(e, t), $8e5123d50489ab4c$var$k.set(t, e);
-}, $8e5123d50489ab4c$var$G = "style[" + $8e5123d50489ab4c$var$A + '][data-styled-version="5.3.5"]', $8e5123d50489ab4c$var$L = new RegExp("^" + $8e5123d50489ab4c$var$A + '\\.g(\\d+)\\[id="([\\w\\d-]+)"\\].*?"([^"]*)'), $8e5123d50489ab4c$var$F = function F(e, t, n) {
-    for(var _$r, o = n.split(","), s = 0, i = o.length; s < i; s++)(_$r = o[s]) && e.registerName(t, _$r);
-}, $8e5123d50489ab4c$var$Y = function Y(e, t) {
-    for(var n = (t.textContent || "").split("/*!sc*/\n"), _$r = [], o = 0, s = n.length; o < s; o++){
-        var i = n[o].trim();
-        if (i) {
-            var a = i.match($8e5123d50489ab4c$var$L);
-            if (a) {
-                var c = 0 | parseInt(a[1], 10), u = a[2];
-                0 !== c && ($8e5123d50489ab4c$var$M(u, c), $8e5123d50489ab4c$var$F(e, u, a[3]), e.getTag().insertRules(c, _$r)), _$r.length = 0;
-            } else _$r.push(i);
-        }
-    }
-}, $8e5123d50489ab4c$var$q = function q() {
-    return "undefined" != typeof window && void 0 !== window.__webpack_nonce__ ? window.__webpack_nonce__ : null;
-}, $8e5123d50489ab4c$var$H = function H(e) {
-    var t = document.head, n = e || t, _$r = document.createElement("style"), o = function(e) {
-        for(var t = e.childNodes, n = t.length; n >= 0; n--){
-            var _$r = t[n];
-            if (_$r && 1 === _$r.nodeType && _$r.hasAttribute($8e5123d50489ab4c$var$A)) return _$r;
-        }
-    }(n), s = void 0 !== o ? o.nextSibling : null;
-    _$r.setAttribute($8e5123d50489ab4c$var$A, "active"), _$r.setAttribute("data-styled-version", "5.3.5");
-    var i = $8e5123d50489ab4c$var$q();
-    return i && _$r.setAttribute("nonce", i), n.insertBefore(_$r, s), _$r;
-}, $8e5123d50489ab4c$var$$ = function() {
-    var e = function e(e1) {
-        var t = this.element = $8e5123d50489ab4c$var$H(e1);
-        t.appendChild(document.createTextNode("")), this.sheet = function(e) {
-            if (e.sheet) return e.sheet;
-            for(var t = document.styleSheets, n = 0, _$r = t.length; n < _$r; n++){
-                var o = t[n];
-                if (o.ownerNode === e) return o;
-            }
-            $8e5123d50489ab4c$var$j(17);
-        }(t), this.length = 0;
-    };
-    var t = e.prototype;
-    return t.insertRule = function(e, t) {
-        try {
-            return this.sheet.insertRule(t, e), this.length++, !0;
-        } catch (e1) {
-            return !1;
-        }
-    }, t.deleteRule = function(e) {
-        this.sheet.deleteRule(e), this.length--;
-    }, t.getRule = function(e) {
-        var t = this.sheet.cssRules[e];
-        return void 0 !== t && "string" == typeof t.cssText ? t.cssText : "";
-    }, e;
-}(), $8e5123d50489ab4c$var$W = function() {
-    var e = function e(e1) {
-        var t = this.element = $8e5123d50489ab4c$var$H(e1);
-        this.nodes = t.childNodes, this.length = 0;
-    };
-    var t = e.prototype;
-    return t.insertRule = function(e, t) {
-        if (e <= this.length && e >= 0) {
-            var n = document.createTextNode(t), _$r = this.nodes[e];
-            return this.element.insertBefore(n, _$r || null), this.length++, !0;
-        }
-        return !1;
-    }, t.deleteRule = function(e) {
-        this.element.removeChild(this.nodes[e]), this.length--;
-    }, t.getRule = function(e) {
-        return e < this.length ? this.nodes[e].textContent : "";
-    }, e;
-}(), $8e5123d50489ab4c$var$U = function() {
-    var e = function e(e1) {
-        this.rules = [], this.length = 0;
-    };
-    var t = e.prototype;
-    return t.insertRule = function(e, t) {
-        return e <= this.length && (this.rules.splice(e, 0, t), this.length++, !0);
-    }, t.deleteRule = function(e) {
-        this.rules.splice(e, 1), this.length--;
-    }, t.getRule = function(e) {
-        return e < this.length ? this.rules[e] : "";
-    }, e;
-}(), $8e5123d50489ab4c$var$J = $8e5123d50489ab4c$var$I, $8e5123d50489ab4c$var$X = {
-    isServer: !$8e5123d50489ab4c$var$I,
-    useCSSOMInjection: !$8e5123d50489ab4c$var$P
-}, $8e5123d50489ab4c$var$Z = function() {
-    var e = function e(e1, t, n) {
-        void 0 === e1 && (e1 = $8e5123d50489ab4c$var$E), void 0 === t && (t = {}), this.options = $8e5123d50489ab4c$var$v({}, $8e5123d50489ab4c$var$X, {}, e1), this.gs = t, this.names = new Map(n), this.server = !!e1.isServer, !this.server && $8e5123d50489ab4c$var$I && $8e5123d50489ab4c$var$J && ($8e5123d50489ab4c$var$J = !1, function(e) {
-            for(var _$t = document.querySelectorAll($8e5123d50489ab4c$var$G), _$n = 0, _$r = _$t.length; _$n < _$r; _$n++){
-                var o = _$t[_$n];
-                o && "active" !== o.getAttribute($8e5123d50489ab4c$var$A) && ($8e5123d50489ab4c$var$Y(e, o), o.parentNode && o.parentNode.removeChild(o));
-            }
-        }(this));
-    };
-    e.registerId = function(e) {
-        return $8e5123d50489ab4c$var$B(e);
-    };
-    var t = e.prototype;
-    return t.reconstructWithOptions = function(t, n) {
-        return void 0 === n && (n = !0), new e($8e5123d50489ab4c$var$v({}, this.options, {}, t), this.gs, n && this.names || void 0);
-    }, t.allocateGSInstance = function(e) {
-        return this.gs[e] = (this.gs[e] || 0) + 1;
-    }, t.getTag = function() {
-        var e, t, n, _$r, o;
-        return this.tag || (this.tag = (n = (t = this.options).isServer, _$r = t.useCSSOMInjection, o = t.target, e = n ? new $8e5123d50489ab4c$var$U(o) : _$r ? new $8e5123d50489ab4c$var$$(o) : new $8e5123d50489ab4c$var$W(o), new $8e5123d50489ab4c$var$T(e)));
-    }, t.hasNameForId = function(e, t) {
-        return this.names.has(e) && this.names.get(e).has(t);
-    }, t.registerName = function(e, t) {
-        if ($8e5123d50489ab4c$var$B(e), this.names.has(e)) this.names.get(e).add(t);
-        else {
-            var n = new Set;
-            n.add(t), this.names.set(e, n);
-        }
-    }, t.insertRules = function(e, t, n) {
-        this.registerName(e, t), this.getTag().insertRules($8e5123d50489ab4c$var$B(e), n);
-    }, t.clearNames = function(e) {
-        this.names.has(e) && this.names.get(e).clear();
-    }, t.clearRules = function(e) {
-        this.getTag().clearGroup($8e5123d50489ab4c$var$B(e)), this.clearNames(e);
-    }, t.clearTag = function() {
-        this.tag = void 0;
-    }, t.toString = function() {
-        return function(e) {
-            for(var t = e.getTag(), n = t.length, _$r = "", o = 0; o < n; o++){
-                var s = $8e5123d50489ab4c$var$z(o);
-                if (void 0 !== s) {
-                    var i = e.names.get(s), a = t.getGroup(o);
-                    if (i && a && i.size) {
-                        var c = $8e5123d50489ab4c$var$A + ".g" + o + '[id="' + s + '"]', u = "";
-                        void 0 !== i && i.forEach(function(e) {
-                            e.length > 0 && (u += e + ",");
-                        }), _$r += "" + a + c + '{content:"' + u + '"}/*!sc*/\n';
-                    }
-                }
-            }
-            return _$r;
-        }(this);
-    }, e;
-}(), $8e5123d50489ab4c$var$K = /(a)(d)/gi, $8e5123d50489ab4c$var$Q = function Q(e) {
-    return String.fromCharCode(e + (e > 25 ? 39 : 97));
-};
-function $8e5123d50489ab4c$var$ee(e) {
-    var t, n = "";
-    for(t = Math.abs(e); t > 52; t = t / 52 | 0)n = $8e5123d50489ab4c$var$Q(t % 52) + n;
-    return ($8e5123d50489ab4c$var$Q(t % 52) + n).replace($8e5123d50489ab4c$var$K, "$1-$2");
-}
-var $8e5123d50489ab4c$var$te = function te(e, t) {
-    for(var n = t.length; n;)e = 33 * e ^ t.charCodeAt(--n);
-    return e;
-}, $8e5123d50489ab4c$var$ne = function ne(e) {
-    return $8e5123d50489ab4c$var$te(5381, e);
-};
-function $8e5123d50489ab4c$var$re(e) {
-    for(var t = 0; t < e.length; t += 1){
-        var n = e[t];
-        if ($8e5123d50489ab4c$var$b(n) && !$8e5123d50489ab4c$export$7ba318d8d2f06c76(n)) return !1;
-    }
-    return !0;
-}
-var $8e5123d50489ab4c$var$oe = $8e5123d50489ab4c$var$ne("5.3.5"), $8e5123d50489ab4c$var$se = function() {
-    var e = function e(e1, t, n) {
-        this.rules = e1, this.staticRulesId = "", this.isStatic = (void 0 === n || n.isStatic) && $8e5123d50489ab4c$var$re(e1), this.componentId = t, this.baseHash = $8e5123d50489ab4c$var$te($8e5123d50489ab4c$var$oe, t), this.baseStyle = n, $8e5123d50489ab4c$var$Z.registerId(t);
-    };
-    return e.prototype.generateAndInjectStyles = function(e, t, n) {
-        var _$r = this.componentId, o = [];
-        if (this.baseStyle && o.push(this.baseStyle.generateAndInjectStyles(e, t, n)), this.isStatic && !n.hash) {
-            if (this.staticRulesId && t.hasNameForId(_$r, this.staticRulesId)) o.push(this.staticRulesId);
-            else {
-                var s = $8e5123d50489ab4c$var$Ne(this.rules, e, t, n).join(""), i = $8e5123d50489ab4c$var$ee($8e5123d50489ab4c$var$te(this.baseHash, s) >>> 0);
-                if (!t.hasNameForId(_$r, i)) {
-                    var a = n(s, "." + i, void 0, _$r);
-                    t.insertRules(_$r, i, a);
-                }
-                o.push(i), this.staticRulesId = i;
-            }
-        } else {
-            for(var c = this.rules.length, u = $8e5123d50489ab4c$var$te(this.baseHash, n.hash), l = "", d = 0; d < c; d++){
-                var h = this.rules[d];
-                if ("string" == typeof h) l += h;
-                else if (h) {
-                    var p = $8e5123d50489ab4c$var$Ne(h, e, t, n), f = Array.isArray(p) ? p.join("") : p;
-                    u = $8e5123d50489ab4c$var$te(u, f + d), l += f;
-                }
-            }
-            if (l) {
-                var m = $8e5123d50489ab4c$var$ee(u >>> 0);
-                if (!t.hasNameForId(_$r, m)) {
-                    var y = n(l, "." + m, void 0, _$r);
-                    t.insertRules(_$r, m, y);
-                }
-                o.push(m);
-            }
-        }
-        return o.join(" ");
-    }, e;
-}(), $8e5123d50489ab4c$var$ie = /^\s*\/\/.*$/gm, $8e5123d50489ab4c$var$ae = [
-    ":",
-    "[",
-    ".",
-    "#"
-];
-function $8e5123d50489ab4c$var$ce(e) {
-    var m = function m(e, s, i, a) {
-        void 0 === a && (a = "&");
-        var c = e.replace($8e5123d50489ab4c$var$ie, ""), u = s && i ? i + " " + s + " { " + c + " }" : c;
-        return t = a, n = s, _$r = new RegExp("\\" + n + "\\b", "g"), o = new RegExp("(\\" + n + "\\b){2,}"), l(i || !s ? "" : s, u);
-    };
-    var t, n, _$r, o, s = void 0 === e ? $8e5123d50489ab4c$var$E : e, i = s.options, a = void 0 === i ? $8e5123d50489ab4c$var$E : i, c = s.plugins, u = void 0 === c ? $8e5123d50489ab4c$var$w : c, l = new (0, $440138e69d760bb3$export$2e2bcd8739ae039)(a), d = [], h = function(e) {
-        var t = function t(t1) {
-            if (t1) try {
-                e(t1 + "}");
-            } catch (e1) {}
-        };
-        return function(n, r, o, s, i, a, c, u, l, d) {
-            switch(n){
-                case 1:
-                    if (0 === l && 64 === r.charCodeAt(0)) return e(r + ";"), "";
-                    break;
-                case 2:
-                    if (0 === u) return r + "/*|*/";
-                    break;
-                case 3:
-                    switch(u){
-                        case 102:
-                        case 112:
-                            return e(o[0] + r), "";
-                        default:
-                            return r + (0 === d ? "/*|*/" : "");
-                    }
-                case -2:
-                    r.split("/*|*/}").forEach(t);
-            }
-        };
-    }(function(e) {
-        d.push(e);
-    }), f = function f(e, r, s) {
-        return 0 === r && -1 !== $8e5123d50489ab4c$var$ae.indexOf(s[n.length]) || s.match(o) ? e : "." + t;
-    };
-    return l.use([].concat(u, [
-        function(e, t, o) {
-            2 === e && o.length && o[0].lastIndexOf(n) > 0 && (o[0] = o[0].replace(_$r, f));
-        },
-        h,
-        function(e) {
-            if (-2 === e) {
-                var t = d;
-                return d = [], t;
-            }
-        }
-    ])), m.hash = u.length ? u.reduce(function(e, t) {
-        return t.name || $8e5123d50489ab4c$var$j(15), $8e5123d50489ab4c$var$te(e, t.name);
-    }, 5381).toString() : "", m;
-}
-var $8e5123d50489ab4c$export$8c190ef828af4c86 = (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createContext(), $8e5123d50489ab4c$export$91317688fc694efa = $8e5123d50489ab4c$export$8c190ef828af4c86.Consumer, $8e5123d50489ab4c$var$de = (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createContext(), $8e5123d50489ab4c$var$he = ($8e5123d50489ab4c$var$de.Consumer, new $8e5123d50489ab4c$var$Z), $8e5123d50489ab4c$var$pe = $8e5123d50489ab4c$var$ce();
-function $8e5123d50489ab4c$var$fe() {
-    return (0, $fYIks.useContext)($8e5123d50489ab4c$export$8c190ef828af4c86) || $8e5123d50489ab4c$var$he;
-}
-function $8e5123d50489ab4c$var$me() {
-    return (0, $fYIks.useContext)($8e5123d50489ab4c$var$de) || $8e5123d50489ab4c$var$pe;
-}
-function $8e5123d50489ab4c$export$a473771da2f0ff7c(e) {
-    var t = (0, $fYIks.useState)(e.stylisPlugins), n = t[0], s = t[1], c = $8e5123d50489ab4c$var$fe(), u = (0, $fYIks.useMemo)(function() {
-        var t = c;
-        return e.sheet ? t = e.sheet : e.target && (t = t.reconstructWithOptions({
-            target: e.target
-        }, !1)), e.disableCSSOMInjection && (t = t.reconstructWithOptions({
-            useCSSOMInjection: !1
-        })), t;
-    }, [
-        e.disableCSSOMInjection,
-        e.sheet,
-        e.target
-    ]), l = (0, $fYIks.useMemo)(function() {
-        return $8e5123d50489ab4c$var$ce({
-            options: {
-                prefix: !e.disableVendorPrefixes
-            },
-            plugins: n
-        });
-    }, [
-        e.disableVendorPrefixes,
-        n
-    ]);
-    return (0, $fYIks.useEffect)(function() {
-        (0, (/*@__PURE__*/$parcel$interopDefault($243a08d0e236ca0c$exports)))(n, e.stylisPlugins) || s(e.stylisPlugins);
-    }, [
-        e.stylisPlugins
-    ]), (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createElement($8e5123d50489ab4c$export$8c190ef828af4c86.Provider, {
-        value: u
-    }, (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createElement($8e5123d50489ab4c$var$de.Provider, {
-        value: l
-    }, e.children));
-}
-var $8e5123d50489ab4c$var$ve = function() {
-    var e = function e(e1, t) {
-        var n = this;
-        this.inject = function(e, t) {
-            void 0 === t && (t = $8e5123d50489ab4c$var$pe);
-            var _$r = n.name + t.hash;
-            e.hasNameForId(n.id, _$r) || e.insertRules(n.id, _$r, t(n.rules, _$r, "@keyframes"));
-        }, this.toString = function() {
-            return $8e5123d50489ab4c$var$j(12, String(n.name));
-        }, this.name = e1, this.id = "sc-keyframes-" + e1, this.rules = t;
-    };
-    return e.prototype.getName = function(e) {
-        return void 0 === e && (e = $8e5123d50489ab4c$var$pe), this.name + e.hash;
-    }, e;
-}(), $8e5123d50489ab4c$var$ge = /([A-Z])/, $8e5123d50489ab4c$var$Se = /([A-Z])/g, $8e5123d50489ab4c$var$we = /^ms-/, $8e5123d50489ab4c$var$Ee = function Ee(e) {
-    return "-" + e.toLowerCase();
-};
-function $8e5123d50489ab4c$var$be(e) {
-    return $8e5123d50489ab4c$var$ge.test(e) ? e.replace($8e5123d50489ab4c$var$Se, $8e5123d50489ab4c$var$Ee).replace($8e5123d50489ab4c$var$we, "-ms-") : e;
-}
-var $8e5123d50489ab4c$var$_e = function _e(e) {
-    return null == e || !1 === e || "" === e;
-};
-function $8e5123d50489ab4c$var$Ne(e, n, r, o) {
-    if (Array.isArray(e)) {
-        for(var s, i = [], a = 0, c = e.length; a < c; a += 1)"" !== (s = $8e5123d50489ab4c$var$Ne(e[a], n, r, o)) && (Array.isArray(s) ? i.push.apply(i, s) : i.push(s));
-        return i;
-    }
-    if ($8e5123d50489ab4c$var$_e(e)) return "";
-    if ($8e5123d50489ab4c$export$7ba318d8d2f06c76(e)) return "." + e.styledComponentId;
-    if ($8e5123d50489ab4c$var$b(e)) {
-        if ("function" != typeof (l = e) || l.prototype && l.prototype.isReactComponent || !n) return e;
-        var u = e(n);
-        return $8e5123d50489ab4c$var$Ne(u, n, r, o);
-    }
-    var l;
-    return e instanceof $8e5123d50489ab4c$var$ve ? r ? (e.inject(r, o), e.getName(o)) : e : $8e5123d50489ab4c$var$S(e) ? function e(t, n) {
-        var _$r, _$o, s = [];
-        for(var i in t)t.hasOwnProperty(i) && !$8e5123d50489ab4c$var$_e(t[i]) && (Array.isArray(t[i]) && t[i].isCss || $8e5123d50489ab4c$var$b(t[i]) ? s.push($8e5123d50489ab4c$var$be(i) + ":", t[i], ";") : $8e5123d50489ab4c$var$S(t[i]) ? s.push.apply(s, e(t[i], i)) : s.push($8e5123d50489ab4c$var$be(i) + ": " + (_$r = i, null == (_$o = t[i]) || "boolean" == typeof _$o || "" === _$o ? "" : "number" != typeof _$o || 0 === _$o || _$r in (0, $d77b6cee63c9033d$export$2e2bcd8739ae039) ? String(_$o).trim() : _$o + "px") + ";"));
-        return n ? [
-            n + " {"
-        ].concat(s, [
-            "}"
-        ]) : s;
-    }(e) : e.toString();
-}
-var $8e5123d50489ab4c$var$Ae = function Ae(e) {
-    return Array.isArray(e) && (e.isCss = !0), e;
-};
-function $8e5123d50489ab4c$export$dbf350e5966cf602(e) {
-    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), _$r = 1; _$r < t; _$r++)n[_$r - 1] = arguments[_$r];
-    return $8e5123d50489ab4c$var$b(e) || $8e5123d50489ab4c$var$S(e) ? $8e5123d50489ab4c$var$Ae($8e5123d50489ab4c$var$Ne($8e5123d50489ab4c$var$g($8e5123d50489ab4c$var$w, [
-        e
-    ].concat(n)))) : 0 === n.length && 1 === e.length && "string" == typeof e[0] ? e : $8e5123d50489ab4c$var$Ae($8e5123d50489ab4c$var$Ne($8e5123d50489ab4c$var$g(e, n)));
-}
-var $8e5123d50489ab4c$var$Ie = /invalid hook call/i, $8e5123d50489ab4c$var$Pe = new Set, $8e5123d50489ab4c$var$Oe = function Oe(e, t) {
-    var n, _$r, o, e1, t1, s, i, e2;
-}, $8e5123d50489ab4c$var$Re = function Re(e, t, n) {
-    return void 0 === n && (n = $8e5123d50489ab4c$var$E), e.theme !== n.theme && e.theme || t || n.theme;
-}, $8e5123d50489ab4c$var$De = /[!"#$%&'()*+,./:;<=>?@[\\\]^`{|}~-]+/g, $8e5123d50489ab4c$var$je = /(^-|-$)/g;
-function $8e5123d50489ab4c$var$Te(e) {
-    return e.replace($8e5123d50489ab4c$var$De, "-").replace($8e5123d50489ab4c$var$je, "");
-}
-var $8e5123d50489ab4c$var$xe = function xe(e) {
-    return $8e5123d50489ab4c$var$ee($8e5123d50489ab4c$var$ne(e) >>> 0);
-};
-function $8e5123d50489ab4c$var$ke(e) {
-    return "string" == typeof e && true;
-}
-var $8e5123d50489ab4c$var$Ve = function Ve(e) {
-    return "function" == typeof e || "object" == typeof e && null !== e && !Array.isArray(e);
-}, $8e5123d50489ab4c$var$Be = function Be(e) {
-    return "__proto__" !== e && "constructor" !== e && "prototype" !== e;
-};
-function $8e5123d50489ab4c$var$ze(e, t, n) {
-    var _$r = e[n];
-    $8e5123d50489ab4c$var$Ve(t) && $8e5123d50489ab4c$var$Ve(_$r) ? $8e5123d50489ab4c$var$Me(_$r, t) : e[n] = t;
-}
-function $8e5123d50489ab4c$var$Me(e) {
-    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), _$r = 1; _$r < t; _$r++)n[_$r - 1] = arguments[_$r];
-    for(var o = 0, s = n; o < s.length; o++){
-        var i = s[o];
-        if ($8e5123d50489ab4c$var$Ve(i)) for(var a in i)$8e5123d50489ab4c$var$Be(a) && $8e5123d50489ab4c$var$ze(e, i[a], a);
-    }
-    return e;
-}
-var $8e5123d50489ab4c$export$2c657da244d00bd6 = (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createContext(), $8e5123d50489ab4c$export$b631efc24e9d5e2f = $8e5123d50489ab4c$export$2c657da244d00bd6.Consumer;
-function $8e5123d50489ab4c$export$d8964aec282183a3(e) {
-    var t = (0, $fYIks.useContext)($8e5123d50489ab4c$export$2c657da244d00bd6), n = (0, $fYIks.useMemo)(function() {
-        return function(e, t) {
-            if (!e) return $8e5123d50489ab4c$var$j(14);
-            if ($8e5123d50489ab4c$var$b(e)) {
-                var n = e(t);
-                return n;
-            }
-            return Array.isArray(e) || "object" != typeof e ? $8e5123d50489ab4c$var$j(8) : t ? $8e5123d50489ab4c$var$v({}, t, {}, e) : e;
-        }(e.theme, t);
-    }, [
-        e.theme,
-        t
-    ]);
-    return e.children ? (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createElement($8e5123d50489ab4c$export$2c657da244d00bd6.Provider, {
-        value: n
-    }, e.children) : null;
-}
-var $8e5123d50489ab4c$var$Ye = {};
-function $8e5123d50489ab4c$var$qe(e, t, n) {
-    var o = $8e5123d50489ab4c$export$7ba318d8d2f06c76(e), i = !$8e5123d50489ab4c$var$ke(e), a = t.attrs, c = void 0 === a ? $8e5123d50489ab4c$var$w : a, d = t.componentId, h = void 0 === d ? function(e, t) {
-        var _$n = "string" != typeof e ? "sc" : $8e5123d50489ab4c$var$Te(e);
-        $8e5123d50489ab4c$var$Ye[_$n] = ($8e5123d50489ab4c$var$Ye[_$n] || 0) + 1;
-        var _$r = _$n + "-" + $8e5123d50489ab4c$var$xe("5.3.5" + _$n + $8e5123d50489ab4c$var$Ye[_$n]);
-        return t ? t + "-" + _$r : _$r;
-    }(t.displayName, t.parentComponentId) : d, p = t.displayName, f = void 0 === p ? function(e) {
-        return $8e5123d50489ab4c$var$ke(e) ? "styled." + e : "Styled(" + $8e5123d50489ab4c$var$_(e) + ")";
-    }(e) : p, g = t.displayName && t.componentId ? $8e5123d50489ab4c$var$Te(t.displayName) + "-" + t.componentId : t.componentId || h, S = o && e.attrs ? Array.prototype.concat(e.attrs, c).filter(Boolean) : c, A = t.shouldForwardProp;
-    o && e.shouldForwardProp && (A = t.shouldForwardProp ? function A(n, r, o) {
-        return e.shouldForwardProp(n, r, o) && t.shouldForwardProp(n, r, o);
-    } : e.shouldForwardProp);
-    var C, I = new $8e5123d50489ab4c$var$se(n, g, o ? e.componentStyle : void 0), P = I.isStatic && 0 === c.length, O = function O(e, t) {
-        return function(e, t, n, r) {
-            var o = e.attrs, i = e.componentStyle, a = e.defaultProps, c = e.foldedComponentIds, d = e.shouldForwardProp, h = e.styledComponentId, p = e.target;
-            var f = function(e, t, n) {
-                void 0 === e && (e = $8e5123d50489ab4c$var$E);
-                var _$r = $8e5123d50489ab4c$var$v({}, t, {
-                    theme: e
-                }), o = {};
-                return n.forEach(function(e) {
-                    var _$t, _$n, _$s, i = e;
-                    for(_$t in $8e5123d50489ab4c$var$b(i) && (i = i(_$r)), i)_$r[_$t] = o[_$t] = "className" === _$t ? (_$n = o[_$t], _$s = i[_$t], _$n && _$s ? _$n + " " + _$s : _$n || _$s) : i[_$t];
-                }), [
-                    _$r,
-                    o
-                ];
-            }($8e5123d50489ab4c$var$Re(t, (0, $fYIks.useContext)($8e5123d50489ab4c$export$2c657da244d00bd6), a) || $8e5123d50489ab4c$var$E, t, o), _$y = f[0], g = f[1], S = function(e, t, n, r) {
-                var o = $8e5123d50489ab4c$var$fe(), _$s = $8e5123d50489ab4c$var$me(), i = t ? e.generateAndInjectStyles($8e5123d50489ab4c$var$E, o, _$s) : e.generateAndInjectStyles(n, o, _$s);
-                return i;
-            }(i, r, _$y, void 0), w = n, _ = g.$as || t.$as || g.as || t.as || p, _$N = $8e5123d50489ab4c$var$ke(_), A = g !== t ? $8e5123d50489ab4c$var$v({}, t, {}, g) : t, C = {};
-            for(var I in A)"$" !== I[0] && "as" !== I && ("forwardedAs" === I ? C.as = A[I] : (d ? d(I, (0, $e709b607ee8f3e74$export$2e2bcd8739ae039), _) : !_$N || (0, $e709b607ee8f3e74$export$2e2bcd8739ae039)(I)) && (C[I] = A[I]));
-            return t.style && g.style !== t.style && (C.style = $8e5123d50489ab4c$var$v({}, t.style, {}, g.style)), C.className = Array.prototype.concat(c, h, S !== h ? S : null, t.className, g.className).filter(Boolean).join(" "), C.ref = w, (0, $fYIks.createElement)(_, C);
-        }(C, e, t, P);
-    };
-    return O.displayName = f, (C = (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).forwardRef(O)).attrs = S, C.componentStyle = I, C.displayName = f, C.shouldForwardProp = A, C.foldedComponentIds = o ? Array.prototype.concat(e.foldedComponentIds, e.styledComponentId) : $8e5123d50489ab4c$var$w, C.styledComponentId = g, C.target = o ? e.target : e, C.withComponent = function(e) {
-        var _$r = t.componentId, o = function(e, t) {
-            if (null == e) return {};
-            var _$n, _$r, o = {}, s = Object.keys(e);
-            for(_$r = 0; _$r < s.length; _$r++)_$n = s[_$r], t.indexOf(_$n) >= 0 || (o[_$n] = e[_$n]);
-            return o;
-        }(t, [
-            "componentId"
-        ]), s = _$r && _$r + "-" + ($8e5123d50489ab4c$var$ke(e) ? e : $8e5123d50489ab4c$var$Te($8e5123d50489ab4c$var$_(e)));
-        return $8e5123d50489ab4c$var$qe(e, $8e5123d50489ab4c$var$v({}, o, {
-            attrs: S,
-            componentId: s
-        }), n);
-    }, Object.defineProperty(C, "defaultProps", {
-        get: function get() {
-            return this._foldedDefaultProps;
-        },
-        set: function set(t) {
-            this._foldedDefaultProps = o ? $8e5123d50489ab4c$var$Me({}, e.defaultProps, t) : t;
-        }
-    }), C.toString = function() {
-        return "." + C.styledComponentId;
-    }, i && (0, (/*@__PURE__*/$parcel$interopDefault($654330c990f2d2e0$exports)))(C, e, {
-        attrs: !0,
-        componentStyle: !0,
-        displayName: !0,
-        foldedComponentIds: !0,
-        shouldForwardProp: !0,
-        styledComponentId: !0,
-        target: !0,
-        withComponent: !0
-    }), C;
-}
-var $8e5123d50489ab4c$var$He = function He(e) {
-    return function e(t, r, o) {
-        if (void 0 === o && (o = $8e5123d50489ab4c$var$E), !(0, $32f7698be24af902$exports.isValidElementType)(r)) return $8e5123d50489ab4c$var$j(1, String(r));
-        var s = function s() {
-            return t(r, o, $8e5123d50489ab4c$export$dbf350e5966cf602.apply(void 0, arguments));
-        };
-        return s.withConfig = function(n) {
-            return e(t, r, $8e5123d50489ab4c$var$v({}, o, {}, n));
-        }, s.attrs = function(n) {
-            return e(t, r, $8e5123d50489ab4c$var$v({}, o, {
-                attrs: Array.prototype.concat(o.attrs, n).filter(Boolean)
-            }));
-        }, s;
-    }($8e5123d50489ab4c$var$qe, e);
-};
-[
-    "a",
-    "abbr",
-    "address",
-    "area",
-    "article",
-    "aside",
-    "audio",
-    "b",
-    "base",
-    "bdi",
-    "bdo",
-    "big",
-    "blockquote",
-    "body",
-    "br",
-    "button",
-    "canvas",
-    "caption",
-    "cite",
-    "code",
-    "col",
-    "colgroup",
-    "data",
-    "datalist",
-    "dd",
-    "del",
-    "details",
-    "dfn",
-    "dialog",
-    "div",
-    "dl",
-    "dt",
-    "em",
-    "embed",
-    "fieldset",
-    "figcaption",
-    "figure",
-    "footer",
-    "form",
-    "h1",
-    "h2",
-    "h3",
-    "h4",
-    "h5",
-    "h6",
-    "head",
-    "header",
-    "hgroup",
-    "hr",
-    "html",
-    "i",
-    "iframe",
-    "img",
-    "input",
-    "ins",
-    "kbd",
-    "keygen",
-    "label",
-    "legend",
-    "li",
-    "link",
-    "main",
-    "map",
-    "mark",
-    "marquee",
-    "menu",
-    "menuitem",
-    "meta",
-    "meter",
-    "nav",
-    "noscript",
-    "object",
-    "ol",
-    "optgroup",
-    "option",
-    "output",
-    "p",
-    "param",
-    "picture",
-    "pre",
-    "progress",
-    "q",
-    "rp",
-    "rt",
-    "ruby",
-    "s",
-    "samp",
-    "script",
-    "section",
-    "select",
-    "small",
-    "source",
-    "span",
-    "strong",
-    "style",
-    "sub",
-    "summary",
-    "sup",
-    "table",
-    "tbody",
-    "td",
-    "textarea",
-    "tfoot",
-    "th",
-    "thead",
-    "time",
-    "title",
-    "tr",
-    "track",
-    "u",
-    "ul",
-    "var",
-    "video",
-    "wbr",
-    "circle",
-    "clipPath",
-    "defs",
-    "ellipse",
-    "foreignObject",
-    "g",
-    "image",
-    "line",
-    "linearGradient",
-    "marker",
-    "mask",
-    "path",
-    "pattern",
-    "polygon",
-    "polyline",
-    "radialGradient",
-    "rect",
-    "stop",
-    "svg",
-    "text",
-    "textPath",
-    "tspan"
-].forEach(function(e) {
-    $8e5123d50489ab4c$var$He[e] = $8e5123d50489ab4c$var$He(e);
-});
-var $8e5123d50489ab4c$var$$e = function() {
-    var e = function e(e1, t) {
-        this.rules = e1, this.componentId = t, this.isStatic = $8e5123d50489ab4c$var$re(e1), $8e5123d50489ab4c$var$Z.registerId(this.componentId + 1);
-    };
-    var t = e.prototype;
-    return t.createStyles = function(e, t, n, r) {
-        var o = r($8e5123d50489ab4c$var$Ne(this.rules, t, n, r).join(""), ""), s = this.componentId + e;
-        n.insertRules(s, s, o);
-    }, t.removeStyles = function(e, t) {
-        t.clearRules(this.componentId + e);
-    }, t.renderStyles = function(e, t, n, r) {
-        e > 2 && $8e5123d50489ab4c$var$Z.registerId(this.componentId + e), this.removeStyles(e, n), this.createStyles(e, t, n, r);
-    }, e;
-}();
-function $8e5123d50489ab4c$export$f0f03736edb61697(e) {
-    var l = function l(e) {
-        var t = $8e5123d50489ab4c$var$fe(), n = $8e5123d50489ab4c$var$me(), o = (0, $fYIks.useContext)($8e5123d50489ab4c$export$2c657da244d00bd6), l1 = (0, $fYIks.useRef)(t.allocateGSInstance(a)).current;
-        return t.server && h(l1, e, t, o, n), (0, $fYIks.useLayoutEffect)(function() {
-            if (!t.server) return h(l1, e, t, o, n), function() {
-                return u.removeStyles(l1, t);
-            };
-        }, [
-            l1,
-            e,
-            t,
-            o,
-            n
-        ]), null;
-    };
-    var h = function h(e, t, n, r, o) {
-        if (u.isStatic) u.renderStyles(e, $8e5123d50489ab4c$var$O, n, o);
-        else {
-            var s = $8e5123d50489ab4c$var$v({}, t, {
-                theme: $8e5123d50489ab4c$var$Re(t, r, l.defaultProps)
-            });
-            u.renderStyles(e, s, n, o);
-        }
-    };
-    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), o = 1; o < t; o++)n[o - 1] = arguments[o];
-    var i = $8e5123d50489ab4c$export$dbf350e5966cf602.apply(void 0, [
-        e
-    ].concat(n)), a = "sc-global-" + $8e5123d50489ab4c$var$xe(JSON.stringify(i)), u = new $8e5123d50489ab4c$var$$e(i, a);
-    return (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).memo(l);
-}
-function $8e5123d50489ab4c$export$d25ddfdf17c3ad3e(e) {
-    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), _$r = 1; _$r < t; _$r++)n[_$r - 1] = arguments[_$r];
-    var o = $8e5123d50489ab4c$export$dbf350e5966cf602.apply(void 0, [
-        e
-    ].concat(n)).join(""), s = $8e5123d50489ab4c$var$xe(o);
-    return new $8e5123d50489ab4c$var$ve(s, o);
-}
-var $8e5123d50489ab4c$export$ae8c7d15c8b89a20 = function() {
-    var e = function e() {
-        var e1 = this;
-        this._emitSheetCSS = function() {
-            var t = e1.instance.toString();
-            if (!t) return "";
-            var n = $8e5123d50489ab4c$var$q();
-            return "<style " + [
-                n && 'nonce="' + n + '"',
-                $8e5123d50489ab4c$var$A + '="true"',
-                'data-styled-version="5.3.5"'
-            ].filter(Boolean).join(" ") + ">" + t + "</style>";
-        }, this.getStyleTags = function() {
-            return e1.sealed ? $8e5123d50489ab4c$var$j(2) : e1._emitSheetCSS();
-        }, this.getStyleElement = function() {
-            var t;
-            if (e1.sealed) return $8e5123d50489ab4c$var$j(2);
-            var n = ((t = {})[$8e5123d50489ab4c$var$A] = "", t["data-styled-version"] = "5.3.5", t.dangerouslySetInnerHTML = {
-                __html: e1.instance.toString()
-            }, t), o = $8e5123d50489ab4c$var$q();
-            return o && (n.nonce = o), [
-                (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createElement("style", $8e5123d50489ab4c$var$v({}, n, {
-                    key: "sc-0-0"
-                }))
-            ];
-        }, this.seal = function() {
-            e1.sealed = !0;
-        }, this.instance = new $8e5123d50489ab4c$var$Z({
-            isServer: !0
-        }), this.sealed = !1;
-    };
-    var t = e.prototype;
-    return t.collectStyles = function(e) {
-        return this.sealed ? $8e5123d50489ab4c$var$j(2) : (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createElement($8e5123d50489ab4c$export$a473771da2f0ff7c, {
-            sheet: this.instance
-        }, e);
-    }, t.interleaveWithNodeStream = function(e) {
-        return $8e5123d50489ab4c$var$j(3);
-    }, e;
-}(), $8e5123d50489ab4c$export$e8748c6a27b910dc = function Xe(e) {
-    var t = (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).forwardRef(function(t, n) {
-        var o = (0, $fYIks.useContext)($8e5123d50489ab4c$export$2c657da244d00bd6), i = e.defaultProps, a = $8e5123d50489ab4c$var$Re(t, o, i);
-        return (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createElement(e, $8e5123d50489ab4c$var$v({}, t, {
-            theme: a,
-            ref: n
-        }));
-    });
-    return (0, (/*@__PURE__*/$parcel$interopDefault($654330c990f2d2e0$exports)))(t, e), t.displayName = "WithTheme(" + $8e5123d50489ab4c$var$_(e) + ")", t;
-}, $8e5123d50489ab4c$export$93d4e7f90805808f = function Ze() {
-    return (0, $fYIks.useContext)($8e5123d50489ab4c$export$2c657da244d00bd6);
-}, $8e5123d50489ab4c$export$5c87cfe6c475f500 = {
-    StyleSheet: $8e5123d50489ab4c$var$Z,
-    masterSheet: $8e5123d50489ab4c$var$he
-};
-var $8e5123d50489ab4c$export$2e2bcd8739ae039 = $8e5123d50489ab4c$var$He;
-
-
-
-var $5YZ7h = parcelRequire("5YZ7h");
-function $f899c77662afb645$export$2e2bcd8739ae039() {
-    $f899c77662afb645$export$2e2bcd8739ae039 = Object.assign ? Object.assign.bind() : function _extends(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return $f899c77662afb645$export$2e2bcd8739ae039.apply(this, arguments);
-}
-
-
-function $5da0df701ba4f346$export$2e2bcd8739ae039(self) {
-    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-    return self;
-}
-
-
-function $e9671eb87c5b5520$export$2e2bcd8739ae039(o, p) {
-    $e9671eb87c5b5520$export$2e2bcd8739ae039 = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
-        o.__proto__ = p;
-        return o;
-    };
-    return $e9671eb87c5b5520$export$2e2bcd8739ae039(o, p);
-}
-
-
-function $d5993dd126912499$export$2e2bcd8739ae039(subClass, superClass) {
-    subClass.prototype = Object.create(superClass.prototype);
-    subClass.prototype.constructor = subClass;
-    (0, $e9671eb87c5b5520$export$2e2bcd8739ae039)(subClass, superClass);
-}
-
-
-function $4c2c0bd89c50d6a9$export$2e2bcd8739ae039(o) {
-    $4c2c0bd89c50d6a9$export$2e2bcd8739ae039 = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) {
-        return o.__proto__ || Object.getPrototypeOf(o);
-    };
-    return $4c2c0bd89c50d6a9$export$2e2bcd8739ae039(o);
-}
-
-
-
-function $93aa88e16f261b12$export$2e2bcd8739ae039(fn) {
-    return Function.toString.call(fn).indexOf("[native code]") !== -1;
-}
-
-
-
-function $9c8bd591368bb2af$export$2e2bcd8739ae039() {
-    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-    if (Reflect.construct.sham) return false;
-    if (typeof Proxy === "function") return true;
-    try {
-        Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function() {}));
-        return true;
-    } catch (e) {
-        return false;
-    }
-}
-
-
-function $554d6c9989dfd816$export$2e2bcd8739ae039(Parent, args, Class) {
-    if ((0, $9c8bd591368bb2af$export$2e2bcd8739ae039)()) $554d6c9989dfd816$export$2e2bcd8739ae039 = Reflect.construct.bind();
-    else $554d6c9989dfd816$export$2e2bcd8739ae039 = function _construct(Parent, args, Class) {
-        var a = [
-            null
-        ];
-        a.push.apply(a, args);
-        var Constructor = Function.bind.apply(Parent, a);
-        var instance = new Constructor();
-        if (Class) (0, $e9671eb87c5b5520$export$2e2bcd8739ae039)(instance, Class.prototype);
-        return instance;
-    };
-    return $554d6c9989dfd816$export$2e2bcd8739ae039.apply(null, arguments);
-}
-
-
-function $72039139e4622fe6$export$2e2bcd8739ae039(Class) {
-    var _cache = typeof Map === "function" ? new Map() : undefined;
-    $72039139e4622fe6$export$2e2bcd8739ae039 = function _wrapNativeSuper(Class) {
-        var Wrapper = function Wrapper() {
-            return (0, $554d6c9989dfd816$export$2e2bcd8739ae039)(Class, arguments, (0, $4c2c0bd89c50d6a9$export$2e2bcd8739ae039)(this).constructor);
-        };
-        if (Class === null || !(0, $93aa88e16f261b12$export$2e2bcd8739ae039)(Class)) return Class;
-        if (typeof Class !== "function") throw new TypeError("Super expression must either be null or a function");
-        if (typeof _cache !== "undefined") {
-            if (_cache.has(Class)) return _cache.get(Class);
-            _cache.set(Class, Wrapper);
-        }
-        Wrapper.prototype = Object.create(Class.prototype, {
-            constructor: {
-                value: Wrapper,
-                enumerable: false,
-                writable: true,
-                configurable: true
-            }
-        });
-        return (0, $e9671eb87c5b5520$export$2e2bcd8739ae039)(Wrapper, Class);
-    };
-    return $72039139e4622fe6$export$2e2bcd8739ae039(Class);
-}
-
-
-function $c3c5af371be9e4f3$export$2e2bcd8739ae039(strings, raw) {
-    if (!raw) raw = strings.slice(0);
-    strings.raw = raw;
-    return strings;
-}
-
-
-function $e969c25bbfcf3237$var$last() {
-    var _ref;
-    return _ref = arguments.length - 1, _ref < 0 || arguments.length <= _ref ? undefined : arguments[_ref];
-}
-function $e969c25bbfcf3237$var$negation(a) {
-    return -a;
-}
-function $e969c25bbfcf3237$var$addition(a, b) {
-    return a + b;
-}
-function $e969c25bbfcf3237$var$subtraction(a, b) {
-    return a - b;
-}
-function $e969c25bbfcf3237$var$multiplication(a, b) {
-    return a * b;
-}
-function $e969c25bbfcf3237$var$division(a, b) {
-    return a / b;
-}
-function $e969c25bbfcf3237$var$max() {
-    return Math.max.apply(Math, arguments);
-}
-function $e969c25bbfcf3237$var$min() {
-    return Math.min.apply(Math, arguments);
-}
-function $e969c25bbfcf3237$var$comma() {
-    return Array.of.apply(Array, arguments);
-}
-var $e969c25bbfcf3237$var$defaultSymbols = {
-    symbols: {
-        "*": {
-            infix: {
-                symbol: "*",
-                f: $e969c25bbfcf3237$var$multiplication,
-                notation: "infix",
-                precedence: 4,
-                rightToLeft: 0,
-                argCount: 2
-            },
-            symbol: "*",
-            regSymbol: "\\*"
-        },
-        "/": {
-            infix: {
-                symbol: "/",
-                f: $e969c25bbfcf3237$var$division,
-                notation: "infix",
-                precedence: 4,
-                rightToLeft: 0,
-                argCount: 2
-            },
-            symbol: "/",
-            regSymbol: "/"
-        },
-        "+": {
-            infix: {
-                symbol: "+",
-                f: $e969c25bbfcf3237$var$addition,
-                notation: "infix",
-                precedence: 2,
-                rightToLeft: 0,
-                argCount: 2
-            },
-            prefix: {
-                symbol: "+",
-                f: $e969c25bbfcf3237$var$last,
-                notation: "prefix",
-                precedence: 3,
-                rightToLeft: 0,
-                argCount: 1
-            },
-            symbol: "+",
-            regSymbol: "\\+"
-        },
-        "-": {
-            infix: {
-                symbol: "-",
-                f: $e969c25bbfcf3237$var$subtraction,
-                notation: "infix",
-                precedence: 2,
-                rightToLeft: 0,
-                argCount: 2
-            },
-            prefix: {
-                symbol: "-",
-                f: $e969c25bbfcf3237$var$negation,
-                notation: "prefix",
-                precedence: 3,
-                rightToLeft: 0,
-                argCount: 1
-            },
-            symbol: "-",
-            regSymbol: "-"
-        },
-        ",": {
-            infix: {
-                symbol: ",",
-                f: $e969c25bbfcf3237$var$comma,
-                notation: "infix",
-                precedence: 1,
-                rightToLeft: 0,
-                argCount: 2
-            },
-            symbol: ",",
-            regSymbol: ","
-        },
-        "(": {
-            prefix: {
-                symbol: "(",
-                f: $e969c25bbfcf3237$var$last,
-                notation: "prefix",
-                precedence: 0,
-                rightToLeft: 0,
-                argCount: 1
-            },
-            symbol: "(",
-            regSymbol: "\\("
-        },
-        ")": {
-            postfix: {
-                symbol: ")",
-                f: undefined,
-                notation: "postfix",
-                precedence: 0,
-                rightToLeft: 0,
-                argCount: 1
-            },
-            symbol: ")",
-            regSymbol: "\\)"
-        },
-        min: {
-            func: {
-                symbol: "min",
-                f: $e969c25bbfcf3237$var$min,
-                notation: "func",
-                precedence: 0,
-                rightToLeft: 0,
-                argCount: 1
-            },
-            symbol: "min",
-            regSymbol: "min\\b"
-        },
-        max: {
-            func: {
-                symbol: "max",
-                f: $e969c25bbfcf3237$var$max,
-                notation: "func",
-                precedence: 0,
-                rightToLeft: 0,
-                argCount: 1
-            },
-            symbol: "max",
-            regSymbol: "max\\b"
-        }
-    }
-};
-var $e969c25bbfcf3237$var$defaultSymbolMap = $e969c25bbfcf3237$var$defaultSymbols;
-// based on https://github.com/styled-components/styled-components/blob/fcf6f3804c57a14dd7984dfab7bc06ee2edca044/src/utils/error.js
-/**
- * Parse errors.md and turn it into a simple hash of code: message
- * @private
- */ var $e969c25bbfcf3237$var$ERRORS = {
-    "1": "Passed invalid arguments to hsl, please pass multiple numbers e.g. hsl(360, 0.75, 0.4) or an object e.g. rgb({ hue: 255, saturation: 0.4, lightness: 0.75 }).\n\n",
-    "2": "Passed invalid arguments to hsla, please pass multiple numbers e.g. hsla(360, 0.75, 0.4, 0.7) or an object e.g. rgb({ hue: 255, saturation: 0.4, lightness: 0.75, alpha: 0.7 }).\n\n",
-    "3": "Passed an incorrect argument to a color function, please pass a string representation of a color.\n\n",
-    "4": "Couldn't generate valid rgb string from %s, it returned %s.\n\n",
-    "5": "Couldn't parse the color string. Please provide the color as a string in hex, rgb, rgba, hsl or hsla notation.\n\n",
-    "6": "Passed invalid arguments to rgb, please pass multiple numbers e.g. rgb(255, 205, 100) or an object e.g. rgb({ red: 255, green: 205, blue: 100 }).\n\n",
-    "7": "Passed invalid arguments to rgba, please pass multiple numbers e.g. rgb(255, 205, 100, 0.75) or an object e.g. rgb({ red: 255, green: 205, blue: 100, alpha: 0.75 }).\n\n",
-    "8": "Passed invalid argument to toColorString, please pass a RgbColor, RgbaColor, HslColor or HslaColor object.\n\n",
-    "9": "Please provide a number of steps to the modularScale helper.\n\n",
-    "10": "Please pass a number or one of the predefined scales to the modularScale helper as the ratio.\n\n",
-    "11": 'Invalid value passed as base to modularScale, expected number or em string but got "%s"\n\n',
-    "12": 'Expected a string ending in "px" or a number passed as the first argument to %s(), got "%s" instead.\n\n',
-    "13": 'Expected a string ending in "px" or a number passed as the second argument to %s(), got "%s" instead.\n\n',
-    "14": 'Passed invalid pixel value ("%s") to %s(), please pass a value like "12px" or 12.\n\n',
-    "15": 'Passed invalid base value ("%s") to %s(), please pass a value like "12px" or 12.\n\n',
-    "16": "You must provide a template to this method.\n\n",
-    "17": "You passed an unsupported selector state to this method.\n\n",
-    "18": "minScreen and maxScreen must be provided as stringified numbers with the same units.\n\n",
-    "19": "fromSize and toSize must be provided as stringified numbers with the same units.\n\n",
-    "20": "expects either an array of objects or a single object with the properties prop, fromSize, and toSize.\n\n",
-    "21": "expects the objects in the first argument array to have the properties `prop`, `fromSize`, and `toSize`.\n\n",
-    "22": "expects the first argument object to have the properties `prop`, `fromSize`, and `toSize`.\n\n",
-    "23": "fontFace expects a name of a font-family.\n\n",
-    "24": "fontFace expects either the path to the font file(s) or a name of a local copy.\n\n",
-    "25": "fontFace expects localFonts to be an array.\n\n",
-    "26": "fontFace expects fileFormats to be an array.\n\n",
-    "27": "radialGradient requries at least 2 color-stops to properly render.\n\n",
-    "28": "Please supply a filename to retinaImage() as the first argument.\n\n",
-    "29": "Passed invalid argument to triangle, please pass correct pointingDirection e.g. 'right'.\n\n",
-    "30": "Passed an invalid value to `height` or `width`. Please provide a pixel based unit.\n\n",
-    "31": "The animation shorthand only takes 8 arguments. See the specification for more information: http://mdn.io/animation\n\n",
-    "32": "To pass multiple animations please supply them in arrays, e.g. animation(['rotate', '2s'], ['move', '1s'])\nTo pass a single animation please supply them in simple values, e.g. animation('rotate', '2s')\n\n",
-    "33": "The animation shorthand arrays can only have 8 elements. See the specification for more information: http://mdn.io/animation\n\n",
-    "34": "borderRadius expects a radius value as a string or number as the second argument.\n\n",
-    "35": 'borderRadius expects one of "top", "bottom", "left" or "right" as the first argument.\n\n',
-    "36": "Property must be a string value.\n\n",
-    "37": "Syntax Error at %s.\n\n",
-    "38": "Formula contains a function that needs parentheses at %s.\n\n",
-    "39": "Formula is missing closing parenthesis at %s.\n\n",
-    "40": "Formula has too many closing parentheses at %s.\n\n",
-    "41": "All values in a formula must have the same unit or be unitless.\n\n",
-    "42": "Please provide a number of steps to the modularScale helper.\n\n",
-    "43": "Please pass a number or one of the predefined scales to the modularScale helper as the ratio.\n\n",
-    "44": "Invalid value passed as base to modularScale, expected number or em/rem string but got %s.\n\n",
-    "45": "Passed invalid argument to hslToColorString, please pass a HslColor or HslaColor object.\n\n",
-    "46": "Passed invalid argument to rgbToColorString, please pass a RgbColor or RgbaColor object.\n\n",
-    "47": "minScreen and maxScreen must be provided as stringified numbers with the same units.\n\n",
-    "48": "fromSize and toSize must be provided as stringified numbers with the same units.\n\n",
-    "49": "Expects either an array of objects or a single object with the properties prop, fromSize, and toSize.\n\n",
-    "50": "Expects the objects in the first argument array to have the properties prop, fromSize, and toSize.\n\n",
-    "51": "Expects the first argument object to have the properties prop, fromSize, and toSize.\n\n",
-    "52": "fontFace expects either the path to the font file(s) or a name of a local copy.\n\n",
-    "53": "fontFace expects localFonts to be an array.\n\n",
-    "54": "fontFace expects fileFormats to be an array.\n\n",
-    "55": "fontFace expects a name of a font-family.\n\n",
-    "56": "linearGradient requries at least 2 color-stops to properly render.\n\n",
-    "57": "radialGradient requries at least 2 color-stops to properly render.\n\n",
-    "58": "Please supply a filename to retinaImage() as the first argument.\n\n",
-    "59": "Passed invalid argument to triangle, please pass correct pointingDirection e.g. 'right'.\n\n",
-    "60": "Passed an invalid value to `height` or `width`. Please provide a pixel based unit.\n\n",
-    "61": "Property must be a string value.\n\n",
-    "62": "borderRadius expects a radius value as a string or number as the second argument.\n\n",
-    "63": 'borderRadius expects one of "top", "bottom", "left" or "right" as the first argument.\n\n',
-    "64": "The animation shorthand only takes 8 arguments. See the specification for more information: http://mdn.io/animation.\n\n",
-    "65": "To pass multiple animations please supply them in arrays, e.g. animation(['rotate', '2s'], ['move', '1s'])\\nTo pass a single animation please supply them in simple values, e.g. animation('rotate', '2s').\n\n",
-    "66": "The animation shorthand arrays can only have 8 elements. See the specification for more information: http://mdn.io/animation.\n\n",
-    "67": "You must provide a template to this method.\n\n",
-    "68": "You passed an unsupported selector state to this method.\n\n",
-    "69": 'Expected a string ending in "px" or a number passed as the first argument to %s(), got %s instead.\n\n',
-    "70": 'Expected a string ending in "px" or a number passed as the second argument to %s(), got %s instead.\n\n',
-    "71": 'Passed invalid pixel value %s to %s(), please pass a value like "12px" or 12.\n\n',
-    "72": 'Passed invalid base value %s to %s(), please pass a value like "12px" or 12.\n\n',
-    "73": "Please provide a valid CSS variable.\n\n",
-    "74": "CSS variable not found and no default was provided.\n\n",
-    "75": "important requires a valid style object, got a %s instead.\n\n",
-    "76": "fromSize and toSize must be provided as stringified numbers with the same units as minScreen and maxScreen.\n\n",
-    "77": 'remToPx expects a value in "rem" but you provided it in "%s".\n\n',
-    "78": 'base must be set in "px" or "%" but you set it in "%s".\n'
-};
-/**
- * super basic version of sprintf
- * @private
- */ function $e969c25bbfcf3237$var$format() {
-    for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++)args[_key] = arguments[_key];
-    var a = args[0];
-    var b = [];
-    var c;
-    for(c = 1; c < args.length; c += 1)b.push(args[c]);
-    b.forEach(function(d) {
-        a = a.replace(/%[a-z]/, d);
-    });
-    return a;
-}
-/**
- * Create an error file out of errors.md for development and a simple web link to the full errors
- * in production mode.
- * @private
- */ var $e969c25bbfcf3237$var$PolishedError = /*#__PURE__*/ function(_Error) {
-    var PolishedError = function PolishedError(code) {
-        var _this;
-        var _len2, args, _key2;
-        _this = _Error.call(this, "An error occurred. See https://github.com/styled-components/polished/blob/main/src/internalHelpers/errors.md#" + code + " for more information.") || this;
-        return (0, $5da0df701ba4f346$export$2e2bcd8739ae039)(_this);
-    };
-    (0, $d5993dd126912499$export$2e2bcd8739ae039)(PolishedError, _Error);
-    return PolishedError;
-}(/*#__PURE__*/ (0, $72039139e4622fe6$export$2e2bcd8739ae039)(Error));
-var $e969c25bbfcf3237$var$unitRegExp = /((?!\w)a|na|hc|mc|dg|me[r]?|xe|ni(?![a-zA-Z])|mm|cp|tp|xp|q(?!s)|hv|xamv|nimv|wv|sm|s(?!\D|$)|ged|darg?|nrut)/g; // Merges additional math functionality into the defaults.
-function $e969c25bbfcf3237$var$mergeSymbolMaps(additionalSymbols) {
-    var symbolMap = {};
-    symbolMap.symbols = additionalSymbols ? (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, $e969c25bbfcf3237$var$defaultSymbolMap.symbols, additionalSymbols.symbols) : (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, $e969c25bbfcf3237$var$defaultSymbolMap.symbols);
-    return symbolMap;
-}
-function $e969c25bbfcf3237$var$exec(operators, values) {
-    var _ref;
-    var op = operators.pop();
-    values.push(op.f.apply(op, (_ref = []).concat.apply(_ref, values.splice(-op.argCount))));
-    return op.precedence;
-}
-function $e969c25bbfcf3237$var$calculate(expression, additionalSymbols) {
-    var symbolMap = $e969c25bbfcf3237$var$mergeSymbolMaps(additionalSymbols);
-    var match;
-    var operators = [
-        symbolMap.symbols["("].prefix
-    ];
-    var values = [];
-    var pattern = new RegExp("\\d+(?:\\.\\d+)?|" + Object.keys(symbolMap.symbols).map(function(key) {
-        return symbolMap.symbols[key];
-    }) // longer symbols should be listed first
-    // $FlowFixMe
-    .sort(function(a, b) {
-        return b.symbol.length - a.symbol.length;
-    }) // $FlowFixMe
-    .map(function(val) {
-        return val.regSymbol;
-    }).join("|") + "|(\\S)", "g");
-    pattern.lastIndex = 0; // Reset regular expression object
-    var afterValue = false;
-    do {
-        match = pattern.exec(expression);
-        var _ref2 = match || [
-            ")",
-            undefined
-        ], token = _ref2[0], bad = _ref2[1];
-        var notNumber = symbolMap.symbols[token];
-        var notNewValue = notNumber && !notNumber.prefix && !notNumber.func;
-        var notAfterValue = !notNumber || !notNumber.postfix && !notNumber.infix; // Check for syntax errors:
-        if (bad || (afterValue ? notAfterValue : notNewValue)) throw new $e969c25bbfcf3237$var$PolishedError(37, match ? match.index : expression.length, expression);
-        if (afterValue) {
-            // We either have an infix or postfix operator (they should be mutually exclusive)
-            var curr = notNumber.postfix || notNumber.infix;
-            do {
-                var prev = operators[operators.length - 1];
-                if ((curr.precedence - prev.precedence || prev.rightToLeft) > 0) break; // Apply previous operator, since it has precedence over current one
-            }while ($e969c25bbfcf3237$var$exec(operators, values)); // Exit loop after executing an opening parenthesis or function
-            afterValue = curr.notation === "postfix";
-            if (curr.symbol !== ")") {
-                operators.push(curr); // Postfix always has precedence over any operator that follows after it
-                if (afterValue) $e969c25bbfcf3237$var$exec(operators, values);
-            }
-        } else if (notNumber) {
-            // prefix operator or function
-            operators.push(notNumber.prefix || notNumber.func);
-            if (notNumber.func) {
-                // Require an opening parenthesis
-                match = pattern.exec(expression);
-                if (!match || match[0] !== "(") throw new $e969c25bbfcf3237$var$PolishedError(38, match ? match.index : expression.length, expression);
-            }
-        } else {
-            // number
-            values.push(+token);
-            afterValue = true;
-        }
-    }while (match && operators.length);
-    if (operators.length) throw new $e969c25bbfcf3237$var$PolishedError(39, match ? match.index : expression.length, expression);
-    else if (match) throw new $e969c25bbfcf3237$var$PolishedError(40, match ? match.index : expression.length, expression);
-    else return values.pop();
-}
-function $e969c25bbfcf3237$var$reverseString(str) {
-    return str.split("").reverse().join("");
-}
-/**
- * Helper for doing math with CSS Units. Accepts a formula as a string. All values in the formula must have the same unit (or be unitless). Supports complex formulas utliziing addition, subtraction, multiplication, division, square root, powers, factorial, min, max, as well as parentheses for order of operation.
- *
- *In cases where you need to do calculations with mixed units where one unit is a [relative length unit](https://developer.mozilla.org/en-US/docs/Web/CSS/length#Relative_length_units), you will want to use [CSS Calc](https://developer.mozilla.org/en-US/docs/Web/CSS/calc).
- *
- * *warning* While we've done everything possible to ensure math safely evalutes formulas expressed as strings, you should always use extreme caution when passing `math` user provided values.
- * @example
- * // Styles as object usage
- * const styles = {
- *   fontSize: math('12rem + 8rem'),
- *   fontSize: math('(12px + 2px) * 3'),
- *   fontSize: math('3px^2 + sqrt(4)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   fontSize: ${math('12rem + 8rem')};
- *   fontSize: ${math('(12px + 2px) * 3')};
- *   fontSize: ${math('3px^2 + sqrt(4)')};
- * `
- *
- * // CSS as JS Output
- *
- * div: {
- *   fontSize: '20rem',
- *   fontSize: '42px',
- *   fontSize: '11px',
- * }
- */ function $e969c25bbfcf3237$export$1c891a3202c0ba6a(formula, additionalSymbols) {
-    var reversedFormula = $e969c25bbfcf3237$var$reverseString(formula);
-    var formulaMatch = reversedFormula.match($e969c25bbfcf3237$var$unitRegExp); // Check that all units are the same
-    if (formulaMatch && !formulaMatch.every(function(unit) {
-        return unit === formulaMatch[0];
-    })) throw new $e969c25bbfcf3237$var$PolishedError(41);
-    var cleanFormula = $e969c25bbfcf3237$var$reverseString(reversedFormula.replace($e969c25bbfcf3237$var$unitRegExp, ""));
-    return "" + $e969c25bbfcf3237$var$calculate(cleanFormula, additionalSymbols) + (formulaMatch ? $e969c25bbfcf3237$var$reverseString(formulaMatch[0]) : "");
-}
-var $e969c25bbfcf3237$var$cssVariableRegex = /--[\S]*/g;
-/**
- * Fetches the value of a passed CSS Variable in the :root scope, or otherwise returns a defaultValue if provided.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   'background': cssVar('--background-color'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${cssVar('--background-color')};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   'background': 'red'
- * }
- */ function $e969c25bbfcf3237$export$8b4981022bd80a4e(cssVariable, defaultValue) {
-    if (!cssVariable || !cssVariable.match($e969c25bbfcf3237$var$cssVariableRegex)) throw new $e969c25bbfcf3237$var$PolishedError(73);
-    var variableValue;
-    /* eslint-disable */ /* istanbul ignore next */ if (typeof document !== "undefined" && document.documentElement !== null) variableValue = getComputedStyle(document.documentElement).getPropertyValue(cssVariable);
-    /* eslint-enable */ if (variableValue) return variableValue.trim();
-    else if (defaultValue) return defaultValue;
-    throw new $e969c25bbfcf3237$var$PolishedError(74);
-}
-// @private
-function $e969c25bbfcf3237$var$capitalizeString(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-}
-var $e969c25bbfcf3237$var$positionMap$1 = [
-    "Top",
-    "Right",
-    "Bottom",
-    "Left"
-];
-function $e969c25bbfcf3237$var$generateProperty(property, position) {
-    if (!property) return position.toLowerCase();
-    var splitProperty = property.split("-");
-    if (splitProperty.length > 1) {
-        splitProperty.splice(1, 0, position);
-        return splitProperty.reduce(function(acc, val) {
-            return "" + acc + $e969c25bbfcf3237$var$capitalizeString(val);
-        });
-    }
-    var joinedProperty = property.replace(/([a-z])([A-Z])/g, "$1" + position + "$2");
-    return property === joinedProperty ? "" + property + position : joinedProperty;
-}
-function $e969c25bbfcf3237$var$generateStyles(property, valuesWithDefaults) {
-    var styles = {};
-    for(var i = 0; i < valuesWithDefaults.length; i += 1)if (valuesWithDefaults[i] || valuesWithDefaults[i] === 0) styles[$e969c25bbfcf3237$var$generateProperty(property, $e969c25bbfcf3237$var$positionMap$1[i])] = valuesWithDefaults[i];
-    return styles;
-}
-/**
- * Enables shorthand for direction-based properties. It accepts a property (hyphenated or camelCased) and up to four values that map to top, right, bottom, and left, respectively. You can optionally pass an empty string to get only the directional values as properties. You can also optionally pass a null argument for a directional value to ignore it.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...directionalProperty('padding', '12px', '24px', '36px', '48px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${directionalProperty('padding', '12px', '24px', '36px', '48px')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'paddingTop': '12px',
- *   'paddingRight': '24px',
- *   'paddingBottom': '36px',
- *   'paddingLeft': '48px'
- * }
- */ function $e969c25bbfcf3237$export$4fc00c04dd60af95(property) {
-    for(var _len = arguments.length, values = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++)values[_key - 1] = arguments[_key];
-    //  prettier-ignore
-    var firstValue = values[0], _values$ = values[1], secondValue = _values$ === void 0 ? firstValue : _values$, _values$2 = values[2], thirdValue = _values$2 === void 0 ? firstValue : _values$2, _values$3 = values[3], fourthValue = _values$3 === void 0 ? secondValue : _values$3;
-    var valuesWithDefaults = [
-        firstValue,
-        secondValue,
-        thirdValue,
-        fourthValue
-    ];
-    return $e969c25bbfcf3237$var$generateStyles(property, valuesWithDefaults);
-}
-/**
- * Check if a string ends with something
- * @private
- */ function $e969c25bbfcf3237$var$endsWith(string, suffix) {
-    return string.substr(-suffix.length) === suffix;
-}
-var $e969c25bbfcf3237$var$cssRegex$1 = /^([+-]?(?:\d+|\d*\.\d+))([a-z]*|%)$/;
-/**
- * Returns a given CSS value minus its unit of measure.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   '--dimension': stripUnit('100px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   --dimension: ${stripUnit('100px')};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   '--dimension': 100
- * }
- */ function $e969c25bbfcf3237$export$ef04e38dc423904(value) {
-    if (typeof value !== "string") return value;
-    var matchedValue = value.match($e969c25bbfcf3237$var$cssRegex$1);
-    return matchedValue ? parseFloat(value) : value;
-}
-/**
- * Factory function that creates pixel-to-x converters
- * @private
- */ var $e969c25bbfcf3237$var$pxtoFactory = function pxtoFactory(to) {
-    return function(pxval, base) {
-        if (base === void 0) base = "16px";
-        var newPxval = pxval;
-        var newBase = base;
-        if (typeof pxval === "string") {
-            if (!$e969c25bbfcf3237$var$endsWith(pxval, "px")) throw new $e969c25bbfcf3237$var$PolishedError(69, to, pxval);
-            newPxval = $e969c25bbfcf3237$export$ef04e38dc423904(pxval);
-        }
-        if (typeof base === "string") {
-            if (!$e969c25bbfcf3237$var$endsWith(base, "px")) throw new $e969c25bbfcf3237$var$PolishedError(70, to, base);
-            newBase = $e969c25bbfcf3237$export$ef04e38dc423904(base);
-        }
-        if (typeof newPxval === "string") throw new $e969c25bbfcf3237$var$PolishedError(71, pxval, to);
-        if (typeof newBase === "string") throw new $e969c25bbfcf3237$var$PolishedError(72, base, to);
-        return "" + newPxval / newBase + to;
-    };
-};
-var $e969c25bbfcf3237$var$pixelsto = $e969c25bbfcf3237$var$pxtoFactory;
-/**
- * Convert pixel value to ems. The default base value is 16px, but can be changed by passing a
- * second argument to the function.
- * @function
- * @param {string|number} pxval
- * @param {string|number} [base='16px']
- * @example
- * // Styles as object usage
- * const styles = {
- *   'height': em('16px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   height: ${em('16px')}
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   'height': '1em'
- * }
- */ var $e969c25bbfcf3237$var$em = /*#__PURE__*/ $e969c25bbfcf3237$var$pixelsto("em");
-var $e969c25bbfcf3237$export$c63c6f932822f543 = $e969c25bbfcf3237$var$em;
-var $e969c25bbfcf3237$var$cssRegex = /^([+-]?(?:\d+|\d*\.\d+))([a-z]*|%)$/;
-/**
- * Returns a given CSS value and its unit as elements of an array.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   '--dimension': getValueAndUnit('100px')[0],
- *   '--unit': getValueAndUnit('100px')[1],
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   --dimension: ${getValueAndUnit('100px')[0]};
- *   --unit: ${getValueAndUnit('100px')[1]};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   '--dimension': 100,
- *   '--unit': 'px',
- * }
- */ function $e969c25bbfcf3237$export$feec6b849ef388ab(value) {
-    if (typeof value !== "string") return [
-        value,
-        ""
-    ];
-    var matchedValue = value.match($e969c25bbfcf3237$var$cssRegex);
-    if (matchedValue) return [
-        parseFloat(value),
-        matchedValue[2]
-    ];
-    return [
-        value,
-        undefined
-    ];
-}
-/**
- * Helper for targeting rules in a style block generated by polished modules that need !important-level specificity. Can optionally specify a rule (or rules) to target specific rules.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...important(cover())
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${important(cover())}
- * `
- *
- * // CSS as JS Output
- *
- * div: {
- *   'position': 'absolute !important',
- *   'top': '0 !important',
- *   'right: '0 !important',
- *   'bottom': '0 !important',
- *   'left: '0 !important'
- * }
- */ function $e969c25bbfcf3237$export$929888ab0c9f043c(styleBlock, rules) {
-    if (typeof styleBlock !== "object" || styleBlock === null) throw new $e969c25bbfcf3237$var$PolishedError(75, typeof styleBlock === "undefined" ? "undefined" : (0, $5YZ7h.default)(styleBlock));
-    var newStyleBlock = {};
-    Object.keys(styleBlock).forEach(function(key) {
-        if (typeof styleBlock[key] === "object" && styleBlock[key] !== null) newStyleBlock[key] = $e969c25bbfcf3237$export$929888ab0c9f043c(styleBlock[key], rules);
-        else if (!rules || rules && (rules === key || rules.indexOf(key) >= 0)) newStyleBlock[key] = styleBlock[key] + " !important";
-        else newStyleBlock[key] = styleBlock[key];
-    });
-    return newStyleBlock;
-}
-var $e969c25bbfcf3237$var$ratioNames = {
-    minorSecond: 1.067,
-    majorSecond: 1.125,
-    minorThird: 1.2,
-    majorThird: 1.25,
-    perfectFourth: 1.333,
-    augFourth: 1.414,
-    perfectFifth: 1.5,
-    minorSixth: 1.6,
-    goldenSection: 1.618,
-    majorSixth: 1.667,
-    minorSeventh: 1.778,
-    majorSeventh: 1.875,
-    octave: 2,
-    majorTenth: 2.5,
-    majorEleventh: 2.667,
-    majorTwelfth: 3,
-    doubleOctave: 4
-};
-function $e969c25bbfcf3237$var$getRatio(ratioName) {
-    return $e969c25bbfcf3237$var$ratioNames[ratioName];
-}
-/**
- * Establish consistent measurements and spacial relationships throughout your projects by incrementing an em or rem value up or down a defined scale. We provide a list of commonly used scales as pre-defined variables.
- * @example
- * // Styles as object usage
- * const styles = {
- *    // Increment two steps up the default scale
- *   'fontSize': modularScale(2)
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *    // Increment two steps up the default scale
- *   fontSize: ${modularScale(2)}
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   'fontSize': '1.77689em'
- * }
- */ function $e969c25bbfcf3237$export$c82a8a23c9e8bdb6(steps, base, ratio) {
-    if (base === void 0) base = "1em";
-    if (ratio === void 0) ratio = 1.333;
-    if (typeof steps !== "number") throw new $e969c25bbfcf3237$var$PolishedError(42);
-    if (typeof ratio === "string" && !$e969c25bbfcf3237$var$ratioNames[ratio]) throw new $e969c25bbfcf3237$var$PolishedError(43);
-    var _ref = typeof base === "string" ? $e969c25bbfcf3237$export$feec6b849ef388ab(base) : [
-        base,
-        ""
-    ], realBase = _ref[0], unit = _ref[1];
-    var realRatio = typeof ratio === "string" ? $e969c25bbfcf3237$var$getRatio(ratio) : ratio;
-    if (typeof realBase === "string") throw new $e969c25bbfcf3237$var$PolishedError(44, base);
-    return "" + realBase * Math.pow(realRatio, steps) + (unit || "");
-}
-/**
- * Convert pixel value to rems. The default base value is 16px, but can be changed by passing a
- * second argument to the function.
- * @function
- * @param {string|number} pxval
- * @param {string|number} [base='16px']
- * @example
- * // Styles as object usage
- * const styles = {
- *   'height': rem('16px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   height: ${rem('16px')}
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   'height': '1rem'
- * }
- */ var $e969c25bbfcf3237$var$rem = /*#__PURE__*/ $e969c25bbfcf3237$var$pixelsto("rem");
-var $e969c25bbfcf3237$export$fb1897a40d146f7f = $e969c25bbfcf3237$var$rem;
-var $e969c25bbfcf3237$var$defaultFontSize = 16;
-function $e969c25bbfcf3237$var$convertBase(base) {
-    var deconstructedValue = $e969c25bbfcf3237$export$feec6b849ef388ab(base);
-    if (deconstructedValue[1] === "px") return parseFloat(base);
-    if (deconstructedValue[1] === "%") return parseFloat(base) / 100 * $e969c25bbfcf3237$var$defaultFontSize;
-    throw new $e969c25bbfcf3237$var$PolishedError(78, deconstructedValue[1]);
-}
-function $e969c25bbfcf3237$var$getBaseFromDoc() {
-    /* eslint-disable */ /* istanbul ignore next */ if (typeof document !== "undefined" && document.documentElement !== null) {
-        var rootFontSize = getComputedStyle(document.documentElement).fontSize;
-        return rootFontSize ? $e969c25bbfcf3237$var$convertBase(rootFontSize) : $e969c25bbfcf3237$var$defaultFontSize;
-    }
-    /* eslint-enable */ /* istanbul ignore next */ return $e969c25bbfcf3237$var$defaultFontSize;
-}
-/**
- * Convert rem values to px. By default, the base value is pulled from the font-size property on the root element (if it is set in % or px). It defaults to 16px if not found on the root. You can also override the base value by providing your own base in % or px.
- * @example
- * // Styles as object usage
- * const styles = {
- *   'height': remToPx('1.6rem')
- *   'height': remToPx('1.6rem', '10px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   height: ${remToPx('1.6rem')}
- *   height: ${remToPx('1.6rem', '10px')}
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   'height': '25.6px',
- *   'height': '16px',
- * }
- */ function $e969c25bbfcf3237$export$7e5d3caf0359a67a(value, base) {
-    var deconstructedValue = $e969c25bbfcf3237$export$feec6b849ef388ab(value);
-    if (deconstructedValue[1] !== "rem" && deconstructedValue[1] !== "") throw new $e969c25bbfcf3237$var$PolishedError(77, deconstructedValue[1]);
-    var newBase = base ? $e969c25bbfcf3237$var$convertBase(base) : $e969c25bbfcf3237$var$getBaseFromDoc();
-    return deconstructedValue[0] * newBase + "px";
-}
-var $e969c25bbfcf3237$var$functionsMap$3 = {
-    back: "cubic-bezier(0.600, -0.280, 0.735, 0.045)",
-    circ: "cubic-bezier(0.600,  0.040, 0.980, 0.335)",
-    cubic: "cubic-bezier(0.550,  0.055, 0.675, 0.190)",
-    expo: "cubic-bezier(0.950,  0.050, 0.795, 0.035)",
-    quad: "cubic-bezier(0.550,  0.085, 0.680, 0.530)",
-    quart: "cubic-bezier(0.895,  0.030, 0.685, 0.220)",
-    quint: "cubic-bezier(0.755,  0.050, 0.855, 0.060)",
-    sine: "cubic-bezier(0.470,  0.000, 0.745, 0.715)"
-};
-/**
- * String to represent common easing functions as demonstrated here: (github.com/jaukia/easie).
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   'transitionTimingFunction': easeIn('quad')
- * }
- *
- * // styled-components usage
- *  const div = styled.div`
- *   transitionTimingFunction: ${easeIn('quad')};
- * `
- *
- * // CSS as JS Output
- *
- * 'div': {
- *   'transitionTimingFunction': 'cubic-bezier(0.550,  0.085, 0.680, 0.530)',
- * }
- */ function $e969c25bbfcf3237$export$929e5a82286172a6(functionName) {
-    return $e969c25bbfcf3237$var$functionsMap$3[functionName.toLowerCase().trim()];
-}
-var $e969c25bbfcf3237$var$functionsMap$2 = {
-    back: "cubic-bezier(0.680, -0.550, 0.265, 1.550)",
-    circ: "cubic-bezier(0.785,  0.135, 0.150, 0.860)",
-    cubic: "cubic-bezier(0.645,  0.045, 0.355, 1.000)",
-    expo: "cubic-bezier(1.000,  0.000, 0.000, 1.000)",
-    quad: "cubic-bezier(0.455,  0.030, 0.515, 0.955)",
-    quart: "cubic-bezier(0.770,  0.000, 0.175, 1.000)",
-    quint: "cubic-bezier(0.860,  0.000, 0.070, 1.000)",
-    sine: "cubic-bezier(0.445,  0.050, 0.550, 0.950)"
-};
-/**
- * String to represent common easing functions as demonstrated here: (github.com/jaukia/easie).
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   'transitionTimingFunction': easeInOut('quad')
- * }
- *
- * // styled-components usage
- *  const div = styled.div`
- *   transitionTimingFunction: ${easeInOut('quad')};
- * `
- *
- * // CSS as JS Output
- *
- * 'div': {
- *   'transitionTimingFunction': 'cubic-bezier(0.455,  0.030, 0.515, 0.955)',
- * }
- */ function $e969c25bbfcf3237$export$c07234257a03d5e9(functionName) {
-    return $e969c25bbfcf3237$var$functionsMap$2[functionName.toLowerCase().trim()];
-}
-var $e969c25bbfcf3237$var$functionsMap$1 = {
-    back: "cubic-bezier(0.175,  0.885, 0.320, 1.275)",
-    cubic: "cubic-bezier(0.215,  0.610, 0.355, 1.000)",
-    circ: "cubic-bezier(0.075,  0.820, 0.165, 1.000)",
-    expo: "cubic-bezier(0.190,  1.000, 0.220, 1.000)",
-    quad: "cubic-bezier(0.250,  0.460, 0.450, 0.940)",
-    quart: "cubic-bezier(0.165,  0.840, 0.440, 1.000)",
-    quint: "cubic-bezier(0.230,  1.000, 0.320, 1.000)",
-    sine: "cubic-bezier(0.390,  0.575, 0.565, 1.000)"
-};
-/**
- * String to represent common easing functions as demonstrated here: (github.com/jaukia/easie).
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   'transitionTimingFunction': easeOut('quad')
- * }
- *
- * // styled-components usage
- *  const div = styled.div`
- *   transitionTimingFunction: ${easeOut('quad')};
- * `
- *
- * // CSS as JS Output
- *
- * 'div': {
- *   'transitionTimingFunction': 'cubic-bezier(0.250,  0.460, 0.450, 0.940)',
- * }
- */ function $e969c25bbfcf3237$export$57636bb43b1ccbb0(functionName) {
-    return $e969c25bbfcf3237$var$functionsMap$1[functionName.toLowerCase().trim()];
-}
-/**
- * Returns a CSS calc formula for linear interpolation of a property between two values. Accepts optional minScreen (defaults to '320px') and maxScreen (defaults to '1200px').
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   fontSize: between('20px', '100px', '400px', '1000px'),
- *   fontSize: between('20px', '100px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   fontSize: ${between('20px', '100px', '400px', '1000px')};
- *   fontSize: ${between('20px', '100px')}
- * `
- *
- * // CSS as JS Output
- *
- * h1: {
- *   'fontSize': 'calc(-33.33333333333334px + 13.333333333333334vw)',
- *   'fontSize': 'calc(-9.090909090909093px + 9.090909090909092vw)'
- * }
- */ function $e969c25bbfcf3237$export$cf95c51b03f10bae(fromSize, toSize, minScreen, maxScreen) {
-    if (minScreen === void 0) minScreen = "320px";
-    if (maxScreen === void 0) maxScreen = "1200px";
-    var _getValueAndUnit = $e969c25bbfcf3237$export$feec6b849ef388ab(fromSize), unitlessFromSize = _getValueAndUnit[0], fromSizeUnit = _getValueAndUnit[1];
-    var _getValueAndUnit2 = $e969c25bbfcf3237$export$feec6b849ef388ab(toSize), unitlessToSize = _getValueAndUnit2[0], toSizeUnit = _getValueAndUnit2[1];
-    var _getValueAndUnit3 = $e969c25bbfcf3237$export$feec6b849ef388ab(minScreen), unitlessMinScreen = _getValueAndUnit3[0], minScreenUnit = _getValueAndUnit3[1];
-    var _getValueAndUnit4 = $e969c25bbfcf3237$export$feec6b849ef388ab(maxScreen), unitlessMaxScreen = _getValueAndUnit4[0], maxScreenUnit = _getValueAndUnit4[1];
-    if (typeof unitlessMinScreen !== "number" || typeof unitlessMaxScreen !== "number" || !minScreenUnit || !maxScreenUnit || minScreenUnit !== maxScreenUnit) throw new $e969c25bbfcf3237$var$PolishedError(47);
-    if (typeof unitlessFromSize !== "number" || typeof unitlessToSize !== "number" || fromSizeUnit !== toSizeUnit) throw new $e969c25bbfcf3237$var$PolishedError(48);
-    if (fromSizeUnit !== minScreenUnit || toSizeUnit !== maxScreenUnit) throw new $e969c25bbfcf3237$var$PolishedError(76);
-    var slope = (unitlessFromSize - unitlessToSize) / (unitlessMinScreen - unitlessMaxScreen);
-    var base = unitlessToSize - slope * unitlessMaxScreen;
-    return "calc(" + base.toFixed(2) + (fromSizeUnit || "") + " + " + (100 * slope).toFixed(2) + "vw)";
-}
-/**
- * CSS to contain a float (credit to CSSMojo).
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *    ...clearFix(),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${clearFix()}
- * `
- *
- * // CSS as JS Output
- *
- * '&::after': {
- *   'clear': 'both',
- *   'content': '""',
- *   'display': 'table'
- * }
- */ function $e969c25bbfcf3237$export$8c467e8859fdef13(parent) {
-    var _ref;
-    if (parent === void 0) parent = "&";
-    var pseudoSelector = parent + "::after";
-    return _ref = {}, _ref[pseudoSelector] = {
-        clear: "both",
-        content: '""',
-        display: "table"
-    }, _ref;
-}
-/**
- * CSS to fully cover an area. Can optionally be passed an offset to act as a "padding".
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...cover()
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${cover()}
- * `
- *
- * // CSS as JS Output
- *
- * div: {
- *   'position': 'absolute',
- *   'top': '0',
- *   'right: '0',
- *   'bottom': '0',
- *   'left: '0'
- * }
- */ function $e969c25bbfcf3237$export$4bdbf921f0c0fd8c(offset) {
-    if (offset === void 0) offset = 0;
-    return {
-        position: "absolute",
-        top: offset,
-        right: offset,
-        bottom: offset,
-        left: offset
-    };
-}
-/**
- * CSS to represent truncated text with an ellipsis. You can optionally pass a max-width and number of lines before truncating.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...ellipsis('250px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${ellipsis('250px')}
- * `
- *
- * // CSS as JS Output
- *
- * div: {
- *   'display': 'inline-block',
- *   'maxWidth': '250px',
- *   'overflow': 'hidden',
- *   'textOverflow': 'ellipsis',
- *   'whiteSpace': 'nowrap',
- *   'wordWrap': 'normal'
- * }
- */ function $e969c25bbfcf3237$export$a5b94313d6908893(width, lines) {
-    if (lines === void 0) lines = 1;
-    var styles = {
-        display: "inline-block",
-        maxWidth: width || "100%",
-        overflow: "hidden",
-        textOverflow: "ellipsis",
-        whiteSpace: "nowrap",
-        wordWrap: "normal"
-    };
-    return lines > 1 ? (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, styles, {
-        WebkitBoxOrient: "vertical",
-        WebkitLineClamp: lines,
-        display: "-webkit-box",
-        whiteSpace: "normal"
-    }) : styles;
-}
-function $e969c25bbfcf3237$var$_createForOfIteratorHelperLoose(o, allowArrayLike) {
-    var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"];
-    if (it) return (it = it.call(o)).next.bind(it);
-    if (Array.isArray(o) || (it = $e969c25bbfcf3237$var$_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {
-        if (it) o = it;
-        var i = 0;
-        return function() {
-            if (i >= o.length) return {
-                done: true
-            };
-            return {
-                done: false,
-                value: o[i++]
-            };
-        };
-    }
-    throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-}
-function $e969c25bbfcf3237$var$_unsupportedIterableToArray(o, minLen) {
-    if (!o) return;
-    if (typeof o === "string") return $e969c25bbfcf3237$var$_arrayLikeToArray(o, minLen);
-    var n = Object.prototype.toString.call(o).slice(8, -1);
-    if (n === "Object" && o.constructor) n = o.constructor.name;
-    if (n === "Map" || n === "Set") return Array.from(o);
-    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return $e969c25bbfcf3237$var$_arrayLikeToArray(o, minLen);
-}
-function $e969c25bbfcf3237$var$_arrayLikeToArray(arr, len) {
-    if (len == null || len > arr.length) len = arr.length;
-    for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
-    return arr2;
-}
-/**
- * Returns a set of media queries that resizes a property (or set of properties) between a provided fromSize and toSize. Accepts optional minScreen (defaults to '320px') and maxScreen (defaults to '1200px') to constrain the interpolation.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...fluidRange(
- *    {
- *        prop: 'padding',
- *        fromSize: '20px',
- *        toSize: '100px',
- *      },
- *      '400px',
- *      '1000px',
- *    )
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${fluidRange(
- *      {
- *        prop: 'padding',
- *        fromSize: '20px',
- *        toSize: '100px',
- *      },
- *      '400px',
- *      '1000px',
- *    )}
- * `
- *
- * // CSS as JS Output
- *
- * div: {
- *   "@media (min-width: 1000px)": Object {
- *     "padding": "100px",
- *   },
- *   "@media (min-width: 400px)": Object {
- *     "padding": "calc(-33.33333333333334px + 13.333333333333334vw)",
- *   },
- *   "padding": "20px",
- * }
- */ function $e969c25bbfcf3237$export$de4c2ac00f6121cf(cssProp, minScreen, maxScreen) {
-    if (minScreen === void 0) minScreen = "320px";
-    if (maxScreen === void 0) maxScreen = "1200px";
-    if (!Array.isArray(cssProp) && typeof cssProp !== "object" || cssProp === null) throw new $e969c25bbfcf3237$var$PolishedError(49);
-    if (Array.isArray(cssProp)) {
-        var mediaQueries = {};
-        var fallbacks = {};
-        for(var _iterator = $e969c25bbfcf3237$var$_createForOfIteratorHelperLoose(cssProp), _step; !(_step = _iterator()).done;){
-            var _extends2, _extends3;
-            var obj = _step.value;
-            if (!obj.prop || !obj.fromSize || !obj.toSize) throw new $e969c25bbfcf3237$var$PolishedError(50);
-            fallbacks[obj.prop] = obj.fromSize;
-            mediaQueries["@media (min-width: " + minScreen + ")"] = (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, mediaQueries["@media (min-width: " + minScreen + ")"], (_extends2 = {}, _extends2[obj.prop] = $e969c25bbfcf3237$export$cf95c51b03f10bae(obj.fromSize, obj.toSize, minScreen, maxScreen), _extends2));
-            mediaQueries["@media (min-width: " + maxScreen + ")"] = (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, mediaQueries["@media (min-width: " + maxScreen + ")"], (_extends3 = {}, _extends3[obj.prop] = obj.toSize, _extends3));
-        }
-        return (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, fallbacks, mediaQueries);
-    } else {
-        var _ref, _ref2, _ref3;
-        if (!cssProp.prop || !cssProp.fromSize || !cssProp.toSize) throw new $e969c25bbfcf3237$var$PolishedError(51);
-        return _ref3 = {}, _ref3[cssProp.prop] = cssProp.fromSize, _ref3["@media (min-width: " + minScreen + ")"] = (_ref = {}, _ref[cssProp.prop] = $e969c25bbfcf3237$export$cf95c51b03f10bae(cssProp.fromSize, cssProp.toSize, minScreen, maxScreen), _ref), _ref3["@media (min-width: " + maxScreen + ")"] = (_ref2 = {}, _ref2[cssProp.prop] = cssProp.toSize, _ref2), _ref3;
-    }
-}
-var $e969c25bbfcf3237$var$dataURIRegex = /^\s*data:([a-z]+\/[a-z-]+(;[a-z-]+=[a-z-]+)?)?(;charset=[a-z0-9-]+)?(;base64)?,[a-z0-9!$&',()*+,;=\-._~:@/?%\s]*\s*$/i;
-var $e969c25bbfcf3237$var$formatHintMap = {
-    woff: "woff",
-    woff2: "woff2",
-    ttf: "truetype",
-    otf: "opentype",
-    eot: "embedded-opentype",
-    svg: "svg",
-    svgz: "svg"
-};
-function $e969c25bbfcf3237$var$generateFormatHint(format, formatHint) {
-    if (!formatHint) return "";
-    return ' format("' + $e969c25bbfcf3237$var$formatHintMap[format] + '")';
-}
-function $e969c25bbfcf3237$var$isDataURI(fontFilePath) {
-    return !!fontFilePath.replace(/\s+/g, " ").match($e969c25bbfcf3237$var$dataURIRegex);
-}
-function $e969c25bbfcf3237$var$generateFileReferences(fontFilePath, fileFormats, formatHint) {
-    if ($e969c25bbfcf3237$var$isDataURI(fontFilePath)) return 'url("' + fontFilePath + '")' + $e969c25bbfcf3237$var$generateFormatHint(fileFormats[0], formatHint);
-    var fileFontReferences = fileFormats.map(function(format) {
-        return 'url("' + fontFilePath + "." + format + '")' + $e969c25bbfcf3237$var$generateFormatHint(format, formatHint);
-    });
-    return fileFontReferences.join(", ");
-}
-function $e969c25bbfcf3237$var$generateLocalReferences(localFonts) {
-    var localFontReferences = localFonts.map(function(font) {
-        return 'local("' + font + '")';
-    });
-    return localFontReferences.join(", ");
-}
-function $e969c25bbfcf3237$var$generateSources(fontFilePath, localFonts, fileFormats, formatHint) {
-    var fontReferences = [];
-    if (localFonts) fontReferences.push($e969c25bbfcf3237$var$generateLocalReferences(localFonts));
-    if (fontFilePath) fontReferences.push($e969c25bbfcf3237$var$generateFileReferences(fontFilePath, fileFormats, formatHint));
-    return fontReferences.join(", ");
-}
-/**
- * CSS for a @font-face declaration. Defaults to check for local copies of the font on the user's machine. You can disable this by passing `null` to localFonts.
- *
- * @example
- * // Styles as object basic usage
- * const styles = {
- *    ...fontFace({
- *      'fontFamily': 'Sans-Pro',
- *      'fontFilePath': 'path/to/file'
- *    })
- * }
- *
- * // styled-components basic usage
- * const GlobalStyle = createGlobalStyle`${
- *   fontFace({
- *     'fontFamily': 'Sans-Pro',
- *     'fontFilePath': 'path/to/file'
- *   }
- * )}`
- *
- * // CSS as JS Output
- *
- * '@font-face': {
- *   'fontFamily': 'Sans-Pro',
- *   'src': 'url("path/to/file.eot"), url("path/to/file.woff2"), url("path/to/file.woff"), url("path/to/file.ttf"), url("path/to/file.svg")',
- * }
- */ function $e969c25bbfcf3237$export$566c6c2ff0443c7(_ref) {
-    var fontFamily = _ref.fontFamily, fontFilePath = _ref.fontFilePath, fontStretch = _ref.fontStretch, fontStyle = _ref.fontStyle, fontVariant = _ref.fontVariant, fontWeight = _ref.fontWeight, _ref$fileFormats = _ref.fileFormats, fileFormats = _ref$fileFormats === void 0 ? [
-        "eot",
-        "woff2",
-        "woff",
-        "ttf",
-        "svg"
-    ] : _ref$fileFormats, _ref$formatHint = _ref.formatHint, formatHint = _ref$formatHint === void 0 ? false : _ref$formatHint, _ref$localFonts = _ref.localFonts, localFonts = _ref$localFonts === void 0 ? [
-        fontFamily
-    ] : _ref$localFonts, unicodeRange = _ref.unicodeRange, fontDisplay = _ref.fontDisplay, fontVariationSettings = _ref.fontVariationSettings, fontFeatureSettings = _ref.fontFeatureSettings;
-    // Error Handling
-    if (!fontFamily) throw new $e969c25bbfcf3237$var$PolishedError(55);
-    if (!fontFilePath && !localFonts) throw new $e969c25bbfcf3237$var$PolishedError(52);
-    if (localFonts && !Array.isArray(localFonts)) throw new $e969c25bbfcf3237$var$PolishedError(53);
-    if (!Array.isArray(fileFormats)) throw new $e969c25bbfcf3237$var$PolishedError(54);
-    var fontFaceDeclaration = {
-        "@font-face": {
-            fontFamily: fontFamily,
-            src: $e969c25bbfcf3237$var$generateSources(fontFilePath, localFonts, fileFormats, formatHint),
-            unicodeRange: unicodeRange,
-            fontStretch: fontStretch,
-            fontStyle: fontStyle,
-            fontVariant: fontVariant,
-            fontWeight: fontWeight,
-            fontDisplay: fontDisplay,
-            fontVariationSettings: fontVariationSettings,
-            fontFeatureSettings: fontFeatureSettings
-        }
-    }; // Removes undefined fields for cleaner css object.
-    return JSON.parse(JSON.stringify(fontFaceDeclaration));
-}
-/**
- * CSS to hide text to show a background image in a SEO-friendly way.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   'backgroundImage': 'url(logo.png)',
- *   ...hideText(),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   backgroundImage: url(logo.png);
- *   ${hideText()};
- * `
- *
- * // CSS as JS Output
- *
- * 'div': {
- *   'backgroundImage': 'url(logo.png)',
- *   'textIndent': '101%',
- *   'overflow': 'hidden',
- *   'whiteSpace': 'nowrap',
- * }
- */ function $e969c25bbfcf3237$export$27bef6389954e24d() {
-    return {
-        textIndent: "101%",
-        overflow: "hidden",
-        whiteSpace: "nowrap"
-    };
-}
-/**
- * CSS to hide content visually but remain accessible to screen readers.
- * from [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/9a176f57af1cfe8ec70300da4621fb9b07e5fa31/src/css/main.css#L121)
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...hideVisually(),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${hideVisually()};
- * `
- *
- * // CSS as JS Output
- *
- * 'div': {
- *   'border': '0',
- *   'clip': 'rect(0 0 0 0)',
- *   'height': '1px',
- *   'margin': '-1px',
- *   'overflow': 'hidden',
- *   'padding': '0',
- *   'position': 'absolute',
- *   'whiteSpace': 'nowrap',
- *   'width': '1px',
- * }
- */ function $e969c25bbfcf3237$export$36e2157ae4e3cbdd() {
-    return {
-        border: "0",
-        clip: "rect(0 0 0 0)",
-        height: "1px",
-        margin: "-1px",
-        overflow: "hidden",
-        padding: "0",
-        position: "absolute",
-        whiteSpace: "nowrap",
-        width: "1px"
-    };
-}
-/**
- * Generates a media query to target HiDPI devices.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *  [hiDPI(1.5)]: {
- *    width: 200px;
- *  }
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${hiDPI(1.5)} {
- *     width: 200px;
- *   }
- * `
- *
- * // CSS as JS Output
- *
- * '@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
- *  only screen and (min--moz-device-pixel-ratio: 1.5),
- *  only screen and (-o-min-device-pixel-ratio: 1.5/1),
- *  only screen and (min-resolution: 144dpi),
- *  only screen and (min-resolution: 1.5dppx)': {
- *   'width': '200px',
- * }
- */ function $e969c25bbfcf3237$export$e79006618d7c6cc3(ratio) {
-    if (ratio === void 0) ratio = 1.3;
-    return "\n    @media only screen and (-webkit-min-device-pixel-ratio: " + ratio + "),\n    only screen and (min--moz-device-pixel-ratio: " + ratio + "),\n    only screen and (-o-min-device-pixel-ratio: " + ratio + "/1),\n    only screen and (min-resolution: " + Math.round(ratio * 96) + "dpi),\n    only screen and (min-resolution: " + ratio + "dppx)\n  ";
-}
-function $e969c25bbfcf3237$var$constructGradientValue(literals) {
-    var template = "";
-    for(var _len = arguments.length, substitutions = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++)substitutions[_key - 1] = arguments[_key];
-    for(var i = 0; i < literals.length; i += 1){
-        template += literals[i];
-        if (i === substitutions.length - 1 && substitutions[i]) {
-            var definedValues = substitutions.filter(function(substitute) {
-                return !!substitute;
-            }); // Adds leading coma if properties preceed color-stops
-            if (definedValues.length > 1) {
-                template = template.slice(0, -1);
-                template += ", " + substitutions[i]; // No trailing space if color-stops is the only param provided
-            } else if (definedValues.length === 1) template += "" + substitutions[i];
-        } else if (substitutions[i]) template += substitutions[i] + " ";
-    }
-    return template.trim();
-}
-var $e969c25bbfcf3237$var$_templateObject$1;
-/**
- * CSS for declaring a linear gradient, including a fallback background-color. The fallback is either the first color-stop or an explicitly passed fallback color.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...linearGradient({
-        colorStops: ['#00FFFF 0%', 'rgba(0, 0, 255, 0) 50%', '#0000FF 95%'],
-        toDirection: 'to top right',
-        fallback: '#FFF',
-      })
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${linearGradient({
-        colorStops: ['#00FFFF 0%', 'rgba(0, 0, 255, 0) 50%', '#0000FF 95%'],
-        toDirection: 'to top right',
-        fallback: '#FFF',
-      })}
- *`
- *
- * // CSS as JS Output
- *
- * div: {
- *   'backgroundColor': '#FFF',
- *   'backgroundImage': 'linear-gradient(to top right, #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #0000FF 95%)',
- * }
- */ function $e969c25bbfcf3237$export$46def8197cf4dd4c(_ref) {
-    var colorStops = _ref.colorStops, fallback = _ref.fallback, _ref$toDirection = _ref.toDirection, toDirection = _ref$toDirection === void 0 ? "" : _ref$toDirection;
-    if (!colorStops || colorStops.length < 2) throw new $e969c25bbfcf3237$var$PolishedError(56);
-    return {
-        backgroundColor: fallback || colorStops[0].replace(/,\s+/g, ",").split(" ")[0].replace(/,(?=\S)/g, ", "),
-        backgroundImage: $e969c25bbfcf3237$var$constructGradientValue($e969c25bbfcf3237$var$_templateObject$1 || ($e969c25bbfcf3237$var$_templateObject$1 = (0, $c3c5af371be9e4f3$export$2e2bcd8739ae039)([
-            "linear-gradient(",
-            "",
-            ")"
-        ])), toDirection, colorStops.join(", ").replace(/,(?=\S)/g, ", "))
-    };
-}
-/**
- * CSS to normalize abnormalities across browsers (normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css)
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *    ...normalize(),
- * }
- *
- * // styled-components usage
- * const GlobalStyle = createGlobalStyle`${normalize()}`
- *
- * // CSS as JS Output
- *
- * html {
- *   lineHeight: 1.15,
- *   textSizeAdjust: 100%,
- * } ...
- */ function $e969c25bbfcf3237$export$a3295358bff77e() {
-    var _ref;
-    return [
-        (_ref = {
-            html: {
-                lineHeight: "1.15",
-                textSizeAdjust: "100%"
-            },
-            body: {
-                margin: "0"
-            },
-            main: {
-                display: "block"
-            },
-            h1: {
-                fontSize: "2em",
-                margin: "0.67em 0"
-            },
-            hr: {
-                boxSizing: "content-box",
-                height: "0",
-                overflow: "visible"
-            },
-            pre: {
-                fontFamily: "monospace, monospace",
-                fontSize: "1em"
-            },
-            a: {
-                backgroundColor: "transparent"
-            },
-            "abbr[title]": {
-                borderBottom: "none",
-                textDecoration: "underline"
-            }
-        }, _ref["b,\n    strong"] = {
-            fontWeight: "bolder"
-        }, _ref["code,\n    kbd,\n    samp"] = {
-            fontFamily: "monospace, monospace",
-            fontSize: "1em"
-        }, _ref.small = {
-            fontSize: "80%"
-        }, _ref["sub,\n    sup"] = {
-            fontSize: "75%",
-            lineHeight: "0",
-            position: "relative",
-            verticalAlign: "baseline"
-        }, _ref.sub = {
-            bottom: "-0.25em"
-        }, _ref.sup = {
-            top: "-0.5em"
-        }, _ref.img = {
-            borderStyle: "none"
-        }, _ref["button,\n    input,\n    optgroup,\n    select,\n    textarea"] = {
-            fontFamily: "inherit",
-            fontSize: "100%",
-            lineHeight: "1.15",
-            margin: "0"
-        }, _ref["button,\n    input"] = {
-            overflow: "visible"
-        }, _ref["button,\n    select"] = {
-            textTransform: "none"
-        }, _ref['button,\n    html [type="button"],\n    [type="reset"],\n    [type="submit"]'] = {
-            WebkitAppearance: "button"
-        }, _ref['button::-moz-focus-inner,\n    [type="button"]::-moz-focus-inner,\n    [type="reset"]::-moz-focus-inner,\n    [type="submit"]::-moz-focus-inner'] = {
-            borderStyle: "none",
-            padding: "0"
-        }, _ref['button:-moz-focusring,\n    [type="button"]:-moz-focusring,\n    [type="reset"]:-moz-focusring,\n    [type="submit"]:-moz-focusring'] = {
-            outline: "1px dotted ButtonText"
-        }, _ref.fieldset = {
-            padding: "0.35em 0.625em 0.75em"
-        }, _ref.legend = {
-            boxSizing: "border-box",
-            color: "inherit",
-            display: "table",
-            maxWidth: "100%",
-            padding: "0",
-            whiteSpace: "normal"
-        }, _ref.progress = {
-            verticalAlign: "baseline"
-        }, _ref.textarea = {
-            overflow: "auto"
-        }, _ref['[type="checkbox"],\n    [type="radio"]'] = {
-            boxSizing: "border-box",
-            padding: "0"
-        }, _ref['[type="number"]::-webkit-inner-spin-button,\n    [type="number"]::-webkit-outer-spin-button'] = {
-            height: "auto"
-        }, _ref['[type="search"]'] = {
-            WebkitAppearance: "textfield",
-            outlineOffset: "-2px"
-        }, _ref['[type="search"]::-webkit-search-decoration'] = {
-            WebkitAppearance: "none"
-        }, _ref["::-webkit-file-upload-button"] = {
-            WebkitAppearance: "button",
-            font: "inherit"
-        }, _ref.details = {
-            display: "block"
-        }, _ref.summary = {
-            display: "list-item"
-        }, _ref.template = {
-            display: "none"
-        }, _ref["[hidden]"] = {
-            display: "none"
-        }, _ref),
-        {
-            "abbr[title]": {
-                textDecoration: "underline dotted"
-            }
-        }
-    ];
-}
-var $e969c25bbfcf3237$var$_templateObject;
-/**
- * CSS for declaring a radial gradient, including a fallback background-color. The fallback is either the first color-stop or an explicitly passed fallback color.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...radialGradient({
- *     colorStops: ['#00FFFF 0%', 'rgba(0, 0, 255, 0) 50%', '#0000FF 95%'],
- *     extent: 'farthest-corner at 45px 45px',
- *     position: 'center',
- *     shape: 'ellipse',
- *   })
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${radialGradient({
- *     colorStops: ['#00FFFF 0%', 'rgba(0, 0, 255, 0) 50%', '#0000FF 95%'],
- *     extent: 'farthest-corner at 45px 45px',
- *     position: 'center',
- *     shape: 'ellipse',
- *   })}
- *`
- *
- * // CSS as JS Output
- *
- * div: {
- *   'backgroundColor': '#00FFFF',
- *   'backgroundImage': 'radial-gradient(center ellipse farthest-corner at 45px 45px, #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #0000FF 95%)',
- * }
- */ function $e969c25bbfcf3237$export$3922d1ccb8631cd8(_ref) {
-    var colorStops = _ref.colorStops, _ref$extent = _ref.extent, extent = _ref$extent === void 0 ? "" : _ref$extent, fallback = _ref.fallback, _ref$position = _ref.position, position = _ref$position === void 0 ? "" : _ref$position, _ref$shape = _ref.shape, shape = _ref$shape === void 0 ? "" : _ref$shape;
-    if (!colorStops || colorStops.length < 2) throw new $e969c25bbfcf3237$var$PolishedError(57);
-    return {
-        backgroundColor: fallback || colorStops[0].split(" ")[0],
-        backgroundImage: $e969c25bbfcf3237$var$constructGradientValue($e969c25bbfcf3237$var$_templateObject || ($e969c25bbfcf3237$var$_templateObject = (0, $c3c5af371be9e4f3$export$2e2bcd8739ae039)([
-            "radial-gradient(",
-            "",
-            "",
-            "",
-            ")"
-        ])), position, shape, extent, colorStops.join(", "))
-    };
-}
-/**
- * A helper to generate a retina background image and non-retina
- * background image. The retina background image will output to a HiDPI media query. The mixin uses
- * a _2x.png filename suffix by default.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *  ...retinaImage('my-img')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${retinaImage('my-img')}
- * `
- *
- * // CSS as JS Output
- * div {
- *   backgroundImage: 'url(my-img.png)',
- *   '@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
- *    only screen and (min--moz-device-pixel-ratio: 1.3),
- *    only screen and (-o-min-device-pixel-ratio: 1.3/1),
- *    only screen and (min-resolution: 144dpi),
- *    only screen and (min-resolution: 1.5dppx)': {
- *     backgroundImage: 'url(my-img_2x.png)',
- *   }
- * }
- */ function $e969c25bbfcf3237$export$19389033401d366a(filename, backgroundSize, extension, retinaFilename, retinaSuffix) {
-    var _ref;
-    if (extension === void 0) extension = "png";
-    if (retinaSuffix === void 0) retinaSuffix = "_2x";
-    if (!filename) throw new $e969c25bbfcf3237$var$PolishedError(58);
-     // Replace the dot at the beginning of the passed extension if one exists
-    var ext = extension.replace(/^\./, "");
-    var rFilename = retinaFilename ? retinaFilename + "." + ext : "" + filename + retinaSuffix + "." + ext;
-    return _ref = {
-        backgroundImage: "url(" + filename + "." + ext + ")"
-    }, _ref[$e969c25bbfcf3237$export$e79006618d7c6cc3()] = (0, $f899c77662afb645$export$2e2bcd8739ae039)({
-        backgroundImage: "url(" + rFilename + ")"
-    }, backgroundSize ? {
-        backgroundSize: backgroundSize
-    } : {}), _ref;
-}
-/* eslint-disable key-spacing */ var $e969c25bbfcf3237$var$functionsMap = {
-    easeInBack: "cubic-bezier(0.600, -0.280, 0.735, 0.045)",
-    easeInCirc: "cubic-bezier(0.600,  0.040, 0.980, 0.335)",
-    easeInCubic: "cubic-bezier(0.550,  0.055, 0.675, 0.190)",
-    easeInExpo: "cubic-bezier(0.950,  0.050, 0.795, 0.035)",
-    easeInQuad: "cubic-bezier(0.550,  0.085, 0.680, 0.530)",
-    easeInQuart: "cubic-bezier(0.895,  0.030, 0.685, 0.220)",
-    easeInQuint: "cubic-bezier(0.755,  0.050, 0.855, 0.060)",
-    easeInSine: "cubic-bezier(0.470,  0.000, 0.745, 0.715)",
-    easeOutBack: "cubic-bezier(0.175,  0.885, 0.320, 1.275)",
-    easeOutCubic: "cubic-bezier(0.215,  0.610, 0.355, 1.000)",
-    easeOutCirc: "cubic-bezier(0.075,  0.820, 0.165, 1.000)",
-    easeOutExpo: "cubic-bezier(0.190,  1.000, 0.220, 1.000)",
-    easeOutQuad: "cubic-bezier(0.250,  0.460, 0.450, 0.940)",
-    easeOutQuart: "cubic-bezier(0.165,  0.840, 0.440, 1.000)",
-    easeOutQuint: "cubic-bezier(0.230,  1.000, 0.320, 1.000)",
-    easeOutSine: "cubic-bezier(0.390,  0.575, 0.565, 1.000)",
-    easeInOutBack: "cubic-bezier(0.680, -0.550, 0.265, 1.550)",
-    easeInOutCirc: "cubic-bezier(0.785,  0.135, 0.150, 0.860)",
-    easeInOutCubic: "cubic-bezier(0.645,  0.045, 0.355, 1.000)",
-    easeInOutExpo: "cubic-bezier(1.000,  0.000, 0.000, 1.000)",
-    easeInOutQuad: "cubic-bezier(0.455,  0.030, 0.515, 0.955)",
-    easeInOutQuart: "cubic-bezier(0.770,  0.000, 0.175, 1.000)",
-    easeInOutQuint: "cubic-bezier(0.860,  0.000, 0.070, 1.000)",
-    easeInOutSine: "cubic-bezier(0.445,  0.050, 0.550, 0.950)"
-};
-/* eslint-enable key-spacing */ function $e969c25bbfcf3237$var$getTimingFunction(functionName) {
-    return $e969c25bbfcf3237$var$functionsMap[functionName];
-}
-/**
- * String to represent common easing functions as demonstrated here: (github.com/jaukia/easie).
- *
- * @deprecated - This will be deprecated in v5 in favor of `easeIn`, `easeOut`, `easeInOut`.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   'transitionTimingFunction': timingFunctions('easeInQuad')
- * }
- *
- * // styled-components usage
- *  const div = styled.div`
- *   transitionTimingFunction: ${timingFunctions('easeInQuad')};
- * `
- *
- * // CSS as JS Output
- *
- * 'div': {
- *   'transitionTimingFunction': 'cubic-bezier(0.550,  0.085, 0.680, 0.530)',
- * }
- */ function $e969c25bbfcf3237$export$61210fa83792a81(timingFunction) {
-    return $e969c25bbfcf3237$var$getTimingFunction(timingFunction);
-}
-var $e969c25bbfcf3237$var$getBorderWidth = function getBorderWidth(pointingDirection, height, width) {
-    var fullWidth = "" + width[0] + (width[1] || "");
-    var halfWidth = "" + width[0] / 2 + (width[1] || "");
-    var fullHeight = "" + height[0] + (height[1] || "");
-    var halfHeight = "" + height[0] / 2 + (height[1] || "");
-    switch(pointingDirection){
-        case "top":
-            return "0 " + halfWidth + " " + fullHeight + " " + halfWidth;
-        case "topLeft":
-            return fullWidth + " " + fullHeight + " 0 0";
-        case "left":
-            return halfHeight + " " + fullWidth + " " + halfHeight + " 0";
-        case "bottomLeft":
-            return fullWidth + " 0 0 " + fullHeight;
-        case "bottom":
-            return fullHeight + " " + halfWidth + " 0 " + halfWidth;
-        case "bottomRight":
-            return "0 0 " + fullWidth + " " + fullHeight;
-        case "right":
-            return halfHeight + " 0 " + halfHeight + " " + fullWidth;
-        case "topRight":
-        default:
-            return "0 " + fullWidth + " " + fullHeight + " 0";
-    }
-};
-var $e969c25bbfcf3237$var$getBorderColor = function getBorderColor(pointingDirection, foregroundColor) {
-    switch(pointingDirection){
-        case "top":
-        case "bottomRight":
-            return {
-                borderBottomColor: foregroundColor
-            };
-        case "right":
-        case "bottomLeft":
-            return {
-                borderLeftColor: foregroundColor
-            };
-        case "bottom":
-        case "topLeft":
-            return {
-                borderTopColor: foregroundColor
-            };
-        case "left":
-        case "topRight":
-            return {
-                borderRightColor: foregroundColor
-            };
-        default:
-            throw new $e969c25bbfcf3237$var$PolishedError(59);
-    }
-};
-/**
- * CSS to represent triangle with any pointing direction with an optional background color.
- *
- * @example
- * // Styles as object usage
- *
- * const styles = {
- *   ...triangle({ pointingDirection: 'right', width: '100px', height: '100px', foregroundColor: 'red' })
- * }
- *
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${triangle({ pointingDirection: 'right', width: '100px', height: '100px', foregroundColor: 'red' })}
- *
- *
- * // CSS as JS Output
- *
- * div: {
- *  'borderColor': 'transparent transparent transparent red',
- *  'borderStyle': 'solid',
- *  'borderWidth': '50px 0 50px 100px',
- *  'height': '0',
- *  'width': '0',
- * }
- */ function $e969c25bbfcf3237$export$9eed783d03e0135c(_ref) {
-    var pointingDirection = _ref.pointingDirection, height = _ref.height, width = _ref.width, foregroundColor = _ref.foregroundColor, _ref$backgroundColor = _ref.backgroundColor, backgroundColor = _ref$backgroundColor === void 0 ? "transparent" : _ref$backgroundColor;
-    var widthAndUnit = $e969c25bbfcf3237$export$feec6b849ef388ab(width);
-    var heightAndUnit = $e969c25bbfcf3237$export$feec6b849ef388ab(height);
-    if (isNaN(heightAndUnit[0]) || isNaN(widthAndUnit[0])) throw new $e969c25bbfcf3237$var$PolishedError(60);
-    return (0, $f899c77662afb645$export$2e2bcd8739ae039)({
-        width: "0",
-        height: "0",
-        borderColor: backgroundColor
-    }, $e969c25bbfcf3237$var$getBorderColor(pointingDirection, foregroundColor), {
-        borderStyle: "solid",
-        borderWidth: $e969c25bbfcf3237$var$getBorderWidth(pointingDirection, heightAndUnit, widthAndUnit)
-    });
-}
-/**
- * Provides an easy way to change the `wordWrap` property.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...wordWrap('break-word')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${wordWrap('break-word')}
- * `
- *
- * // CSS as JS Output
- *
- * const styles = {
- *   overflowWrap: 'break-word',
- *   wordWrap: 'break-word',
- *   wordBreak: 'break-all',
- * }
- */ function $e969c25bbfcf3237$export$dca3d8ad656c34d2(wrap) {
-    if (wrap === void 0) wrap = "break-word";
-    var wordBreak = wrap === "break-word" ? "break-all" : wrap;
-    return {
-        overflowWrap: wrap,
-        wordWrap: wrap,
-        wordBreak: wordBreak
-    };
-}
-function $e969c25bbfcf3237$var$colorToInt(color) {
-    return Math.round(color * 255);
-}
-function $e969c25bbfcf3237$var$convertToInt(red, green, blue) {
-    return $e969c25bbfcf3237$var$colorToInt(red) + "," + $e969c25bbfcf3237$var$colorToInt(green) + "," + $e969c25bbfcf3237$var$colorToInt(blue);
-}
-function $e969c25bbfcf3237$var$hslToRgb(hue, saturation, lightness, convert) {
-    if (convert === void 0) convert = $e969c25bbfcf3237$var$convertToInt;
-    if (saturation === 0) // achromatic
-    return convert(lightness, lightness, lightness);
-     // formulae from https://en.wikipedia.org/wiki/HSL_and_HSV
-    var huePrime = (hue % 360 + 360) % 360 / 60;
-    var chroma = (1 - Math.abs(2 * lightness - 1)) * saturation;
-    var secondComponent = chroma * (1 - Math.abs(huePrime % 2 - 1));
-    var red = 0;
-    var green = 0;
-    var blue = 0;
-    if (huePrime >= 0 && huePrime < 1) {
-        red = chroma;
-        green = secondComponent;
-    } else if (huePrime >= 1 && huePrime < 2) {
-        red = secondComponent;
-        green = chroma;
-    } else if (huePrime >= 2 && huePrime < 3) {
-        green = chroma;
-        blue = secondComponent;
-    } else if (huePrime >= 3 && huePrime < 4) {
-        green = secondComponent;
-        blue = chroma;
-    } else if (huePrime >= 4 && huePrime < 5) {
-        red = secondComponent;
-        blue = chroma;
-    } else if (huePrime >= 5 && huePrime < 6) {
-        red = chroma;
-        blue = secondComponent;
-    }
-    var lightnessModification = lightness - chroma / 2;
-    var finalRed = red + lightnessModification;
-    var finalGreen = green + lightnessModification;
-    var finalBlue = blue + lightnessModification;
-    return convert(finalRed, finalGreen, finalBlue);
-}
-var $e969c25bbfcf3237$var$namedColorMap = {
-    aliceblue: "f0f8ff",
-    antiquewhite: "faebd7",
-    aqua: "00ffff",
-    aquamarine: "7fffd4",
-    azure: "f0ffff",
-    beige: "f5f5dc",
-    bisque: "ffe4c4",
-    black: "000",
-    blanchedalmond: "ffebcd",
-    blue: "0000ff",
-    blueviolet: "8a2be2",
-    brown: "a52a2a",
-    burlywood: "deb887",
-    cadetblue: "5f9ea0",
-    chartreuse: "7fff00",
-    chocolate: "d2691e",
-    coral: "ff7f50",
-    cornflowerblue: "6495ed",
-    cornsilk: "fff8dc",
-    crimson: "dc143c",
-    cyan: "00ffff",
-    darkblue: "00008b",
-    darkcyan: "008b8b",
-    darkgoldenrod: "b8860b",
-    darkgray: "a9a9a9",
-    darkgreen: "006400",
-    darkgrey: "a9a9a9",
-    darkkhaki: "bdb76b",
-    darkmagenta: "8b008b",
-    darkolivegreen: "556b2f",
-    darkorange: "ff8c00",
-    darkorchid: "9932cc",
-    darkred: "8b0000",
-    darksalmon: "e9967a",
-    darkseagreen: "8fbc8f",
-    darkslateblue: "483d8b",
-    darkslategray: "2f4f4f",
-    darkslategrey: "2f4f4f",
-    darkturquoise: "00ced1",
-    darkviolet: "9400d3",
-    deeppink: "ff1493",
-    deepskyblue: "00bfff",
-    dimgray: "696969",
-    dimgrey: "696969",
-    dodgerblue: "1e90ff",
-    firebrick: "b22222",
-    floralwhite: "fffaf0",
-    forestgreen: "228b22",
-    fuchsia: "ff00ff",
-    gainsboro: "dcdcdc",
-    ghostwhite: "f8f8ff",
-    gold: "ffd700",
-    goldenrod: "daa520",
-    gray: "808080",
-    green: "008000",
-    greenyellow: "adff2f",
-    grey: "808080",
-    honeydew: "f0fff0",
-    hotpink: "ff69b4",
-    indianred: "cd5c5c",
-    indigo: "4b0082",
-    ivory: "fffff0",
-    khaki: "f0e68c",
-    lavender: "e6e6fa",
-    lavenderblush: "fff0f5",
-    lawngreen: "7cfc00",
-    lemonchiffon: "fffacd",
-    lightblue: "add8e6",
-    lightcoral: "f08080",
-    lightcyan: "e0ffff",
-    lightgoldenrodyellow: "fafad2",
-    lightgray: "d3d3d3",
-    lightgreen: "90ee90",
-    lightgrey: "d3d3d3",
-    lightpink: "ffb6c1",
-    lightsalmon: "ffa07a",
-    lightseagreen: "20b2aa",
-    lightskyblue: "87cefa",
-    lightslategray: "789",
-    lightslategrey: "789",
-    lightsteelblue: "b0c4de",
-    lightyellow: "ffffe0",
-    lime: "0f0",
-    limegreen: "32cd32",
-    linen: "faf0e6",
-    magenta: "f0f",
-    maroon: "800000",
-    mediumaquamarine: "66cdaa",
-    mediumblue: "0000cd",
-    mediumorchid: "ba55d3",
-    mediumpurple: "9370db",
-    mediumseagreen: "3cb371",
-    mediumslateblue: "7b68ee",
-    mediumspringgreen: "00fa9a",
-    mediumturquoise: "48d1cc",
-    mediumvioletred: "c71585",
-    midnightblue: "191970",
-    mintcream: "f5fffa",
-    mistyrose: "ffe4e1",
-    moccasin: "ffe4b5",
-    navajowhite: "ffdead",
-    navy: "000080",
-    oldlace: "fdf5e6",
-    olive: "808000",
-    olivedrab: "6b8e23",
-    orange: "ffa500",
-    orangered: "ff4500",
-    orchid: "da70d6",
-    palegoldenrod: "eee8aa",
-    palegreen: "98fb98",
-    paleturquoise: "afeeee",
-    palevioletred: "db7093",
-    papayawhip: "ffefd5",
-    peachpuff: "ffdab9",
-    peru: "cd853f",
-    pink: "ffc0cb",
-    plum: "dda0dd",
-    powderblue: "b0e0e6",
-    purple: "800080",
-    rebeccapurple: "639",
-    red: "f00",
-    rosybrown: "bc8f8f",
-    royalblue: "4169e1",
-    saddlebrown: "8b4513",
-    salmon: "fa8072",
-    sandybrown: "f4a460",
-    seagreen: "2e8b57",
-    seashell: "fff5ee",
-    sienna: "a0522d",
-    silver: "c0c0c0",
-    skyblue: "87ceeb",
-    slateblue: "6a5acd",
-    slategray: "708090",
-    slategrey: "708090",
-    snow: "fffafa",
-    springgreen: "00ff7f",
-    steelblue: "4682b4",
-    tan: "d2b48c",
-    teal: "008080",
-    thistle: "d8bfd8",
-    tomato: "ff6347",
-    turquoise: "40e0d0",
-    violet: "ee82ee",
-    wheat: "f5deb3",
-    white: "fff",
-    whitesmoke: "f5f5f5",
-    yellow: "ff0",
-    yellowgreen: "9acd32"
-};
-/**
- * Checks if a string is a CSS named color and returns its equivalent hex value, otherwise returns the original color.
- * @private
- */ function $e969c25bbfcf3237$var$nameToHex(color) {
-    if (typeof color !== "string") return color;
-    var normalizedColorName = color.toLowerCase();
-    return $e969c25bbfcf3237$var$namedColorMap[normalizedColorName] ? "#" + $e969c25bbfcf3237$var$namedColorMap[normalizedColorName] : color;
-}
-var $e969c25bbfcf3237$var$hexRegex = /^#[a-fA-F0-9]{6}$/;
-var $e969c25bbfcf3237$var$hexRgbaRegex = /^#[a-fA-F0-9]{8}$/;
-var $e969c25bbfcf3237$var$reducedHexRegex = /^#[a-fA-F0-9]{3}$/;
-var $e969c25bbfcf3237$var$reducedRgbaHexRegex = /^#[a-fA-F0-9]{4}$/;
-var $e969c25bbfcf3237$var$rgbRegex = /^rgb\(\s*(\d{1,3})\s*(?:,)?\s*(\d{1,3})\s*(?:,)?\s*(\d{1,3})\s*\)$/i;
-var $e969c25bbfcf3237$var$rgbaRegex = /^rgb(?:a)?\(\s*(\d{1,3})\s*(?:,)?\s*(\d{1,3})\s*(?:,)?\s*(\d{1,3})\s*(?:,|\/)\s*([-+]?\d*[.]?\d+[%]?)\s*\)$/i;
-var $e969c25bbfcf3237$var$hslRegex = /^hsl\(\s*(\d{0,3}[.]?[0-9]+(?:deg)?)\s*(?:,)?\s*(\d{1,3}[.]?[0-9]?)%\s*(?:,)?\s*(\d{1,3}[.]?[0-9]?)%\s*\)$/i;
-var $e969c25bbfcf3237$var$hslaRegex = /^hsl(?:a)?\(\s*(\d{0,3}[.]?[0-9]+(?:deg)?)\s*(?:,)?\s*(\d{1,3}[.]?[0-9]?)%\s*(?:,)?\s*(\d{1,3}[.]?[0-9]?)%\s*(?:,|\/)\s*([-+]?\d*[.]?\d+[%]?)\s*\)$/i;
-/**
- * Returns an RgbColor or RgbaColor object. This utility function is only useful
- * if want to extract a color component. With the color util `toColorString` you
- * can convert a RgbColor or RgbaColor object back to a string.
- *
- * @example
- * // Assigns `{ red: 255, green: 0, blue: 0 }` to color1
- * const color1 = parseToRgb('rgb(255, 0, 0)');
- * // Assigns `{ red: 92, green: 102, blue: 112, alpha: 0.75 }` to color2
- * const color2 = parseToRgb('hsla(210, 10%, 40%, 0.75)');
- */ function $e969c25bbfcf3237$export$2f48baff6995707a(color) {
-    if (typeof color !== "string") throw new $e969c25bbfcf3237$var$PolishedError(3);
-    var normalizedColor = $e969c25bbfcf3237$var$nameToHex(color);
-    if (normalizedColor.match($e969c25bbfcf3237$var$hexRegex)) return {
-        red: parseInt("" + normalizedColor[1] + normalizedColor[2], 16),
-        green: parseInt("" + normalizedColor[3] + normalizedColor[4], 16),
-        blue: parseInt("" + normalizedColor[5] + normalizedColor[6], 16)
-    };
-    if (normalizedColor.match($e969c25bbfcf3237$var$hexRgbaRegex)) {
-        var alpha = parseFloat((parseInt("" + normalizedColor[7] + normalizedColor[8], 16) / 255).toFixed(2));
-        return {
-            red: parseInt("" + normalizedColor[1] + normalizedColor[2], 16),
-            green: parseInt("" + normalizedColor[3] + normalizedColor[4], 16),
-            blue: parseInt("" + normalizedColor[5] + normalizedColor[6], 16),
-            alpha: alpha
-        };
-    }
-    if (normalizedColor.match($e969c25bbfcf3237$var$reducedHexRegex)) return {
-        red: parseInt("" + normalizedColor[1] + normalizedColor[1], 16),
-        green: parseInt("" + normalizedColor[2] + normalizedColor[2], 16),
-        blue: parseInt("" + normalizedColor[3] + normalizedColor[3], 16)
-    };
-    if (normalizedColor.match($e969c25bbfcf3237$var$reducedRgbaHexRegex)) {
-        var _alpha = parseFloat((parseInt("" + normalizedColor[4] + normalizedColor[4], 16) / 255).toFixed(2));
-        return {
-            red: parseInt("" + normalizedColor[1] + normalizedColor[1], 16),
-            green: parseInt("" + normalizedColor[2] + normalizedColor[2], 16),
-            blue: parseInt("" + normalizedColor[3] + normalizedColor[3], 16),
-            alpha: _alpha
-        };
-    }
-    var rgbMatched = $e969c25bbfcf3237$var$rgbRegex.exec(normalizedColor);
-    if (rgbMatched) return {
-        red: parseInt("" + rgbMatched[1], 10),
-        green: parseInt("" + rgbMatched[2], 10),
-        blue: parseInt("" + rgbMatched[3], 10)
-    };
-    var rgbaMatched = $e969c25bbfcf3237$var$rgbaRegex.exec(normalizedColor.substring(0, 50));
-    if (rgbaMatched) return {
-        red: parseInt("" + rgbaMatched[1], 10),
-        green: parseInt("" + rgbaMatched[2], 10),
-        blue: parseInt("" + rgbaMatched[3], 10),
-        alpha: parseFloat("" + rgbaMatched[4]) > 1 ? parseFloat("" + rgbaMatched[4]) / 100 : parseFloat("" + rgbaMatched[4])
-    };
-    var hslMatched = $e969c25bbfcf3237$var$hslRegex.exec(normalizedColor);
-    if (hslMatched) {
-        var hue = parseInt("" + hslMatched[1], 10);
-        var saturation = parseInt("" + hslMatched[2], 10) / 100;
-        var lightness = parseInt("" + hslMatched[3], 10) / 100;
-        var rgbColorString = "rgb(" + $e969c25bbfcf3237$var$hslToRgb(hue, saturation, lightness) + ")";
-        var hslRgbMatched = $e969c25bbfcf3237$var$rgbRegex.exec(rgbColorString);
-        if (!hslRgbMatched) throw new $e969c25bbfcf3237$var$PolishedError(4, normalizedColor, rgbColorString);
-        return {
-            red: parseInt("" + hslRgbMatched[1], 10),
-            green: parseInt("" + hslRgbMatched[2], 10),
-            blue: parseInt("" + hslRgbMatched[3], 10)
-        };
-    }
-    var hslaMatched = $e969c25bbfcf3237$var$hslaRegex.exec(normalizedColor.substring(0, 50));
-    if (hslaMatched) {
-        var _hue = parseInt("" + hslaMatched[1], 10);
-        var _saturation = parseInt("" + hslaMatched[2], 10) / 100;
-        var _lightness = parseInt("" + hslaMatched[3], 10) / 100;
-        var _rgbColorString = "rgb(" + $e969c25bbfcf3237$var$hslToRgb(_hue, _saturation, _lightness) + ")";
-        var _hslRgbMatched = $e969c25bbfcf3237$var$rgbRegex.exec(_rgbColorString);
-        if (!_hslRgbMatched) throw new $e969c25bbfcf3237$var$PolishedError(4, normalizedColor, _rgbColorString);
-        return {
-            red: parseInt("" + _hslRgbMatched[1], 10),
-            green: parseInt("" + _hslRgbMatched[2], 10),
-            blue: parseInt("" + _hslRgbMatched[3], 10),
-            alpha: parseFloat("" + hslaMatched[4]) > 1 ? parseFloat("" + hslaMatched[4]) / 100 : parseFloat("" + hslaMatched[4])
-        };
-    }
-    throw new $e969c25bbfcf3237$var$PolishedError(5);
-}
-function $e969c25bbfcf3237$var$rgbToHsl(color) {
-    // make sure rgb are contained in a set of [0, 255]
-    var red = color.red / 255;
-    var green = color.green / 255;
-    var blue = color.blue / 255;
-    var _$max = Math.max(red, green, blue);
-    var _$min = Math.min(red, green, blue);
-    var lightness = (_$max + _$min) / 2;
-    if (_$max === _$min) {
-        // achromatic
-        if (color.alpha !== undefined) return {
-            hue: 0,
-            saturation: 0,
-            lightness: lightness,
-            alpha: color.alpha
-        };
-        else return {
-            hue: 0,
-            saturation: 0,
-            lightness: lightness
-        };
-    }
-    var hue;
-    var delta = _$max - _$min;
-    var saturation = lightness > 0.5 ? delta / (2 - _$max - _$min) : delta / (_$max + _$min);
-    switch(_$max){
-        case red:
-            hue = (green - blue) / delta + (green < blue ? 6 : 0);
-            break;
-        case green:
-            hue = (blue - red) / delta + 2;
-            break;
-        default:
-            // blue case
-            hue = (red - green) / delta + 4;
-            break;
-    }
-    hue *= 60;
-    if (color.alpha !== undefined) return {
-        hue: hue,
-        saturation: saturation,
-        lightness: lightness,
-        alpha: color.alpha
-    };
-    return {
-        hue: hue,
-        saturation: saturation,
-        lightness: lightness
-    };
-}
-/**
- * Returns an HslColor or HslaColor object. This utility function is only useful
- * if want to extract a color component. With the color util `toColorString` you
- * can convert a HslColor or HslaColor object back to a string.
- *
- * @example
- * // Assigns `{ hue: 0, saturation: 1, lightness: 0.5 }` to color1
- * const color1 = parseToHsl('rgb(255, 0, 0)');
- * // Assigns `{ hue: 128, saturation: 1, lightness: 0.5, alpha: 0.75 }` to color2
- * const color2 = parseToHsl('hsla(128, 100%, 50%, 0.75)');
- */ function $e969c25bbfcf3237$export$1286688e1b3fde9c(color) {
-    // Note: At a later stage we can optimize this function as right now a hsl
-    // color would be parsed converted to rgb values and converted back to hsl.
-    return $e969c25bbfcf3237$var$rgbToHsl($e969c25bbfcf3237$export$2f48baff6995707a(color));
-}
-/**
- * Reduces hex values if possible e.g. #ff8866 to #f86
- * @private
- */ var $e969c25bbfcf3237$var$reduceHexValue = function reduceHexValue(value) {
-    if (value.length === 7 && value[1] === value[2] && value[3] === value[4] && value[5] === value[6]) return "#" + value[1] + value[3] + value[5];
-    return value;
-};
-var $e969c25bbfcf3237$var$reduceHexValue$1 = $e969c25bbfcf3237$var$reduceHexValue;
-function $e969c25bbfcf3237$var$numberToHex(value) {
-    var hex = value.toString(16);
-    return hex.length === 1 ? "0" + hex : hex;
-}
-function $e969c25bbfcf3237$var$colorToHex(color) {
-    return $e969c25bbfcf3237$var$numberToHex(Math.round(color * 255));
-}
-function $e969c25bbfcf3237$var$convertToHex(red, green, blue) {
-    return $e969c25bbfcf3237$var$reduceHexValue$1("#" + $e969c25bbfcf3237$var$colorToHex(red) + $e969c25bbfcf3237$var$colorToHex(green) + $e969c25bbfcf3237$var$colorToHex(blue));
-}
-function $e969c25bbfcf3237$var$hslToHex(hue, saturation, lightness) {
-    return $e969c25bbfcf3237$var$hslToRgb(hue, saturation, lightness, $e969c25bbfcf3237$var$convertToHex);
-}
-/**
- * Returns a string value for the color. The returned result is the smallest possible hex notation.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: hsl(359, 0.75, 0.4),
- *   background: hsl({ hue: 360, saturation: 0.75, lightness: 0.4 }),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${hsl(359, 0.75, 0.4)};
- *   background: ${hsl({ hue: 360, saturation: 0.75, lightness: 0.4 })};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "#b3191c";
- *   background: "#b3191c";
- * }
- */ function $e969c25bbfcf3237$export$8f4a7c0bb78e6ea8(value, saturation, lightness) {
-    if (typeof value === "number" && typeof saturation === "number" && typeof lightness === "number") return $e969c25bbfcf3237$var$hslToHex(value, saturation, lightness);
-    else if (typeof value === "object" && saturation === undefined && lightness === undefined) return $e969c25bbfcf3237$var$hslToHex(value.hue, value.saturation, value.lightness);
-    throw new $e969c25bbfcf3237$var$PolishedError(1);
-}
-/**
- * Returns a string value for the color. The returned result is the smallest possible rgba or hex notation.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: hsla(359, 0.75, 0.4, 0.7),
- *   background: hsla({ hue: 360, saturation: 0.75, lightness: 0.4, alpha: 0,7 }),
- *   background: hsla(359, 0.75, 0.4, 1),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${hsla(359, 0.75, 0.4, 0.7)};
- *   background: ${hsla({ hue: 360, saturation: 0.75, lightness: 0.4, alpha: 0,7 })};
- *   background: ${hsla(359, 0.75, 0.4, 1)};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "rgba(179,25,28,0.7)";
- *   background: "rgba(179,25,28,0.7)";
- *   background: "#b3191c";
- * }
- */ function $e969c25bbfcf3237$export$810b04175080204c(value, saturation, lightness, alpha) {
-    if (typeof value === "number" && typeof saturation === "number" && typeof lightness === "number" && typeof alpha === "number") return alpha >= 1 ? $e969c25bbfcf3237$var$hslToHex(value, saturation, lightness) : "rgba(" + $e969c25bbfcf3237$var$hslToRgb(value, saturation, lightness) + "," + alpha + ")";
-    else if (typeof value === "object" && saturation === undefined && lightness === undefined && alpha === undefined) return value.alpha >= 1 ? $e969c25bbfcf3237$var$hslToHex(value.hue, value.saturation, value.lightness) : "rgba(" + $e969c25bbfcf3237$var$hslToRgb(value.hue, value.saturation, value.lightness) + "," + value.alpha + ")";
-    throw new $e969c25bbfcf3237$var$PolishedError(2);
-}
-/**
- * Returns a string value for the color. The returned result is the smallest possible hex notation.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: rgb(255, 205, 100),
- *   background: rgb({ red: 255, green: 205, blue: 100 }),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${rgb(255, 205, 100)};
- *   background: ${rgb({ red: 255, green: 205, blue: 100 })};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "#ffcd64";
- *   background: "#ffcd64";
- * }
- */ function $e969c25bbfcf3237$export$8972dc0e6ad9238f(value, green, blue) {
-    if (typeof value === "number" && typeof green === "number" && typeof blue === "number") return $e969c25bbfcf3237$var$reduceHexValue$1("#" + $e969c25bbfcf3237$var$numberToHex(value) + $e969c25bbfcf3237$var$numberToHex(green) + $e969c25bbfcf3237$var$numberToHex(blue));
-    else if (typeof value === "object" && green === undefined && blue === undefined) return $e969c25bbfcf3237$var$reduceHexValue$1("#" + $e969c25bbfcf3237$var$numberToHex(value.red) + $e969c25bbfcf3237$var$numberToHex(value.green) + $e969c25bbfcf3237$var$numberToHex(value.blue));
-    throw new $e969c25bbfcf3237$var$PolishedError(6);
-}
-/**
- * Returns a string value for the color. The returned result is the smallest possible rgba or hex notation.
- *
- * Can also be used to fade a color by passing a hex value or named CSS color along with an alpha value.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: rgba(255, 205, 100, 0.7),
- *   background: rgba({ red: 255, green: 205, blue: 100, alpha: 0.7 }),
- *   background: rgba(255, 205, 100, 1),
- *   background: rgba('#ffffff', 0.4),
- *   background: rgba('black', 0.7),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${rgba(255, 205, 100, 0.7)};
- *   background: ${rgba({ red: 255, green: 205, blue: 100, alpha: 0.7 })};
- *   background: ${rgba(255, 205, 100, 1)};
- *   background: ${rgba('#ffffff', 0.4)};
- *   background: ${rgba('black', 0.7)};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "rgba(255,205,100,0.7)";
- *   background: "rgba(255,205,100,0.7)";
- *   background: "#ffcd64";
- *   background: "rgba(255,255,255,0.4)";
- *   background: "rgba(0,0,0,0.7)";
- * }
- */ function $e969c25bbfcf3237$export$4e46ac54fc82cf3b(firstValue, secondValue, thirdValue, fourthValue) {
-    if (typeof firstValue === "string" && typeof secondValue === "number") {
-        var rgbValue = $e969c25bbfcf3237$export$2f48baff6995707a(firstValue);
-        return "rgba(" + rgbValue.red + "," + rgbValue.green + "," + rgbValue.blue + "," + secondValue + ")";
-    } else if (typeof firstValue === "number" && typeof secondValue === "number" && typeof thirdValue === "number" && typeof fourthValue === "number") return fourthValue >= 1 ? $e969c25bbfcf3237$export$8972dc0e6ad9238f(firstValue, secondValue, thirdValue) : "rgba(" + firstValue + "," + secondValue + "," + thirdValue + "," + fourthValue + ")";
-    else if (typeof firstValue === "object" && secondValue === undefined && thirdValue === undefined && fourthValue === undefined) return firstValue.alpha >= 1 ? $e969c25bbfcf3237$export$8972dc0e6ad9238f(firstValue.red, firstValue.green, firstValue.blue) : "rgba(" + firstValue.red + "," + firstValue.green + "," + firstValue.blue + "," + firstValue.alpha + ")";
-    throw new $e969c25bbfcf3237$var$PolishedError(7);
-}
-var $e969c25bbfcf3237$var$isRgb = function isRgb(color) {
-    return typeof color.red === "number" && typeof color.green === "number" && typeof color.blue === "number" && (typeof color.alpha !== "number" || typeof color.alpha === "undefined");
-};
-var $e969c25bbfcf3237$var$isRgba = function isRgba(color) {
-    return typeof color.red === "number" && typeof color.green === "number" && typeof color.blue === "number" && typeof color.alpha === "number";
-};
-var $e969c25bbfcf3237$var$isHsl = function isHsl(color) {
-    return typeof color.hue === "number" && typeof color.saturation === "number" && typeof color.lightness === "number" && (typeof color.alpha !== "number" || typeof color.alpha === "undefined");
-};
-var $e969c25bbfcf3237$var$isHsla = function isHsla(color) {
-    return typeof color.hue === "number" && typeof color.saturation === "number" && typeof color.lightness === "number" && typeof color.alpha === "number";
-};
-/**
- * Converts a RgbColor, RgbaColor, HslColor or HslaColor object to a color string.
- * This util is useful in case you only know on runtime which color object is
- * used. Otherwise we recommend to rely on `rgb`, `rgba`, `hsl` or `hsla`.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: toColorString({ red: 255, green: 205, blue: 100 }),
- *   background: toColorString({ red: 255, green: 205, blue: 100, alpha: 0.72 }),
- *   background: toColorString({ hue: 240, saturation: 1, lightness: 0.5 }),
- *   background: toColorString({ hue: 360, saturation: 0.75, lightness: 0.4, alpha: 0.72 }),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${toColorString({ red: 255, green: 205, blue: 100 })};
- *   background: ${toColorString({ red: 255, green: 205, blue: 100, alpha: 0.72 })};
- *   background: ${toColorString({ hue: 240, saturation: 1, lightness: 0.5 })};
- *   background: ${toColorString({ hue: 360, saturation: 0.75, lightness: 0.4, alpha: 0.72 })};
- * `
- *
- * // CSS in JS Output
- * element {
- *   background: "#ffcd64";
- *   background: "rgba(255,205,100,0.72)";
- *   background: "#00f";
- *   background: "rgba(179,25,25,0.72)";
- * }
- */ function $e969c25bbfcf3237$export$42fe740cdf79b2df(color) {
-    if (typeof color !== "object") throw new $e969c25bbfcf3237$var$PolishedError(8);
-    if ($e969c25bbfcf3237$var$isRgba(color)) return $e969c25bbfcf3237$export$4e46ac54fc82cf3b(color);
-    if ($e969c25bbfcf3237$var$isRgb(color)) return $e969c25bbfcf3237$export$8972dc0e6ad9238f(color);
-    if ($e969c25bbfcf3237$var$isHsla(color)) return $e969c25bbfcf3237$export$810b04175080204c(color);
-    if ($e969c25bbfcf3237$var$isHsl(color)) return $e969c25bbfcf3237$export$8f4a7c0bb78e6ea8(color);
-    throw new $e969c25bbfcf3237$var$PolishedError(8);
-}
-// Type definitions taken from https://github.com/gcanti/flow-static-land/blob/master/src/Fun.js
-// eslint-disable-next-line no-unused-vars
-// eslint-disable-next-line no-unused-vars
-// eslint-disable-next-line no-redeclare
-function $e969c25bbfcf3237$var$curried(f, length, acc) {
-    return function fn() {
-        // eslint-disable-next-line prefer-rest-params
-        var combined = acc.concat(Array.prototype.slice.call(arguments));
-        return combined.length >= length ? f.apply(this, combined) : $e969c25bbfcf3237$var$curried(f, length, combined);
-    };
-} // eslint-disable-next-line no-redeclare
-function $e969c25bbfcf3237$var$curry(f) {
-    // eslint-disable-line no-redeclare
-    return $e969c25bbfcf3237$var$curried(f, f.length, []);
-}
-/**
- * Changes the hue of the color. Hue is a number between 0 to 360. The first
- * argument for adjustHue is the amount of degrees the color is rotated around
- * the color wheel, always producing a positive hue value.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: adjustHue(180, '#448'),
- *   background: adjustHue('180', 'rgba(101,100,205,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${adjustHue(180, '#448')};
- *   background: ${adjustHue('180', 'rgba(101,100,205,0.7)')};
- * `
- *
- * // CSS in JS Output
- * element {
- *   background: "#888844";
- *   background: "rgba(136,136,68,0.7)";
- * }
- */ function $e969c25bbfcf3237$var$adjustHue(degree, color) {
-    if (color === "transparent") return color;
-    var hslColor = $e969c25bbfcf3237$export$1286688e1b3fde9c(color);
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, hslColor, {
-        hue: hslColor.hue + parseFloat(degree)
-    }));
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedAdjustHue = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$adjustHue);
-var $e969c25bbfcf3237$export$2b372a09365374d6 = $e969c25bbfcf3237$var$curriedAdjustHue;
-/**
- * Returns the complement of the provided color. This is identical to adjustHue(180, <color>).
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: complement('#448'),
- *   background: complement('rgba(204,205,100,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${complement('#448')};
- *   background: ${complement('rgba(204,205,100,0.7)')};
- * `
- *
- * // CSS in JS Output
- * element {
- *   background: "#884";
- *   background: "rgba(153,153,153,0.7)";
- * }
- */ function $e969c25bbfcf3237$export$bd4f6f7e1823bc9e(color) {
-    if (color === "transparent") return color;
-    var hslColor = $e969c25bbfcf3237$export$1286688e1b3fde9c(color);
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, hslColor, {
-        hue: (hslColor.hue + 180) % 360
-    }));
-}
-function $e969c25bbfcf3237$var$guard(lowerBoundary, upperBoundary, value) {
-    return Math.max(lowerBoundary, Math.min(upperBoundary, value));
-}
-/**
- * Returns a string value for the darkened color.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: darken(0.2, '#FFCD64'),
- *   background: darken('0.2', 'rgba(255,205,100,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${darken(0.2, '#FFCD64')};
- *   background: ${darken('0.2', 'rgba(255,205,100,0.7)')};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "#ffbd31";
- *   background: "rgba(255,189,49,0.7)";
- * }
- */ function $e969c25bbfcf3237$var$darken(amount, color) {
-    if (color === "transparent") return color;
-    var hslColor = $e969c25bbfcf3237$export$1286688e1b3fde9c(color);
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, hslColor, {
-        lightness: $e969c25bbfcf3237$var$guard(0, 1, hslColor.lightness - parseFloat(amount))
-    }));
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedDarken = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$darken);
-var $e969c25bbfcf3237$export$4b073707ff63303 = $e969c25bbfcf3237$var$curriedDarken;
-/**
- * Decreases the intensity of a color. Its range is between 0 to 1. The first
- * argument of the desaturate function is the amount by how much the color
- * intensity should be decreased.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: desaturate(0.2, '#CCCD64'),
- *   background: desaturate('0.2', 'rgba(204,205,100,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${desaturate(0.2, '#CCCD64')};
- *   background: ${desaturate('0.2', 'rgba(204,205,100,0.7)')};
- * `
- *
- * // CSS in JS Output
- * element {
- *   background: "#b8b979";
- *   background: "rgba(184,185,121,0.7)";
- * }
- */ function $e969c25bbfcf3237$var$desaturate(amount, color) {
-    if (color === "transparent") return color;
-    var hslColor = $e969c25bbfcf3237$export$1286688e1b3fde9c(color);
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, hslColor, {
-        saturation: $e969c25bbfcf3237$var$guard(0, 1, hslColor.saturation - parseFloat(amount))
-    }));
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedDesaturate = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$desaturate);
-var $e969c25bbfcf3237$export$fb75607d98509d9 = $e969c25bbfcf3237$var$curriedDesaturate;
-/**
- * Returns a number (float) representing the luminance of a color.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: getLuminance('#CCCD64') >= getLuminance('#0000ff') ? '#CCCD64' : '#0000ff',
- *   background: getLuminance('rgba(58, 133, 255, 1)') >= getLuminance('rgba(255, 57, 149, 1)') ?
- *                             'rgba(58, 133, 255, 1)' :
- *                             'rgba(255, 57, 149, 1)',
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${getLuminance('#CCCD64') >= getLuminance('#0000ff') ? '#CCCD64' : '#0000ff'};
- *   background: ${getLuminance('rgba(58, 133, 255, 1)') >= getLuminance('rgba(255, 57, 149, 1)') ?
- *                             'rgba(58, 133, 255, 1)' :
- *                             'rgba(255, 57, 149, 1)'};
- *
- * // CSS in JS Output
- *
- * div {
- *   background: "#CCCD64";
- *   background: "rgba(58, 133, 255, 1)";
- * }
- */ function $e969c25bbfcf3237$export$c852d90bf7403b62(color) {
-    if (color === "transparent") return 0;
-    var rgbColor = $e969c25bbfcf3237$export$2f48baff6995707a(color);
-    var _Object$keys$map = Object.keys(rgbColor).map(function(key) {
-        var channel = rgbColor[key] / 255;
-        return channel <= 0.03928 ? channel / 12.92 : Math.pow((channel + 0.055) / 1.055, 2.4);
-    }), r = _Object$keys$map[0], g = _Object$keys$map[1], b = _Object$keys$map[2];
-    return parseFloat((0.2126 * r + 0.7152 * g + 0.0722 * b).toFixed(3));
-}
-/**
- * Returns the contrast ratio between two colors based on
- * [W3's recommended equation for calculating contrast](http://www.w3.org/TR/WCAG20/#contrast-ratiodef).
- *
- * @example
- * const contrastRatio = getContrast('#444', '#fff');
- */ function $e969c25bbfcf3237$export$850ce485a60d103b(color1, color2) {
-    var luminance1 = $e969c25bbfcf3237$export$c852d90bf7403b62(color1);
-    var luminance2 = $e969c25bbfcf3237$export$c852d90bf7403b62(color2);
-    return parseFloat((luminance1 > luminance2 ? (luminance1 + 0.05) / (luminance2 + 0.05) : (luminance2 + 0.05) / (luminance1 + 0.05)).toFixed(2));
-}
-/**
- * Converts the color to a grayscale, by reducing its saturation to 0.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: grayscale('#CCCD64'),
- *   background: grayscale('rgba(204,205,100,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${grayscale('#CCCD64')};
- *   background: ${grayscale('rgba(204,205,100,0.7)')};
- * `
- *
- * // CSS in JS Output
- * element {
- *   background: "#999";
- *   background: "rgba(153,153,153,0.7)";
- * }
- */ function $e969c25bbfcf3237$export$6f416a6db2dfcd5c(color) {
-    if (color === "transparent") return color;
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, $e969c25bbfcf3237$export$1286688e1b3fde9c(color), {
-        saturation: 0
-    }));
-}
-/**
- * Converts a HslColor or HslaColor object to a color string.
- * This util is useful in case you only know on runtime which color object is
- * used. Otherwise we recommend to rely on `hsl` or `hsla`.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: hslToColorString({ hue: 240, saturation: 1, lightness: 0.5 }),
- *   background: hslToColorString({ hue: 360, saturation: 0.75, lightness: 0.4, alpha: 0.72 }),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${hslToColorString({ hue: 240, saturation: 1, lightness: 0.5 })};
- *   background: ${hslToColorString({ hue: 360, saturation: 0.75, lightness: 0.4, alpha: 0.72 })};
- * `
- *
- * // CSS in JS Output
- * element {
- *   background: "#00f";
- *   background: "rgba(179,25,25,0.72)";
- * }
- */ function $e969c25bbfcf3237$export$97fc773b219a4ae(color) {
-    if (typeof color === "object" && typeof color.hue === "number" && typeof color.saturation === "number" && typeof color.lightness === "number") {
-        if (color.alpha && typeof color.alpha === "number") return $e969c25bbfcf3237$export$810b04175080204c({
-            hue: color.hue,
-            saturation: color.saturation,
-            lightness: color.lightness,
-            alpha: color.alpha
-        });
-        return $e969c25bbfcf3237$export$8f4a7c0bb78e6ea8({
-            hue: color.hue,
-            saturation: color.saturation,
-            lightness: color.lightness
-        });
-    }
-    throw new $e969c25bbfcf3237$var$PolishedError(45);
-}
-/**
- * Inverts the red, green and blue values of a color.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: invert('#CCCD64'),
- *   background: invert('rgba(101,100,205,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${invert('#CCCD64')};
- *   background: ${invert('rgba(101,100,205,0.7)')};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "#33329b";
- *   background: "rgba(154,155,50,0.7)";
- * }
- */ function $e969c25bbfcf3237$export$6897c284b6f9f4dc(color) {
-    if (color === "transparent") return color; // parse color string to rgb
-    var value = $e969c25bbfcf3237$export$2f48baff6995707a(color);
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, value, {
-        red: 255 - value.red,
-        green: 255 - value.green,
-        blue: 255 - value.blue
-    }));
-}
-/**
- * Returns a string value for the lightened color.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: lighten(0.2, '#CCCD64'),
- *   background: lighten('0.2', 'rgba(204,205,100,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${lighten(0.2, '#FFCD64')};
- *   background: ${lighten('0.2', 'rgba(204,205,100,0.7)')};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "#e5e6b1";
- *   background: "rgba(229,230,177,0.7)";
- * }
- */ function $e969c25bbfcf3237$var$lighten(amount, color) {
-    if (color === "transparent") return color;
-    var hslColor = $e969c25bbfcf3237$export$1286688e1b3fde9c(color);
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, hslColor, {
-        lightness: $e969c25bbfcf3237$var$guard(0, 1, hslColor.lightness + parseFloat(amount))
-    }));
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedLighten = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$lighten);
-var $e969c25bbfcf3237$export$c0816ed86df316af = $e969c25bbfcf3237$var$curriedLighten;
-/**
- * Determines which contrast guidelines have been met for two colors.
- * Based on the [contrast calculations recommended by W3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html).
- *
- * @example
- * const scores = meetsContrastGuidelines('#444', '#fff');
- */ function $e969c25bbfcf3237$export$bc0d548020bc5a2(color1, color2) {
-    var contrastRatio = $e969c25bbfcf3237$export$850ce485a60d103b(color1, color2);
-    return {
-        AA: contrastRatio >= 4.5,
-        AALarge: contrastRatio >= 3,
-        AAA: contrastRatio >= 7,
-        AAALarge: contrastRatio >= 4.5
-    };
-}
-/**
- * Mixes the two provided colors together by calculating the average of each of the RGB components weighted to the first color by the provided weight.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: mix(0.5, '#f00', '#00f')
- *   background: mix(0.25, '#f00', '#00f')
- *   background: mix('0.5', 'rgba(255, 0, 0, 0.5)', '#00f')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${mix(0.5, '#f00', '#00f')};
- *   background: ${mix(0.25, '#f00', '#00f')};
- *   background: ${mix('0.5', 'rgba(255, 0, 0, 0.5)', '#00f')};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "#7f007f";
- *   background: "#3f00bf";
- *   background: "rgba(63, 0, 191, 0.75)";
- * }
- */ function $e969c25bbfcf3237$var$mix(weight, color, otherColor) {
-    if (color === "transparent") return otherColor;
-    if (otherColor === "transparent") return color;
-    if (weight === 0) return otherColor;
-    var parsedColor1 = $e969c25bbfcf3237$export$2f48baff6995707a(color);
-    var color1 = (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, parsedColor1, {
-        alpha: typeof parsedColor1.alpha === "number" ? parsedColor1.alpha : 1
-    });
-    var parsedColor2 = $e969c25bbfcf3237$export$2f48baff6995707a(otherColor);
-    var color2 = (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, parsedColor2, {
-        alpha: typeof parsedColor2.alpha === "number" ? parsedColor2.alpha : 1
-    }); // The formula is copied from the original Sass implementation:
-    // http://sass-lang.com/documentation/Sass/Script/Functions.html#mix-instance_method
-    var alphaDelta = color1.alpha - color2.alpha;
-    var x = parseFloat(weight) * 2 - 1;
-    var y = x * alphaDelta === -1 ? x : x + alphaDelta;
-    var z = 1 + x * alphaDelta;
-    var weight1 = (y / z + 1) / 2.0;
-    var weight2 = 1 - weight1;
-    var mixedColor = {
-        red: Math.floor(color1.red * weight1 + color2.red * weight2),
-        green: Math.floor(color1.green * weight1 + color2.green * weight2),
-        blue: Math.floor(color1.blue * weight1 + color2.blue * weight2),
-        alpha: color1.alpha * parseFloat(weight) + color2.alpha * (1 - parseFloat(weight))
-    };
-    return $e969c25bbfcf3237$export$4e46ac54fc82cf3b(mixedColor);
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedMix = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$mix);
-var $e969c25bbfcf3237$export$2c9e8a9632a706b2 = $e969c25bbfcf3237$var$curriedMix;
-/**
- * Increases the opacity of a color. Its range for the amount is between 0 to 1.
- *
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: opacify(0.1, 'rgba(255, 255, 255, 0.9)');
- *   background: opacify(0.2, 'hsla(0, 0%, 100%, 0.5)'),
- *   background: opacify('0.5', 'rgba(255, 0, 0, 0.2)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${opacify(0.1, 'rgba(255, 255, 255, 0.9)')};
- *   background: ${opacify(0.2, 'hsla(0, 0%, 100%, 0.5)')},
- *   background: ${opacify('0.5', 'rgba(255, 0, 0, 0.2)')},
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "#fff";
- *   background: "rgba(255,255,255,0.7)";
- *   background: "rgba(255,0,0,0.7)";
- * }
- */ function $e969c25bbfcf3237$var$opacify(amount, color) {
-    if (color === "transparent") return color;
-    var parsedColor = $e969c25bbfcf3237$export$2f48baff6995707a(color);
-    var alpha = typeof parsedColor.alpha === "number" ? parsedColor.alpha : 1;
-    var colorWithAlpha = (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, parsedColor, {
-        alpha: $e969c25bbfcf3237$var$guard(0, 1, (alpha * 100 + parseFloat(amount) * 100) / 100)
-    });
-    return $e969c25bbfcf3237$export$4e46ac54fc82cf3b(colorWithAlpha);
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedOpacify = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$opacify);
-var $e969c25bbfcf3237$export$f4f50e3877dd0530 = $e969c25bbfcf3237$var$curriedOpacify;
-var $e969c25bbfcf3237$var$defaultReturnIfLightColor = "#000";
-var $e969c25bbfcf3237$var$defaultReturnIfDarkColor = "#fff";
-/**
- * Returns black or white (or optional passed colors) for best
- * contrast depending on the luminosity of the given color.
- * When passing custom return colors, strict mode ensures that the
- * return color always meets or exceeds WCAG level AA or greater. If this test
- * fails, the default return color (black or white) is returned in place of the
- * custom return color. You can optionally turn off strict mode.
- *
- * Follows [W3C specs for readability](https://www.w3.org/TR/WCAG20-TECHS/G18.html).
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   color: readableColor('#000'),
- *   color: readableColor('black', '#001', '#ff8'),
- *   color: readableColor('white', '#001', '#ff8'),
- *   color: readableColor('red', '#333', '#ddd', true)
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   color: ${readableColor('#000')};
- *   color: ${readableColor('black', '#001', '#ff8')};
- *   color: ${readableColor('white', '#001', '#ff8')};
- *   color: ${readableColor('red', '#333', '#ddd', true)};
- * `
- *
- * // CSS in JS Output
- * element {
- *   color: "#fff";
- *   color: "#ff8";
- *   color: "#001";
- *   color: "#000";
- * }
- */ function $e969c25bbfcf3237$export$61654c1796c44811(color, returnIfLightColor, returnIfDarkColor, strict) {
-    if (returnIfLightColor === void 0) returnIfLightColor = $e969c25bbfcf3237$var$defaultReturnIfLightColor;
-    if (returnIfDarkColor === void 0) returnIfDarkColor = $e969c25bbfcf3237$var$defaultReturnIfDarkColor;
-    if (strict === void 0) strict = true;
-    var isColorLight = $e969c25bbfcf3237$export$c852d90bf7403b62(color) > 0.179;
-    var preferredReturnColor = isColorLight ? returnIfLightColor : returnIfDarkColor;
-    if (!strict || $e969c25bbfcf3237$export$850ce485a60d103b(color, preferredReturnColor) >= 4.5) return preferredReturnColor;
-    return isColorLight ? $e969c25bbfcf3237$var$defaultReturnIfLightColor : $e969c25bbfcf3237$var$defaultReturnIfDarkColor;
-}
-/**
- * Converts a RgbColor or RgbaColor object to a color string.
- * This util is useful in case you only know on runtime which color object is
- * used. Otherwise we recommend to rely on `rgb` or `rgba`.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: rgbToColorString({ red: 255, green: 205, blue: 100 }),
- *   background: rgbToColorString({ red: 255, green: 205, blue: 100, alpha: 0.72 }),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${rgbToColorString({ red: 255, green: 205, blue: 100 })};
- *   background: ${rgbToColorString({ red: 255, green: 205, blue: 100, alpha: 0.72 })};
- * `
- *
- * // CSS in JS Output
- * element {
- *   background: "#ffcd64";
- *   background: "rgba(255,205,100,0.72)";
- * }
- */ function $e969c25bbfcf3237$export$34b0917fcca19deb(color) {
-    if (typeof color === "object" && typeof color.red === "number" && typeof color.green === "number" && typeof color.blue === "number") {
-        if (typeof color.alpha === "number") return $e969c25bbfcf3237$export$4e46ac54fc82cf3b({
-            red: color.red,
-            green: color.green,
-            blue: color.blue,
-            alpha: color.alpha
-        });
-        return $e969c25bbfcf3237$export$8972dc0e6ad9238f({
-            red: color.red,
-            green: color.green,
-            blue: color.blue
-        });
-    }
-    throw new $e969c25bbfcf3237$var$PolishedError(46);
-}
-/**
- * Increases the intensity of a color. Its range is between 0 to 1. The first
- * argument of the saturate function is the amount by how much the color
- * intensity should be increased.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: saturate(0.2, '#CCCD64'),
- *   background: saturate('0.2', 'rgba(204,205,100,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${saturate(0.2, '#FFCD64')};
- *   background: ${saturate('0.2', 'rgba(204,205,100,0.7)')};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "#e0e250";
- *   background: "rgba(224,226,80,0.7)";
- * }
- */ function $e969c25bbfcf3237$var$saturate(amount, color) {
-    if (color === "transparent") return color;
-    var hslColor = $e969c25bbfcf3237$export$1286688e1b3fde9c(color);
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, hslColor, {
-        saturation: $e969c25bbfcf3237$var$guard(0, 1, hslColor.saturation + parseFloat(amount))
-    }));
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedSaturate = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$saturate);
-var $e969c25bbfcf3237$export$5fcac96f5a87e3db = $e969c25bbfcf3237$var$curriedSaturate;
-/**
- * Sets the hue of a color to the provided value. The hue range can be
- * from 0 and 359.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: setHue(42, '#CCCD64'),
- *   background: setHue('244', 'rgba(204,205,100,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${setHue(42, '#CCCD64')};
- *   background: ${setHue('244', 'rgba(204,205,100,0.7)')};
- * `
- *
- * // CSS in JS Output
- * element {
- *   background: "#cdae64";
- *   background: "rgba(107,100,205,0.7)";
- * }
- */ function $e969c25bbfcf3237$var$setHue(hue, color) {
-    if (color === "transparent") return color;
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, $e969c25bbfcf3237$export$1286688e1b3fde9c(color), {
-        hue: parseFloat(hue)
-    }));
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedSetHue = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$setHue);
-var $e969c25bbfcf3237$export$3bf58ce3e497a846 = $e969c25bbfcf3237$var$curriedSetHue;
-/**
- * Sets the lightness of a color to the provided value. The lightness range can be
- * from 0 and 1.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: setLightness(0.2, '#CCCD64'),
- *   background: setLightness('0.75', 'rgba(204,205,100,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${setLightness(0.2, '#CCCD64')};
- *   background: ${setLightness('0.75', 'rgba(204,205,100,0.7)')};
- * `
- *
- * // CSS in JS Output
- * element {
- *   background: "#4d4d19";
- *   background: "rgba(223,224,159,0.7)";
- * }
- */ function $e969c25bbfcf3237$var$setLightness(lightness, color) {
-    if (color === "transparent") return color;
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, $e969c25bbfcf3237$export$1286688e1b3fde9c(color), {
-        lightness: parseFloat(lightness)
-    }));
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedSetLightness = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$setLightness);
-var $e969c25bbfcf3237$export$7ef5d725337b805d = $e969c25bbfcf3237$var$curriedSetLightness;
-/**
- * Sets the saturation of a color to the provided value. The saturation range can be
- * from 0 and 1.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: setSaturation(0.2, '#CCCD64'),
- *   background: setSaturation('0.75', 'rgba(204,205,100,0.7)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${setSaturation(0.2, '#CCCD64')};
- *   background: ${setSaturation('0.75', 'rgba(204,205,100,0.7)')};
- * `
- *
- * // CSS in JS Output
- * element {
- *   background: "#adad84";
- *   background: "rgba(228,229,76,0.7)";
- * }
- */ function $e969c25bbfcf3237$var$setSaturation(saturation, color) {
-    if (color === "transparent") return color;
-    return $e969c25bbfcf3237$export$42fe740cdf79b2df((0, $f899c77662afb645$export$2e2bcd8739ae039)({}, $e969c25bbfcf3237$export$1286688e1b3fde9c(color), {
-        saturation: parseFloat(saturation)
-    }));
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedSetSaturation = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$setSaturation);
-var $e969c25bbfcf3237$export$b40fe421ea7a4f7e = $e969c25bbfcf3237$var$curriedSetSaturation;
-/**
- * Shades a color by mixing it with black. `shade` can produce
- * hue shifts, where as `darken` manipulates the luminance channel and therefore
- * doesn't produce hue shifts.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: shade(0.25, '#00f')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${shade(0.25, '#00f')};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "#00003f";
- * }
- */ function $e969c25bbfcf3237$var$shade(percentage, color) {
-    if (color === "transparent") return color;
-    return $e969c25bbfcf3237$export$2c9e8a9632a706b2(parseFloat(percentage), "rgb(0, 0, 0)", color);
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedShade = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$shade);
-var $e969c25bbfcf3237$export$3e32adda0df4ef5d = $e969c25bbfcf3237$var$curriedShade;
-/**
- * Tints a color by mixing it with white. `tint` can produce
- * hue shifts, where as `lighten` manipulates the luminance channel and therefore
- * doesn't produce hue shifts.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: tint(0.25, '#00f')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${tint(0.25, '#00f')};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "#bfbfff";
- * }
- */ function $e969c25bbfcf3237$var$tint(percentage, color) {
-    if (color === "transparent") return color;
-    return $e969c25bbfcf3237$export$2c9e8a9632a706b2(parseFloat(percentage), "rgb(255, 255, 255)", color);
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedTint = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$tint);
-var $e969c25bbfcf3237$export$fc176dd65a27d98b = $e969c25bbfcf3237$var$curriedTint;
-/**
- * Decreases the opacity of a color. Its range for the amount is between 0 to 1.
- *
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   background: transparentize(0.1, '#fff'),
- *   background: transparentize(0.2, 'hsl(0, 0%, 100%)'),
- *   background: transparentize('0.5', 'rgba(255, 0, 0, 0.8)'),
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   background: ${transparentize(0.1, '#fff')};
- *   background: ${transparentize(0.2, 'hsl(0, 0%, 100%)')};
- *   background: ${transparentize('0.5', 'rgba(255, 0, 0, 0.8)')};
- * `
- *
- * // CSS in JS Output
- *
- * element {
- *   background: "rgba(255,255,255,0.9)";
- *   background: "rgba(255,255,255,0.8)";
- *   background: "rgba(255,0,0,0.3)";
- * }
- */ function $e969c25bbfcf3237$var$transparentize(amount, color) {
-    if (color === "transparent") return color;
-    var parsedColor = $e969c25bbfcf3237$export$2f48baff6995707a(color);
-    var alpha = typeof parsedColor.alpha === "number" ? parsedColor.alpha : 1;
-    var colorWithAlpha = (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, parsedColor, {
-        alpha: $e969c25bbfcf3237$var$guard(0, 1, +(alpha * 100 - parseFloat(amount) * 100).toFixed(2) / 100)
-    });
-    return $e969c25bbfcf3237$export$4e46ac54fc82cf3b(colorWithAlpha);
-} // prettier-ignore
-var $e969c25bbfcf3237$var$curriedTransparentize = /*#__PURE__*/ $e969c25bbfcf3237$var$curry($e969c25bbfcf3237$var$transparentize);
-var $e969c25bbfcf3237$export$d11da87e55cc498f = $e969c25bbfcf3237$var$curriedTransparentize;
-/**
- * Shorthand for easily setting the animation property. Allows either multiple arrays with animations
- * or a single animation spread over the arguments.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...animation(['rotate', '1s', 'ease-in-out'], ['colorchange', '2s'])
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${animation(['rotate', '1s', 'ease-in-out'], ['colorchange', '2s'])}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'animation': 'rotate 1s ease-in-out, colorchange 2s'
- * }
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...animation('rotate', '1s', 'ease-in-out')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${animation('rotate', '1s', 'ease-in-out')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'animation': 'rotate 1s ease-in-out'
- * }
- */ function $e969c25bbfcf3237$export$ecad260a8a5fef4f() {
-    for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++)args[_key] = arguments[_key];
-    // Allow single or multiple animations passed
-    var multiMode = Array.isArray(args[0]);
-    if (!multiMode && args.length > 8) throw new $e969c25bbfcf3237$var$PolishedError(64);
-    var code = args.map(function(arg) {
-        if (multiMode && !Array.isArray(arg) || !multiMode && Array.isArray(arg)) throw new $e969c25bbfcf3237$var$PolishedError(65);
-        if (Array.isArray(arg) && arg.length > 8) throw new $e969c25bbfcf3237$var$PolishedError(66);
-        return Array.isArray(arg) ? arg.join(" ") : arg;
-    }).join(", ");
-    return {
-        animation: code
-    };
-}
-/**
- * Shorthand that accepts any number of backgroundImage values as parameters for creating a single background statement.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...backgroundImages('url("/image/background.jpg")', 'linear-gradient(red, green)')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${backgroundImages('url("/image/background.jpg")', 'linear-gradient(red, green)')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'backgroundImage': 'url("/image/background.jpg"), linear-gradient(red, green)'
- * }
- */ function $e969c25bbfcf3237$export$c7de706fee81cfb4() {
-    for(var _len = arguments.length, properties = new Array(_len), _key = 0; _key < _len; _key++)properties[_key] = arguments[_key];
-    return {
-        backgroundImage: properties.join(", ")
-    };
-}
-/**
- * Shorthand that accepts any number of background values as parameters for creating a single background statement.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...backgrounds('url("/image/background.jpg")', 'linear-gradient(red, green)', 'center no-repeat')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${backgrounds('url("/image/background.jpg")', 'linear-gradient(red, green)', 'center no-repeat')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'background': 'url("/image/background.jpg"), linear-gradient(red, green), center no-repeat'
- * }
- */ function $e969c25bbfcf3237$export$d041fef2b78b7906() {
-    for(var _len = arguments.length, properties = new Array(_len), _key = 0; _key < _len; _key++)properties[_key] = arguments[_key];
-    return {
-        background: properties.join(", ")
-    };
-}
-var $e969c25bbfcf3237$var$sideMap = [
-    "top",
-    "right",
-    "bottom",
-    "left"
-];
-/**
- * Shorthand for the border property that splits out individual properties for use with tools like Fela and Styletron. A side keyword can optionally be passed to target only one side's border properties.
- *
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...border('1px', 'solid', 'red')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${border('1px', 'solid', 'red')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'borderColor': 'red',
- *   'borderStyle': 'solid',
- *   'borderWidth': `1px`,
- * }
- *
- * // Styles as object usage
- * const styles = {
- *   ...border('top', '1px', 'solid', 'red')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${border('top', '1px', 'solid', 'red')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'borderTopColor': 'red',
- *   'borderTopStyle': 'solid',
- *   'borderTopWidth': `1px`,
- * }
- */ function $e969c25bbfcf3237$export$1edee58a52776cd9(sideKeyword) {
-    for(var _len = arguments.length, values = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++)values[_key - 1] = arguments[_key];
-    if (typeof sideKeyword === "string" && $e969c25bbfcf3237$var$sideMap.indexOf(sideKeyword) >= 0) {
-        var _ref;
-        return _ref = {}, _ref["border" + $e969c25bbfcf3237$var$capitalizeString(sideKeyword) + "Width"] = values[0], _ref["border" + $e969c25bbfcf3237$var$capitalizeString(sideKeyword) + "Style"] = values[1], _ref["border" + $e969c25bbfcf3237$var$capitalizeString(sideKeyword) + "Color"] = values[2], _ref;
-    } else {
-        values.unshift(sideKeyword);
-        return {
-            borderWidth: values[0],
-            borderStyle: values[1],
-            borderColor: values[2]
-        };
-    }
-}
-/**
- * Shorthand that accepts up to four values, including null to skip a value, and maps them to their respective directions.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...borderColor('red', 'green', 'blue', 'yellow')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${borderColor('red', 'green', 'blue', 'yellow')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'borderTopColor': 'red',
- *   'borderRightColor': 'green',
- *   'borderBottomColor': 'blue',
- *   'borderLeftColor': 'yellow'
- * }
- */ function $e969c25bbfcf3237$export$e7fb0694ba2404fc() {
-    for(var _len = arguments.length, values = new Array(_len), _key = 0; _key < _len; _key++)values[_key] = arguments[_key];
-    return $e969c25bbfcf3237$export$4fc00c04dd60af95.apply(void 0, [
-        "borderColor"
-    ].concat(values));
-}
-/**
- * Shorthand that accepts a value for side and a value for radius and applies the radius value to both corners of the side.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...borderRadius('top', '5px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${borderRadius('top', '5px')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'borderTopRightRadius': '5px',
- *   'borderTopLeftRadius': '5px',
- * }
- */ function $e969c25bbfcf3237$export$7a57f79000377ca2(side, radius) {
-    var uppercaseSide = $e969c25bbfcf3237$var$capitalizeString(side);
-    if (!radius && radius !== 0) throw new $e969c25bbfcf3237$var$PolishedError(62);
-    if (uppercaseSide === "Top" || uppercaseSide === "Bottom") {
-        var _ref;
-        return _ref = {}, _ref["border" + uppercaseSide + "RightRadius"] = radius, _ref["border" + uppercaseSide + "LeftRadius"] = radius, _ref;
-    }
-    if (uppercaseSide === "Left" || uppercaseSide === "Right") {
-        var _ref2;
-        return _ref2 = {}, _ref2["borderTop" + uppercaseSide + "Radius"] = radius, _ref2["borderBottom" + uppercaseSide + "Radius"] = radius, _ref2;
-    }
-    throw new $e969c25bbfcf3237$var$PolishedError(63);
-}
-/**
- * Shorthand that accepts up to four values, including null to skip a value, and maps them to their respective directions.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...borderStyle('solid', 'dashed', 'dotted', 'double')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${borderStyle('solid', 'dashed', 'dotted', 'double')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'borderTopStyle': 'solid',
- *   'borderRightStyle': 'dashed',
- *   'borderBottomStyle': 'dotted',
- *   'borderLeftStyle': 'double'
- * }
- */ function $e969c25bbfcf3237$export$4d0a7f76ad443516() {
-    for(var _len = arguments.length, values = new Array(_len), _key = 0; _key < _len; _key++)values[_key] = arguments[_key];
-    return $e969c25bbfcf3237$export$4fc00c04dd60af95.apply(void 0, [
-        "borderStyle"
-    ].concat(values));
-}
-/**
- * Shorthand that accepts up to four values, including null to skip a value, and maps them to their respective directions.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...borderWidth('12px', '24px', '36px', '48px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${borderWidth('12px', '24px', '36px', '48px')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'borderTopWidth': '12px',
- *   'borderRightWidth': '24px',
- *   'borderBottomWidth': '36px',
- *   'borderLeftWidth': '48px'
- * }
- */ function $e969c25bbfcf3237$export$12879c7697ed953d() {
-    for(var _len = arguments.length, values = new Array(_len), _key = 0; _key < _len; _key++)values[_key] = arguments[_key];
-    return $e969c25bbfcf3237$export$4fc00c04dd60af95.apply(void 0, [
-        "borderWidth"
-    ].concat(values));
-}
-function $e969c25bbfcf3237$var$generateSelectors(template, state) {
-    var stateSuffix = state ? ":" + state : "";
-    return template(stateSuffix);
-}
-/**
- * Function helper that adds an array of states to a template of selectors. Used in textInputs and buttons.
- * @private
- */ function $e969c25bbfcf3237$var$statefulSelectors(states, template, stateMap) {
-    if (!template) throw new $e969c25bbfcf3237$var$PolishedError(67);
-    if (states.length === 0) return $e969c25bbfcf3237$var$generateSelectors(template, null);
-    var selectors = [];
-    for(var i = 0; i < states.length; i += 1){
-        if (stateMap && stateMap.indexOf(states[i]) < 0) throw new $e969c25bbfcf3237$var$PolishedError(68);
-        selectors.push($e969c25bbfcf3237$var$generateSelectors(template, states[i]));
-    }
-    selectors = selectors.join(",");
-    return selectors;
-}
-var $e969c25bbfcf3237$var$stateMap$1 = [
-    undefined,
-    null,
-    "active",
-    "focus",
-    "hover"
-];
-function $e969c25bbfcf3237$var$template$1(state) {
-    return "button" + state + ',\n  input[type="button"]' + state + ',\n  input[type="reset"]' + state + ',\n  input[type="submit"]' + state;
-}
-/**
- * Populates selectors that target all buttons. You can pass optional states to append to the selectors.
- * @example
- * // Styles as object usage
- * const styles = {
- *   [buttons('active')]: {
- *     'border': 'none'
- *   }
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   > ${buttons('active')} {
- *     border: none;
- *   }
- * `
- *
- * // CSS in JS Output
- *
- *  'button:active,
- *  'input[type="button"]:active,
- *  'input[type=\"reset\"]:active,
- *  'input[type=\"submit\"]:active: {
- *   'border': 'none'
- * }
- */ function $e969c25bbfcf3237$export$bbea856fdb3e3c5f() {
-    for(var _len = arguments.length, states = new Array(_len), _key = 0; _key < _len; _key++)states[_key] = arguments[_key];
-    return $e969c25bbfcf3237$var$statefulSelectors(states, $e969c25bbfcf3237$var$template$1, $e969c25bbfcf3237$var$stateMap$1);
-}
-/**
- * Shorthand that accepts up to four values, including null to skip a value, and maps them to their respective directions.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...margin('12px', '24px', '36px', '48px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${margin('12px', '24px', '36px', '48px')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'marginTop': '12px',
- *   'marginRight': '24px',
- *   'marginBottom': '36px',
- *   'marginLeft': '48px'
- * }
- */ function $e969c25bbfcf3237$export$7ede87f9b603dd3c() {
-    for(var _len = arguments.length, values = new Array(_len), _key = 0; _key < _len; _key++)values[_key] = arguments[_key];
-    return $e969c25bbfcf3237$export$4fc00c04dd60af95.apply(void 0, [
-        "margin"
-    ].concat(values));
-}
-/**
- * Shorthand that accepts up to four values, including null to skip a value, and maps them to their respective directions.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...padding('12px', '24px', '36px', '48px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${padding('12px', '24px', '36px', '48px')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'paddingTop': '12px',
- *   'paddingRight': '24px',
- *   'paddingBottom': '36px',
- *   'paddingLeft': '48px'
- * }
- */ function $e969c25bbfcf3237$export$6f98e8eaf0be1996() {
-    for(var _len = arguments.length, values = new Array(_len), _key = 0; _key < _len; _key++)values[_key] = arguments[_key];
-    return $e969c25bbfcf3237$export$4fc00c04dd60af95.apply(void 0, [
-        "padding"
-    ].concat(values));
-}
-var $e969c25bbfcf3237$var$positionMap = [
-    "absolute",
-    "fixed",
-    "relative",
-    "static",
-    "sticky"
-];
-/**
- * Shorthand accepts up to five values, including null to skip a value, and maps them to their respective directions. The first value can optionally be a position keyword.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...position('12px', '24px', '36px', '48px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${position('12px', '24px', '36px', '48px')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'top': '12px',
- *   'right': '24px',
- *   'bottom': '36px',
- *   'left': '48px'
- * }
- *
- * // Styles as object usage
- * const styles = {
- *   ...position('absolute', '12px', '24px', '36px', '48px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${position('absolute', '12px', '24px', '36px', '48px')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'position': 'absolute',
- *   'top': '12px',
- *   'right': '24px',
- *   'bottom': '36px',
- *   'left': '48px'
- * }
- */ function $e969c25bbfcf3237$export$5880b8b5730aff45(firstValue) {
-    for(var _len = arguments.length, values = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++)values[_key - 1] = arguments[_key];
-    if ($e969c25bbfcf3237$var$positionMap.indexOf(firstValue) >= 0 && firstValue) return (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, $e969c25bbfcf3237$export$4fc00c04dd60af95.apply(void 0, [
-        ""
-    ].concat(values)), {
-        position: firstValue
-    });
-    else return $e969c25bbfcf3237$export$4fc00c04dd60af95.apply(void 0, [
-        "",
-        firstValue
-    ].concat(values));
-}
-/**
- * Shorthand to set the height and width properties in a single statement.
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...size('300px', '250px')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${size('300px', '250px')}
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'height': '300px',
- *   'width': '250px',
- * }
- */ function $e969c25bbfcf3237$export$346677f925de839c(height, width) {
-    if (width === void 0) width = height;
-    return {
-        height: height,
-        width: width
-    };
-}
-var $e969c25bbfcf3237$var$stateMap = [
-    undefined,
-    null,
-    "active",
-    "focus",
-    "hover"
-];
-function $e969c25bbfcf3237$var$template(state) {
-    return 'input[type="color"]' + state + ',\n    input[type="date"]' + state + ',\n    input[type="datetime"]' + state + ',\n    input[type="datetime-local"]' + state + ',\n    input[type="email"]' + state + ',\n    input[type="month"]' + state + ',\n    input[type="number"]' + state + ',\n    input[type="password"]' + state + ',\n    input[type="search"]' + state + ',\n    input[type="tel"]' + state + ',\n    input[type="text"]' + state + ',\n    input[type="time"]' + state + ',\n    input[type="url"]' + state + ',\n    input[type="week"]' + state + ",\n    input:not([type])" + state + ",\n    textarea" + state;
-}
-/**
- * Populates selectors that target all text inputs. You can pass optional states to append to the selectors.
- * @example
- * // Styles as object usage
- * const styles = {
- *   [textInputs('active')]: {
- *     'border': 'none'
- *   }
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   > ${textInputs('active')} {
- *     border: none;
- *   }
- * `
- *
- * // CSS in JS Output
- *
- *  'input[type="color"]:active,
- *  input[type="date"]:active,
- *  input[type="datetime"]:active,
- *  input[type="datetime-local"]:active,
- *  input[type="email"]:active,
- *  input[type="month"]:active,
- *  input[type="number"]:active,
- *  input[type="password"]:active,
- *  input[type="search"]:active,
- *  input[type="tel"]:active,
- *  input[type="text"]:active,
- *  input[type="time"]:active,
- *  input[type="url"]:active,
- *  input[type="week"]:active,
- *  input:not([type]):active,
- *  textarea:active': {
- *   'border': 'none'
- * }
- */ function $e969c25bbfcf3237$export$baad927ee93ccf9c() {
-    for(var _len = arguments.length, states = new Array(_len), _key = 0; _key < _len; _key++)states[_key] = arguments[_key];
-    return $e969c25bbfcf3237$var$statefulSelectors(states, $e969c25bbfcf3237$var$template, $e969c25bbfcf3237$var$stateMap);
-}
-/**
- * Accepts any number of transition values as parameters for creating a single transition statement. You may also pass an array of properties as the first parameter that you would like to apply the same transition values to (second parameter).
- * @example
- * // Styles as object usage
- * const styles = {
- *   ...transitions('opacity 1.0s ease-in 0s', 'width 2.0s ease-in 2s'),
- *   ...transitions(['color', 'background-color'], '2.0s ease-in 2s')
- * }
- *
- * // styled-components usage
- * const div = styled.div`
- *   ${transitions('opacity 1.0s ease-in 0s', 'width 2.0s ease-in 2s')};
- *   ${transitions(['color', 'background-color'], '2.0s ease-in 2s'),};
- * `
- *
- * // CSS as JS Output
- *
- * div {
- *   'transition': 'opacity 1.0s ease-in 0s, width 2.0s ease-in 2s'
- *   'transition': 'color 2.0s ease-in 2s, background-color 2.0s ease-in 2s',
- * }
- */ function $e969c25bbfcf3237$export$622eca585e740ed5() {
-    for(var _len = arguments.length, properties = new Array(_len), _key = 0; _key < _len; _key++)properties[_key] = arguments[_key];
-    if (Array.isArray(properties[0]) && properties.length === 2) {
-        var value = properties[1];
-        if (typeof value !== "string") throw new $e969c25bbfcf3237$var$PolishedError(61);
-        var transitionsString = properties[0].map(function(property) {
-            return property + " " + value;
-        }).join(", ");
-        return {
-            transition: transitionsString
-        };
-    } else return {
-        transition: properties.join(", ")
-    };
-}
-
-
-function $19e049dccbb6b7a9$var$_templateObject() {
-    var data = (0, $265d9f6e9d3c4d8e$export$2e2bcd8739ae039)([
-        "\n  border-radius: ",
-        ";\n  padding: ",
-        ";\n  margin-bottom: 20px;\n  transition: all 0.4s;\n  font-size: 14px;\n  position: relative;\n  overflow: hidden;\n  z-index: 0;\n  margin-right: 15px;\n  background-color: ",
-        ";\n  border: 1px solid;\n  border-color: ",
-        ";\n  color: ",
-        ';\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n\n  &:last-child {\n    margin-right: 0;\n  }\n\n  &:before {\n    position: absolute;\n    height: 0;\n    width: 0;\n    border-radius: 50%;\n    background-color: #F0F2F5;\n    transition: width 0.1s ease-in-out, height 0.3s ease-in-out;\n    z-index: -1;\n    content: "";\n    top: 150;\n    transform: translate;\n    left: 150;\n    background-color: ',
-        ";\n  }\n\n  span{\n    transition: all 0.3s;\n    font-weight: 500;\n    color: ",
-        ";\n  }\n\n  svg {\n    height: 14px;\n    width: 14px;\n    transition: all 0.3s;\n    fill: ",
-        ";\n    \n    &:not(:last-child) {\n      margin-right: 5px;\n    }\n    \n    &:not(:first-child) {\n      margin-left: 5px;\n    }\n  }\n\n  &:hover, &:focus, &:active, &:active:focus {\n    outline: none;\n    box-shadow: none !important;\n    color: ",
-        ";\n    border-color: ",
-        ";\n    background-color: ",
-        ";\n\n    &:before {\n      height: 500%;\n      width: 225%;\n    }\n    \n    span{\n      color: ",
-        ";\n    }\n\n    svg {\n      fill: ",
-        ";\n    }\n  }\n\n  &:focus, &:active, &:active:focus {\n\n    &:before {\n      transition: all 0s;\n    }\n  }\n\n"
-    ]);
-    $19e049dccbb6b7a9$var$_templateObject = function _templateObject() {
-        return data;
-    };
-    return data;
-}
-function $19e049dccbb6b7a9$var$_templateObject1() {
-    var data = (0, $265d9f6e9d3c4d8e$export$2e2bcd8739ae039)([
-        "\n  margin-top: 15px;\n  margin-bottom: 10px;\n\n  & > * {\n    margin-right: 15px;\n\n    &:last-child {\n      margin-right: 0;\n    }\n  }\n\n  &:first-child {\n    margin-top: 0;\n  }\n\n  &:last-child {\n    margin-bottom: -10px;\n  }\n\n  ",
-        "\n"
-    ]);
-    $19e049dccbb6b7a9$var$_templateObject1 = function _templateObject1() {
-        return data;
-    };
-    return data;
-}
-function $19e049dccbb6b7a9$var$_templateObject2() {
-    var data = (0, $265d9f6e9d3c4d8e$export$2e2bcd8739ae039)([
-        "\n  border-radius: 5px;\n  margin-bottom: -10px;\n\n  .btn {\n    padding: 10px 15px;\n    font-weight: 500;\n    margin-right: 0;\n  }\n\n  ",
-        "\n\n  ",
-        "\n\n  &.open .dropdown-toggle {\n    box-shadow: none;\n  }\n"
-    ]);
-    $19e049dccbb6b7a9$var$_templateObject2 = function _templateObject2() {
-        return data;
-    };
-    return data;
-}
-var $19e049dccbb6b7a9$var$getColor = function(variant) {
-    switch(true){
-        case variant === null || variant === void 0 ? void 0 : variant.includes("secondary"):
-            return "#6c757d";
-        case variant === null || variant === void 0 ? void 0 : variant.includes("primary"):
-            return "#fec144";
-        case variant === null || variant === void 0 ? void 0 : variant.includes("success"):
-            return "#28a745";
-        case variant === null || variant === void 0 ? void 0 : variant.includes("warning"):
-            return "#ffc107";
-        case variant === null || variant === void 0 ? void 0 : variant.includes("danger"):
-            return "#dc3545";
-        default:
-            return "#6c757d";
-    }
-};
-var $19e049dccbb6b7a9$var$getBackgroundColor = function(variant) {
-    if (!variant || (variant === null || variant === void 0 ? void 0 : variant.includes("outline"))) return null;
-    return $19e049dccbb6b7a9$var$getColor(variant);
-};
-var $19e049dccbb6b7a9$var$getHoverColor = function(variant) {
-    if (variant === null || variant === void 0 ? void 0 : variant.includes("outline")) return $19e049dccbb6b7a9$var$getColor(variant);
-    switch(true){
-        case variant === null || variant === void 0 ? void 0 : variant.includes("secondary"):
-            return null;
-        case variant === null || variant === void 0 ? void 0 : variant.includes("primary"):
-            return "#3F83F8";
-        case variant === null || variant === void 0 ? void 0 : variant.includes("success"):
-            return "#0E9F6E";
-        case variant === null || variant === void 0 ? void 0 : variant.includes("warning"):
-            return "#FF5A1F";
-        case variant === null || variant === void 0 ? void 0 : variant.includes("danger"):
-            return "#F12849";
-        default:
-            return null;
-    }
-};
-var $19e049dccbb6b7a9$var$getHoverTextColor = function(variant) {
-    if (!variant || (variant === null || variant === void 0 ? void 0 : variant.includes("secondary"))) return "#FFFFFF";
-    return "#f8f9fa";
-};
-var $19e049dccbb6b7a9$var$getTextColor = function(variant) {
-    if (!(variant === null || variant === void 0 ? void 0 : variant.includes("outline"))) return (variant === null || variant === void 0 ? void 0 : variant.includes("secondary")) ? "#6c757d" : "#f8f9fa";
-    return (variant === null || variant === void 0 ? void 0 : variant.includes("secondary")) ? "#343a40" : $19e049dccbb6b7a9$var$getColor(variant);
-};
-var $19e049dccbb6b7a9$var$getPaddings = function(size) {
-    switch(size){
-        case "sm":
-            return "5px 25px";
-        case "lg":
-            return "12px 25px";
-        default:
-            return "10px 25px";
-    }
-};
-var $19e049dccbb6b7a9$var$getBorderRadius = function(rounded, squared) {
-    switch(true){
-        case rounded:
-            return "30px";
-        case squared:
-            return 0;
-        default:
-            return "5px";
-    }
-};
-var $19e049dccbb6b7a9$export$353f5b6fc5456de1 = (0, $8e5123d50489ab4c$export$2e2bcd8739ae039)((0, $b97e9e88a5827791$export$2e2bcd8739ae039))($19e049dccbb6b7a9$var$_templateObject(), function(props) {
-    return $19e049dccbb6b7a9$var$getBorderRadius(props.rounded, props.squared);
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getPaddings(props.size);
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getBackgroundColor(props.variant) || "transparent";
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getColor(props.variant);
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getTextColor(props.variant);
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getHoverColor(props.variant) || (0, $e969c25bbfcf3237$export$4b073707ff63303)(0.1, "#6c757d");
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getTextColor(props.variant);
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getTextColor(props.variant);
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getHoverTextColor(props.variant);
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getHoverColor(props.variant) || (0, $e969c25bbfcf3237$export$4b073707ff63303)(0.1, "#6c757d");
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getBackgroundColor(props.variant) || "transparent";
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getHoverTextColor(props.variant);
-}, function(props) {
-    return $19e049dccbb6b7a9$var$getHoverTextColor(props.variant);
-});
-var $19e049dccbb6b7a9$export$478f41ba79e7b570 = (0, $8e5123d50489ab4c$export$2e2bcd8739ae039)((0, $28cbe4aaf39d5407$export$2e2bcd8739ae039))($19e049dccbb6b7a9$var$_templateObject1(), function(props) {
-    return props.centered && "\n    & > * {\n      &,\n      &:last-child,\n      &:first-child {\n        margin-right: auto;\n        margin-left: auto;\n      }\n    }\n  ";
-});
-var $19e049dccbb6b7a9$export$69b1032f2ecdf404 = (0, $8e5123d50489ab4c$export$2e2bcd8739ae039)((0, $8ace536129fd678b$export$2e2bcd8739ae039))($19e049dccbb6b7a9$var$_templateObject2(), function(props) {
-    return props.justified && "\n    display: flex;\n    justify-content: space-between;\n    width: 100%;\n\n    .btn {\n      width: 100%;\n    }\n  ";
-}, function(props) {
-    return props.icons && "\n    .btn {\n      padding: 7px 8px;\n      line-height: 14px;\n    }\n  ";
-});
 
 
 
@@ -31788,6 +25977,17 @@ function $5dc564d010add905$export$2e2bcd8739ae039(source, excluded) {
     return target;
 }
 
+
+function $f899c77662afb645$export$2e2bcd8739ae039() {
+    $f899c77662afb645$export$2e2bcd8739ae039 = Object.assign ? Object.assign.bind() : function _extends(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return $f899c77662afb645$export$2e2bcd8739ae039.apply(this, arguments);
+}
 
 
 
@@ -32125,11 +26325,6 @@ function $f2ad2c744a6ba6e8$export$2e2bcd8739ae039(slots, getUtilityClass, classe
 }
 
 
-var $7b3032210b3225bf$exports = {};
-
-$parcel$defineInteropFlag($7b3032210b3225bf$exports);
-
-$parcel$export($7b3032210b3225bf$exports, "default", function () { return $5536f97db8a41da0$export$2e2bcd8739ae039; });
 var $d703602b9307f55f$var$defaultGenerator = function(componentName) {
     return componentName;
 };
@@ -32169,8 +26364,6 @@ function $5536f97db8a41da0$export$2e2bcd8739ae039(componentName, slot) {
     var globalStateClass = $5536f97db8a41da0$var$globalStateClassesMapping[slot];
     return globalStateClass ? "".concat(globalStatePrefix, "-").concat(globalStateClass) : "".concat((0, $d703602b9307f55f$export$2e2bcd8739ae039).generate(componentName), "-").concat(slot);
 }
-
-
 
 
 
@@ -32506,12 +26699,6 @@ function $c3b7fddd65c14aa3$export$2e2bcd8739ae039() {
 }
 
 
-var $76311de9e8448946$exports = {};
-
-$parcel$defineInteropFlag($76311de9e8448946$exports);
-
-$parcel$export($76311de9e8448946$exports, "default", function () { return $ee7bf301ed9f5138$export$2e2bcd8739ae039; });
-$parcel$export($76311de9e8448946$exports, "formLabelClasses", function () { return $3280b85ca50d0660$export$2e2bcd8739ae039; });
 
 
 
@@ -32541,6 +26728,22 @@ $40239d083d516a2d$exports = $40239d083d516a2d$var$_extends, $40239d083d516a2d$ex
 
 
 parcelRequire("fYIks");
+function $42f42a37204fd64c$var$memoize(fn) {
+    var cache = Object.create(null);
+    return function(arg) {
+        if (cache[arg] === undefined) cache[arg] = fn(arg);
+        return cache[arg];
+    };
+}
+var $42f42a37204fd64c$export$2e2bcd8739ae039 = $42f42a37204fd64c$var$memoize;
+
+
+var $e709b607ee8f3e74$var$reactPropsRegex = /^((children|dangerouslySetInnerHTML|key|ref|autoFocus|defaultValue|defaultChecked|innerHTML|suppressContentEditableWarning|suppressHydrationWarning|valueLink|abbr|accept|acceptCharset|accessKey|action|allow|allowUserMedia|allowPaymentRequest|allowFullScreen|allowTransparency|alt|async|autoComplete|autoPlay|capture|cellPadding|cellSpacing|challenge|charSet|checked|cite|classID|className|cols|colSpan|content|contentEditable|contextMenu|controls|controlsList|coords|crossOrigin|data|dateTime|decoding|default|defer|dir|disabled|disablePictureInPicture|download|draggable|encType|enterKeyHint|form|formAction|formEncType|formMethod|formNoValidate|formTarget|frameBorder|headers|height|hidden|high|href|hrefLang|htmlFor|httpEquiv|id|inputMode|integrity|is|keyParams|keyType|kind|label|lang|list|loading|loop|low|marginHeight|marginWidth|max|maxLength|media|mediaGroup|method|min|minLength|multiple|muted|name|nonce|noValidate|open|optimum|pattern|placeholder|playsInline|poster|preload|profile|radioGroup|readOnly|referrerPolicy|rel|required|reversed|role|rows|rowSpan|sandbox|scope|scoped|scrolling|seamless|selected|shape|size|sizes|slot|span|spellCheck|src|srcDoc|srcLang|srcSet|start|step|style|summary|tabIndex|target|title|translate|type|useMap|value|width|wmode|wrap|about|datatype|inlist|prefix|property|resource|typeof|vocab|autoCapitalize|autoCorrect|autoSave|color|incremental|fallback|inert|itemProp|itemScope|itemType|itemID|itemRef|on|option|results|security|unselectable|accentHeight|accumulate|additive|alignmentBaseline|allowReorder|alphabetic|amplitude|arabicForm|ascent|attributeName|attributeType|autoReverse|azimuth|baseFrequency|baselineShift|baseProfile|bbox|begin|bias|by|calcMode|capHeight|clip|clipPathUnits|clipPath|clipRule|colorInterpolation|colorInterpolationFilters|colorProfile|colorRendering|contentScriptType|contentStyleType|cursor|cx|cy|d|decelerate|descent|diffuseConstant|direction|display|divisor|dominantBaseline|dur|dx|dy|edgeMode|elevation|enableBackground|end|exponent|externalResourcesRequired|fill|fillOpacity|fillRule|filter|filterRes|filterUnits|floodColor|floodOpacity|focusable|fontFamily|fontSize|fontSizeAdjust|fontStretch|fontStyle|fontVariant|fontWeight|format|from|fr|fx|fy|g1|g2|glyphName|glyphOrientationHorizontal|glyphOrientationVertical|glyphRef|gradientTransform|gradientUnits|hanging|horizAdvX|horizOriginX|ideographic|imageRendering|in|in2|intercept|k|k1|k2|k3|k4|kernelMatrix|kernelUnitLength|kerning|keyPoints|keySplines|keyTimes|lengthAdjust|letterSpacing|lightingColor|limitingConeAngle|local|markerEnd|markerMid|markerStart|markerHeight|markerUnits|markerWidth|mask|maskContentUnits|maskUnits|mathematical|mode|numOctaves|offset|opacity|operator|order|orient|orientation|origin|overflow|overlinePosition|overlineThickness|panose1|paintOrder|pathLength|patternContentUnits|patternTransform|patternUnits|pointerEvents|points|pointsAtX|pointsAtY|pointsAtZ|preserveAlpha|preserveAspectRatio|primitiveUnits|r|radius|refX|refY|renderingIntent|repeatCount|repeatDur|requiredExtensions|requiredFeatures|restart|result|rotate|rx|ry|scale|seed|shapeRendering|slope|spacing|specularConstant|specularExponent|speed|spreadMethod|startOffset|stdDeviation|stemh|stemv|stitchTiles|stopColor|stopOpacity|strikethroughPosition|strikethroughThickness|string|stroke|strokeDasharray|strokeDashoffset|strokeLinecap|strokeLinejoin|strokeMiterlimit|strokeOpacity|strokeWidth|surfaceScale|systemLanguage|tableValues|targetX|targetY|textAnchor|textDecoration|textRendering|textLength|to|transform|u1|u2|underlinePosition|underlineThickness|unicode|unicodeBidi|unicodeRange|unitsPerEm|vAlphabetic|vHanging|vIdeographic|vMathematical|values|vectorEffect|version|vertAdvY|vertOriginX|vertOriginY|viewBox|viewTarget|visibility|widths|wordSpacing|writingMode|x|xHeight|x1|x2|xChannelSelector|xlinkActuate|xlinkArcrole|xlinkHref|xlinkRole|xlinkShow|xlinkTitle|xlinkType|xmlBase|xmlns|xmlnsXlink|xmlLang|xmlSpace|y|y1|y2|yChannelSelector|z|zoomAndPan|for|class|autofocus)|(([Dd][Aa][Tt][Aa]|[Aa][Rr][Ii][Aa]|x)-.*))$/; // https://esbench.com/bench/5bfee68a4cd7e6009ef61d23
+var $e709b607ee8f3e74$var$isPropValid = /* #__PURE__ */ (0, $42f42a37204fd64c$export$2e2bcd8739ae039)(function(prop) {
+    return $e709b607ee8f3e74$var$reactPropsRegex.test(prop) || prop.charCodeAt(0) === 111 && prop.charCodeAt(1) === 110 && prop.charCodeAt(2) < 91;
+});
+var $e709b607ee8f3e74$export$2e2bcd8739ae039 = $e709b607ee8f3e74$var$isPropValid;
+
 
 
 
@@ -33421,6 +27624,95 @@ var $fYIks = parcelRequire("fYIks");
 var $fYIks = parcelRequire("fYIks");
 
 
+
+var $654330c990f2d2e0$exports = {};
+"use strict";
+var $5f497af12c7f6cb5$exports = {};
+"use strict";
+
+$5f497af12c7f6cb5$exports = (parcelRequire("f57cO"));
+
+
+/**
+ * Copyright 2015, Yahoo! Inc.
+ * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+ */ var $654330c990f2d2e0$var$REACT_STATICS = {
+    childContextTypes: true,
+    contextType: true,
+    contextTypes: true,
+    defaultProps: true,
+    displayName: true,
+    getDefaultProps: true,
+    getDerivedStateFromError: true,
+    getDerivedStateFromProps: true,
+    mixins: true,
+    propTypes: true,
+    type: true
+};
+var $654330c990f2d2e0$var$KNOWN_STATICS = {
+    name: true,
+    length: true,
+    prototype: true,
+    caller: true,
+    callee: true,
+    arguments: true,
+    arity: true
+};
+var $654330c990f2d2e0$var$FORWARD_REF_STATICS = {
+    "$$typeof": true,
+    render: true,
+    defaultProps: true,
+    displayName: true,
+    propTypes: true
+};
+var $654330c990f2d2e0$var$MEMO_STATICS = {
+    "$$typeof": true,
+    compare: true,
+    defaultProps: true,
+    displayName: true,
+    propTypes: true,
+    type: true
+};
+var $654330c990f2d2e0$var$TYPE_STATICS = {};
+$654330c990f2d2e0$var$TYPE_STATICS[$5f497af12c7f6cb5$exports.ForwardRef] = $654330c990f2d2e0$var$FORWARD_REF_STATICS;
+$654330c990f2d2e0$var$TYPE_STATICS[$5f497af12c7f6cb5$exports.Memo] = $654330c990f2d2e0$var$MEMO_STATICS;
+function $654330c990f2d2e0$var$getStatics(component) {
+    // React v16.11 and below
+    if ($5f497af12c7f6cb5$exports.isMemo(component)) return $654330c990f2d2e0$var$MEMO_STATICS;
+     // React v16.12 and above
+    return $654330c990f2d2e0$var$TYPE_STATICS[component["$$typeof"]] || $654330c990f2d2e0$var$REACT_STATICS;
+}
+var $654330c990f2d2e0$var$defineProperty = Object.defineProperty;
+var $654330c990f2d2e0$var$getOwnPropertyNames = Object.getOwnPropertyNames;
+var $654330c990f2d2e0$var$getOwnPropertySymbols = Object.getOwnPropertySymbols;
+var $654330c990f2d2e0$var$getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+var $654330c990f2d2e0$var$getPrototypeOf = Object.getPrototypeOf;
+var $654330c990f2d2e0$var$objectPrototype = Object.prototype;
+function $654330c990f2d2e0$var$hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
+    if (typeof sourceComponent !== "string") {
+        // don't hoist over string (html) components
+        if ($654330c990f2d2e0$var$objectPrototype) {
+            var inheritedComponent = $654330c990f2d2e0$var$getPrototypeOf(sourceComponent);
+            if (inheritedComponent && inheritedComponent !== $654330c990f2d2e0$var$objectPrototype) $654330c990f2d2e0$var$hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
+        }
+        var keys = $654330c990f2d2e0$var$getOwnPropertyNames(sourceComponent);
+        if ($654330c990f2d2e0$var$getOwnPropertySymbols) keys = keys.concat($654330c990f2d2e0$var$getOwnPropertySymbols(sourceComponent));
+        var targetStatics = $654330c990f2d2e0$var$getStatics(targetComponent);
+        var sourceStatics = $654330c990f2d2e0$var$getStatics(sourceComponent);
+        for(var i = 0; i < keys.length; ++i){
+            var key = keys[i];
+            if (!$654330c990f2d2e0$var$KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
+                var descriptor = $654330c990f2d2e0$var$getOwnPropertyDescriptor(sourceComponent, key);
+                try {
+                    // Avoid failures from read-only properties
+                    $654330c990f2d2e0$var$defineProperty(targetComponent, key, descriptor);
+                } catch (e) {}
+            }
+        }
+    }
+    return targetComponent;
+}
+$654330c990f2d2e0$exports = $654330c990f2d2e0$var$hoistNonReactStatics;
 
 
 // this file isolates this package that is not tree-shakeable
@@ -36752,10 +31044,6 @@ var $ee7bf301ed9f5138$export$2e2bcd8739ae039 = $ee7bf301ed9f5138$var$FormLabel;
 
 
 
-
-
-
-
 function $2be4f80f2f5ac2bf$export$c1c4b4545ad2ea5f(slot) {
     return (0, $5536f97db8a41da0$export$2e2bcd8739ae039)("MuiInputLabel", slot);
 }
@@ -36967,6 +31255,15 @@ var $8c6ba53369da03b9$export$2e2bcd8739ae039 = (0, $f83165f5a1fc855c$export$2e2b
 
 
 
+function $265d9f6e9d3c4d8e$export$2e2bcd8739ae039(strings, raw) {
+    if (!raw) raw = strings.slice(0);
+    return Object.freeze(Object.defineProperties(strings, {
+        raw: {
+            value: Object.freeze(raw)
+        }
+    }));
+}
+
 
 
 
@@ -36976,6 +31273,26 @@ var $fYIks = parcelRequire("fYIks");
 
 
 
+function $5da0df701ba4f346$export$2e2bcd8739ae039(self) {
+    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+    return self;
+}
+
+
+function $e9671eb87c5b5520$export$2e2bcd8739ae039(o, p) {
+    $e9671eb87c5b5520$export$2e2bcd8739ae039 = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+        o.__proto__ = p;
+        return o;
+    };
+    return $e9671eb87c5b5520$export$2e2bcd8739ae039(o, p);
+}
+
+
+function $d5993dd126912499$export$2e2bcd8739ae039(subClass, superClass) {
+    subClass.prototype = Object.create(superClass.prototype);
+    subClass.prototype.constructor = subClass;
+    (0, $e9671eb87c5b5520$export$2e2bcd8739ae039)(subClass, superClass);
+}
 
 
 
@@ -38831,11 +33148,6 @@ var $c4f20c622834bb00$export$2e2bcd8739ae039 = $c4f20c622834bb00$var$Paper;
 
 
 
-var $947343677f65c3b2$exports = {};
-
-$parcel$defineInteropFlag($947343677f65c3b2$exports);
-
-$parcel$export($947343677f65c3b2$exports, "default", function () { return $896bfaa36877ecd5$export$2e2bcd8739ae039; });
 
 
 
@@ -39041,12 +33353,6 @@ $c88730a3c96b4555$var$Grow.muiSupportAuto = true;
 var $c88730a3c96b4555$export$2e2bcd8739ae039 = $c88730a3c96b4555$var$Grow;
 
 
-
-var $78f393d9dbc76e90$exports = {};
-
-$parcel$defineInteropFlag($78f393d9dbc76e90$exports);
-
-$parcel$export($78f393d9dbc76e90$exports, "default", function () { return $ad9c906a714bb20b$export$2e2bcd8739ae039; });
 
 
 
@@ -40125,8 +34431,6 @@ var $ad9c906a714bb20b$export$2e2bcd8739ae039 = $ad9c906a714bb20b$var$Modal;
 
 
 
-
-
 function $66acf2e74cd3c3c5$export$88f455dd56c95edb(slot) {
     return (0, $5536f97db8a41da0$export$2e2bcd8739ae039)("MuiPopover", slot);
 }
@@ -40399,10 +34703,6 @@ var $896bfaa36877ecd5$var$Popover = /*#__PURE__*/ $fYIks.forwardRef(function Pop
     }));
 });
 var $896bfaa36877ecd5$export$2e2bcd8739ae039 = $896bfaa36877ecd5$var$Popover;
-
-
-
-
 
 
 
@@ -41396,12 +35696,6 @@ var $fYIks = parcelRequire("fYIks");
 
 
 
-var $0a4400f44d5a7030$exports = {};
-
-$parcel$defineInteropFlag($0a4400f44d5a7030$exports);
-
-$parcel$export($0a4400f44d5a7030$exports, "default", function () { return $8036d36188de8446$export$2e2bcd8739ae039; });
-$parcel$export($0a4400f44d5a7030$exports, "inputBaseClasses", function () { return $f018d01ef098f2e5$export$2e2bcd8739ae039; });
 
 
 
@@ -41916,9 +36210,6 @@ var $8036d36188de8446$var$inputGlobalStyles = /*#__PURE__*/ (0, $393491384ce93f5
     });
 });
 var $8036d36188de8446$export$2e2bcd8739ae039 = $8036d36188de8446$var$InputBase;
-
-
-
 
 
 
@@ -43069,17 +37360,2496 @@ var $97cfff8a166a8ac0$export$2e2bcd8739ae039 = /*#__PURE__*/ function(Component)
 }((0, $fYIks.Component));
 
 
+
+
+var $fYIks = parcelRequire("fYIks");
+var $cc0108a3b9dd4602$var$api_key = "7058b27b61e24165a27bbbd8e2c3fd10";
+function $cc0108a3b9dd4602$var$useNewsList() {
+    var ticker = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "SPY";
+    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(false), 2), loading = ref[0], setLoading = ref[1];
+    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(""), 2), error = ref1[0], setError = ref1[1];
+    var ref2 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)([]), 2), data = ref2[0], setData = ref2[1];
+    (0, $fYIks.useEffect)(function() {
+        fetch("https://api.benzinga.com/api/v2/news?tickers=".concat(ticker, "&pageSize=5&token=").concat($cc0108a3b9dd4602$var$api_key), {
+            method: "GET",
+            cache: "no-cache",
+            headers: {
+                "accept": "application/json"
+            }
+        }).then(function(response) {
+            return response.json();
+        }).then(function(data) {
+            console.log(data);
+            setLoading(false);
+            setData(data);
+        }).catch(function(e) {
+            console.log(e);
+            setLoading(false);
+            setError("error fetching news from Benzinga");
+        });
+    }, [
+        ticker
+    ]);
+    return [
+        data,
+        loading
+    ];
+}
+var $cc0108a3b9dd4602$export$2e2bcd8739ae039 = $cc0108a3b9dd4602$var$useNewsList;
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+var $45f40b51b881852a$var$api_key = "49d996060a1041ba8ec307938b5f2702";
+function $45f40b51b881852a$var$useSECFilings() {
+    var ticker = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "SPY";
+    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(), 2), loading = ref[0], setLoading = ref[1];
+    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)([]), 2), data = ref1[0], setData = ref1[1];
+    (0, $fYIks.useEffect)(function() {
+        fetch("https://api.benzinga.com/api/v2/news?tickers=".concat(ticker, "&pageSize=5&token=").concat($45f40b51b881852a$var$api_key), {
+            method: "GET",
+            cache: "no-cache",
+            headers: {
+                "accept": "application/json"
+            }
+        }).then(function(response) {
+            return response.json();
+        }).then(function(data) {
+            setLoading(false);
+            setData(data);
+        }).catch(function(e) {
+            console.log(e);
+            setLoading(false);
+        });
+    }, [
+        ticker
+    ]);
+    return [
+        data,
+        loading
+    ];
+}
+var $45f40b51b881852a$export$2e2bcd8739ae039 = $45f40b51b881852a$var$useSECFilings;
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $0a1e3043173f2f6d$export$3e82c7666644df0 = "22a7199acd2806efb7a451ad54e05f69";
+
+
+var $5f5103e22d1cc9f8$var$api_key = "1543850d00a84e1fbc36e6e6509c9136";
+function $5f5103e22d1cc9f8$var$usePressReleases() {
+    var ticker = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "SPY";
+    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(), 2), loading = ref[0], setLoading = ref[1];
+    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(""), 2), error = ref1[0], setError = ref1[1];
+    var ref2 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)([]), 2), data = ref2[0], setData = ref2[1];
+    (0, $fYIks.useEffect)(function() {
+        fetch("https://api.benzinga.com/api/v2/news?tickers=".concat(ticker, "&pageSize=5&token=").concat($5f5103e22d1cc9f8$var$api_key), {
+            method: "GET",
+            cache: "no-cache",
+            headers: {
+                "accept": "application/json"
+            }
+        }).then(function(response) {
+            return response.json();
+        }).then(function(data) {
+            console.log(data);
+            setLoading(false);
+            setData(data);
+        }).catch(function(e) {
+            console.log(e);
+            setLoading(false);
+            setError("error fetching SEC filings from Benzinga");
+        });
+    }, [
+        ticker
+    ]);
+    return [
+        data,
+        loading
+    ];
+}
+var $5f5103e22d1cc9f8$export$2e2bcd8739ae039 = $5f5103e22d1cc9f8$var$usePressReleases;
+
+
+
+parcelRequire("fYIks");
+
+
+
+parcelRequire("fYIks");
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+
+var $5YZ7h = parcelRequire("5YZ7h");
+
+
+
+var $fYIks = parcelRequire("fYIks");
+var $b8bdccc9a1aeafbf$exports = {};
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ "use strict";
+/**
+ * Use invariant() to assert state which your program assumes to be true.
+ *
+ * Provide sprintf-style format (only %s is supported) and arguments
+ * to provide information about what broke and what you were
+ * expecting.
+ *
+ * The invariant message will be stripped in production, but the invariant
+ * will remain to ensure logic does not differ in production.
+ */ var $b8bdccc9a1aeafbf$var$invariant = function invariant(condition, format, a, b, c, d, e, f) {
+    if (!condition) {
+        var error;
+        if (format === undefined) error = new Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");
+        else {
+            var args = [
+                a,
+                b,
+                c,
+                d,
+                e,
+                f
+            ];
+            var argIndex = 0;
+            error = new Error(format.replace(/%s/g, function() {
+                return args[argIndex++];
+            }));
+            error.name = "Invariant Violation";
+        }
+        error.framesToPop = 1; // we don't care about invariant's own frame
+        throw error;
+    }
+};
+$b8bdccc9a1aeafbf$exports = $b8bdccc9a1aeafbf$var$invariant;
+
+
+var $4ac86657366a18ff$var$noop = function noop() {};
+function $4ac86657366a18ff$var$readOnlyPropType(handler, name) {
+    return function(props, propName) {
+        if (props[propName] !== undefined) {
+            if (!props[handler]) return new Error("You have provided a `" + propName + "` prop to `" + name + "` " + ("without an `" + handler + "` handler prop. This will render a read-only field. ") + ("If the field should be mutable use `" + $4ac86657366a18ff$export$26cbf8c37e721e67(propName) + "`. ") + ("Otherwise, set `" + handler + "`."));
+        }
+    };
+}
+function $4ac86657366a18ff$export$8abd944bed26e726(controlledValues, displayName) {
+    var propTypes = {};
+    Object.keys(controlledValues).forEach(function(prop) {
+        // add default propTypes for folks that use runtime checks
+        propTypes[$4ac86657366a18ff$export$26cbf8c37e721e67(prop)] = $4ac86657366a18ff$var$noop;
+        var handler;
+    });
+    return propTypes;
+}
+function $4ac86657366a18ff$export$12ae2baa35bd9b8b(props, prop) {
+    return props[prop] !== undefined;
+}
+function $4ac86657366a18ff$export$26cbf8c37e721e67(key) {
+    return "default" + key.charAt(0).toUpperCase() + key.substr(1);
+}
+function $4ac86657366a18ff$export$95e5b18573b29087(component) {
+    return !!component && (typeof component !== "function" || component.prototype && component.prototype.isReactComponent);
+}
+
+
+function $1805e455f2cdd273$var$_toPropertyKey(arg) {
+    var key = $1805e455f2cdd273$var$_toPrimitive(arg, "string");
+    return (typeof key === "undefined" ? "undefined" : (0, $5YZ7h.default)(key)) === "symbol" ? key : String(key);
+}
+function $1805e455f2cdd273$var$_toPrimitive(input, hint) {
+    if (typeof input !== "object" || input === null) return input;
+    var prim = input[Symbol.toPrimitive];
+    if (prim !== undefined) {
+        var res = prim.call(input, hint || "default");
+        if (typeof res !== "object") return res;
+        throw new TypeError("@@toPrimitive must return a primitive value.");
+    }
+    return (hint === "string" ? String : Number)(input);
+}
+function $1805e455f2cdd273$export$2ee51287a16ca325(propValue, defaultValue, handler) {
+    var wasPropRef = (0, $fYIks.useRef)(propValue !== undefined);
+    var _useState = (0, $fYIks.useState)(defaultValue), stateValue = _useState[0], setState = _useState[1];
+    var isProp = propValue !== undefined;
+    var wasProp = wasPropRef.current;
+    wasPropRef.current = isProp;
+    /**
+   * If a prop switches from controlled to Uncontrolled
+   * reset its value to the defaultValue
+   */ if (!isProp && wasProp && stateValue !== defaultValue) setState(defaultValue);
+    return [
+        isProp ? propValue : stateValue,
+        (0, $fYIks.useCallback)(function(value) {
+            for(var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++)args[_key - 1] = arguments[_key];
+            if (handler) handler.apply(void 0, [
+                value
+            ].concat(args));
+            setState(value);
+        }, [
+            handler
+        ])
+    ];
+}
+function $1805e455f2cdd273$export$2e2bcd8739ae039(props, config) {
+    return Object.keys(config).reduce(function(result, fieldName) {
+        var _extends2;
+        var _ref = result, defaultValue = _ref[$4ac86657366a18ff$export$26cbf8c37e721e67(fieldName)], propsValue = _ref[fieldName], rest = (0, $5dc564d010add905$export$2e2bcd8739ae039)(_ref, [
+            $4ac86657366a18ff$export$26cbf8c37e721e67(fieldName),
+            fieldName
+        ].map($1805e455f2cdd273$var$_toPropertyKey));
+        var handlerName = config[fieldName];
+        var _useUncontrolledProp = $1805e455f2cdd273$export$2ee51287a16ca325(propsValue, defaultValue, props[handlerName]), value = _useUncontrolledProp[0], handler = _useUncontrolledProp[1];
+        return (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, rest, (_extends2 = {}, _extends2[fieldName] = value, _extends2[handlerName] = handler, _extends2));
+    }, props);
+}
+
+
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ function $bd67dd838e0d435a$var$componentWillMount() {
+    // Call this.constructor.gDSFP to support sub-classes.
+    var state = this.constructor.getDerivedStateFromProps(this.props, this.state);
+    if (state !== null && state !== undefined) this.setState(state);
+}
+function $bd67dd838e0d435a$var$componentWillReceiveProps(nextProps) {
+    var updater = // Call this.constructor.gDSFP to support sub-classes.
+    // Use the setState() updater to ensure state isn't stale in certain edge cases.
+    function updater(prevState) {
+        var state = this.constructor.getDerivedStateFromProps(nextProps, prevState);
+        return state !== null && state !== undefined ? state : null;
+    };
+    // Binding "this" is important for shallow renderer support.
+    this.setState(updater.bind(this));
+}
+function $bd67dd838e0d435a$var$componentWillUpdate(nextProps, nextState) {
+    try {
+        var prevProps = this.props;
+        var prevState = this.state;
+        this.props = nextProps;
+        this.state = nextState;
+        this.__reactInternalSnapshotFlag = true;
+        this.__reactInternalSnapshot = this.getSnapshotBeforeUpdate(prevProps, prevState);
+    } finally{
+        this.props = prevProps;
+        this.state = prevState;
+    }
+}
+// React may warn about cWM/cWRP/cWU methods being deprecated.
+// Add a flag to suppress these warnings for this special case.
+$bd67dd838e0d435a$var$componentWillMount.__suppressDeprecationWarning = true;
+$bd67dd838e0d435a$var$componentWillReceiveProps.__suppressDeprecationWarning = true;
+$bd67dd838e0d435a$var$componentWillUpdate.__suppressDeprecationWarning = true;
+function $bd67dd838e0d435a$export$cea1c58a6db52bca(Component) {
+    var prototype = Component.prototype;
+    if (!prototype || !prototype.isReactComponent) throw new Error("Can only polyfill class components");
+    if (typeof Component.getDerivedStateFromProps !== "function" && typeof prototype.getSnapshotBeforeUpdate !== "function") return Component;
+    // If new component APIs are defined, "unsafe" lifecycles won't be called.
+    // Error if any of these lifecycles are present,
+    // Because they would work differently between older and newer (16.3+) versions of React.
+    var foundWillMountName = null;
+    var foundWillReceivePropsName = null;
+    var foundWillUpdateName = null;
+    if (typeof prototype.componentWillMount === "function") foundWillMountName = "componentWillMount";
+    else if (typeof prototype.UNSAFE_componentWillMount === "function") foundWillMountName = "UNSAFE_componentWillMount";
+    if (typeof prototype.componentWillReceiveProps === "function") foundWillReceivePropsName = "componentWillReceiveProps";
+    else if (typeof prototype.UNSAFE_componentWillReceiveProps === "function") foundWillReceivePropsName = "UNSAFE_componentWillReceiveProps";
+    if (typeof prototype.componentWillUpdate === "function") foundWillUpdateName = "componentWillUpdate";
+    else if (typeof prototype.UNSAFE_componentWillUpdate === "function") foundWillUpdateName = "UNSAFE_componentWillUpdate";
+    if (foundWillMountName !== null || foundWillReceivePropsName !== null || foundWillUpdateName !== null) {
+        var componentName = Component.displayName || Component.name;
+        var newApiName = typeof Component.getDerivedStateFromProps === "function" ? "getDerivedStateFromProps()" : "getSnapshotBeforeUpdate()";
+        throw Error("Unsafe legacy lifecycles will not be called for components using new component APIs.\n\n" + componentName + " uses " + newApiName + " but also contains the following legacy lifecycles:" + (foundWillMountName !== null ? "\n  " + foundWillMountName : "") + (foundWillReceivePropsName !== null ? "\n  " + foundWillReceivePropsName : "") + (foundWillUpdateName !== null ? "\n  " + foundWillUpdateName : "") + "\n\nThe above lifecycles should be removed. Learn more about this warning here:\n" + "https://fb.me/react-async-component-lifecycle-hooks");
+    }
+    // React <= 16.2 does not support static getDerivedStateFromProps.
+    // As a workaround, use cWM and cWRP to invoke the new static lifecycle.
+    // Newer versions of React will ignore these lifecycles if gDSFP exists.
+    if (typeof Component.getDerivedStateFromProps === "function") {
+        prototype.componentWillMount = $bd67dd838e0d435a$var$componentWillMount;
+        prototype.componentWillReceiveProps = $bd67dd838e0d435a$var$componentWillReceiveProps;
+    }
+    // React <= 16.2 does not support getSnapshotBeforeUpdate.
+    // As a workaround, use cWU to invoke the new lifecycle.
+    // Newer versions of React will ignore that lifecycle if gSBU exists.
+    if (typeof prototype.getSnapshotBeforeUpdate === "function") {
+        if (typeof prototype.componentDidUpdate !== "function") throw new Error("Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype");
+        prototype.componentWillUpdate = $bd67dd838e0d435a$var$componentWillUpdate;
+        var componentDidUpdate = prototype.componentDidUpdate;
+        prototype.componentDidUpdate = function componentDidUpdatePolyfill(prevProps, prevState, maybeSnapshot) {
+            // 16.3+ will not execute our will-update method;
+            // It will pass a snapshot value to did-update though.
+            // Older versions will require our polyfilled will-update value.
+            // We need to handle both cases, but can't just check for the presence of "maybeSnapshot",
+            // Because for <= 15.x versions this might be a "prevContext" object.
+            // We also can't just check "__reactInternalSnapshot",
+            // Because get-snapshot might return a falsy value.
+            // So check for the explicit __reactInternalSnapshotFlag flag to determine behavior.
+            var snapshot = this.__reactInternalSnapshotFlag ? this.__reactInternalSnapshot : maybeSnapshot;
+            componentDidUpdate.call(this, prevProps, prevState, snapshot);
+        };
+    }
+    return Component;
+}
+
+
+
+
+var $544826cecf9df2d3$var$_jsxFileName = "/Users/jquense/src/uncontrollable/src/uncontrollable.js";
+function $544826cecf9df2d3$export$2e2bcd8739ae039(Component, controlledValues, methods) {
+    if (methods === void 0) methods = [];
+    var displayName = Component.displayName || Component.name || "Component";
+    var canAcceptRef = $4ac86657366a18ff$export$95e5b18573b29087(Component);
+    var controlledProps = Object.keys(controlledValues);
+    var PROPS_TO_OMIT = controlledProps.map($4ac86657366a18ff$export$26cbf8c37e721e67);
+    !(canAcceptRef || !methods.length) && (0, (/*@__PURE__*/$parcel$interopDefault($b8bdccc9a1aeafbf$exports)))(false);
+    var UncontrolledComponent = /*#__PURE__*/ function(_React$Component) {
+        var UncontrolledComponent = function UncontrolledComponent() {
+            var _this;
+            for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++)args[_key] = arguments[_key];
+            _this = _React$Component.call.apply(_React$Component, [
+                this
+            ].concat(args)) || this;
+            _this.handlers = Object.create(null);
+            controlledProps.forEach(function(propName) {
+                var handlerName = controlledValues[propName];
+                var handleChange = function handleChange(value) {
+                    if (_this.props[handlerName]) {
+                        var _this$props;
+                        _this._notifying = true;
+                        for(var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++)args[_key2 - 1] = arguments[_key2];
+                        (_this$props = _this.props)[handlerName].apply(_this$props, [
+                            value
+                        ].concat(args));
+                        _this._notifying = false;
+                    }
+                    if (!_this.unmounted) _this.setState(function(_ref) {
+                        var _extends2;
+                        var values = _ref.values;
+                        return {
+                            values: (0, $f899c77662afb645$export$2e2bcd8739ae039)(Object.create(null), values, (_extends2 = {}, _extends2[propName] = value, _extends2))
+                        };
+                    });
+                };
+                _this.handlers[handlerName] = handleChange;
+            });
+            if (methods.length) _this.attachRef = function(ref) {
+                _this.inner = ref;
+            };
+            var values = Object.create(null);
+            controlledProps.forEach(function(key) {
+                values[key] = _this.props[$4ac86657366a18ff$export$26cbf8c37e721e67(key)];
+            });
+            _this.state = {
+                values: values,
+                prevProps: {}
+            };
+            return _this;
+        };
+        (0, $d5993dd126912499$export$2e2bcd8739ae039)(UncontrolledComponent, _React$Component);
+        var _proto = UncontrolledComponent.prototype;
+        _proto.shouldComponentUpdate = function shouldComponentUpdate() {
+            //let setState trigger the update
+            return !this._notifying;
+        };
+        UncontrolledComponent.getDerivedStateFromProps = function getDerivedStateFromProps(props, _ref2) {
+            var values = _ref2.values, prevProps = _ref2.prevProps;
+            var nextState = {
+                values: (0, $f899c77662afb645$export$2e2bcd8739ae039)(Object.create(null), values),
+                prevProps: {}
+            };
+            controlledProps.forEach(function(key) {
+                /**
+         * If a prop switches from controlled to Uncontrolled
+         * reset its value to the defaultValue
+         */ nextState.prevProps[key] = props[key];
+                if (!$4ac86657366a18ff$export$12ae2baa35bd9b8b(props, key) && $4ac86657366a18ff$export$12ae2baa35bd9b8b(prevProps, key)) nextState.values[key] = props[$4ac86657366a18ff$export$26cbf8c37e721e67(key)];
+            });
+            return nextState;
+        };
+        _proto.componentWillUnmount = function componentWillUnmount() {
+            this.unmounted = true;
+        };
+        _proto.render = function render() {
+            var _this2 = this;
+            var _this$props2 = this.props, innerRef = _this$props2.innerRef, props = (0, $5dc564d010add905$export$2e2bcd8739ae039)(_this$props2, [
+                "innerRef"
+            ]);
+            PROPS_TO_OMIT.forEach(function(prop) {
+                delete props[prop];
+            });
+            var newProps = {};
+            controlledProps.forEach(function(propName) {
+                var propValue = _this2.props[propName];
+                newProps[propName] = propValue !== undefined ? propValue : _this2.state.values[propName];
+            });
+            return (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createElement(Component, (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, props, newProps, this.handlers, {
+                ref: innerRef || this.attachRef
+            }));
+        };
+        return UncontrolledComponent;
+    }((0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).Component);
+    (0, $bd67dd838e0d435a$export$cea1c58a6db52bca)(UncontrolledComponent);
+    UncontrolledComponent.displayName = "Uncontrolled(" + displayName + ")";
+    UncontrolledComponent.propTypes = (0, $f899c77662afb645$export$2e2bcd8739ae039)({
+        innerRef: function innerRef() {}
+    }, $4ac86657366a18ff$export$8abd944bed26e726(controlledValues, displayName));
+    methods.forEach(function(method) {
+        UncontrolledComponent.prototype[method] = function $proxiedMethod() {
+            var _this$inner;
+            return (_this$inner = this.inner)[method].apply(_this$inner, arguments);
+        };
+    });
+    var WrappedComponent = UncontrolledComponent;
+    if ((0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).forwardRef) {
+        WrappedComponent = (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).forwardRef(function(props, ref) {
+            return (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createElement(UncontrolledComponent, (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, props, {
+                innerRef: ref,
+                __source: {
+                    fileName: $544826cecf9df2d3$var$_jsxFileName,
+                    lineNumber: 128
+                },
+                __self: this
+            }));
+        });
+        WrappedComponent.propTypes = UncontrolledComponent.propTypes;
+    }
+    WrappedComponent.ControlledComponent = Component;
+    /**
+   * useful when wrapping a Component and you want to control
+   * everything
+   */ WrappedComponent.deferControlTo = function(newComponent, additions, nextMethods) {
+        if (additions === void 0) additions = {};
+        return $544826cecf9df2d3$export$2e2bcd8739ae039(newComponent, (0, $f899c77662afb645$export$2e2bcd8739ae039)({}, controlledValues, additions), nextMethods);
+    };
+    return WrappedComponent;
+}
+
+
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+// Default context value to use in case there is no SSRProvider. This is fine for
+// client-only apps. In order to support multiple copies of React Aria potentially
+// being on the page at once, the prefix is set to a random number. SSRProvider
+// will reset this to zero for consistency between server and client, so in the
+// SSR case multiple copies of React Aria is not supported.
+var $6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$defaultContext = {
+    prefix: String(Math.round(Math.random() * 10000000000)),
+    current: 0
+};
+var $6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$SSRContext = /*#__PURE__*/ (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createContext($6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$defaultContext);
+function $6eb99773a87a9bbe$export$9f8ac96af4b1b2ae(props) {
+    var cur = (0, $fYIks.useContext)($6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$SSRContext);
+    var value = (0, $fYIks.useMemo)(function() {
+        return {
+            // If this is the first SSRProvider, start with an empty string prefix, otherwise
+            // append and increment the counter.
+            prefix: cur === $6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$defaultContext ? "" : "".concat(cur.prefix, "-").concat(++cur.current),
+            current: 0
+        };
+    }, [
+        cur
+    ]);
+    return /*#__PURE__*/ (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).createElement($6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$SSRContext.Provider, {
+        value: value
+    }, props.children);
+}
+var $6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$canUseDOM = Boolean(typeof window !== "undefined" && window.document && window.document.createElement);
+function $6eb99773a87a9bbe$export$619500959fc48b26(defaultId) {
+    var ctx = (0, $fYIks.useContext)($6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$SSRContext);
+    // If we are rendering in a non-DOM environment, and there's no SSRProvider,
+    // provide a warning to hint to the developer to add one.
+    if (ctx === $6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$defaultContext && !$6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$canUseDOM) console.warn("When server rendering, you must wrap your application in an <SSRProvider> to ensure consistent ids are generated between the client and server.");
+    return (0, $fYIks.useMemo)(function() {
+        return defaultId || "react-aria".concat(ctx.prefix, "-").concat(++ctx.current);
+    }, [
+        defaultId
+    ]);
+}
+function $6eb99773a87a9bbe$export$535bd6ca7f90a273() {
+    var cur = (0, $fYIks.useContext)($6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$SSRContext);
+    var isInSSRContext = cur !== $6eb99773a87a9bbe$var$$704cf1d3b684cc5c$var$defaultContext;
+    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(isInSSRContext), 2), isSSR = ref[0], setIsSSR = ref[1];
+    // If on the client, and the component was initially server rendered,
+    // then schedule a layout effect to update the component after hydration.
+    if (typeof window !== "undefined" && isInSSRContext) // because the condition never changes after mounting.
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    (0, $fYIks.useLayoutEffect)(function() {
+        setIsSSR(false);
+    }, []);
+    return isSSR;
+}
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+var $44e00d5d3a8d70dd$var$TabContext = /*#__PURE__*/ $fYIks.createContext(null);
+var $44e00d5d3a8d70dd$export$2e2bcd8739ae039 = $44e00d5d3a8d70dd$var$TabContext;
+
+
+
+var $fYIks = parcelRequire("fYIks");
+var $41e1ad80e9c0af22$var$SelectableContext = /*#__PURE__*/ $fYIks.createContext(null);
+var $41e1ad80e9c0af22$export$eef49b42fde998a3 = function(eventKey) {
+    var href = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : null;
+    if (eventKey != null) return String(eventKey);
+    return href || null;
+};
+var $41e1ad80e9c0af22$export$2e2bcd8739ae039 = $41e1ad80e9c0af22$var$SelectableContext;
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+
+
+
+var $fYIks = parcelRequire("fYIks");
+function $af943671e856e1b2$var$NoopTransition(param) {
+    var children = param.children, inProp = param.in, mountOnEnter = param.mountOnEnter, unmountOnExit = param.unmountOnExit;
+    var hasEnteredRef = (0, $fYIks.useRef)(inProp);
+    (0, $fYIks.useEffect)(function() {
+        if (inProp) hasEnteredRef.current = true;
+    }, [
+        inProp
+    ]);
+    if (inProp) return children; // not in
+    //
+    // if (!mountOnEnter && !unmountOnExit) {
+    //   return children;
+    // }
+    if (unmountOnExit) return null;
+    if (!hasEnteredRef.current && mountOnEnter) return null;
+    return children;
+}
+var $af943671e856e1b2$export$2e2bcd8739ae039 = $af943671e856e1b2$var$NoopTransition;
+
+
+
+var $fa842ad9e3047b76$var$_excluded = [
+    "active",
+    "eventKey",
+    "mountOnEnter",
+    "transition",
+    "unmountOnExit",
+    "role",
+    "onEnter",
+    "onEntering",
+    "onEntered",
+    "onExit",
+    "onExiting",
+    "onExited"
+], $fa842ad9e3047b76$var$_excluded2 = [
+    "activeKey",
+    "getControlledId",
+    "getControllerId"
+], $fa842ad9e3047b76$var$_excluded3 = [
+    "as"
+];
+function $fa842ad9e3047b76$var$_objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+function $fa842ad9e3047b76$export$fae0121b5afe572d(_ref) {
+    var active = _ref.active, eventKey = _ref.eventKey, mountOnEnter = _ref.mountOnEnter, transition = _ref.transition, unmountOnExit = _ref.unmountOnExit, _role = _ref.role, role = _role === void 0 ? "tabpanel" : _role, onEnter = _ref.onEnter, onEntering = _ref.onEntering, onEntered = _ref.onEntered, onExit = _ref.onExit, onExiting = _ref.onExiting, onExited = _ref.onExited, props = $fa842ad9e3047b76$var$_objectWithoutPropertiesLoose(_ref, $fa842ad9e3047b76$var$_excluded);
+    var context = (0, $fYIks.useContext)((0, $44e00d5d3a8d70dd$export$2e2bcd8739ae039));
+    if (!context) return [
+        Object.assign({}, props, {
+            role: role
+        }),
+        {
+            eventKey: eventKey,
+            isActive: active,
+            mountOnEnter: mountOnEnter,
+            transition: transition,
+            unmountOnExit: unmountOnExit,
+            onEnter: onEnter,
+            onEntering: onEntering,
+            onEntered: onEntered,
+            onExit: onExit,
+            onExiting: onExiting,
+            onExited: onExited
+        }
+    ];
+    var activeKey = context.activeKey, getControlledId = context.getControlledId, getControllerId = context.getControllerId, rest = $fa842ad9e3047b76$var$_objectWithoutPropertiesLoose(context, $fa842ad9e3047b76$var$_excluded2);
+    var key = (0, $41e1ad80e9c0af22$export$eef49b42fde998a3)(eventKey);
+    return [
+        Object.assign({}, props, {
+            role: role,
+            id: getControlledId(eventKey),
+            "aria-labelledby": getControllerId(eventKey)
+        }),
+        {
+            eventKey: eventKey,
+            isActive: active == null && key != null ? (0, $41e1ad80e9c0af22$export$eef49b42fde998a3)(activeKey) === key : active,
+            transition: transition || rest.transition,
+            mountOnEnter: mountOnEnter != null ? mountOnEnter : rest.mountOnEnter,
+            unmountOnExit: unmountOnExit != null ? unmountOnExit : rest.unmountOnExit,
+            onEnter: onEnter,
+            onEntering: onEntering,
+            onEntered: onEntered,
+            onExit: onExit,
+            onExiting: onExiting,
+            onExited: onExited
+        }
+    ];
+}
+var $fa842ad9e3047b76$var$TabPanel = /*#__PURE__*/ $fYIks.forwardRef(function(_ref2, ref) {
+    var tmp = _ref2.as, Component = tmp === void 0 ? "div" : tmp, props = $fa842ad9e3047b76$var$_objectWithoutPropertiesLoose(_ref2, $fa842ad9e3047b76$var$_excluded3);
+    var _$ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)($fa842ad9e3047b76$export$fae0121b5afe572d(props), 2), tabPanelProps = _$ref[0], _$ref1 = _$ref[1], isActive = _$ref1.isActive, onEnter = _$ref1.onEnter, onEntering = _$ref1.onEntering, onEntered = _$ref1.onEntered, onExit = _$ref1.onExit, onExiting = _$ref1.onExiting, onExited = _$ref1.onExited, mountOnEnter = _$ref1.mountOnEnter, unmountOnExit = _$ref1.unmountOnExit, tmp1 = _$ref1.transition, Transition = tmp1 === void 0 ? (0, $af943671e856e1b2$export$2e2bcd8739ae039) : tmp1; // We provide an empty the TabContext so `<Nav>`s in `<TabPanel>`s don't
+    // conflict with the top level one.
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $44e00d5d3a8d70dd$export$2e2bcd8739ae039).Provider, {
+        value: null,
+        children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $41e1ad80e9c0af22$export$2e2bcd8739ae039).Provider, {
+            value: null,
+            children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Transition, {
+                in: isActive,
+                onEnter: onEnter,
+                onEntering: onEntering,
+                onEntered: onEntered,
+                onExit: onExit,
+                onExiting: onExiting,
+                onExited: onExited,
+                mountOnEnter: mountOnEnter,
+                unmountOnExit: unmountOnExit,
+                children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Component, Object.assign({}, tabPanelProps, {
+                    ref: ref,
+                    hidden: !isActive,
+                    "aria-hidden": !isActive
+                }))
+            })
+        })
+    });
+});
+$fa842ad9e3047b76$var$TabPanel.displayName = "TabPanel";
+var $fa842ad9e3047b76$export$2e2bcd8739ae039 = $fa842ad9e3047b76$var$TabPanel;
+
+
+
+var $1cd76bd69f04ca42$var$Tabs = function(props) {
+    var userId = props.id, generateCustomChildId = props.generateChildId, propsOnSelect = props.onSelect, propsActiveKey = props.activeKey, defaultActiveKey = props.defaultActiveKey, transition = props.transition, mountOnEnter = props.mountOnEnter, unmountOnExit = props.unmountOnExit, children = props.children;
+    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $1805e455f2cdd273$export$2ee51287a16ca325)(propsActiveKey, defaultActiveKey, propsOnSelect), 2), activeKey = ref[0], onSelect = ref[1];
+    var id = (0, $6eb99773a87a9bbe$export$619500959fc48b26)(userId);
+    var generateChildId = (0, $fYIks.useMemo)(function() {
+        return generateCustomChildId || function(key, type) {
+            return id ? "".concat(id, "-").concat(type, "-").concat(key) : null;
+        };
+    }, [
+        id,
+        generateCustomChildId
+    ]);
+    var tabContext = (0, $fYIks.useMemo)(function() {
+        return {
+            onSelect: onSelect,
+            activeKey: activeKey,
+            transition: transition,
+            mountOnEnter: mountOnEnter || false,
+            unmountOnExit: unmountOnExit || false,
+            getControlledId: function(key) {
+                return generateChildId(key, "tabpane");
+            },
+            getControllerId: function(key) {
+                return generateChildId(key, "tab");
+            }
+        };
+    }, [
+        onSelect,
+        activeKey,
+        transition,
+        mountOnEnter,
+        unmountOnExit,
+        generateChildId
+    ]);
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $44e00d5d3a8d70dd$export$2e2bcd8739ae039).Provider, {
+        value: tabContext,
+        children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $41e1ad80e9c0af22$export$2e2bcd8739ae039).Provider, {
+            value: onSelect || null,
+            children: children
+        })
+    });
+};
+$1cd76bd69f04ca42$var$Tabs.Panel = (0, $fa842ad9e3047b76$export$2e2bcd8739ae039);
+var $1cd76bd69f04ca42$export$2e2bcd8739ae039 = $1cd76bd69f04ca42$var$Tabs;
+
+
+
+
+
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+
+function $90fbc8fc0abbb4df$export$2e2bcd8739ae039(node) {
+    return node && node.ownerDocument || document;
+}
+
+
+function $8aa33ce4364b6419$export$2e2bcd8739ae039(node) {
+    var doc = (0, $90fbc8fc0abbb4df$export$2e2bcd8739ae039)(node);
+    return doc && doc.defaultView || window;
+}
+
+
+function $cc4c7eb33e57d5f3$export$2e2bcd8739ae039(node, psuedoElement) {
+    return (0, $8aa33ce4364b6419$export$2e2bcd8739ae039)(node).getComputedStyle(node, psuedoElement);
+}
+
+
+var $630b44f3f0d58170$var$rUpper = /([A-Z])/g;
+function $630b44f3f0d58170$export$2e2bcd8739ae039(string) {
+    return string.replace($630b44f3f0d58170$var$rUpper, "-$1").toLowerCase();
+}
+
+
+var $e9788d2113ff102c$var$msPattern = /^ms-/;
+function $e9788d2113ff102c$export$2e2bcd8739ae039(string) {
+    return (0, $630b44f3f0d58170$export$2e2bcd8739ae039)(string).replace($e9788d2113ff102c$var$msPattern, "-ms-");
+}
+
+
+var $8e864ceea3e30cc1$var$supportedTransforms = /^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i;
+function $8e864ceea3e30cc1$export$2e2bcd8739ae039(value) {
+    return !!(value && $8e864ceea3e30cc1$var$supportedTransforms.test(value));
+}
+
+
+function $1e2e9f220dd0b287$var$style(node, property) {
+    var css = "";
+    var transforms = "";
+    if (typeof property === "string") return node.style.getPropertyValue((0, $e9788d2113ff102c$export$2e2bcd8739ae039)(property)) || (0, $cc4c7eb33e57d5f3$export$2e2bcd8739ae039)(node).getPropertyValue((0, $e9788d2113ff102c$export$2e2bcd8739ae039)(property));
+    Object.keys(property).forEach(function(key) {
+        var value = property[key];
+        if (!value && value !== 0) node.style.removeProperty((0, $e9788d2113ff102c$export$2e2bcd8739ae039)(key));
+        else if ((0, $8e864ceea3e30cc1$export$2e2bcd8739ae039)(key)) transforms += key + "(" + value + ") ";
+        else css += (0, $e9788d2113ff102c$export$2e2bcd8739ae039)(key) + ": " + value + ";";
+    });
+    if (transforms) css += "transform: " + transforms + ";";
+    node.style.cssText += ";" + css;
+}
+var $1e2e9f220dd0b287$export$2e2bcd8739ae039 = $1e2e9f220dd0b287$var$style;
+
+
+
+var $b6286fd73c4aab96$export$2e2bcd8739ae039 = !!(typeof window !== "undefined" && window.document && window.document.createElement);
+
+
+var $21ed53627fa3543c$export$63fefd044b2bc624 = false;
+var $21ed53627fa3543c$export$a614c6b395900f69 = false;
+try {
+    var $21ed53627fa3543c$var$options = {
+        get passive () {
+            return $21ed53627fa3543c$export$63fefd044b2bc624 = true;
+        },
+        get once () {
+            // eslint-disable-next-line no-multi-assign
+            return $21ed53627fa3543c$export$a614c6b395900f69 = $21ed53627fa3543c$export$63fefd044b2bc624 = true;
+        }
+    };
+    if (0, $b6286fd73c4aab96$export$2e2bcd8739ae039) {
+        window.addEventListener("test", $21ed53627fa3543c$var$options, $21ed53627fa3543c$var$options);
+        window.removeEventListener("test", $21ed53627fa3543c$var$options, true);
+    }
+} catch (e) {
+/* */ }
+/**
+ * An `addEventListener` ponyfill, supports the `once` option
+ * 
+ * @param node the element
+ * @param eventName the event name
+ * @param handle the handler
+ * @param options event options
+ */ function $21ed53627fa3543c$var$addEventListener(node, eventName, handler, options) {
+    if (options && typeof options !== "boolean" && !$21ed53627fa3543c$export$a614c6b395900f69) {
+        var once = options.once, capture = options.capture;
+        var wrappedHandler = handler;
+        if (!$21ed53627fa3543c$export$a614c6b395900f69 && once) {
+            wrappedHandler = handler.__once || function onceHandler(event) {
+                this.removeEventListener(eventName, onceHandler, capture);
+                handler.call(this, event);
+            };
+            handler.__once = wrappedHandler;
+        }
+        node.addEventListener(eventName, wrappedHandler, $21ed53627fa3543c$export$63fefd044b2bc624 ? options : capture);
+    }
+    node.addEventListener(eventName, handler, options);
+}
+var $21ed53627fa3543c$export$2e2bcd8739ae039 = $21ed53627fa3543c$var$addEventListener;
+
+
+/**
+ * A `removeEventListener` ponyfill
+ * 
+ * @param node the element
+ * @param eventName the event name
+ * @param handle the handler
+ * @param options event options
+ */ function $d3242095ff273fcc$var$removeEventListener(node, eventName, handler, options) {
+    var capture = options && typeof options !== "boolean" ? options.capture : options;
+    node.removeEventListener(eventName, handler, capture);
+    if (handler.__once) node.removeEventListener(eventName, handler.__once, capture);
+}
+var $d3242095ff273fcc$export$2e2bcd8739ae039 = $d3242095ff273fcc$var$removeEventListener;
+
+
+function $707874b293a1ba16$var$listen(node, eventName, handler, options) {
+    (0, $21ed53627fa3543c$export$2e2bcd8739ae039)(node, eventName, handler, options);
+    return function() {
+        (0, $d3242095ff273fcc$export$2e2bcd8739ae039)(node, eventName, handler, options);
+    };
+}
+var $707874b293a1ba16$export$2e2bcd8739ae039 = $707874b293a1ba16$var$listen;
+
+
+function $d879654838ba8570$export$2e2bcd8739ae039(node, eventName, bubbles, cancelable) {
+    if (bubbles === void 0) bubbles = false;
+    if (cancelable === void 0) cancelable = true;
+    if (node) {
+        var event = document.createEvent("HTMLEvents");
+        event.initEvent(eventName, bubbles, cancelable);
+        node.dispatchEvent(event);
+    }
+}
+
+
+function $4c00dbeb2b32b3c1$var$parseDuration(node) {
+    var str = (0, $1e2e9f220dd0b287$export$2e2bcd8739ae039)(node, "transitionDuration") || "";
+    var mult = str.indexOf("ms") === -1 ? 1000 : 1;
+    return parseFloat(str) * mult;
+}
+function $4c00dbeb2b32b3c1$var$emulateTransitionEnd(element, duration, padding) {
+    if (padding === void 0) padding = 5;
+    var called = false;
+    var handle = setTimeout(function() {
+        if (!called) (0, $d879654838ba8570$export$2e2bcd8739ae039)(element, "transitionend", true);
+    }, duration + padding);
+    var remove = (0, $707874b293a1ba16$export$2e2bcd8739ae039)(element, "transitionend", function() {
+        called = true;
+    }, {
+        once: true
+    });
+    return function() {
+        clearTimeout(handle);
+        remove();
+    };
+}
+function $4c00dbeb2b32b3c1$export$2e2bcd8739ae039(element, handler, duration, padding) {
+    if (duration == null) duration = $4c00dbeb2b32b3c1$var$parseDuration(element) || 0;
+    var removeEmulate = $4c00dbeb2b32b3c1$var$emulateTransitionEnd(element, duration, padding);
+    var remove = (0, $707874b293a1ba16$export$2e2bcd8739ae039)(element, "transitionend", handler);
+    return function() {
+        removeEmulate();
+        remove();
+    };
+}
+
+
+function $827c7624a5471daa$var$parseDuration(node, property) {
+    var str = (0, $1e2e9f220dd0b287$export$2e2bcd8739ae039)(node, property) || "";
+    var mult = str.indexOf("ms") === -1 ? 1000 : 1;
+    return parseFloat(str) * mult;
+}
+function $827c7624a5471daa$export$2e2bcd8739ae039(element, handler) {
+    var duration = $827c7624a5471daa$var$parseDuration(element, "transitionDuration");
+    var delay = $827c7624a5471daa$var$parseDuration(element, "transitionDelay");
+    var remove = (0, $4c00dbeb2b32b3c1$export$2e2bcd8739ae039)(element, function(e) {
+        if (e.target === element) {
+            remove();
+            handler(e);
+        }
+    }, duration + delay);
+}
+
+
+function $01596cbebd97558b$export$2e2bcd8739ae039(node) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+    node.offsetHeight;
+}
+
+
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+
+var $fYIks = parcelRequire("fYIks");
+var $10dc36ee35bea27b$var$toFnRef = function toFnRef(ref) {
+    return !ref || typeof ref === "function" ? ref : function(value) {
+        ref.current = value;
+    };
+};
+function $10dc36ee35bea27b$export$c9058316764c140e(refA, refB) {
+    var a = $10dc36ee35bea27b$var$toFnRef(refA);
+    var b = $10dc36ee35bea27b$var$toFnRef(refB);
+    return function(value) {
+        if (a) a(value);
+        if (b) b(value);
+    };
+}
+/**
+ * Create and returns a single callback ref composed from two other Refs.
+ *
+ * ```tsx
+ * const Button = React.forwardRef((props, ref) => {
+ *   const [element, attachRef] = useCallbackRef<HTMLButtonElement>();
+ *   const mergedRef = useMergedRefs(ref, attachRef);
+ *
+ *   return <button ref={mergedRef} {...props}/>
+ * })
+ * ```
+ *
+ * @param refA A Callback or mutable Ref
+ * @param refB A Callback or mutable Ref
+ * @category refs
+ */ function $10dc36ee35bea27b$var$useMergedRefs(refA, refB) {
+    return (0, $fYIks.useMemo)(function() {
+        return $10dc36ee35bea27b$export$c9058316764c140e(refA, refB);
+    }, [
+        refA,
+        refB
+    ]);
+}
+var $10dc36ee35bea27b$export$2e2bcd8739ae039 = $10dc36ee35bea27b$var$useMergedRefs;
+
+
+
+function $1447c2b63ff645a0$export$2e2bcd8739ae039(componentOrElement) {
+    if (componentOrElement && "setState" in componentOrElement) return (0, (/*@__PURE__*/$parcel$interopDefault($9e93f347a4838f21$exports))).findDOMNode(componentOrElement);
+    return componentOrElement != null ? componentOrElement : null;
+}
+
+
+
+// Normalizes Transition callbacks when nodeRef is used.
+var $602b40629386ea98$var$TransitionWrapper = /*#__PURE__*/ (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).forwardRef(function(_param, ref) {
+    var onEnter = _param.onEnter, onEntering = _param.onEntering, onEntered = _param.onEntered, onExit = _param.onExit, onExiting = _param.onExiting, onExited = _param.onExited, addEndListener = _param.addEndListener, children = _param.children, childRef = _param.childRef, props = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_param, [
+        "onEnter",
+        "onEntering",
+        "onEntered",
+        "onExit",
+        "onExiting",
+        "onExited",
+        "addEndListener",
+        "children",
+        "childRef"
+    ]);
+    var nodeRef = (0, $fYIks.useRef)(null);
+    var mergedRef = (0, $10dc36ee35bea27b$export$2e2bcd8739ae039)(nodeRef, childRef);
+    var attachRef = function(r) {
+        mergedRef((0, $1447c2b63ff645a0$export$2e2bcd8739ae039)(r));
+    };
+    var normalize = function(callback) {
+        return function(param) {
+            if (callback && nodeRef.current) callback(nodeRef.current, param);
+        };
+    };
+    /* eslint-disable react-hooks/exhaustive-deps */ var handleEnter = (0, $fYIks.useCallback)(normalize(onEnter), [
+        onEnter
+    ]);
+    var handleEntering = (0, $fYIks.useCallback)(normalize(onEntering), [
+        onEntering
+    ]);
+    var handleEntered = (0, $fYIks.useCallback)(normalize(onEntered), [
+        onEntered
+    ]);
+    var handleExit = (0, $fYIks.useCallback)(normalize(onExit), [
+        onExit
+    ]);
+    var handleExiting = (0, $fYIks.useCallback)(normalize(onExiting), [
+        onExiting
+    ]);
+    var handleExited = (0, $fYIks.useCallback)(normalize(onExited), [
+        onExited
+    ]);
+    var handleAddEndListener = (0, $fYIks.useCallback)(normalize(addEndListener), [
+        addEndListener
+    ]);
+    /* eslint-enable react-hooks/exhaustive-deps */ return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $d4d75ba2d36c0cd5$export$2e2bcd8739ae039), (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({
+        ref: ref
+    }, props), {
+        onEnter: handleEnter,
+        onEntered: handleEntered,
+        onEntering: handleEntering,
+        onExit: handleExit,
+        onExited: handleExited,
+        onExiting: handleExiting,
+        addEndListener: handleAddEndListener,
+        nodeRef: nodeRef,
+        children: typeof children === "function" ? function(status, innerProps) {
+            return children(status, (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, innerProps), {
+                ref: attachRef
+            }));
+        } : /*#__PURE__*/ (0, (/*@__PURE__*/$parcel$interopDefault($fYIks))).cloneElement(children, {
+            ref: attachRef
+        })
+    }));
+});
+var $602b40629386ea98$export$2e2bcd8739ae039 = $602b40629386ea98$var$TransitionWrapper;
+
+
+
+var $2ee94850d744ab19$var$defaultProps = {
+    in: false,
+    timeout: 300,
+    mountOnEnter: false,
+    unmountOnExit: false,
+    appear: false
+};
+var $2ee94850d744ab19$var$_obj;
+var $2ee94850d744ab19$var$fadeStyles = ($2ee94850d744ab19$var$_obj = {}, (0, $ca2a088f2416c920$export$2e2bcd8739ae039)($2ee94850d744ab19$var$_obj, (0, $d4d75ba2d36c0cd5$export$df38205c966be359), "show"), (0, $ca2a088f2416c920$export$2e2bcd8739ae039)($2ee94850d744ab19$var$_obj, (0, $d4d75ba2d36c0cd5$export$78e9e6e3e014d60a), "show"), $2ee94850d744ab19$var$_obj);
+var $2ee94850d744ab19$var$Fade = /*#__PURE__*/ $fYIks.forwardRef(function(_param, ref) {
+    var className = _param.className, children = _param.children, _transitionClasses = _param.transitionClasses, transitionClasses = _transitionClasses === void 0 ? {} : _transitionClasses, props = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_param, [
+        "className",
+        "children",
+        "transitionClasses"
+    ]);
+    var handleEnter = (0, $fYIks.useCallback)(function(node, isAppearing) {
+        (0, $01596cbebd97558b$export$2e2bcd8739ae039)(node);
+        props.onEnter == null || props.onEnter(node, isAppearing);
+    }, [
+        props
+    ]);
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $602b40629386ea98$export$2e2bcd8739ae039), (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({
+        ref: ref,
+        addEndListener: (0, $827c7624a5471daa$export$2e2bcd8739ae039)
+    }, props), {
+        onEnter: handleEnter,
+        childRef: children.ref,
+        children: function(status, innerProps) {
+            return /*#__PURE__*/ $fYIks.cloneElement(children, (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, innerProps), {
+                className: (0, (/*@__PURE__*/$parcel$interopDefault($30ffc53e550e9c72$exports)))("fade", className, children.props.className, $2ee94850d744ab19$var$fadeStyles[status], transitionClasses[status])
+            }));
+        }
+    }));
+});
+$2ee94850d744ab19$var$Fade.defaultProps = $2ee94850d744ab19$var$defaultProps;
+$2ee94850d744ab19$var$Fade.displayName = "Fade";
+var $2ee94850d744ab19$export$2e2bcd8739ae039 = $2ee94850d744ab19$var$Fade;
+
+
+function $24f51b843a725cfe$export$2e2bcd8739ae039(transition) {
+    if (typeof transition === "boolean") return transition ? (0, $2ee94850d744ab19$export$2e2bcd8739ae039) : (0, $af943671e856e1b2$export$2e2bcd8739ae039);
+    return transition;
+}
+
+
+
+var $d7959cce57a41a84$var$TabContainer = function(_param) /*#__PURE__*/ {
+    var transition = _param.transition, props = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_param, [
+        "transition"
+    ]);
+    return (0, $393491384ce93f5d$exports.jsx)((0, $1cd76bd69f04ca42$export$2e2bcd8739ae039), (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, props), {
+        transition: (0, $24f51b843a725cfe$export$2e2bcd8739ae039)(transition)
+    }));
+};
+$d7959cce57a41a84$var$TabContainer.displayName = "TabContainer";
+var $d7959cce57a41a84$export$2e2bcd8739ae039 = $d7959cce57a41a84$var$TabContainer;
+
+
+
+
+
+var $9808da8e5afe1df4$var$rHyphen = /-(.)/g;
+function $9808da8e5afe1df4$export$2e2bcd8739ae039(string) {
+    return string.replace($9808da8e5afe1df4$var$rHyphen, function(_, chr) {
+        return chr.toUpperCase();
+    });
+}
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+
+var $d10c6b686f4b7615$var$pascalCase = function(str) {
+    return str[0].toUpperCase() + (0, $9808da8e5afe1df4$export$2e2bcd8739ae039)(str).slice(1);
+};
+function $d10c6b686f4b7615$export$2e2bcd8739ae039(prefix) {
+    var ref = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {}, _displayName = ref.displayName, displayName = _displayName === void 0 ? $d10c6b686f4b7615$var$pascalCase(prefix) : _displayName, Component = ref.Component, defaultProps = ref.defaultProps;
+    var BsComponent = /*#__PURE__*/ $fYIks.forwardRef(function(_param, ref) {
+        var className = _param.className, bsPrefix = _param.bsPrefix, tmp = _param.as, Tag = tmp === void 0 ? Component || "div" : tmp, props = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_param, [
+            "className",
+            "bsPrefix",
+            "as"
+        ]);
+        var resolvedPrefix = (0, $b20ac7adf161be24$export$7f387860ebffb32c)(bsPrefix, prefix);
+        return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Tag, (0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({
+            ref: ref,
+            className: (0, (/*@__PURE__*/$parcel$interopDefault($30ffc53e550e9c72$exports)))(className, resolvedPrefix)
+        }, props));
+    });
+    BsComponent.defaultProps = defaultProps;
+    BsComponent.displayName = displayName;
+    return BsComponent;
+}
+
+
+var $803bf9848fc33bb7$export$2e2bcd8739ae039 = (0, $d10c6b686f4b7615$export$2e2bcd8739ae039)("tab-content");
+
+
+
+
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+
+
+
+
+
+
+var $0c2e00a3b3320a47$var$TabPane = /*#__PURE__*/ $fYIks.forwardRef(function(_param, ref) {
+    var bsPrefix = _param.bsPrefix, transition = _param.transition, props = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_param, [
+        "bsPrefix",
+        "transition"
+    ]);
+    var _ref = (0, $fa842ad9e3047b76$export$fae0121b5afe572d)((0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, props), {
+        transition: (0, $24f51b843a725cfe$export$2e2bcd8739ae039)(transition)
+    })), __ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)(_ref, 2), _$ref = __ref[0], className = _$ref.className, tmp = _$ref.// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+    as, Component = tmp === void 0 ? "div" : tmp, _$ref1 = __ref[1], isActive = _$ref1.isActive, onEnter = _$ref1.onEnter, onEntering = _$ref1.onEntering, onEntered = _$ref1.onEntered, onExit = _$ref1.onExit, onExiting = _$ref1.onExiting, onExited = _$ref1.onExited, mountOnEnter = _$ref1.mountOnEnter, unmountOnExit = _$ref1.unmountOnExit, tmp1 = _$ref1.transition, Transition = tmp1 === void 0 ? (0, $2ee94850d744ab19$export$2e2bcd8739ae039) : tmp1, rest = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_ref[0], [
+        "className",
+        "as"
+    ]);
+    var prefix = (0, $b20ac7adf161be24$export$7f387860ebffb32c)(bsPrefix, "tab-pane"); // We provide an empty the TabContext so `<Nav>`s in `<TabPanel>`s don't
+    // conflict with the top level one.
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $44e00d5d3a8d70dd$export$2e2bcd8739ae039).Provider, {
+        value: null,
+        children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $41e1ad80e9c0af22$export$2e2bcd8739ae039).Provider, {
+            value: null,
+            children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Transition, {
+                in: isActive,
+                onEnter: onEnter,
+                onEntering: onEntering,
+                onEntered: onEntered,
+                onExit: onExit,
+                onExiting: onExiting,
+                onExited: onExited,
+                mountOnEnter: mountOnEnter,
+                unmountOnExit: unmountOnExit,
+                children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Component, (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, rest), {
+                    ref: ref,
+                    className: (0, (/*@__PURE__*/$parcel$interopDefault($30ffc53e550e9c72$exports)))(className, prefix, isActive && "active")
+                }))
+            })
+        })
+    });
+});
+$0c2e00a3b3320a47$var$TabPane.displayName = "TabPane";
+var $0c2e00a3b3320a47$export$2e2bcd8739ae039 = $0c2e00a3b3320a47$var$TabPane;
+
+
+
+
+/* eslint-disable react/no-unused-prop-types */ var $606b705863c94cfa$var$propTypes = {
+    eventKey: (0, (/*@__PURE__*/$parcel$interopDefault($f61d4298b10fe6c0$exports))).oneOfType([
+        (0, (/*@__PURE__*/$parcel$interopDefault($f61d4298b10fe6c0$exports))).string,
+        (0, (/*@__PURE__*/$parcel$interopDefault($f61d4298b10fe6c0$exports))).number
+    ]),
+    /**
+   * Content for the tab title.
+   */ title: (0, (/*@__PURE__*/$parcel$interopDefault($f61d4298b10fe6c0$exports))).node.isRequired,
+    /**
+   * The disabled state of the tab.
+   */ disabled: (0, (/*@__PURE__*/$parcel$interopDefault($f61d4298b10fe6c0$exports))).bool,
+    /**
+   * Class to pass to the underlying nav link.
+   */ tabClassName: (0, (/*@__PURE__*/$parcel$interopDefault($f61d4298b10fe6c0$exports))).string,
+    /**
+   * Object containing attributes to pass to underlying nav link.
+   */ tabAttrs: (0, (/*@__PURE__*/$parcel$interopDefault($f61d4298b10fe6c0$exports))).object
+};
+var $606b705863c94cfa$var$Tab = function() {
+    throw new Error("ReactBootstrap: The `Tab` component is not meant to be rendered! It's an abstract component that is only valid as a direct Child of the `Tabs` Component. For custom tabs components use TabPane and TabsContainer directly"); // Needed otherwise docs error out.
+};
+$606b705863c94cfa$var$Tab.propTypes = $606b705863c94cfa$var$propTypes;
+var $606b705863c94cfa$export$2e2bcd8739ae039 = Object.assign($606b705863c94cfa$var$Tab, {
+    Container: (0, $d7959cce57a41a84$export$2e2bcd8739ae039),
+    Content: (0, $803bf9848fc33bb7$export$2e2bcd8739ae039),
+    Pane: (0, $0c2e00a3b3320a47$export$2e2bcd8739ae039)
+});
+
+
+
+
+
+parcelRequire("fYIks");
+
+
+
+
+
+
+var $d940d4a2dd03a1b0$exports = {};
+"use strict";
+Object.defineProperty($d940d4a2dd03a1b0$exports, "__esModule", {
+    value: true
+});
+$d940d4a2dd03a1b0$exports.default = $d940d4a2dd03a1b0$var$all;
+var $1111368ad4c14991$exports = {};
+"use strict";
+Object.defineProperty($1111368ad4c14991$exports, "__esModule", {
+    value: true
+});
+$1111368ad4c14991$exports.default = $1111368ad4c14991$var$createChainableTypeChecker;
+/**
+ * Copyright 2013-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */ // Mostly taken from ReactPropTypes.
+function $1111368ad4c14991$var$createChainableTypeChecker(validate) {
+    var checkType = function checkType(isRequired, props, propName, componentName, location, propFullName) {
+        var componentNameSafe = componentName || "<<anonymous>>";
+        var propFullNameSafe = propFullName || propName;
+        if (props[propName] == null) {
+            if (isRequired) return new Error("Required " + location + " `" + propFullNameSafe + "` was not specified " + ("in `" + componentNameSafe + "`."));
+            return null;
+        }
+        for(var _len = arguments.length, args = Array(_len > 6 ? _len - 6 : 0), _key = 6; _key < _len; _key++)args[_key - 6] = arguments[_key];
+        return validate.apply(undefined, [
+            props,
+            propName,
+            componentNameSafe,
+            location,
+            propFullNameSafe
+        ].concat(args));
+    };
+    var chainedCheckType = checkType.bind(null, false);
+    chainedCheckType.isRequired = checkType.bind(null, true);
+    return chainedCheckType;
+}
+$1111368ad4c14991$exports = $1111368ad4c14991$exports["default"];
+
+
+var $d940d4a2dd03a1b0$var$_createChainableTypeChecker2 = $d940d4a2dd03a1b0$var$_interopRequireDefault($1111368ad4c14991$exports);
+function $d940d4a2dd03a1b0$var$_interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        default: obj
+    };
+}
+function $d940d4a2dd03a1b0$var$all() {
+    var allPropTypes = function allPropTypes() {
+        for(var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 < _len2; _key2++)args[_key2] = arguments[_key2];
+        var error = null;
+        validators.forEach(function(validator) {
+            if (error != null) return;
+            var result = validator.apply(undefined, args);
+            if (result != null) error = result;
+        });
+        return error;
+    };
+    for(var _len = arguments.length, validators = Array(_len), _key = 0; _key < _len; _key++)validators[_key] = arguments[_key];
+    return (0, $d940d4a2dd03a1b0$var$_createChainableTypeChecker2.default)(allPropTypes);
+}
+$d940d4a2dd03a1b0$exports = $d940d4a2dd03a1b0$exports["default"];
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+
+var $e546346b840cb235$var$toArray = Function.prototype.bind.call(Function.prototype.call, [].slice);
+function $e546346b840cb235$export$2e2bcd8739ae039(element, selector) {
+    return $e546346b840cb235$var$toArray(element.querySelectorAll(selector));
+}
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+function $07ae8daa8d5cfd64$export$2e2bcd8739ae039() {
+    // The toggling state value is designed to defeat React optimizations for skipping
+    // updates when they are stricting equal to the last state value
+    var _useReducer = (0, $fYIks.useReducer)(function(state) {
+        return !state;
+    }, false), dispatch = _useReducer[1];
+    return dispatch;
+}
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+var $467521fa242854d5$var$NavContext = /*#__PURE__*/ $fYIks.createContext(null);
+$467521fa242854d5$var$NavContext.displayName = "NavContext";
+var $467521fa242854d5$export$2e2bcd8739ae039 = $467521fa242854d5$var$NavContext;
+
+
+
+
+var $a223da51f40310f9$export$fd7bcb7e9bef4e8a = "data-rr-ui-";
+var $a223da51f40310f9$export$635202801f9383a0 = "rrUi";
+function $a223da51f40310f9$export$5cc3b7b83e34ade7(property) {
+    return "".concat($a223da51f40310f9$export$fd7bcb7e9bef4e8a).concat(property);
+}
+function $a223da51f40310f9$export$7776c0a7cd2eb3e0(property) {
+    return "".concat($a223da51f40310f9$export$635202801f9383a0).concat(property);
+}
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+/**
+ * Creates a `Ref` whose value is updated in an effect, ensuring the most recent
+ * value is the one rendered with. Generally only required for Concurrent mode usage
+ * where previous work in `render()` may be discarded before being used.
+ *
+ * This is safe to access in an event handler.
+ *
+ * @param value The `Ref` value
+ */ function $9e2bcfc00b2f532f$var$useCommittedRef(value) {
+    var ref = (0, $fYIks.useRef)(value);
+    (0, $fYIks.useEffect)(function() {
+        ref.current = value;
+    }, [
+        value
+    ]);
+    return ref;
+}
+var $9e2bcfc00b2f532f$export$2e2bcd8739ae039 = $9e2bcfc00b2f532f$var$useCommittedRef;
+
+
+function $56bd739adc2db4f7$export$2e2bcd8739ae039(fn) {
+    var ref = (0, $9e2bcfc00b2f532f$export$2e2bcd8739ae039)(fn);
+    return (0, $fYIks.useCallback)(function() {
+        return ref.current && ref.current.apply(ref, arguments);
+    }, [
+        ref
+    ]);
+}
+
+
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $a486b938fd9cd723$var$_excluded = [
+    "as",
+    "disabled"
+];
+function $a486b938fd9cd723$var$_objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+function $a486b938fd9cd723$export$72369ab2cc99204b(href) {
+    return !href || href.trim() === "#";
+}
+function $a486b938fd9cd723$export$a0ee72f2c720a5c3(param) {
+    var tagName = param.tagName, disabled = param.disabled, href = param.href, target = param.target, rel = param.rel, role = param.role, onClick = param.onClick, _tabIndex = param.tabIndex, tabIndex = _tabIndex === void 0 ? 0 : _tabIndex, type = param.type;
+    if (!tagName) {
+        if (href != null || target != null || rel != null) tagName = "a";
+        else tagName = "button";
+    }
+    var meta = {
+        tagName: tagName
+    };
+    if (tagName === "button") return [
+        {
+            type: type || "button",
+            disabled: disabled
+        },
+        meta
+    ];
+    var handleClick = function(event) {
+        if (disabled || tagName === "a" && $a486b938fd9cd723$export$72369ab2cc99204b(href)) event.preventDefault();
+        if (disabled) {
+            event.stopPropagation();
+            return;
+        }
+        onClick == null || onClick(event);
+    };
+    var handleKeyDown = function(event) {
+        if (event.key === " ") {
+            event.preventDefault();
+            handleClick(event);
+        }
+    };
+    if (tagName === "a") {
+        // Ensure there's a href so Enter can trigger anchor button.
+        href || (href = "#");
+        if (disabled) href = undefined;
+    }
+    return [
+        {
+            role: role != null ? role : "button",
+            // explicitly undefined so that it overrides the props disabled in a spread
+            // e.g. <Tag {...props} {...hookProps} />
+            disabled: undefined,
+            tabIndex: disabled ? undefined : tabIndex,
+            href: href,
+            target: tagName === "a" ? target : undefined,
+            "aria-disabled": !disabled ? undefined : disabled,
+            rel: tagName === "a" ? rel : undefined,
+            onClick: handleClick,
+            onKeyDown: handleKeyDown
+        },
+        meta
+    ];
+}
+var $a486b938fd9cd723$var$Button = /*#__PURE__*/ $fYIks.forwardRef(function(_ref, ref) {
+    var asProp = _ref.as, disabled = _ref.disabled, props = $a486b938fd9cd723$var$_objectWithoutPropertiesLoose(_ref, $a486b938fd9cd723$var$_excluded);
+    var _$ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)($a486b938fd9cd723$export$a0ee72f2c720a5c3(Object.assign({
+        tagName: asProp,
+        disabled: disabled
+    }, props)), 2), buttonProps = _$ref[0], _$ref1 = _$ref[1], Component = _$ref1.tagName;
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Component, Object.assign({}, props, buttonProps, {
+        ref: ref
+    }));
+});
+$a486b938fd9cd723$var$Button.displayName = "Button";
+var $a486b938fd9cd723$export$2e2bcd8739ae039 = $a486b938fd9cd723$var$Button;
+
+
+
+
+
+var $717dcc91cdaaec4f$var$_excluded = [
+    "as",
+    "active",
+    "eventKey"
+];
+function $717dcc91cdaaec4f$var$_objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+function $717dcc91cdaaec4f$export$d7a68693710982a(param) {
+    var key = param.key, onClick = param.onClick, active = param.active, id = param.id, role = param.role, disabled = param.disabled;
+    var parentOnSelect = (0, $fYIks.useContext)((0, $41e1ad80e9c0af22$export$2e2bcd8739ae039));
+    var navContext = (0, $fYIks.useContext)((0, $467521fa242854d5$export$2e2bcd8739ae039));
+    var tabContext = (0, $fYIks.useContext)((0, $44e00d5d3a8d70dd$export$2e2bcd8739ae039));
+    var isActive = active;
+    var props = {
+        role: role
+    };
+    if (navContext) {
+        if (!role && navContext.role === "tablist") props.role = "tab";
+        var contextControllerId = navContext.getControllerId(key != null ? key : null);
+        var contextControlledId = navContext.getControlledId(key != null ? key : null); // @ts-ignore
+        props[(0, $a223da51f40310f9$export$5cc3b7b83e34ade7)("event-key")] = key;
+        props.id = contextControllerId || id;
+        isActive = active == null && key != null ? navContext.activeKey === key : active;
+        /**
+     * Simplified scenario for `mountOnEnter`.
+     *
+     * While it would make sense to keep 'aria-controls' for tabs that have been mounted at least
+     * once, it would also complicate the code quite a bit, for very little gain.
+     * The following implementation is probably good enough.
+     *
+     * @see https://github.com/react-restart/ui/pull/40#issuecomment-1009971561
+     */ if (isActive || !(tabContext != null && tabContext.unmountOnExit) && !(tabContext != null && tabContext.mountOnEnter)) props["aria-controls"] = contextControlledId;
+    }
+    if (props.role === "tab") {
+        props["aria-selected"] = isActive;
+        if (!isActive) props.tabIndex = -1;
+        if (disabled) {
+            props.tabIndex = -1;
+            props["aria-disabled"] = true;
+        }
+    }
+    props.onClick = (0, $56bd739adc2db4f7$export$2e2bcd8739ae039)(function(e) {
+        if (disabled) return;
+        onClick == null || onClick(e);
+        if (key == null) return;
+        if (parentOnSelect && !e.isPropagationStopped()) parentOnSelect(key, e);
+    });
+    return [
+        props,
+        {
+            isActive: isActive
+        }
+    ];
+}
+var $717dcc91cdaaec4f$var$NavItem = /*#__PURE__*/ $fYIks.forwardRef(function(_ref, ref) {
+    var tmp = _ref.as, Component = tmp === void 0 ? (0, $a486b938fd9cd723$export$2e2bcd8739ae039) : tmp, active = _ref.active, eventKey = _ref.eventKey, options = $717dcc91cdaaec4f$var$_objectWithoutPropertiesLoose(_ref, $717dcc91cdaaec4f$var$_excluded);
+    var _$ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)($717dcc91cdaaec4f$export$d7a68693710982a(Object.assign({
+        key: (0, $41e1ad80e9c0af22$export$eef49b42fde998a3)(eventKey, options.href),
+        active: active
+    }, options)), 2), props = _$ref[0], meta = _$ref[1]; // @ts-ignore
+    props[(0, $a223da51f40310f9$export$5cc3b7b83e34ade7)("active")] = meta.isActive;
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Component, Object.assign({}, options, props, {
+        ref: ref
+    }));
+});
+$717dcc91cdaaec4f$var$NavItem.displayName = "NavItem";
+var $717dcc91cdaaec4f$export$2e2bcd8739ae039 = $717dcc91cdaaec4f$var$NavItem;
+
+
+
+var $fd2aa2f789dd5410$var$_excluded = [
+    "as",
+    "onSelect",
+    "activeKey",
+    "role",
+    "onKeyDown"
+];
+function $fd2aa2f789dd5410$var$_objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+// eslint-disable-next-line @typescript-eslint/no-empty-function
+var $fd2aa2f789dd5410$var$noop = function() {};
+var $fd2aa2f789dd5410$var$EVENT_KEY_ATTR = (0, $a223da51f40310f9$export$5cc3b7b83e34ade7)("event-key");
+var $fd2aa2f789dd5410$var$Nav = /*#__PURE__*/ $fYIks.forwardRef(function(_ref, ref) {
+    var tmp = _ref.// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+    as, Component = tmp === void 0 ? "div" : tmp, onSelect = _ref.onSelect, activeKey = _ref.activeKey, role = _ref.role, onKeyDown = _ref.onKeyDown, props = $fd2aa2f789dd5410$var$_objectWithoutPropertiesLoose(_ref, $fd2aa2f789dd5410$var$_excluded);
+    // A ref and forceUpdate for refocus, b/c we only want to trigger when needed
+    // and don't want to reset the set in the effect
+    var forceUpdate = (0, $07ae8daa8d5cfd64$export$2e2bcd8739ae039)();
+    var needsRefocusRef = (0, $fYIks.useRef)(false);
+    var parentOnSelect = (0, $fYIks.useContext)((0, $41e1ad80e9c0af22$export$2e2bcd8739ae039));
+    var tabContext = (0, $fYIks.useContext)((0, $44e00d5d3a8d70dd$export$2e2bcd8739ae039));
+    var getControlledId, getControllerId;
+    if (tabContext) {
+        role = role || "tablist";
+        activeKey = tabContext.activeKey; // TODO: do we need to duplicate these?
+        getControlledId = tabContext.getControlledId;
+        getControllerId = tabContext.getControllerId;
+    }
+    var listNode = (0, $fYIks.useRef)(null);
+    var getNextActiveTab = function(offset) {
+        var currentListNode = listNode.current;
+        if (!currentListNode) return null;
+        var items = (0, $e546346b840cb235$export$2e2bcd8739ae039)(currentListNode, "[".concat($fd2aa2f789dd5410$var$EVENT_KEY_ATTR, "]:not([aria-disabled=true])"));
+        var activeChild = currentListNode.querySelector("[aria-selected=true]");
+        if (!activeChild || activeChild !== document.activeElement) return null;
+        var index = items.indexOf(activeChild);
+        if (index === -1) return null;
+        var nextIndex = index + offset;
+        if (nextIndex >= items.length) nextIndex = 0;
+        if (nextIndex < 0) nextIndex = items.length - 1;
+        return items[nextIndex];
+    };
+    var handleSelect = function(key, event) {
+        if (key == null) return;
+        onSelect == null || onSelect(key, event);
+        parentOnSelect == null || parentOnSelect(key, event);
+    };
+    var handleKeyDown = function(event) {
+        onKeyDown == null || onKeyDown(event);
+        if (!tabContext) return;
+        var nextActiveChild;
+        switch(event.key){
+            case "ArrowLeft":
+            case "ArrowUp":
+                nextActiveChild = getNextActiveTab(-1);
+                break;
+            case "ArrowRight":
+            case "ArrowDown":
+                nextActiveChild = getNextActiveTab(1);
+                break;
+            default:
+                return;
+        }
+        if (!nextActiveChild) return;
+        event.preventDefault();
+        handleSelect(nextActiveChild.dataset[(0, $a223da51f40310f9$export$7776c0a7cd2eb3e0)("EventKey")] || null, event);
+        needsRefocusRef.current = true;
+        forceUpdate();
+    };
+    (0, $fYIks.useEffect)(function() {
+        if (listNode.current && needsRefocusRef.current) {
+            var activeChild = listNode.current.querySelector("[".concat($fd2aa2f789dd5410$var$EVENT_KEY_ATTR, "][aria-selected=true]"));
+            activeChild == null || activeChild.focus();
+        }
+        needsRefocusRef.current = false;
+    });
+    var mergedRef = (0, $10dc36ee35bea27b$export$2e2bcd8739ae039)(ref, listNode);
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $41e1ad80e9c0af22$export$2e2bcd8739ae039).Provider, {
+        value: handleSelect,
+        children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $467521fa242854d5$export$2e2bcd8739ae039).Provider, {
+            value: {
+                role: role,
+                // used by NavLink to determine it's role
+                activeKey: (0, $41e1ad80e9c0af22$export$eef49b42fde998a3)(activeKey),
+                getControlledId: getControlledId || $fd2aa2f789dd5410$var$noop,
+                getControllerId: getControllerId || $fd2aa2f789dd5410$var$noop
+            },
+            children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Component, Object.assign({}, props, {
+                onKeyDown: handleKeyDown,
+                ref: mergedRef,
+                role: role
+            }))
+        })
+    });
+});
+$fd2aa2f789dd5410$var$Nav.displayName = "Nav";
+var $fd2aa2f789dd5410$export$2e2bcd8739ae039 = Object.assign($fd2aa2f789dd5410$var$Nav, {
+    Item: (0, $717dcc91cdaaec4f$export$2e2bcd8739ae039)
+});
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+var $de2c993c6b72fff5$var$context = /*#__PURE__*/ $fYIks.createContext(null);
+$de2c993c6b72fff5$var$context.displayName = "NavbarContext";
+var $de2c993c6b72fff5$export$2e2bcd8739ae039 = $de2c993c6b72fff5$var$context;
+
+
+
+var $fYIks = parcelRequire("fYIks");
+var $be4756f2bc63b7a9$var$context = /*#__PURE__*/ $fYIks.createContext(null);
+$be4756f2bc63b7a9$var$context.displayName = "CardHeaderContext";
+var $be4756f2bc63b7a9$export$2e2bcd8739ae039 = $be4756f2bc63b7a9$var$context;
+
+
+
+var $bcfaa3e21c93aa77$export$2e2bcd8739ae039 = (0, $d10c6b686f4b7615$export$2e2bcd8739ae039)("nav-item");
+
+
+
+
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+function $cb16a84b1bde4d42$export$2e2bcd8739ae039() {
+    return (0, $fYIks.useState)(null);
+}
+
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+function $0dea5fc15ae5181a$export$2e2bcd8739ae039(eventTarget, event, listener, capture) {
+    if (capture === void 0) capture = false;
+    var handler = (0, $56bd739adc2db4f7$export$2e2bcd8739ae039)(listener);
+    (0, $fYIks.useEffect)(function() {
+        var target = typeof eventTarget === "function" ? eventTarget() : eventTarget;
+        target.addEventListener(event, handler, capture);
+        return function() {
+            return target.removeEventListener(event, handler, capture);
+        };
+    }, [
+        eventTarget
+    ]);
+}
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+function $dc45bd8197dab337$export$2e2bcd8739ae039(event, handler, capture) {
+    if (capture === void 0) capture = false;
+    var documentTarget = (0, $fYIks.useCallback)(function() {
+        return document;
+    }, []);
+    return (0, $0dea5fc15ae5181a$export$2e2bcd8739ae039)(documentTarget, event, handler, capture);
+}
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+/**
+ * Creates a `setInterval` that is properly cleaned up when a component unmounted
+ *
+ * ```tsx
+ *  function Timer() {
+ *    const [timer, setTimer] = useState(0)
+ *    useInterval(() => setTimer(i => i + 1), 1000)
+ *
+ *    return <span>{timer} seconds past</span>
+ *  }
+ * ```
+ *
+ * @param fn an function run on each interval
+ * @param ms The milliseconds duration of the interval
+ */ function $7856cdd975997d58$var$useInterval(fn, ms, paused, runImmediately) {
+    if (paused === void 0) paused = false;
+    if (runImmediately === void 0) runImmediately = false;
+    var handle;
+    var fnRef = (0, $9e2bcfc00b2f532f$export$2e2bcd8739ae039)(fn); // this ref is necessary b/c useEffect will sometimes miss a paused toggle
+    // orphaning a setTimeout chain in the aether, so relying on it's refresh logic is not reliable.
+    var pausedRef = (0, $9e2bcfc00b2f532f$export$2e2bcd8739ae039)(paused);
+    var tick = function tick() {
+        if (pausedRef.current) return;
+        fnRef.current();
+        schedule(); // eslint-disable-line no-use-before-define
+    };
+    var schedule = function schedule() {
+        clearTimeout(handle);
+        handle = setTimeout(tick, ms);
+    };
+    (0, $fYIks.useEffect)(function() {
+        if (runImmediately) tick();
+        else schedule();
+        return function() {
+            return clearTimeout(handle);
+        };
+    }, [
+        paused,
+        runImmediately
+    ]);
+}
+var $7856cdd975997d58$export$2e2bcd8739ae039 = $7856cdd975997d58$var$useInterval;
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+function $315476cfaa2b4414$var$useRafInterval(fn, ms, paused) {
+    if (paused === void 0) paused = false;
+    var handle;
+    var start = new Date().getTime();
+    var fnRef = (0, $9e2bcfc00b2f532f$export$2e2bcd8739ae039)(fn); // this ref is necessary b/c useEffect will sometimes miss a paused toggle
+    // orphaning a setTimeout chain in the aether, so relying on it's refresh logic is not reliable.
+    var pausedRef = (0, $9e2bcfc00b2f532f$export$2e2bcd8739ae039)(paused);
+    function loop() {
+        var current = new Date().getTime();
+        var delta = current - start;
+        if (pausedRef.current) return;
+        if (delta >= ms && fnRef.current) {
+            fnRef.current();
+            start = new Date().getTime();
+        }
+        cancelAnimationFrame(handle);
+        handle = requestAnimationFrame(loop);
+    }
+    (0, $fYIks.useEffect)(function() {
+        handle = requestAnimationFrame(loop);
+        return function() {
+            return cancelAnimationFrame(handle);
+        };
+    }, []);
+}
+var $315476cfaa2b4414$export$2e2bcd8739ae039 = $315476cfaa2b4414$var$useRafInterval;
+
+
+
+var $fYIks = parcelRequire("fYIks");
+function $0492dc6274cb616c$var$_extends() {
+    $0492dc6274cb616c$var$_extends = Object.assign || function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return $0492dc6274cb616c$var$_extends.apply(this, arguments);
+}
+function $0492dc6274cb616c$export$2e2bcd8739ae039(initialState) {
+    var _useState = (0, $fYIks.useState)(initialState), state = _useState[0], setState = _useState[1];
+    var updater = (0, $fYIks.useCallback)(function(update) {
+        if (update === null) return;
+        if (typeof update === "function") setState(function(state) {
+            var nextState = update(state);
+            return nextState == null ? state : $0492dc6274cb616c$var$_extends({}, state, nextState);
+        });
+        else setState(function(state) {
+            return $0492dc6274cb616c$var$_extends({}, state, update);
+        });
+    }, [
+        setState
+    ]);
+    return [
+        state,
+        updater
+    ];
+}
+
+
+
+function $d6dfcc0b57876a9e$export$2e2bcd8739ae039(props, gDSFP, initialState) {
+    var _useMergeState = (0, $0492dc6274cb616c$export$2e2bcd8739ae039)(initialState), state = _useMergeState[0], setState = _useMergeState[1];
+    var nextState = gDSFP(props, state);
+    if (nextState !== null) setState(nextState);
+    return [
+        state,
+        setState
+    ];
+}
+
+
+
+var $fYIks = parcelRequire("fYIks");
+function $83805ded3dc16d49$export$2e2bcd8739ae039() {
+    var mounted = (0, $fYIks.useRef)(true);
+    var isMounted = (0, $fYIks.useRef)(function() {
+        return mounted.current;
+    });
+    (0, $fYIks.useEffect)(function() {
+        mounted.current = true;
+        return function() {
+            mounted.current = false;
+        };
+    }, []);
+    return isMounted.current;
+}
+
+
+
+var $fYIks = parcelRequire("fYIks");
+function $dbbd5ac375daaf62$export$2e2bcd8739ae039(value) {
+    var ref = (0, $fYIks.useRef)(null);
+    (0, $fYIks.useEffect)(function() {
+        ref.current = value;
+    });
+    return ref.current;
+}
+
+
+
+var $fYIks = parcelRequire("fYIks");
+function $948aeae4dfe1e117$export$2e2bcd8739ae039(imageOrUrl, crossOrigin) {
+    var _useState = (0, $fYIks.useState)({
+        image: null,
+        error: null
+    }), state = _useState[0], setState = _useState[1];
+    (0, $fYIks.useEffect)(function() {
+        var onLoad = function onLoad() {
+            setState({
+                image: image,
+                error: null
+            });
+        };
+        var onError = function onError(error) {
+            setState({
+                image: image,
+                error: error
+            });
+        };
+        if (!imageOrUrl) return undefined;
+        var image;
+        if (typeof imageOrUrl === "string") {
+            image = new Image();
+            if (crossOrigin) image.crossOrigin = crossOrigin;
+            image.src = imageOrUrl;
+        } else {
+            image = imageOrUrl;
+            if (image.complete && image.naturalHeight > 0) {
+                setState({
+                    image: image,
+                    error: null
+                });
+                return;
+            }
+        }
+        image.addEventListener("load", onLoad);
+        image.addEventListener("error", onError);
+        return function() {
+            image.removeEventListener("load", onLoad);
+            image.removeEventListener("error", onError);
+        };
+    }, [
+        imageOrUrl,
+        crossOrigin
+    ]);
+    return state;
+}
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $fYIks = parcelRequire("fYIks");
+var $cf2e928aa21e6dc0$var$isReactNative = typeof $parcel$global !== "undefined" && $parcel$global.navigator && $parcel$global.navigator.product === "ReactNative";
+var $cf2e928aa21e6dc0$var$isDOM = typeof document !== "undefined";
+var /**
+ * Is `useLayoutEffect` in a DOM or React Native environment, otherwise resolves to useEffect
+ * Only useful to avoid the console warning.
+ *
+ * PREFER `useEffect` UNLESS YOU KNOW WHAT YOU ARE DOING.
+ *
+ * @category effects
+ */ $cf2e928aa21e6dc0$export$2e2bcd8739ae039 = $cf2e928aa21e6dc0$var$isDOM || $cf2e928aa21e6dc0$var$isReactNative ? (0, $fYIks.useLayoutEffect) : (0, $fYIks.useEffect);
+
+
+var $fbf34b843e4c462a$var$targetMap = new WeakMap();
+var $fbf34b843e4c462a$var$resizeObserver;
+function $fbf34b843e4c462a$var$getResizeObserver() {
+    // eslint-disable-next-line no-return-assign
+    return $fbf34b843e4c462a$var$resizeObserver = $fbf34b843e4c462a$var$resizeObserver || new window.ResizeObserver(function(entries) {
+        entries.forEach(function(entry) {
+            var handler = $fbf34b843e4c462a$var$targetMap.get(entry.target);
+            if (handler) handler(entry.contentRect);
+        });
+    });
+}
+function $fbf34b843e4c462a$export$2e2bcd8739ae039(element) {
+    var _useState = (0, $fYIks.useState)(null), rect = _useState[0], setRect = _useState[1];
+    (0, $cf2e928aa21e6dc0$export$2e2bcd8739ae039)(function() {
+        if (!element) return;
+        $fbf34b843e4c462a$var$getResizeObserver().observe(element);
+        setRect(element.getBoundingClientRect());
+        $fbf34b843e4c462a$var$targetMap.set(element, function(rect) {
+            setRect(rect);
+        });
+        return function() {
+            $fbf34b843e4c462a$var$targetMap.delete(element);
+        };
+    }, [
+        element
+    ]);
+    return rect;
+}
+
+
+
+
+
+
+var $75ccec41c0a01f8e$var$_excluded = [
+    "onKeyDown"
+];
+function $75ccec41c0a01f8e$var$_objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+function $75ccec41c0a01f8e$export$72369ab2cc99204b(href) {
+    return !href || href.trim() === "#";
+}
+/**
+ * An generic `<a>` component that covers a few A11y cases, ensuring that
+ * cases where the `href` is missing or trivial like "#" are treated like buttons.
+ */ var $75ccec41c0a01f8e$var$Anchor = /*#__PURE__*/ $fYIks.forwardRef(function(_ref, ref) {
+    var onKeyDown = _ref.onKeyDown, props = $75ccec41c0a01f8e$var$_objectWithoutPropertiesLoose(_ref, $75ccec41c0a01f8e$var$_excluded);
+    var _$ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $a486b938fd9cd723$export$a0ee72f2c720a5c3)(Object.assign({
+        tagName: "a"
+    }, props)), 1), buttonProps = _$ref[0];
+    var handleKeyDown = (0, $56bd739adc2db4f7$export$2e2bcd8739ae039)(function(e) {
+        buttonProps.onKeyDown(e);
+        onKeyDown == null || onKeyDown(e);
+    });
+    if ($75ccec41c0a01f8e$export$72369ab2cc99204b(props.href) || props.role === "button") return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("a", Object.assign({
+        ref: ref
+    }, props, buttonProps, {
+        onKeyDown: handleKeyDown
+    }));
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("a", Object.assign({
+        ref: ref
+    }, props, {
+        onKeyDown: onKeyDown
+    }));
+});
+$75ccec41c0a01f8e$var$Anchor.displayName = "Anchor";
+var $75ccec41c0a01f8e$export$2e2bcd8739ae039 = $75ccec41c0a01f8e$var$Anchor;
+
+
+
+
+
+
+var $43b4a936f8dc2b3e$var$defaultProps = {
+    disabled: false
+};
+var $43b4a936f8dc2b3e$var$NavLink = /*#__PURE__*/ $fYIks.forwardRef(function(_param, ref) {
+    var bsPrefix = _param.bsPrefix, className = _param.className, tmp = _param.as, Component = tmp === void 0 ? (0, $75ccec41c0a01f8e$export$2e2bcd8739ae039) : tmp, active = _param.active, eventKey = _param.eventKey, props = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_param, [
+        "bsPrefix",
+        "className",
+        "as",
+        "active",
+        "eventKey"
+    ]);
+    bsPrefix = (0, $b20ac7adf161be24$export$7f387860ebffb32c)(bsPrefix, "nav-link");
+    var _$ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $717dcc91cdaaec4f$export$d7a68693710982a)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({
+        key: (0, $41e1ad80e9c0af22$export$eef49b42fde998a3)(eventKey, props.href),
+        active: active
+    }, props)), 2), navItemProps = _$ref[0], meta = _$ref[1];
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)(Component, (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, props, navItemProps), {
+        ref: ref,
+        className: (0, (/*@__PURE__*/$parcel$interopDefault($30ffc53e550e9c72$exports)))(className, bsPrefix, props.disabled && "disabled", meta.isActive && "active")
+    }));
+});
+$43b4a936f8dc2b3e$var$NavLink.displayName = "NavLink";
+$43b4a936f8dc2b3e$var$NavLink.defaultProps = $43b4a936f8dc2b3e$var$defaultProps;
+var $43b4a936f8dc2b3e$export$2e2bcd8739ae039 = $43b4a936f8dc2b3e$var$NavLink;
+
+
+
+var $1a6e3eeeff2af42f$var$defaultProps = {
+    justify: false,
+    fill: false
+};
+var $1a6e3eeeff2af42f$var$Nav = /*#__PURE__*/ $fYIks.forwardRef(function(uncontrolledProps, ref) {
+    var _ref = (0, $1805e455f2cdd273$export$2e2bcd8739ae039)(uncontrolledProps, {
+        activeKey: "onSelect"
+    }), _as = _ref.as, as = _as === void 0 ? "div" : _as, initialBsPrefix = _ref.bsPrefix, variant = _ref.variant, fill = _ref.fill, justify = _ref.justify, navbar = _ref.navbar, navbarScroll = _ref.navbarScroll, className = _ref.className, activeKey = _ref.activeKey, props = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_ref, [
+        "as",
+        "bsPrefix",
+        "variant",
+        "fill",
+        "justify",
+        "navbar",
+        "navbarScroll",
+        "className",
+        "activeKey"
+    ]);
+    var bsPrefix = (0, $b20ac7adf161be24$export$7f387860ebffb32c)(initialBsPrefix, "nav");
+    var navbarBsPrefix;
+    var cardHeaderBsPrefix;
+    var isNavbar = false;
+    var navbarContext = (0, $fYIks.useContext)((0, $de2c993c6b72fff5$export$2e2bcd8739ae039));
+    var cardHeaderContext = (0, $fYIks.useContext)((0, $be4756f2bc63b7a9$export$2e2bcd8739ae039));
+    if (navbarContext) {
+        navbarBsPrefix = navbarContext.bsPrefix;
+        isNavbar = navbar == null ? true : navbar;
+    } else if (cardHeaderContext) cardHeaderBsPrefix = cardHeaderContext.cardHeaderBsPrefix;
+    var _obj;
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $fd2aa2f789dd5410$export$2e2bcd8739ae039), (0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({
+        as: as,
+        ref: ref,
+        activeKey: activeKey,
+        className: (0, (/*@__PURE__*/$parcel$interopDefault($30ffc53e550e9c72$exports)))(className, (_obj = {}, (0, $ca2a088f2416c920$export$2e2bcd8739ae039)(_obj, bsPrefix, !isNavbar), (0, $ca2a088f2416c920$export$2e2bcd8739ae039)(_obj, "".concat(navbarBsPrefix, "-nav"), isNavbar), (0, $ca2a088f2416c920$export$2e2bcd8739ae039)(_obj, "".concat(navbarBsPrefix, "-nav-scroll"), isNavbar && navbarScroll), (0, $ca2a088f2416c920$export$2e2bcd8739ae039)(_obj, "".concat(cardHeaderBsPrefix, "-").concat(variant), !!cardHeaderBsPrefix), (0, $ca2a088f2416c920$export$2e2bcd8739ae039)(_obj, "".concat(bsPrefix, "-").concat(variant), !!variant), (0, $ca2a088f2416c920$export$2e2bcd8739ae039)(_obj, "".concat(bsPrefix, "-fill"), fill), (0, $ca2a088f2416c920$export$2e2bcd8739ae039)(_obj, "".concat(bsPrefix, "-justified"), justify), _obj))
+    }, props));
+});
+$1a6e3eeeff2af42f$var$Nav.displayName = "Nav";
+$1a6e3eeeff2af42f$var$Nav.defaultProps = $1a6e3eeeff2af42f$var$defaultProps;
+var $1a6e3eeeff2af42f$export$2e2bcd8739ae039 = Object.assign($1a6e3eeeff2af42f$var$Nav, {
+    Item: (0, $bcfaa3e21c93aa77$export$2e2bcd8739ae039),
+    Link: (0, $43b4a936f8dc2b3e$export$2e2bcd8739ae039)
+});
+
+
+
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+/**
+ * Iterates through children that are typically specified as `props.children`,
+ * but only maps over children that are "valid elements".
+ *
+ * The mapFunction provided index will be normalised to the components mapped,
+ * so an invalid component would not increase the index.
+ *
+ */ function $8b99717b4bde4a24$export$871de8747c9eaa88(children, func) {
+    var index = 0;
+    return $fYIks.Children.map(children, function(child) {
+        return /*#__PURE__*/ $fYIks.isValidElement(child) ? func(child, index++) : child;
+    });
+}
+/**
+ * Iterates through children that are "valid elements".
+ *
+ * The provided forEachFunc(child, index) will be called for each
+ * leaf child with the index reflecting the position relative to "valid components".
+ */ function $8b99717b4bde4a24$export$4b80e395e36b5a56(children, func) {
+    var index = 0;
+    $fYIks.Children.forEach(children, function(child) {
+        if (/*#__PURE__*/ $fYIks.isValidElement(child)) func(child, index++);
+    });
+}
+/**
+ * Finds whether a component's `children` prop includes a React element of the
+ * specified type.
+ */ function $8b99717b4bde4a24$export$500fd6099226ffae(children, type) {
+    return $fYIks.Children.toArray(children).some(function(child) {
+        return /*#__PURE__*/ $fYIks.isValidElement(child) && child.type === type;
+    });
+}
+
+
+
+
+
+var $7b61d017336a41a1$var$defaultProps = {
+    variant: "tabs",
+    mountOnEnter: false,
+    unmountOnExit: false
+};
+function $7b61d017336a41a1$var$getDefaultActiveKey(children) {
+    var defaultActiveKey;
+    (0, $8b99717b4bde4a24$export$4b80e395e36b5a56)(children, function(child) {
+        if (defaultActiveKey == null) defaultActiveKey = child.props.eventKey;
+    });
+    return defaultActiveKey;
+}
+function $7b61d017336a41a1$var$renderTab(child) {
+    var _props = child.props, title = _props.title, eventKey = _props.eventKey, disabled = _props.disabled, tabClassName = _props.tabClassName, tabAttrs = _props.tabAttrs, id = _props.id;
+    if (title == null) return null;
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $bcfaa3e21c93aa77$export$2e2bcd8739ae039), {
+        as: "li",
+        role: "presentation",
+        children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $43b4a936f8dc2b3e$export$2e2bcd8739ae039), (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({
+            as: "button",
+            type: "button",
+            eventKey: eventKey,
+            disabled: disabled,
+            id: id,
+            className: tabClassName
+        }, tabAttrs), {
+            children: title
+        }))
+    });
+}
+var $7b61d017336a41a1$var$Tabs = function(props) {
+    var _ref = (0, $1805e455f2cdd273$export$2e2bcd8739ae039)(props, {
+        activeKey: "onSelect"
+    }), id = _ref.id, onSelect = _ref.onSelect, transition = _ref.transition, mountOnEnter = _ref.mountOnEnter, unmountOnExit = _ref.unmountOnExit, children = _ref.children, _activeKey = _ref.activeKey, activeKey = _activeKey === void 0 ? $7b61d017336a41a1$var$getDefaultActiveKey(children) : _activeKey, controlledProps = (0, $1b8c16eaafe21410$export$2e2bcd8739ae039)(_ref, [
+        "id",
+        "onSelect",
+        "transition",
+        "mountOnEnter",
+        "unmountOnExit",
+        "children",
+        "activeKey"
+    ]);
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $1cd76bd69f04ca42$export$2e2bcd8739ae039), {
+        id: id,
+        activeKey: activeKey,
+        onSelect: onSelect,
+        transition: (0, $24f51b843a725cfe$export$2e2bcd8739ae039)(transition),
+        mountOnEnter: mountOnEnter,
+        unmountOnExit: unmountOnExit,
+        children: [
+            /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $1a6e3eeeff2af42f$export$2e2bcd8739ae039), (0, $80ed06ab462a69d9$export$2e2bcd8739ae039)((0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, controlledProps), {
+                role: "tablist",
+                as: "ul",
+                children: (0, $8b99717b4bde4a24$export$871de8747c9eaa88)(children, $7b61d017336a41a1$var$renderTab)
+            })),
+            /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $803bf9848fc33bb7$export$2e2bcd8739ae039), {
+                children: (0, $8b99717b4bde4a24$export$871de8747c9eaa88)(children, function(child) {
+                    var childProps = (0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, child.props);
+                    delete childProps.title;
+                    delete childProps.disabled;
+                    delete childProps.tabClassName;
+                    delete childProps.tabAttrs;
+                    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $0c2e00a3b3320a47$export$2e2bcd8739ae039), (0, $4d0fe5a92ffadf42$export$2e2bcd8739ae039)({}, childProps));
+                })
+            })
+        ]
+    });
+};
+$7b61d017336a41a1$var$Tabs.defaultProps = $7b61d017336a41a1$var$defaultProps;
+$7b61d017336a41a1$var$Tabs.displayName = "Tabs";
+var $7b61d017336a41a1$export$2e2bcd8739ae039 = $7b61d017336a41a1$var$Tabs;
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $e50529fbb673f748$var$api_key = "7058b27b61e24165a27bbbd8e2c3fd10";
+function $e50529fbb673f748$var$useEarningsData() {
+    var ticker = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "SPY";
+    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(false), 2), loading = ref[0], setLoading = ref[1];
+    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)([]), 2), data = ref1[0], setData = ref1[1];
+    var todaysDate = new Date();
+    todaysDate = todaysDate.toISOString().split("T")[0];
+    (0, $fYIks.useEffect)(function() {
+        fetch("https://api.benzinga.com/api/v2/calendar/earnings?parameters[tickers]=".concat(ticker.toUpperCase(), "&parameters[date_from]=").concat(todaysDate, "&parameters[date_sort]=date:asc&token=").concat($e50529fbb673f748$var$api_key), {
+            method: "GET",
+            cache: "no-cache",
+            headers: {
+                "accept": "application/json"
+            }
+        }).then(function(response) {
+            return response.json();
+        }).then(function(data) {
+            var new_data = (0, $0810185952f563ad$export$b03e3f2664d64d84)(data.earnings[0]);
+            setLoading(false);
+            setData(new_data);
+        }).catch(function(e) {
+            console.log(e);
+            setLoading(false);
+        });
+    }, [
+        ticker,
+        todaysDate
+    ]);
+    return [
+        data,
+        loading
+    ];
+}
+var $e50529fbb673f748$export$2e2bcd8739ae039 = $e50529fbb673f748$var$useEarningsData;
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $cb1faf107c3072cd$var$api_key = "7058b27b61e24165a27bbbd8e2c3fd10";
+var $cb1faf107c3072cd$export$88601320d5206962 = function(end, start) {
+    var timeDiff = Math.abs(end.getTime() - start.getTime());
+    return Math.round(timeDiff / 2629800000);
+};
+function $cb1faf107c3072cd$var$getDividendFrequencyNextDate(dividendData) {
+    var dividendFrequency = 0;
+    var newDividendDate = "";
+    if (dividendData.length > 0) {
+        var firstDate = new Date(dividendData[0].date);
+        var lastDate = new Date(dividendData[dividendData.length - 1].date);
+        dividendFrequency = $cb1faf107c3072cd$export$88601320d5206962(firstDate, lastDate);
+        newDividendDate = new Date(firstDate.setMonth(firstDate.getMonth() + dividendFrequency));
+        newDividendDate = newDividendDate.toISOString().split("T")[0];
+    }
+    var frequencyString = "Unknown";
+    if (dividendFrequency === 1) frequencyString = "Monthly";
+    if (dividendFrequency === 2) frequencyString = "Bi-Monthly";
+    if (dividendFrequency === 3) frequencyString = "Quarterly";
+    if (dividendFrequency > 3 && dividendFrequency < 6 || dividendFrequency > 7 && dividendFrequency < 11) frequencyString = "Every ".concat(dividendFrequency, " months");
+    if (dividendFrequency === 6) frequencyString = "Semi-Annually";
+    if (dividendFrequency === 12) frequencyString = "Annually";
+    return [
+        frequencyString,
+        newDividendDate
+    ];
+}
+function $cb1faf107c3072cd$var$useDividendData() {
+    var ticker = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "SPY";
+    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(false), 2), loading = ref[0], setLoading = ref[1];
+    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)([]), 2), data = ref1[0], setData = ref1[1];
+    var ref2 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)("Unknown"), 2), dividendFrequency = ref2[0], setDividendFrequency = ref2[1];
+    var ref3 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(""), 2), nextDividendDate = ref3[0], setNextDividendDate = ref3[1];
+    (0, $fYIks.useEffect)(function() {
+        fetch("https://api.benzinga.com/api/v2.1/calendar/dividends?parameters[tickers]=".concat(ticker.toUpperCase(), "&pagesize=2&parameters[date_sort]=announced&token=").concat($cb1faf107c3072cd$var$api_key), {
+            method: "GET",
+            cache: "no-cache",
+            headers: {
+                "accept": "application/json"
+            }
+        }).then(function(response) {
+            return response.json();
+        }).then(function(data) {
+            var new_data = (0, $0810185952f563ad$export$b03e3f2664d64d84)(data.dividends[0]);
+            if (new_data) new_data["dividend"] = parseFloat(new_data["dividend"]).toFixed(2);
+            console.log(new_data);
+            var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)($cb1faf107c3072cd$var$getDividendFrequencyNextDate(data.dividends), 2), freq = ref[0], nextDivDate = ref[1];
+            setNextDividendDate(nextDivDate);
+            setDividendFrequency(freq);
+            setLoading(false);
+            setData(new_data);
+        }).catch(function(e) {
+            console.log(e);
+            setLoading(false);
+        });
+    }, [
+        ticker
+    ]);
+    return [
+        data,
+        dividendFrequency,
+        nextDividendDate,
+        loading
+    ];
+}
+var $cb1faf107c3072cd$export$2e2bcd8739ae039 = $cb1faf107c3072cd$var$useDividendData;
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+var $2cdc73b5d68ba9ef$var$api_key = "7058b27b61e24165a27bbbd8e2c3fd10";
+function $2cdc73b5d68ba9ef$var$useCompanyProfile() {
+    var ticker = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "SPY";
+    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(false), 2), loading = ref[0], setLoading = ref[1];
+    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)([]), 2), data = ref1[0], setData = ref1[1];
+    (0, $fYIks.useEffect)(function() {
+        fetch("https://api.benzinga.com/api/v2.1/fundamentals/companyProfile?symbols=".concat(ticker.toUpperCase(), "&token=").concat($2cdc73b5d68ba9ef$var$api_key), {
+            method: "GET",
+            cache: "no-cache",
+            headers: {
+                "accept": "application/json"
+            }
+        }).then(function(response) {
+            return response.json();
+        }).then(function(data) {
+            var new_data = data.result[0].companyProfile.longDescription;
+            setLoading(false);
+            setData(new_data);
+        }).catch(function(e) {
+            console.log(e);
+            setLoading(false);
+        });
+    }, [
+        ticker
+    ]);
+    return [
+        data,
+        loading
+    ];
+}
+var $2cdc73b5d68ba9ef$export$2e2bcd8739ae039 = $2cdc73b5d68ba9ef$var$useCompanyProfile;
+
+
+
+
+var $fYIks = parcelRequire("fYIks");
+
+var $9d991651ebc0ffec$var$api_key = "7058b27b61e24165a27bbbd8e2c3fd10";
+function $9d991651ebc0ffec$var$getNextConferenceCall(conferenceData) {
+    var callFrequency = 0;
+    var nextConfDate = "~";
+    if (conferenceData.length > 0) {
+        var firstDate = new Date(conferenceData[0].date);
+        var lastDate = new Date(conferenceData[conferenceData.length - 1].date);
+        callFrequency = (0, $cb1faf107c3072cd$export$88601320d5206962)(firstDate, lastDate);
+        nextConfDate = new Date(firstDate.setMonth(firstDate.getMonth() + callFrequency));
+        nextConfDate = nextConfDate.toISOString().split("T")[0];
+    }
+    return nextConfDate;
+}
+function $9d991651ebc0ffec$var$useConferenceCall() {
+    var ticker = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "SPY";
+    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(false), 2), loading = ref[0], setLoading = ref[1];
+    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)("~"), 2), nextConfDate = ref1[0], setNextConfDate = ref1[1];
+    (0, $fYIks.useEffect)(function() {
+        fetch("https://api.benzinga.com/api/v2.1/calendar/conference-calls?parameters[tickers]=".concat(ticker.toUpperCase(), "&pagesize=2&token=").concat($9d991651ebc0ffec$var$api_key), {
+            method: "GET",
+            cache: "no-cache",
+            headers: {
+                "accept": "application/json"
+            }
+        }).then(function(response) {
+            return response.json();
+        }).then(function(data) {
+            var nextConfDate = $9d991651ebc0ffec$var$getNextConferenceCall(data.conference);
+            setNextConfDate(nextConfDate);
+            setLoading(false);
+        }).catch(function(e) {
+            console.log(e);
+            setLoading(false);
+        });
+    }, [
+        ticker
+    ]);
+    return [
+        nextConfDate,
+        loading
+    ];
+}
+var $9d991651ebc0ffec$export$2e2bcd8739ae039 = $9d991651ebc0ffec$var$useConferenceCall;
+
+
+function $c19e3effbe6fef15$var$renderNews(article) {
+    return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("div", {
+        style: {
+            marginBottom: "5px"
+        },
+        children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("span", {
+            className: "article-title",
+            children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("a", {
+                href: article.url,
+                className: "article-title",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                children: article.title
+            })
+        })
+    }, article.id);
+}
+function $c19e3effbe6fef15$var$getChartType(bars_type) {
+    if (bars_type === "0") return "line";
+    if (bars_type === "1") return "candlestick";
+}
+
 function $c19e3effbe6fef15$var$App(param) {
     var domElement = param.domElement;
     var ticker = domElement.getAttribute("data-ticker").toUpperCase();
-    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)(""), 2), error = ref[0], setError = ref[1];
-    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)([]), 2), data = ref1[0], setData = ref1[1];
-    var ref2 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)("1Y"), 2), timeframe = ref2[0], setTimeframe = ref2[1];
-    var ref3 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)("1d"), 2), interval = ref3[0], setInterval = ref3[1];
-    var ref4 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $6143c06b3bc23a0f$export$c24e9ec70646f21)(ticker, timeframe, interval), 2), marketData = ref4[0], marketDataLoading = ref4[1];
-    var ref5 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $0810185952f563ad$export$2e2bcd8739ae039)(ticker), 2), quoteInfo = ref5[0], infoLoading = ref5[1];
-    console.log("marketData", marketData);
-    console.log("quoteInfo", quoteInfo);
+    var bars_type = domElement.getAttribute("data-bars");
+    var chart_type = $c19e3effbe6fef15$var$getChartType(bars_type);
+    var lineColor = domElement.getAttribute("data-lineColor");
+    if (!lineColor) lineColor = "#26a0fc";
+    var borderColor = domElement.getAttribute("data-borderColor");
+    if (!borderColor) borderColor = "gray";
+    var tabColor = domElement.getAttribute("data-tabColor");
+    if (!tabColor) tabColor = lineColor;
+    var ref = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)("1Y"), 2), timeframe = ref[0], setTimeframe = ref[1];
+    var ref1 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $fYIks.useState)("1d"), 2), interval = ref1[0], setInterval = ref1[1];
+    var ref2 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $6143c06b3bc23a0f$export$c24e9ec70646f21)(ticker, timeframe, interval, chart_type), 1), marketData = ref2[0];
+    var ref3 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $0810185952f563ad$export$2e2bcd8739ae039)(ticker), 2), quoteInfo = ref3[0], infoLoading = ref3[1];
+    var ref4 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $cc0108a3b9dd4602$export$2e2bcd8739ae039)(ticker), 1), newsList = ref4[0];
+    var ref5 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $45f40b51b881852a$export$2e2bcd8739ae039)(ticker), 1), secFilings = ref5[0];
+    var ref6 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $5f5103e22d1cc9f8$export$2e2bcd8739ae039)(ticker), 1), pressReleases = ref6[0];
+    var ref7 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $e50529fbb673f748$export$2e2bcd8739ae039)(ticker), 1), earningsData = ref7[0];
+    var ref8 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $cb1faf107c3072cd$export$2e2bcd8739ae039)(ticker), 3), dividendData = ref8[0], dividendFrequency = ref8[1], nextDivDate = ref8[2];
+    var ref9 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $2cdc73b5d68ba9ef$export$2e2bcd8739ae039)(ticker), 1), companyProfile = ref9[0];
+    var ref10 = (0, $11e1d103c703e3c2$export$2e2bcd8739ae039)((0, $9d991651ebc0ffec$export$2e2bcd8739ae039)(ticker), 1), nextConfCall = ref10[0];
     // if (!marketDataLoaded) return null;
     var handleTimeframeChange = function(timeframe) {
         setTimeframe(timeframe);
@@ -43087,6 +39857,7 @@ function $c19e3effbe6fef15$var$App(param) {
     var handleIntervalChange = function(interval) {
         setInterval(interval);
     };
+    var _obj;
     // on the chart_widget_container we want to add padding all around
     return /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("div", {
         className: "chart_widget__app",
@@ -43194,12 +39965,16 @@ function $c19e3effbe6fef15$var$App(param) {
                 }),
                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $95d5128941fcd3ba$export$2e2bcd8739ae039), {
                     style: {
-                        border: "3px solid gray"
+                        border: "3px solid ".concat(borderColor)
                     },
                     children: [
                         /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $af5664f0dc423305$export$2e2bcd8739ae039), {
                             children: [
                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $b95b4c838a724d05$export$2e2bcd8739ae039), {
+                                    sm: {
+                                        span: 9,
+                                        offset: 0
+                                    },
                                     children: [
                                         /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $97cfff8a166a8ac0$export$2e2bcd8739ae039), {
                                             onTimeframeChange: handleTimeframeChange,
@@ -43209,13 +39984,19 @@ function $c19e3effbe6fef15$var$App(param) {
                                             className: "chart_widget__chart",
                                             style: {},
                                             children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $6cec8bc9726f205c$export$2e2bcd8739ae039), {
-                                                series: marketData
+                                                series: marketData,
+                                                chartType: chart_type,
+                                                lineColor: lineColor
                                             })
                                         })
                                     ]
                                 }),
                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $b95b4c838a724d05$export$2e2bcd8739ae039), {
-                                    sm: "auto",
+                                    md: "auto",
+                                    sm: {
+                                        span: 2,
+                                        offset: 0
+                                    },
                                     className: "my-auto",
                                     style: {
                                         verticalAlign: "middle",
@@ -43280,11 +40061,12 @@ function $c19e3effbe6fef15$var$App(param) {
                                                     children: [
                                                         infoLoading && "Loading...",
                                                         /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("p", {
-                                                            className: "Chart-data-text",
+                                                            className: "Chart-data-text price-label",
                                                             children: "Price: "
                                                         }),
                                                         "\xa0",
                                                         /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("span", {
+                                                            className: "price-value",
                                                             children: [
                                                                 "$",
                                                                 !infoLoading && quoteInfo.price
@@ -43292,25 +40074,26 @@ function $c19e3effbe6fef15$var$App(param) {
                                                         }),
                                                         "\xa0\xa0",
                                                         /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
-                                                            className: "Chart-data-text",
-                                                            style: {
-                                                                color: quoteInfo.changesPercentage > 0 ? "green" : "red"
-                                                            },
-                                                            children: [
-                                                                !infoLoading && quoteInfo.changesPercentage > 0 && "+",
-                                                                !infoLoading && quoteInfo.changesPercentage,
-                                                                "%"
-                                                            ]
-                                                        }),
-                                                        "\xa0",
-                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
-                                                            className: "Chart-data-text",
+                                                            className: "Chart-data-text font-bold",
                                                             style: {
                                                                 color: quoteInfo.change > 0 ? "green" : "red"
                                                             },
                                                             children: [
                                                                 !infoLoading && quoteInfo.change > 0 && "+",
                                                                 !infoLoading && quoteInfo.change
+                                                            ]
+                                                        }),
+                                                        "\xa0",
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
+                                                            className: "Chart-data-text font-bold",
+                                                            style: {
+                                                                color: quoteInfo.changesPercentage > 0 ? "green" : "red"
+                                                            },
+                                                            children: [
+                                                                "[",
+                                                                !infoLoading && quoteInfo.changesPercentage > 0 && "+",
+                                                                !infoLoading && quoteInfo.changesPercentage,
+                                                                "%]"
                                                             ]
                                                         })
                                                     ]
@@ -43319,11 +40102,17 @@ function $c19e3effbe6fef15$var$App(param) {
                                                     className: "data-separator"
                                                 }),
                                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
-                                                    className: "Chart-data-text",
+                                                    className: "Chart-data-text price-label",
                                                     style: {},
                                                     children: [
-                                                        " Open: $",
-                                                        !infoLoading && quoteInfo.open,
+                                                        " Open: ",
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("span", {
+                                                            className: "price-value",
+                                                            children: [
+                                                                "$",
+                                                                !infoLoading && quoteInfo.open
+                                                            ]
+                                                        }),
                                                         " "
                                                     ]
                                                 }),
@@ -43331,10 +40120,16 @@ function $c19e3effbe6fef15$var$App(param) {
                                                     className: "data-separator"
                                                 }),
                                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
-                                                    className: "Chart-data-text",
+                                                    className: "Chart-data-text price-label",
                                                     children: [
-                                                        " Prev. Close: $",
-                                                        !infoLoading && quoteInfo.previousClose,
+                                                        " Prev. Close: ",
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("span", {
+                                                            className: "price-value",
+                                                            children: [
+                                                                "$",
+                                                                !infoLoading && quoteInfo.previousClose
+                                                            ]
+                                                        }),
                                                         " "
                                                     ]
                                                 }),
@@ -43342,10 +40137,13 @@ function $c19e3effbe6fef15$var$App(param) {
                                                     className: "data-separator"
                                                 }),
                                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
-                                                    className: "Chart-data-text",
+                                                    className: "Chart-data-text price-label",
                                                     children: [
                                                         " Volume: ",
-                                                        !infoLoading && quoteInfo.volume,
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("span", {
+                                                            className: "price-value",
+                                                            children: !infoLoading && quoteInfo.volume
+                                                        }),
                                                         " "
                                                     ]
                                                 }),
@@ -43353,30 +40151,42 @@ function $c19e3effbe6fef15$var$App(param) {
                                                     className: "data-separator"
                                                 }),
                                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
-                                                    className: "Chart-data-text",
+                                                    className: "Chart-data-text price-label",
                                                     children: [
-                                                        " Mkt Cap: $",
-                                                        !infoLoading && quoteInfo.marketCap
+                                                        " Mkt Cap: ",
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("span", {
+                                                            className: "price-value",
+                                                            children: [
+                                                                "$",
+                                                                !infoLoading && quoteInfo.marketCap
+                                                            ]
+                                                        })
                                                     ]
                                                 }),
                                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("hr", {
                                                     className: "data-separator"
                                                 }),
                                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
-                                                    className: "Chart-data-text",
+                                                    className: "Chart-data-text price-label",
                                                     children: [
                                                         " Shares Outstanding: ",
-                                                        !infoLoading && quoteInfo.sharesOutstanding
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("span", {
+                                                            className: "price-value",
+                                                            children: !infoLoading && quoteInfo.sharesOutstanding
+                                                        })
                                                     ]
                                                 }),
                                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("hr", {
                                                     className: "data-separator"
                                                 }),
                                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
-                                                    className: "Chart-data-text",
+                                                    className: "Chart-data-text price-label",
                                                     children: [
                                                         " P/E Ratio: ",
-                                                        !infoLoading && quoteInfo.pe
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("span", {
+                                                            className: "price-value",
+                                                            children: !infoLoading && quoteInfo.pe
+                                                        })
                                                     ]
                                                 }),
                                                 /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("hr", {
@@ -43388,21 +40198,222 @@ function $c19e3effbe6fef15$var$App(param) {
                                 })
                             ]
                         }),
+                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $af5664f0dc423305$export$2e2bcd8739ae039), {
+                            children: [
+                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $b95b4c838a724d05$export$2e2bcd8739ae039), {
+                                    sm: {
+                                        span: 9,
+                                        offset: 0
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $af5664f0dc423305$export$2e2bcd8739ae039), {
+                                            className: "mb-3",
+                                            children: [
+                                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $b95b4c838a724d05$export$2e2bcd8739ae039), {
+                                                    className: "d-flex",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
+                                                            className: "Chart-data-text price-label",
+                                                            style: {
+                                                                borderBottom: "1px solid rgba(81,92,105, 0.25)"
+                                                            },
+                                                            children: [
+                                                                " Next Earnings: ",
+                                                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("span", {
+                                                                    className: "price-value",
+                                                                    children: earningsData && earningsData.date
+                                                                }),
+                                                                " "
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
+                                                            className: "Chart-data-text price-label",
+                                                            style: {
+                                                                marginLeft: "10px",
+                                                                borderBottom: "1px solid rgba(81,92,105, 0.25)"
+                                                            },
+                                                            children: [
+                                                                " EPS Estimate: ",
+                                                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("span", {
+                                                                    className: "price-value",
+                                                                    children: earningsData && earningsData.eps ? earningsData.eps : "~"
+                                                                }),
+                                                                " "
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
+                                                            className: "Chart-data-text price-label",
+                                                            style: {
+                                                                marginLeft: "10px",
+                                                                borderBottom: "1px solid rgba(81,92,105, 0.25)"
+                                                            },
+                                                            children: [
+                                                                " Revenue Estimate: ",
+                                                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("span", {
+                                                                    className: "price-value",
+                                                                    children: earningsData && earningsData.revenue_est ? earningsData.revenue_est : "~"
+                                                                }),
+                                                                " "
+                                                            ]
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("br", {})
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $af5664f0dc423305$export$2e2bcd8739ae039), {
+                                            className: "mb-3",
+                                            children: [
+                                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $b95b4c838a724d05$export$2e2bcd8739ae039), {
+                                                    className: "d-flex",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
+                                                            className: "Chart-data-text price-label",
+                                                            style: {
+                                                                borderBottom: "1px solid rgba(81,92,105, 0.25)"
+                                                            },
+                                                            children: [
+                                                                " Dividend Frequency: ",
+                                                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("span", {
+                                                                    className: "price-value",
+                                                                    children: dividendFrequency
+                                                                }),
+                                                                " "
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
+                                                            className: "Chart-data-text price-label",
+                                                            style: {
+                                                                marginLeft: "10px",
+                                                                borderBottom: "1px solid rgba(81,92,105, 0.25)"
+                                                            },
+                                                            children: [
+                                                                " Amount: ",
+                                                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("span", {
+                                                                    className: "price-value",
+                                                                    children: [
+                                                                        "$",
+                                                                        dividendData && dividendData.dividend
+                                                                    ]
+                                                                }),
+                                                                " "
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
+                                                            className: "Chart-data-text price-label",
+                                                            style: {
+                                                                marginLeft: "10px",
+                                                                borderBottom: "1px solid rgba(81,92,105, 0.25)"
+                                                            },
+                                                            children: [
+                                                                " Next Dividend: ",
+                                                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("span", {
+                                                                    className: "price-value",
+                                                                    children: nextDivDate
+                                                                }),
+                                                                " "
+                                                            ]
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("br", {})
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $af5664f0dc423305$export$2e2bcd8739ae039), {
+                                            className: "mb-2",
+                                            children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $b95b4c838a724d05$export$2e2bcd8739ae039), {
+                                                className: "d-flex",
+                                                children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
+                                                    className: "Chart-data-text price-label",
+                                                    style: {
+                                                        borderBottom: "1px solid rgba(81,92,105, 0.25)"
+                                                    },
+                                                    children: [
+                                                        " Next Conference Call: ",
+                                                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("span", {
+                                                            className: "price-value",
+                                                            children: nextConfCall
+                                                        }),
+                                                        " "
+                                                    ]
+                                                })
+                                            })
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $b95b4c838a724d05$export$2e2bcd8739ae039), (_obj = {
+                                    sm: "auto"
+                                }, (0, $ca2a088f2416c920$export$2e2bcd8739ae039)(_obj, "sm", {
+                                    span: 3,
+                                    offset: 0
+                                }), (0, $ca2a088f2416c920$export$2e2bcd8739ae039)(_obj, "children", /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $af5664f0dc423305$export$2e2bcd8739ae039), {
+                                    className: "mb-3",
+                                    children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $b95b4c838a724d05$export$2e2bcd8739ae039), {
+                                        className: "d-flex",
+                                        children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("p", {
+                                            className: "Chart-data-text price-label",
+                                            style: {
+                                                overflowY: "auto",
+                                                maxHeight: "7.5rem"
+                                            },
+                                            children: companyProfile
+                                        })
+                                    })
+                                })), _obj))
+                            ]
+                        }),
+                        /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $af5664f0dc423305$export$2e2bcd8739ae039), {
+                            className: "mx-auto",
+                            children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)((0, $7b61d017336a41a1$export$2e2bcd8739ae039), {
+                                defaultActiveKey: "newsTab",
+                                id: "justify-tab-example",
+                                className: "mb-3",
+                                children: [
+                                    /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $606b705863c94cfa$export$2e2bcd8739ae039), {
+                                        eventKey: "newsTab",
+                                        title: "News",
+                                        children: !!newsList.length && newsList.map($c19e3effbe6fef15$var$renderNews)
+                                    }),
+                                    /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $606b705863c94cfa$export$2e2bcd8739ae039), {
+                                        eventKey: "secTab",
+                                        title: "SEC Filings",
+                                        children: !!secFilings.length && secFilings.map($c19e3effbe6fef15$var$renderNews)
+                                    }),
+                                    /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $606b705863c94cfa$export$2e2bcd8739ae039), {
+                                        eventKey: "pressReleasesTab",
+                                        title: "Press Releases",
+                                        children: !!pressReleases.length && pressReleases.map($c19e3effbe6fef15$var$renderNews)
+                                    })
+                                ]
+                            })
+                        }),
                         /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)((0, $af5664f0dc423305$export$2e2bcd8739ae039), {
                             className: "justify-content-center",
                             children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsxs)("p", {
                                 className: "chart_widget__powered_by",
                                 style: {
-                                    textAlign: "center"
+                                    textAlign: "center",
+                                    marginBottom: "0px"
                                 },
                                 children: [
-                                    "This widget is powered by",
+                                    "Provided by",
                                     " ",
                                     /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("a", {
                                         href: "https://benzinga.com",
                                         rel: "noopener noreferrer",
                                         target: "_blank",
-                                        children: "benzinga.com"
+                                        style: {
+                                            textAlign: "center"
+                                        },
+                                        children: /*#__PURE__*/ (0, $393491384ce93f5d$exports.jsx)("img", {
+                                            className: "profile-photo",
+                                            src: (parcelRequire("jrioS")),
+                                            alt: "Benzinga",
+                                            style: {
+                                                height: "16px",
+                                                marginBottom: "3px"
+                                            }
+                                        })
                                     })
                                 ]
                             })
@@ -43416,20 +40427,6 @@ function $c19e3effbe6fef15$var$App(param) {
 var $c19e3effbe6fef15$export$2e2bcd8739ae039 = $c19e3effbe6fef15$var$App;
 
 
-
-var $88983356e102b724$var$reportWebVitals = function(onPerfEntry) {
-    if (onPerfEntry && onPerfEntry instanceof Function) (parcelRequire("aab8D")).then(function(param) {
-        var getCLS = param.getCLS, getFID = param.getFID, getFCP = param.getFCP, getLCP = param.getLCP, getTTFB = param.getTTFB;
-        getCLS(onPerfEntry);
-        getFID(onPerfEntry);
-        getFCP(onPerfEntry);
-        getLCP(onPerfEntry);
-        getTTFB(onPerfEntry);
-    });
-};
-var $88983356e102b724$export$2e2bcd8739ae039 = $88983356e102b724$var$reportWebVitals;
-
-
 var $d8736a51d6b8f967$var$WidgetDivs = document.querySelectorAll(".benzinga_chart_widget");
 // Inject our React App into each
 $d8736a51d6b8f967$var$WidgetDivs.forEach(function(Div) {
@@ -43439,9 +40436,5 @@ $d8736a51d6b8f967$var$WidgetDivs.forEach(function(Div) {
         })
     }), Div);
 });
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-(0, $88983356e102b724$export$2e2bcd8739ae039)();
 
 })();
