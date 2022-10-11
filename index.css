@@ -18,13 +18,6 @@ code {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    -webkit-animation: 20s linear infinite App-logo-spin;
-    animation: 20s linear infinite App-logo-spin;
-  }
-}
-
 .text-muted {
   color: #7987a1 !important;
 }
@@ -55,30 +48,6 @@ code {
 
 .App-link {
   color: #61dafb;
-}
-
-@-webkit-keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
 }
 
 .chart_widget__price_info {
