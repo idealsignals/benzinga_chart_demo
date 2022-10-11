@@ -39440,13 +39440,13 @@ var $62cdf25fbb97cb6c$var$get_today_date_str = function() {
 };
 function $62cdf25fbb97cb6c$var$getYCoordinateData(candle, chart_type) {
     if (chart_type === "line") return [
-        candle["close"]
+        Number(candle["close"]).toFixed(2)
     ];
     else if (chart_type === "candlestick") return [
-        candle["open"],
-        candle["high"],
-        candle["low"],
-        candle["close"]
+        Number(candle["open"]).toFixed(2),
+        Number(candle["high"]).toFixed(2),
+        Number(candle["low"]).toFixed(2),
+        Number(candle["close"]).toFixed(2)
     ];
     return [];
 }
